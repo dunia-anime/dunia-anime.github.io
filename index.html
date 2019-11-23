@@ -1,75 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Videojs ASS/SSA subtitles</title>
 
-    <!-- css -->
-    <link href="css/libjass.css" rel="stylesheet"/>
-    <link href="css/quality-selector.css" rel="stylesheet"/>
-    <link href="css/video-DA.css" rel="stylesheet"/>
-    <link href="css/videojs-playlist-ui.css" rel="stylesheet"/>
-    <link href="css/videojs-resolution-switcher.css" rel="stylesheet"/>
-    <link href="css/videojs.ass.css" rel="stylesheet"/>
-    <script src="js/blogger-infinite-scrolling.js"></script>
-    <script src="js/libjass.js"></script>
-    <script src="js/libjass.min.js"></script>
-    <script src="js/silvermine-videojs-quality-selector.js"></script>
-    <script src="js/silvermine-videojs-quality-selector.min.js"></script>
-    <script src="js/video.js"></script>
-    <script src="js/videojs-landscape-fullscreen.js"></script>
-    <script src="js/videojs-playlist-ui-v2.js"></script>
-    <script src="js/videojs-playlist.js"></script>
-    <script src="js/videojs-resolution-switcher.js"></script>
-    <script src="js/embed-Gp.js"></script>
-    <script src="js/videojs.ass.js"></script>
-    <!-- bower-->
-<!--
+<head>
+  <title>Videojs ASS/SSA subtitles</title>
+
+  <!-- css -->
+  <script src="js/videojs.ass.js"></script>
+  <!-- bower-->
+  <!--
     <link href="bower_components/videojs/dist/video-js.min.css" rel="stylesheet">
     <link href="bower_components/libjass/libjass.css" rel="stylesheet">
     <script src="bower_components/videojs/dist/video.min.js"></script>
     <script src="bower_components/libjass/libjass.js"></script>
 -->
 
-    <!-- src -->
-    <link href="src/videojs.ass.css" rel="stylesheet">
-    <script src="src/videojs.ass.js"></script>
-  </head>
+  <!-- src -->
+  <link href="src/videojs.ass.css" rel="stylesheet">
+  <script src="src/videojs.ass.js"></script>
+</head>
 
-  <body>
-    <script src="css/Playlist CSS.css"></script>
-    <video id="player" class="video-js vjs-default-skin vjs-big-play-centered">
-      <source src="video/os.mp4" type="video/mp4">
-    </video>
-    <script>
-      videojs('player', {
-        controls: true,
-        nativeControlsForTouch: false,
-        width: 640,
-        height: 360,
-        // fluid: true,
-        // plugins: {
-        //   ass: {
-        //     'src': ["subs/os.ass"],
-        //     videoWidth: 640,
-        //     videoHeight: 360,
-        //     // enableSvg: false
-        //   }
-        // },
-        playbackRates: [0.5, 1, 1.5, 2]
-      });
+<body>
+  <script src="css/Playlist CSS.css"></script>
+  <video id="player" class="video-js vjs-default-skin vjs-big-play-centered">
+    <source src="video/os.mp4" type="video/mp4">
+  </video>
+  <script>
+    videojs('player', {
+      controls: true,
+      nativeControlsForTouch: false,
+      width: 640,
+      height: 360,
+      // fluid: true,
+      // plugins: {
+      //   ass: {
+      //     'src': ["subs/os.ass"],
+      //     videoWidth: 640,
+      //     videoHeight: 360,
+      //     // enableSvg: false
+      //   }
+      // },
+      playbackRates: [0.5, 1, 1.5, 2]
+    });
 
-      var vjs = videojs('player');
-      // initialize the plugin this way to access internal methods
-      var vjs_ass = vjs.ass({
-        'src': ["subs/os.ass"],
-        label: "engsub",
-        videoWidth: 640,
-        videoHeight: 360,
-        // enableSvg: false
-      });
+    var vjs = videojs('player');
+    // initialize the plugin this way to access internal methods
+    var vjs_ass = vjs.ass({
+      'src': ["subs/os.ass"],
+      label: "engsub",
+      videoWidth: 640,
+      videoHeight: 360,
+      // enableSvg: false
+    });
 
-      // you will then be able to use the following js to switch subtitle
-      // vjs_ass.loadNewSubtitle('URL HERE')
-    </script>
-  </body>
+    // you will then be able to use the following js to switch subtitle
+    // vjs_ass.loadNewSubtitle('URL HERE')
+  </script>
+</body>
+
 </html>
