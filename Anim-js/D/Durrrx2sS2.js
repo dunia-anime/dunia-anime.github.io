@@ -337,8 +337,8 @@ player.playlist([{
     },
     {
         judul: '* Durarara!!x2 Shou S2',
-        episode: '* Episode 13',
-        name: 'Episode 13',
+        episode: '* Episode OVA',
+        name: 'Episode OVA',
         deskrip1: '* Rating : 8.081',
         sources: [{
                 src: 'https://lh3.googleusercontent.com/YbAfBfXzoH2IIYeaUhUlAIs4TQUOlxTCaej0Sebo5H5LTVij4MUGumaxqLZgYbRH8Cxu0jsBO5FwQ8tlq4yvGAW_IDGYA6iBoLlFkk0GW_-iLtcKYQLD149Vt9KY43HU75_ZW5Iu_Q=m22',

@@ -10280,6 +10280,5 @@ videojs("video", {}, function () {
 
 videojs('video').ready(function () {
     this.hotkeys({
-
     });
 });
