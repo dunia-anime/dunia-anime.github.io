@@ -12,8 +12,21 @@ player.playlist([{
     episode: '* Episode 01',
     name: 'Episode 01',
     deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Y9GtUw4nrB_37u9toiLEHMpSe9P_UNsb34Ep4zQsu60zAFOrLRc0xy0eemZQAIkuqluWgiNnHFgpajf0HQjqzAR2Z6wLK0WTpcsIROGpxtip1QkAvXf6tlRSDkDB5RCJJNUXaCVMLA=m18',
+    sources: [
+    {
+      src: 'https://lh3.googleusercontent.com/_PVErJq9tnD7gw7boscCQyx0jY0J2_56kCGahmeUISEKnTK6m9mOUbTel8wpwNQRS5gweLM9gmyWUXnDIc8KPwjCYqGfuZG78FwDmLPNZO8Apw68klkbh8ld2XXlbz1I2A82Yz-QrzT3KKAa6u6V8VHAg9aD85gY0BftDfBHauCwbrjTfb5RGarl2pIRFk6zLnzZ7yGkoBcO9s_MniDgsYfpNP0rNTaSDOQrHtVp8DmhXdtqtJhLo9LtIv8XNPKGl83dAEciQw_MeD3794bkwQgVkHP16CKK2c7a2q6YvR5jZIfD-6TdYvQOxhlX49oEFWhlbLwcGHRw7yNCgOH8xcD660n_ttvYodJpdipM-jQ8T3Upw0AI_u49tqL1mEAHZx9fVUoi9a5yromn7bUGAZOLf6FzWmvqA8C-taTen23cylzu3QTJ_YEbSJho6ddIQXoSONugzrF1Da26Sna0dciL0uYeJbgc-yZah86MOvWhtITqREHs3PIlUgm7FVQxV2aopg2K505AnoZvFpNUVJeocvO2gcY01YIzGXLZEzV465Ev_BMZfG7htOM150e54YUkGqBH4bXgdkkFB3gpZ2JZPHVGKi4ow36uK4M_RKj4lnc9GTL4KAZ0w_7dt7wfGz43QFAFSNdls6_agdMhKHki1gfXEkUHfrQ2ytr0STxR2hLNI-Yh8g=m37',
+      type: 'video/mp4',
+      label: '1080p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/_PVErJq9tnD7gw7boscCQyx0jY0J2_56kCGahmeUISEKnTK6m9mOUbTel8wpwNQRS5gweLM9gmyWUXnDIc8KPwjCYqGfuZG78FwDmLPNZO8Apw68klkbh8ld2XXlbz1I2A82Yz-QrzT3KKAa6u6V8VHAg9aD85gY0BftDfBHauCwbrjTfb5RGarl2pIRFk6zLnzZ7yGkoBcO9s_MniDgsYfpNP0rNTaSDOQrHtVp8DmhXdtqtJhLo9LtIv8XNPKGl83dAEciQw_MeD3794bkwQgVkHP16CKK2c7a2q6YvR5jZIfD-6TdYvQOxhlX49oEFWhlbLwcGHRw7yNCgOH8xcD660n_ttvYodJpdipM-jQ8T3Upw0AI_u49tqL1mEAHZx9fVUoi9a5yromn7bUGAZOLf6FzWmvqA8C-taTen23cylzu3QTJ_YEbSJho6ddIQXoSONugzrF1Da26Sna0dciL0uYeJbgc-yZah86MOvWhtITqREHs3PIlUgm7FVQxV2aopg2K505AnoZvFpNUVJeocvO2gcY01YIzGXLZEzV465Ev_BMZfG7htOM150e54YUkGqBH4bXgdkkFB3gpZ2JZPHVGKi4ow36uK4M_RKj4lnc9GTL4KAZ0w_7dt7wfGz43QFAFSNdls6_agdMhKHki1gfXEkUHfrQ2ytr0STxR2hLNI-Yh8g=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/_PVErJq9tnD7gw7boscCQyx0jY0J2_56kCGahmeUISEKnTK6m9mOUbTel8wpwNQRS5gweLM9gmyWUXnDIc8KPwjCYqGfuZG78FwDmLPNZO8Apw68klkbh8ld2XXlbz1I2A82Yz-QrzT3KKAa6u6V8VHAg9aD85gY0BftDfBHauCwbrjTfb5RGarl2pIRFk6zLnzZ7yGkoBcO9s_MniDgsYfpNP0rNTaSDOQrHtVp8DmhXdtqtJhLo9LtIv8XNPKGl83dAEciQw_MeD3794bkwQgVkHP16CKK2c7a2q6YvR5jZIfD-6TdYvQOxhlX49oEFWhlbLwcGHRw7yNCgOH8xcD660n_ttvYodJpdipM-jQ8T3Upw0AI_u49tqL1mEAHZx9fVUoi9a5yromn7bUGAZOLf6FzWmvqA8C-taTen23cylzu3QTJ_YEbSJho6ddIQXoSONugzrF1Da26Sna0dciL0uYeJbgc-yZah86MOvWhtITqREHs3PIlUgm7FVQxV2aopg2K505AnoZvFpNUVJeocvO2gcY01YIzGXLZEzV465Ev_BMZfG7htOM150e54YUkGqBH4bXgdkkFB3gpZ2JZPHVGKi4ow36uK4M_RKj4lnc9GTL4KAZ0w_7dt7wfGz43QFAFSNdls6_agdMhKHki1gfXEkUHfrQ2ytr0STxR2hLNI-Yh8g=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
