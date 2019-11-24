@@ -1,5 +1,13 @@
 var player = videojs('video')
 player.playlist([{
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5BNSIF%5D%20Naruto%20Shippuuden%20001.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
     judul: '* Naruto: Shippuuden',
     episode: '* Episode 01',
     name: 'Episode 01',
