@@ -4144,7 +4144,7 @@ player.playlist([{
         ]
     }
 ]);
-// Initialize the playlist-ui plugin with no option (i.e. the defaults).
+// Initialize the playlist-ui plugi with no option (i.e. the defaults).
 player.playlistUi();
 
 videojs("video", {}, function () {
