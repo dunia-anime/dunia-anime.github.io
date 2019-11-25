@@ -1,7 +1,7 @@
 var player = videojs('video')
 player.playlist([{
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20001.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 001.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -42,7 +42,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20002.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 002.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -83,7 +83,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20003.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 003.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -124,7 +124,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20004.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 004.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -165,7 +165,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20005.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 005.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -206,7 +206,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20006.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 006.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -247,7 +247,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20007.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 007.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -288,7 +288,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20008.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 008.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -329,7 +329,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20009.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 009.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -370,7 +370,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20010.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 010.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -411,7 +411,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20011.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 011.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -452,7 +452,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20012.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 012.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -493,7 +493,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20013.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 013.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -534,7 +534,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20014.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 014.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -575,7 +575,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20015.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 015.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -616,7 +616,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20016.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 016.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -657,7 +657,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20017.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 017.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -698,7 +698,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20018.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 018.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -739,7 +739,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20019.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 019.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -780,7 +780,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20020.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 020.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -821,7 +821,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20021.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 021.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -862,7 +862,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20022.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 022.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -903,7 +903,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20023.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 023.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -944,7 +944,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20024.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 024.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -985,7 +985,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20025.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 025.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1026,7 +1026,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20026.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 026.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1067,7 +1067,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20027.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 027.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1108,7 +1108,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20028.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 028.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1149,7 +1149,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20029.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 029.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1190,7 +1190,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20030.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 030.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1231,7 +1231,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20031.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 031.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1272,7 +1272,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20032.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 032.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1313,7 +1313,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20033.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 033.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1354,7 +1354,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20034.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 034.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1395,7 +1395,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20035.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 035.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1436,7 +1436,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20036.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 036.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1477,7 +1477,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20037.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 037.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1518,7 +1518,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20038.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 038.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1559,7 +1559,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20039.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 039.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1600,7 +1600,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20040.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 040.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1641,7 +1641,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20041.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 041.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1682,7 +1682,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20042.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 042.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1723,7 +1723,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20043.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 043.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1764,7 +1764,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20044.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 044.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1805,7 +1805,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20045.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 045.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1846,7 +1846,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20046.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 046.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1887,7 +1887,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20047.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 047.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1928,7 +1928,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20048.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 048.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -1969,7 +1969,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20049.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 049.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2010,7 +2010,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20050.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 050.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2051,7 +2051,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20051.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 051.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2092,7 +2092,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20052.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 052.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2133,7 +2133,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20053.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 053.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2174,7 +2174,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20054.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 054.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2215,7 +2215,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20055.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 055.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2256,7 +2256,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20056.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 056.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2297,7 +2297,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20057.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 057.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2338,7 +2338,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20058.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 058.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2379,7 +2379,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20059.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 059.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2420,7 +2420,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20060.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 060.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2461,7 +2461,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20061.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 061.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2502,7 +2502,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20062.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 062.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2543,7 +2543,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20063.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 063.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2584,7 +2584,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20064.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 064.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2625,7 +2625,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20065.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 065.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2666,7 +2666,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20066.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 066.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2707,7 +2707,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20067.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 067.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2748,7 +2748,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20068.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 068.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2789,7 +2789,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20069.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 069.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2830,7 +2830,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20070.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 070.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2871,7 +2871,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20071.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 071.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2912,7 +2912,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20072.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 072.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2953,7 +2953,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20073.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 073.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -2994,7 +2994,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20074.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 074.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3035,7 +3035,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20075.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 075.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3076,7 +3076,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20076.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 076.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3117,7 +3117,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20077.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 077.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3158,7 +3158,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20078.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 078.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3199,7 +3199,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20079.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 079.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3240,7 +3240,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20080.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 080.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3281,7 +3281,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20081.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 081.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3322,7 +3322,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20082.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 082.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3363,7 +3363,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20083.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 083.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3404,7 +3404,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20084.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 084.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3445,7 +3445,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20085.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 085.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3486,7 +3486,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20086.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 086.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3527,7 +3527,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20087.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 087.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3568,7 +3568,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20088.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 088.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3609,7 +3609,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20089.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 089.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3650,7 +3650,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20090.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 090.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3691,7 +3691,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20091.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 091.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3732,7 +3732,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20092.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 092.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3773,7 +3773,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20093.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 093.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3814,7 +3814,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20094.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 094.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3855,7 +3855,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20095.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 095.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3896,7 +3896,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20096.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 096.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3937,7 +3937,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20097.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 097.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -3978,7 +3978,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20098.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 098.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4019,7 +4019,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20099.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 099.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4060,7 +4060,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20100.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 100.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4101,7 +4101,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20101.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 101.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4142,7 +4142,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20102.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 102.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4183,7 +4183,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20103.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 103.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4224,7 +4224,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20104.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 104.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4265,7 +4265,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20105.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 105.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4306,7 +4306,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20106.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 106.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4347,7 +4347,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20107.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 107.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4388,7 +4388,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20108.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 108.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4429,7 +4429,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20109.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 109.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4470,7 +4470,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20110.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 110.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4511,7 +4511,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20111.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 111.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4552,7 +4552,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20112.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 112.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4593,7 +4593,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20113.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 113.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4634,7 +4634,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20114.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 114.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4675,7 +4675,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20115.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 115.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4716,7 +4716,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20116.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 116.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4757,7 +4757,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20117.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 117.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4798,7 +4798,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20118.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 118.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4839,7 +4839,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20119.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 119.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4880,7 +4880,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20120.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 120.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4921,7 +4921,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20121.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 121.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -4962,7 +4962,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20122.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 122.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5003,7 +5003,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20123.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 123.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5044,7 +5044,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20124.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 124.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5085,7 +5085,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20125.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 125.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5126,7 +5126,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20126.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 126.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5167,7 +5167,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20127.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 127.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5208,7 +5208,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20128.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 128.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5249,7 +5249,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20129.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 129.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5290,7 +5290,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20130.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 130.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5331,7 +5331,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20131.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 131.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5372,7 +5372,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20132.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 132.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5413,7 +5413,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20133.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 133.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5454,7 +5454,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20134.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 134.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5495,7 +5495,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20135.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 135.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5536,7 +5536,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20136.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 136.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5577,7 +5577,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20137.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 137.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5618,7 +5618,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20138.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 138.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5659,7 +5659,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20139.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 139.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5700,7 +5700,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20140.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 140.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5741,7 +5741,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20141.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 141.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5782,7 +5782,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20142.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 142.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5823,7 +5823,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20143.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 143.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5864,7 +5864,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20144.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 144.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5905,7 +5905,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20145.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 145.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5946,7 +5946,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20146.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 146.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -5987,7 +5987,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20147.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 147.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -6028,7 +6028,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20%5B720p%5D%20-%20Episode%20148.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D Hunter x Hunter %5B720p%5D - Episode 148.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
