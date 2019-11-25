@@ -1,17 +1,30 @@
 var player = videojs('video')
 player.playlist([{
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20001.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 01',
         name: 'Episode 01',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/g20rmrjuhOkhplJ8wL5cgJPn04CxYBRpTFzgl4ayMFa2D_zYCUpXyIqyWjc7q-DOMmWOkT3-amcI1MN_tLJTDtCFJmZsrR-bpdldODpfQYiFRwaAl8R-rPLC0GL-zFR6UwXeEnydZg=m22',
+                src: 'https://lh3.googleusercontent.com/5eZO3Bcj6YioDwfaAw4Cr9s2RM5iJNH21Bwn6eX2KNRZMP6lqcQmm_aItTRClddpq92-FMgqMzkd-PlrLBisMcJn5EB9qmGGUnI1QZ27GKia7HKSRGISkh-IF5UukZ1N6BX80fipWw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/5eZO3Bcj6YioDwfaAw4Cr9s2RM5iJNH21Bwn6eX2KNRZMP6lqcQmm_aItTRClddpq92-FMgqMzkd-PlrLBisMcJn5EB9qmGGUnI1QZ27GKia7HKSRGISkh-IF5UukZ1N6BX80fipWw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/g20rmrjuhOkhplJ8wL5cgJPn04CxYBRpTFzgl4ayMFa2D_zYCUpXyIqyWjc7q-DOMmWOkT3-amcI1MN_tLJTDtCFJmZsrR-bpdldODpfQYiFRwaAl8R-rPLC0GL-zFR6UwXeEnydZg=m18',
+                src: 'https://lh3.googleusercontent.com/5eZO3Bcj6YioDwfaAw4Cr9s2RM5iJNH21Bwn6eX2KNRZMP6lqcQmm_aItTRClddpq92-FMgqMzkd-PlrLBisMcJn5EB9qmGGUnI1QZ27GKia7HKSRGISkh-IF5UukZ1N6BX80fipWw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -28,18 +41,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20002.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 02',
         name: 'Episode 02',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/7zVZMEtV7PxlvasuXjMnTK2nuFFn_KE07zqY-AefHiQa6ZCMwbLKEB5u8hq3ikShmLCsFt8yLnOeqtrr4lk8iG6epgxWj8mk3wphVSLCQrMKhuSHkrm_f4gILUhuuejZo0zuB-dqvA=m22',
+                src: 'https://lh3.googleusercontent.com/sJBssqOtP9Gh0wC3Lb3uTqg1LVG_uZNleuMvk-1Qy66NXpSel-cRJvcfaWJwVzdqe4jpQt8ZgiVO6aGEXmTE_KcycfBhr_nF-NMAgTYfeJ3Nkg-GkHjvk-HqCW0xBWhz5-F2UwweDg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/sJBssqOtP9Gh0wC3Lb3uTqg1LVG_uZNleuMvk-1Qy66NXpSel-cRJvcfaWJwVzdqe4jpQt8ZgiVO6aGEXmTE_KcycfBhr_nF-NMAgTYfeJ3Nkg-GkHjvk-HqCW0xBWhz5-F2UwweDg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/7zVZMEtV7PxlvasuXjMnTK2nuFFn_KE07zqY-AefHiQa6ZCMwbLKEB5u8hq3ikShmLCsFt8yLnOeqtrr4lk8iG6epgxWj8mk3wphVSLCQrMKhuSHkrm_f4gILUhuuejZo0zuB-dqvA=m18',
+                src: 'https://lh3.googleusercontent.com/sJBssqOtP9Gh0wC3Lb3uTqg1LVG_uZNleuMvk-1Qy66NXpSel-cRJvcfaWJwVzdqe4jpQt8ZgiVO6aGEXmTE_KcycfBhr_nF-NMAgTYfeJ3Nkg-GkHjvk-HqCW0xBWhz5-F2UwweDg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -56,18 +82,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20003.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 03',
         name: 'Episode 03',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/cKmClHQmbPQrPcLtvRp14_Dg5k77rc02HkWrbQH9SE-YvWvUx0Jb8aakw2rNI3aysktBBZPTB3m4idczHCHvaHsIlfM5kMeA3cMO74oVG7A2e2CguXa3UyiwX6FvkNzWiFZZSvTY-w=m22',
+                src: 'https://lh3.googleusercontent.com/qJQIcn0mPNy23Vw_xWZPB-7MmqHuZcHk8WyikFTXcRk6RdMEne99SSsH41JF-cOSP3a2PvlPqVZUwI84J90DEdFkW_14FXdctLsa1rfec2GAs_M5sYI797UYqCqD5Zr9s3Hl3LVXkA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/qJQIcn0mPNy23Vw_xWZPB-7MmqHuZcHk8WyikFTXcRk6RdMEne99SSsH41JF-cOSP3a2PvlPqVZUwI84J90DEdFkW_14FXdctLsa1rfec2GAs_M5sYI797UYqCqD5Zr9s3Hl3LVXkA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/cKmClHQmbPQrPcLtvRp14_Dg5k77rc02HkWrbQH9SE-YvWvUx0Jb8aakw2rNI3aysktBBZPTB3m4idczHCHvaHsIlfM5kMeA3cMO74oVG7A2e2CguXa3UyiwX6FvkNzWiFZZSvTY-w=m18',
+                src: 'https://lh3.googleusercontent.com/qJQIcn0mPNy23Vw_xWZPB-7MmqHuZcHk8WyikFTXcRk6RdMEne99SSsH41JF-cOSP3a2PvlPqVZUwI84J90DEdFkW_14FXdctLsa1rfec2GAs_M5sYI797UYqCqD5Zr9s3Hl3LVXkA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -84,18 +123,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20004.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 04',
         name: 'Episode 04',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/fhcN3tKVooOz300cc8uc3YG3MqyfIO35job3Ps1ubNeY875TYNNC6ULsqq-SfkexdxK6Wi23inSPqTz1Y1DIWCjB4STA_dsS2yhyR2uXfMQKooPaYUrD5yJQbXOl7gUE1ahceqGh5g=m22',
+                src: 'https://lh3.googleusercontent.com/N1_hg6gsALjjrtvlQNuBZGVtZU_mvtnmEhsGW6b0lvuC4hCGE-j4HpC-ovRdrgz4qgCUMpliri9-g1mRrtunQYn15eu0xVqzKMItfqoH86KGaenZSAhpn6VIbsad_DX28cqOWA7jsA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/N1_hg6gsALjjrtvlQNuBZGVtZU_mvtnmEhsGW6b0lvuC4hCGE-j4HpC-ovRdrgz4qgCUMpliri9-g1mRrtunQYn15eu0xVqzKMItfqoH86KGaenZSAhpn6VIbsad_DX28cqOWA7jsA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/fhcN3tKVooOz300cc8uc3YG3MqyfIO35job3Ps1ubNeY875TYNNC6ULsqq-SfkexdxK6Wi23inSPqTz1Y1DIWCjB4STA_dsS2yhyR2uXfMQKooPaYUrD5yJQbXOl7gUE1ahceqGh5g=m18',
+                src: 'https://lh3.googleusercontent.com/N1_hg6gsALjjrtvlQNuBZGVtZU_mvtnmEhsGW6b0lvuC4hCGE-j4HpC-ovRdrgz4qgCUMpliri9-g1mRrtunQYn15eu0xVqzKMItfqoH86KGaenZSAhpn6VIbsad_DX28cqOWA7jsA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -112,18 +164,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20005.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 05',
         name: 'Episode 05',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/jynEW39uReFLg9nQpf-wz9zj9u6yAJ2lmd5d6wQZUZLbz7XfgZAis5P7HuKgAPmcxY3KPDCaOBaAP4uorGgbsJRC8YKMTH3kq_QOpYVhGcfedfsS4Alx20fiFPAKss0BmaX6p_htbw=m22',
+                src: 'https://lh3.googleusercontent.com/JBV9KAi1v3795WxfmDcjf4o8byvHXQZKptivsobwyvL_pKwCTu3ORNK1rQyV-KGSdcz3NZRw91QpZ-AO-Xh-cBIeyASLYJ_XFXJVvf0lnSupGGyfvZ-fOGKYEbfXsa862kNZdQCGVw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/JBV9KAi1v3795WxfmDcjf4o8byvHXQZKptivsobwyvL_pKwCTu3ORNK1rQyV-KGSdcz3NZRw91QpZ-AO-Xh-cBIeyASLYJ_XFXJVvf0lnSupGGyfvZ-fOGKYEbfXsa862kNZdQCGVw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/jynEW39uReFLg9nQpf-wz9zj9u6yAJ2lmd5d6wQZUZLbz7XfgZAis5P7HuKgAPmcxY3KPDCaOBaAP4uorGgbsJRC8YKMTH3kq_QOpYVhGcfedfsS4Alx20fiFPAKss0BmaX6p_htbw=m18',
+                src: 'https://lh3.googleusercontent.com/JBV9KAi1v3795WxfmDcjf4o8byvHXQZKptivsobwyvL_pKwCTu3ORNK1rQyV-KGSdcz3NZRw91QpZ-AO-Xh-cBIeyASLYJ_XFXJVvf0lnSupGGyfvZ-fOGKYEbfXsa862kNZdQCGVw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -140,18 +205,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20006.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 06',
         name: 'Episode 06',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/5mBGTskC2l9kg70-TBNfWkTP0vVgTR4_Vdj9ltUUWYqV7X7Gx0sBTBVgmXrDesGb7eN1ukpFoYsT65qY4-Xpywy9WtwzDrfCUCJ1Zj32Gkca66-YbMrmRIITMOSSN1K_VRVzg79Gdw=m22',
+                src: 'https://lh3.googleusercontent.com/Lh50bt9hD0GKkHakT21pI-c2AI7lAgW_orcfk9OLgF5GWmDMZtD670wBA_G02mOE1ddI9BvA7efExK4u0VSjHPRj5KhLX2LDn8HCnpUrjoRafgWD5BCwEuag6cqO01YWnXNlAL07JA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Lh50bt9hD0GKkHakT21pI-c2AI7lAgW_orcfk9OLgF5GWmDMZtD670wBA_G02mOE1ddI9BvA7efExK4u0VSjHPRj5KhLX2LDn8HCnpUrjoRafgWD5BCwEuag6cqO01YWnXNlAL07JA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/5mBGTskC2l9kg70-TBNfWkTP0vVgTR4_Vdj9ltUUWYqV7X7Gx0sBTBVgmXrDesGb7eN1ukpFoYsT65qY4-Xpywy9WtwzDrfCUCJ1Zj32Gkca66-YbMrmRIITMOSSN1K_VRVzg79Gdw=m18',
+                src: 'https://lh3.googleusercontent.com/Lh50bt9hD0GKkHakT21pI-c2AI7lAgW_orcfk9OLgF5GWmDMZtD670wBA_G02mOE1ddI9BvA7efExK4u0VSjHPRj5KhLX2LDn8HCnpUrjoRafgWD5BCwEuag6cqO01YWnXNlAL07JA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -168,18 +246,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20007.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 07',
         name: 'Episode 07',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/iXbVLGU_zhFYRU3HYsIr1Ok6X4_Nx3LrRSfCC1DN-C890JsWtymvHFeWf7bkaJ1qe9DbWKJpbXCfwdh_xD5jRzNLETS2yspd9vP8PHGy8skDYxbb4TNQA_h2NQnVr9mEoIYQCMM0nw=m22',
+                src: 'https://lh3.googleusercontent.com/9-OM2fo8PRq4Oh1xQNXbnS2BZ7dYw2cFY8Q3_o629gWooIRlzCEYbRRvlYO168fhGPMBLglMp13n_m-Up0GSWSYGZ68Dzj9CDleUpdOA7HprRzVKxvaVg0w1ODbMNxLvCA1PjkrfLQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/9-OM2fo8PRq4Oh1xQNXbnS2BZ7dYw2cFY8Q3_o629gWooIRlzCEYbRRvlYO168fhGPMBLglMp13n_m-Up0GSWSYGZ68Dzj9CDleUpdOA7HprRzVKxvaVg0w1ODbMNxLvCA1PjkrfLQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/iXbVLGU_zhFYRU3HYsIr1Ok6X4_Nx3LrRSfCC1DN-C890JsWtymvHFeWf7bkaJ1qe9DbWKJpbXCfwdh_xD5jRzNLETS2yspd9vP8PHGy8skDYxbb4TNQA_h2NQnVr9mEoIYQCMM0nw=m18',
+                src: 'https://lh3.googleusercontent.com/9-OM2fo8PRq4Oh1xQNXbnS2BZ7dYw2cFY8Q3_o629gWooIRlzCEYbRRvlYO168fhGPMBLglMp13n_m-Up0GSWSYGZ68Dzj9CDleUpdOA7HprRzVKxvaVg0w1ODbMNxLvCA1PjkrfLQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -196,18 +287,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20008.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 08',
         name: 'Episode 08',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/t_BRNqxQoCnbq9Q79Dw6_IdeP1pEx7PBXjQ-83Al5IK0wj1uHd7rGvAcCs2rL1KXEGzP0dgjMoQkf_zF2wvA9mAbqGh7Av4mCs_XbESMXwQwURH6DGLkv40JxMjAW06v9W5KrDqJfg=m22',
+                src: 'https://lh3.googleusercontent.com/hC4cy4Dz_qma5obLcIWjaEaRlcTfr5NMNcrhEahhieggH5dNDtOZk_L_IBoj6hWWBH4H9yYgh4lyrhQqv4wr1Nq0-VQFTEXX9MVQq59EW2H8ptkaLFuhVEra4QJ7wPHAOAhkiP81cA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/hC4cy4Dz_qma5obLcIWjaEaRlcTfr5NMNcrhEahhieggH5dNDtOZk_L_IBoj6hWWBH4H9yYgh4lyrhQqv4wr1Nq0-VQFTEXX9MVQq59EW2H8ptkaLFuhVEra4QJ7wPHAOAhkiP81cA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/t_BRNqxQoCnbq9Q79Dw6_IdeP1pEx7PBXjQ-83Al5IK0wj1uHd7rGvAcCs2rL1KXEGzP0dgjMoQkf_zF2wvA9mAbqGh7Av4mCs_XbESMXwQwURH6DGLkv40JxMjAW06v9W5KrDqJfg=m18',
+                src: 'https://lh3.googleusercontent.com/hC4cy4Dz_qma5obLcIWjaEaRlcTfr5NMNcrhEahhieggH5dNDtOZk_L_IBoj6hWWBH4H9yYgh4lyrhQqv4wr1Nq0-VQFTEXX9MVQq59EW2H8ptkaLFuhVEra4QJ7wPHAOAhkiP81cA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -224,18 +328,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20009.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 09',
         name: 'Episode 09',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/FsjHuw7otqBlGhXAW93aLW_nicsVitf2qI6LUw-HzHy-lOPEOOWt7pNW5Fkmz7U3qO-QWho3bJplDZX5Hy66ZjRvHZRyxQEOByWm0JOX7FR9hvsIWBp4yD5VPfpxWU3a22y_2LQxfA=m22',
+                src: 'https://lh3.googleusercontent.com/VKmAz8CfGoJMDP7yy9bUCx4Pa0F_U-Fzt3coCDc5AeAidSn-VdlnHgOgD1PxvnezW_uDzEaf7-kC5RLkwVdNbg7A0XUQ2PD1_ybDMClBD_vSpQ8acTu1ZaFwqDPftMKWXF3rZd8-Qw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/VKmAz8CfGoJMDP7yy9bUCx4Pa0F_U-Fzt3coCDc5AeAidSn-VdlnHgOgD1PxvnezW_uDzEaf7-kC5RLkwVdNbg7A0XUQ2PD1_ybDMClBD_vSpQ8acTu1ZaFwqDPftMKWXF3rZd8-Qw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/FsjHuw7otqBlGhXAW93aLW_nicsVitf2qI6LUw-HzHy-lOPEOOWt7pNW5Fkmz7U3qO-QWho3bJplDZX5Hy66ZjRvHZRyxQEOByWm0JOX7FR9hvsIWBp4yD5VPfpxWU3a22y_2LQxfA=m18',
+                src: 'https://lh3.googleusercontent.com/VKmAz8CfGoJMDP7yy9bUCx4Pa0F_U-Fzt3coCDc5AeAidSn-VdlnHgOgD1PxvnezW_uDzEaf7-kC5RLkwVdNbg7A0XUQ2PD1_ybDMClBD_vSpQ8acTu1ZaFwqDPftMKWXF3rZd8-Qw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -252,18 +369,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20010.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 10',
         name: 'Episode 10',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/l0lxCBtt5ZEceJbdtRWzDKYxM2k5mtwC9TYTK98hd5CoADauyO8KbYvik3pYXC678_-iChlPw7FVrz2gNYZ0H_2p9DMQ7HWBRT3qjDAu-s0A-ubNasMCa4sgaPts88GKJ706DrLyXQ=m22',
+                src: 'https://lh3.googleusercontent.com/0Cd_bEQA2eOa1n2NBpoVJ323HexF0PGSdDCS3q1SbZ8bpBZ0lH9m08MwPnvta7gKopnwWZTURjSsIL0lNk2GaaH15ODnkrxSuULkThty8Wa9K4JOzeveJ7dpw-IhTaIgjtOOI0eJ1Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/0Cd_bEQA2eOa1n2NBpoVJ323HexF0PGSdDCS3q1SbZ8bpBZ0lH9m08MwPnvta7gKopnwWZTURjSsIL0lNk2GaaH15ODnkrxSuULkThty8Wa9K4JOzeveJ7dpw-IhTaIgjtOOI0eJ1Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/l0lxCBtt5ZEceJbdtRWzDKYxM2k5mtwC9TYTK98hd5CoADauyO8KbYvik3pYXC678_-iChlPw7FVrz2gNYZ0H_2p9DMQ7HWBRT3qjDAu-s0A-ubNasMCa4sgaPts88GKJ706DrLyXQ=m18',
+                src: 'https://lh3.googleusercontent.com/0Cd_bEQA2eOa1n2NBpoVJ323HexF0PGSdDCS3q1SbZ8bpBZ0lH9m08MwPnvta7gKopnwWZTURjSsIL0lNk2GaaH15ODnkrxSuULkThty8Wa9K4JOzeveJ7dpw-IhTaIgjtOOI0eJ1Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -280,18 +410,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20011.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 11',
         name: 'Episode 11',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/csy0OyyR3X7YL33AYE_T4BYbrRbPKScuRTlfZBHASQy70spxdDV7aXM6O6IweP-IoUtHRWNdBI682TbLNRXTd8NWg1JO1cjnDXP9-N-1L2oqsnEjeWfEikhTgPkeeEgyppseMVtuGg=m22',
+                src: 'https://lh3.googleusercontent.com/AbjP854Gj1EqASpjwT1KKjelqLwG6feZfSdUGwENnxnf4WWUuyAQQzoY7TNKO4v5mwt9hAlJqONhdURz3P0oN1lLvU_-0D1K-cfVnfk3_jthdK0lqgyRp0HjESn9JHaL4HnENWCHSA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/AbjP854Gj1EqASpjwT1KKjelqLwG6feZfSdUGwENnxnf4WWUuyAQQzoY7TNKO4v5mwt9hAlJqONhdURz3P0oN1lLvU_-0D1K-cfVnfk3_jthdK0lqgyRp0HjESn9JHaL4HnENWCHSA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/csy0OyyR3X7YL33AYE_T4BYbrRbPKScuRTlfZBHASQy70spxdDV7aXM6O6IweP-IoUtHRWNdBI682TbLNRXTd8NWg1JO1cjnDXP9-N-1L2oqsnEjeWfEikhTgPkeeEgyppseMVtuGg=m18',
+                src: 'https://lh3.googleusercontent.com/AbjP854Gj1EqASpjwT1KKjelqLwG6feZfSdUGwENnxnf4WWUuyAQQzoY7TNKO4v5mwt9hAlJqONhdURz3P0oN1lLvU_-0D1K-cfVnfk3_jthdK0lqgyRp0HjESn9JHaL4HnENWCHSA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -308,18 +451,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20012.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 12',
         name: 'Episode 12',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/VmaIYMsNADjpfGpf8AbSdiz3Jy2Omg-j2TQZ0nhxGx1KCFVqd4EX67zQIp9DhiAJav1ag6mRWfXuVAdgZbLm9yF53Siw3YHLYbk3bzA_sNeKU3DoYr7vx7ajn0VKcx1JJRdKNjpGMQ=m22',
+                src: 'https://lh3.googleusercontent.com/Hml2a1lGrLLTNudU7TEDobqQ8Cz9JrDiQY0Q06hKjtsDKb7mNiYoZpovWlyCEyCU7DNq7hPtm1wYioGiak5x0UFql5AFNPj71lPM_S4u2KEBCHtUAEodTZ_Cu7ESo2Ejqpf_9d1YTA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Hml2a1lGrLLTNudU7TEDobqQ8Cz9JrDiQY0Q06hKjtsDKb7mNiYoZpovWlyCEyCU7DNq7hPtm1wYioGiak5x0UFql5AFNPj71lPM_S4u2KEBCHtUAEodTZ_Cu7ESo2Ejqpf_9d1YTA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/VmaIYMsNADjpfGpf8AbSdiz3Jy2Omg-j2TQZ0nhxGx1KCFVqd4EX67zQIp9DhiAJav1ag6mRWfXuVAdgZbLm9yF53Siw3YHLYbk3bzA_sNeKU3DoYr7vx7ajn0VKcx1JJRdKNjpGMQ=m18',
+                src: 'https://lh3.googleusercontent.com/Hml2a1lGrLLTNudU7TEDobqQ8Cz9JrDiQY0Q06hKjtsDKb7mNiYoZpovWlyCEyCU7DNq7hPtm1wYioGiak5x0UFql5AFNPj71lPM_S4u2KEBCHtUAEodTZ_Cu7ESo2Ejqpf_9d1YTA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -336,18 +492,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20013.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 13',
         name: 'Episode 13',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/8K_A6EqUKlwGUDOb9ZwHzZ5hRMXOQLYyjfuZfcEv8D0p_iklapomug67R0tKoXCF5SQxFCazVMhgiIn_onVGE2DwlwOkIMqxsKX-05zI_xqlMle9qDlng-d_RPrvZcdA9nyorCY6uw=m22',
+                src: 'https://lh3.googleusercontent.com/nheUIOUCzDUSxbM8b_71N740yZvFINECvnoo8RAZlFAOL2jP5zne4JRz_mP39yhK7xNwjNS5YxbaGEtztrY-8a7SarXvpFtzvFHxTDe4i9iwSwa3DTrIXwf7e8wHHX7hdW-0rtXwYw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/nheUIOUCzDUSxbM8b_71N740yZvFINECvnoo8RAZlFAOL2jP5zne4JRz_mP39yhK7xNwjNS5YxbaGEtztrY-8a7SarXvpFtzvFHxTDe4i9iwSwa3DTrIXwf7e8wHHX7hdW-0rtXwYw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/8K_A6EqUKlwGUDOb9ZwHzZ5hRMXOQLYyjfuZfcEv8D0p_iklapomug67R0tKoXCF5SQxFCazVMhgiIn_onVGE2DwlwOkIMqxsKX-05zI_xqlMle9qDlng-d_RPrvZcdA9nyorCY6uw=m18',
+                src: 'https://lh3.googleusercontent.com/nheUIOUCzDUSxbM8b_71N740yZvFINECvnoo8RAZlFAOL2jP5zne4JRz_mP39yhK7xNwjNS5YxbaGEtztrY-8a7SarXvpFtzvFHxTDe4i9iwSwa3DTrIXwf7e8wHHX7hdW-0rtXwYw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -364,18 +533,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20014.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 14',
         name: 'Episode 14',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/r5ijOOa1ubF64Fl8291T5rprD7FAvhXz4QSpGPcxbx56Auu9Z_RoezP8EISxuX1VDU_tatNkwosqzH5kz30bvn20fkG2pfnadJzRAwL7IHJTONt5xUQaMDHPK1t09IKDJ7Euus9C5w=m22',
+                src: 'https://lh3.googleusercontent.com/wTrd62WtRTiqw10c9a_Iv_dRRqmUSM_lDav-YITW0RPW8MIk2oCFyzUTDDIHYXliPGpqocjp1rDFmPRawmRJFXneW3PPW6_zM5O0BfwKjgXIvUrt4DCAsCEMX1C52WXp_aTzpDfwWA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/wTrd62WtRTiqw10c9a_Iv_dRRqmUSM_lDav-YITW0RPW8MIk2oCFyzUTDDIHYXliPGpqocjp1rDFmPRawmRJFXneW3PPW6_zM5O0BfwKjgXIvUrt4DCAsCEMX1C52WXp_aTzpDfwWA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/r5ijOOa1ubF64Fl8291T5rprD7FAvhXz4QSpGPcxbx56Auu9Z_RoezP8EISxuX1VDU_tatNkwosqzH5kz30bvn20fkG2pfnadJzRAwL7IHJTONt5xUQaMDHPK1t09IKDJ7Euus9C5w=m18',
+                src: 'https://lh3.googleusercontent.com/wTrd62WtRTiqw10c9a_Iv_dRRqmUSM_lDav-YITW0RPW8MIk2oCFyzUTDDIHYXliPGpqocjp1rDFmPRawmRJFXneW3PPW6_zM5O0BfwKjgXIvUrt4DCAsCEMX1C52WXp_aTzpDfwWA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -392,18 +574,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20015.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 15',
         name: 'Episode 15',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/9rv-T16HlfpQvay2YEZuUjvIbdicYZ9jgJJBIK0n54S6lidlCQXq28ThjPUNkql2JadCjMZ8dZj0UeYJO6vy5z--vQ9wj2FWgb83U5AyCkdy1p3W_Ol_0h1AtEzpupwrpHNLx6J9aw=m22',
+                src: 'https://lh3.googleusercontent.com/l5LtDYXMqqVQBamqIFKhtM71_j3O8pfOx2Y5OeNbYlodeFI8lHCY9zobB9Cx4EqKkmrZWe660nhF5YJNIRYPGdrLU2hrXdpEg7XcVnov-ZzT6nrpx54GyX6mZBTbzBbmMUsanf_eyg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/l5LtDYXMqqVQBamqIFKhtM71_j3O8pfOx2Y5OeNbYlodeFI8lHCY9zobB9Cx4EqKkmrZWe660nhF5YJNIRYPGdrLU2hrXdpEg7XcVnov-ZzT6nrpx54GyX6mZBTbzBbmMUsanf_eyg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/9rv-T16HlfpQvay2YEZuUjvIbdicYZ9jgJJBIK0n54S6lidlCQXq28ThjPUNkql2JadCjMZ8dZj0UeYJO6vy5z--vQ9wj2FWgb83U5AyCkdy1p3W_Ol_0h1AtEzpupwrpHNLx6J9aw=m18',
+                src: 'https://lh3.googleusercontent.com/l5LtDYXMqqVQBamqIFKhtM71_j3O8pfOx2Y5OeNbYlodeFI8lHCY9zobB9Cx4EqKkmrZWe660nhF5YJNIRYPGdrLU2hrXdpEg7XcVnov-ZzT6nrpx54GyX6mZBTbzBbmMUsanf_eyg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -420,18 +615,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20016.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 16',
         name: 'Episode 16',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/f2SgOPxTjrphWpw_cd--cVqyY1g2ICPkYkO8x7wLSYe1eN_6XzkEUmsuFxM78C1ChB9hixF3wgjP7oNzbnOB98DvSnsVe4o8qE4grrIqrazHQmSVo9vlzRmFxEjadCDuekCllj7Izw=m22',
+                src: 'https://lh3.googleusercontent.com/vMnsY9sGQTYNF3zEJJ0QNpt9gyznPUxFaWbozlQd_v717gwMyjtH5a617ooQI6R3MUHXGkFPAarb04xHlQKtUyza1w_GtJU_HVREUT43vY_Sj1sYXzslaa9-gJNT_qnrqzgjUg9g7A=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/vMnsY9sGQTYNF3zEJJ0QNpt9gyznPUxFaWbozlQd_v717gwMyjtH5a617ooQI6R3MUHXGkFPAarb04xHlQKtUyza1w_GtJU_HVREUT43vY_Sj1sYXzslaa9-gJNT_qnrqzgjUg9g7A=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/f2SgOPxTjrphWpw_cd--cVqyY1g2ICPkYkO8x7wLSYe1eN_6XzkEUmsuFxM78C1ChB9hixF3wgjP7oNzbnOB98DvSnsVe4o8qE4grrIqrazHQmSVo9vlzRmFxEjadCDuekCllj7Izw=m18',
+                src: 'https://lh3.googleusercontent.com/vMnsY9sGQTYNF3zEJJ0QNpt9gyznPUxFaWbozlQd_v717gwMyjtH5a617ooQI6R3MUHXGkFPAarb04xHlQKtUyza1w_GtJU_HVREUT43vY_Sj1sYXzslaa9-gJNT_qnrqzgjUg9g7A=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -448,18 +656,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20017.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 17',
         name: 'Episode 17',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/V_lLb0QL8W9b1ra7HUkV5Qt-P1bhTvaEF2aSqKPq07tt67BGCAhLFf4lpV2vh_DlGOpn39YZwROlfJpS14lT-J3sk7dzn8kUuUmy0yixT57_cXIgm8dAadZCF2IYR__jmAcQlqpiwg=m22',
+                src: 'https://lh3.googleusercontent.com/FBQOIrmyOIaQRXRSOqPgnYegCD0tk2rA-QYG4_eIetg4kPP5ltcmB_6eeQKt58dlVGTGjvm8nfZVwAGLjO_WWP1qJaO1wofkpfFquzLiFeX8ZvfiuWKqHnx9NqctQvAqktaN2JoBaQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/FBQOIrmyOIaQRXRSOqPgnYegCD0tk2rA-QYG4_eIetg4kPP5ltcmB_6eeQKt58dlVGTGjvm8nfZVwAGLjO_WWP1qJaO1wofkpfFquzLiFeX8ZvfiuWKqHnx9NqctQvAqktaN2JoBaQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/V_lLb0QL8W9b1ra7HUkV5Qt-P1bhTvaEF2aSqKPq07tt67BGCAhLFf4lpV2vh_DlGOpn39YZwROlfJpS14lT-J3sk7dzn8kUuUmy0yixT57_cXIgm8dAadZCF2IYR__jmAcQlqpiwg=m18',
+                src: 'https://lh3.googleusercontent.com/FBQOIrmyOIaQRXRSOqPgnYegCD0tk2rA-QYG4_eIetg4kPP5ltcmB_6eeQKt58dlVGTGjvm8nfZVwAGLjO_WWP1qJaO1wofkpfFquzLiFeX8ZvfiuWKqHnx9NqctQvAqktaN2JoBaQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -476,18 +697,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20018.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 18',
         name: 'Episode 18',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/NtZe9NXN8KclWrwPIMJR0WP1r15NpRXoS7myesTPTPHpOkryGEr3cdoZzMC2OuEvPS1aVvub7rRc0qZlS8D4HBqdQkucIOdi05DgOMBzrkkJ-gVJzeitZEoFmF6JWk_0NegZdibyfA=m22',
+                src: 'https://lh3.googleusercontent.com/LBhRaQGvBs3vBLyExClW1-UM06erXET2c0NhTRXUiP2y8JfhAPf75ZXzRCTvhX1DhZL92iXFbis_4kJfoFJNCxZpD8JIz5WSRCcFTa6m2krDToQ4x1vmotwjICeh7wdKm3GGXuJ1kQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/LBhRaQGvBs3vBLyExClW1-UM06erXET2c0NhTRXUiP2y8JfhAPf75ZXzRCTvhX1DhZL92iXFbis_4kJfoFJNCxZpD8JIz5WSRCcFTa6m2krDToQ4x1vmotwjICeh7wdKm3GGXuJ1kQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/NtZe9NXN8KclWrwPIMJR0WP1r15NpRXoS7myesTPTPHpOkryGEr3cdoZzMC2OuEvPS1aVvub7rRc0qZlS8D4HBqdQkucIOdi05DgOMBzrkkJ-gVJzeitZEoFmF6JWk_0NegZdibyfA=m18',
+                src: 'https://lh3.googleusercontent.com/LBhRaQGvBs3vBLyExClW1-UM06erXET2c0NhTRXUiP2y8JfhAPf75ZXzRCTvhX1DhZL92iXFbis_4kJfoFJNCxZpD8JIz5WSRCcFTa6m2krDToQ4x1vmotwjICeh7wdKm3GGXuJ1kQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -504,18 +738,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20019.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 19',
         name: 'Episode 19',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/E6-EmzZ7f1705HI03z-wIHvuEL13H06xNt9fpInrmm0DVnw97KOeglltkFv76gGzxZgPywb-cr-51uDcaVADEhC6qZivHI8CvNOoCUC8d9BgwlIT4a9oj2SMwM-Q72CLsC3fF5yx1A=m22',
+                src: 'https://lh3.googleusercontent.com/Nt_t8dd0bDz6YUgsSCOBtZbl5TduTjv7la-xYgtyrAMzLJUaD-KIb_ccrV-5ocFrdFs537ukpquHi-i1_KwjkKIUkjs_gGiw0Xgc3_jCwDwp8db97XIPw4OkXJeRilcLcN6xhEBXEA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Nt_t8dd0bDz6YUgsSCOBtZbl5TduTjv7la-xYgtyrAMzLJUaD-KIb_ccrV-5ocFrdFs537ukpquHi-i1_KwjkKIUkjs_gGiw0Xgc3_jCwDwp8db97XIPw4OkXJeRilcLcN6xhEBXEA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/E6-EmzZ7f1705HI03z-wIHvuEL13H06xNt9fpInrmm0DVnw97KOeglltkFv76gGzxZgPywb-cr-51uDcaVADEhC6qZivHI8CvNOoCUC8d9BgwlIT4a9oj2SMwM-Q72CLsC3fF5yx1A=m18',
+                src: 'https://lh3.googleusercontent.com/Nt_t8dd0bDz6YUgsSCOBtZbl5TduTjv7la-xYgtyrAMzLJUaD-KIb_ccrV-5ocFrdFs537ukpquHi-i1_KwjkKIUkjs_gGiw0Xgc3_jCwDwp8db97XIPw4OkXJeRilcLcN6xhEBXEA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -532,18 +779,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20020.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 20',
         name: 'Episode 20',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/so9xRJUktN6c6EFDMTzcAsBmy9CBv7blQd2A7N_hxSPcvgQurHiMN9XCXxyI-l_TR7vUhQzkBEJEHxmlH102lJyPT0c3qNWXk12uevrP9ZBotZLq5QqHgVAvgKO_rK4GZrauQYYRjA=m22',
+                src: 'https://lh3.googleusercontent.com/fWipZitSub_x_b68UZxOzbUg9wW9lmL64rVwtRzHC_8ndfap_FVdln1OiVkiLZo-0no6UGk0DnSHOFs0j9-AGeCS2xM9CWqXLPPa0JZenher_En3GICt8kJ6Zuard2xt2btk0TM-3w=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/fWipZitSub_x_b68UZxOzbUg9wW9lmL64rVwtRzHC_8ndfap_FVdln1OiVkiLZo-0no6UGk0DnSHOFs0j9-AGeCS2xM9CWqXLPPa0JZenher_En3GICt8kJ6Zuard2xt2btk0TM-3w=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/so9xRJUktN6c6EFDMTzcAsBmy9CBv7blQd2A7N_hxSPcvgQurHiMN9XCXxyI-l_TR7vUhQzkBEJEHxmlH102lJyPT0c3qNWXk12uevrP9ZBotZLq5QqHgVAvgKO_rK4GZrauQYYRjA=m18',
+                src: 'https://lh3.googleusercontent.com/fWipZitSub_x_b68UZxOzbUg9wW9lmL64rVwtRzHC_8ndfap_FVdln1OiVkiLZo-0no6UGk0DnSHOFs0j9-AGeCS2xM9CWqXLPPa0JZenher_En3GICt8kJ6Zuard2xt2btk0TM-3w=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -560,18 +820,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20021.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 21',
         name: 'Episode 21',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/g0PwLEGaoF3CmuqtulHSY1569KMZGRRzFvOknoFcya8XbIpppam2KoKPn5Z-k70S-L_2_adt2UIkzvVh2HAA3wAOQDpsNM4kXRbIdm-ZEMONeNdzhuFiaKZS0mU8Aunxkz2S223m1g=m22',
+                src: 'https://lh3.googleusercontent.com/jpRxNNQUJAjzyog4dKP8Yiqx3Bu7N1fZxUZSJJ2IAPr7r9J0G0hkhY8vNCBxMzOO9gNs8rnbkJL_uZUvCz7oNxgRPHJNdFq4AiRfRC8l4z7m_7u9J7Dw3Ho2-KWNHJrU2hJJwd2dmQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/jpRxNNQUJAjzyog4dKP8Yiqx3Bu7N1fZxUZSJJ2IAPr7r9J0G0hkhY8vNCBxMzOO9gNs8rnbkJL_uZUvCz7oNxgRPHJNdFq4AiRfRC8l4z7m_7u9J7Dw3Ho2-KWNHJrU2hJJwd2dmQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/g0PwLEGaoF3CmuqtulHSY1569KMZGRRzFvOknoFcya8XbIpppam2KoKPn5Z-k70S-L_2_adt2UIkzvVh2HAA3wAOQDpsNM4kXRbIdm-ZEMONeNdzhuFiaKZS0mU8Aunxkz2S223m1g=m18',
+                src: 'https://lh3.googleusercontent.com/jpRxNNQUJAjzyog4dKP8Yiqx3Bu7N1fZxUZSJJ2IAPr7r9J0G0hkhY8vNCBxMzOO9gNs8rnbkJL_uZUvCz7oNxgRPHJNdFq4AiRfRC8l4z7m_7u9J7Dw3Ho2-KWNHJrU2hJJwd2dmQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -588,18 +861,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20022.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 22',
         name: 'Episode 22',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/D8DeaFflB2c0MfYGQomyll8CuZVSEFKX-tBTPvCC2f7nIAQzoH79vCSS-G7EOirhPG21HdZ1BLh8zL6PylYCr3QacrxercYsx7I-DR9_DBMXRMWjjOGSHV4dIDHC6qbNxVjwiggN3A=m22',
+                src: 'https://lh3.googleusercontent.com/dAqiE7AFMtQ0MU3F_v1gmEOw5BsUJ5P3NilrNSaDfa4twJlOYVN-nVmtDKtcoy5a6GGuEP-Mzo_tuX8bB40Q8nuVitfYKZDGORpsGiL08pASErwcfg93SublCOFogWrehD6lptV43A=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/dAqiE7AFMtQ0MU3F_v1gmEOw5BsUJ5P3NilrNSaDfa4twJlOYVN-nVmtDKtcoy5a6GGuEP-Mzo_tuX8bB40Q8nuVitfYKZDGORpsGiL08pASErwcfg93SublCOFogWrehD6lptV43A=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/D8DeaFflB2c0MfYGQomyll8CuZVSEFKX-tBTPvCC2f7nIAQzoH79vCSS-G7EOirhPG21HdZ1BLh8zL6PylYCr3QacrxercYsx7I-DR9_DBMXRMWjjOGSHV4dIDHC6qbNxVjwiggN3A=m18',
+                src: 'https://lh3.googleusercontent.com/dAqiE7AFMtQ0MU3F_v1gmEOw5BsUJ5P3NilrNSaDfa4twJlOYVN-nVmtDKtcoy5a6GGuEP-Mzo_tuX8bB40Q8nuVitfYKZDGORpsGiL08pASErwcfg93SublCOFogWrehD6lptV43A=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -616,18 +902,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20023.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 23',
         name: 'Episode 23',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/q_ZkX460kYWILK9dZQtJ2VJ5rBguWpnLjojYfAlk-8YzjcR4oeNmjXjNlJZq_ocPJkwPhY2Wm5zTCvieWVc9HNgClQacYSZ53WYKsIbJPFu5NBs_n-9gLKMMCL06ow7Z6g9XDQmCQQ=m22',
+                src: 'https://lh3.googleusercontent.com/YW-RtSu7OOCXtGDKbyl9DyFM1ZOYNtpirvj0YcWixrdcw6_8emc2-pnZZ2PqtcUz7XGrpvUwki1Pehzf7NYOuuvgTBJzdslbefINfuawypZD1n1TzG-zEcUDf5aUm4VA-5oaoVbb6Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/YW-RtSu7OOCXtGDKbyl9DyFM1ZOYNtpirvj0YcWixrdcw6_8emc2-pnZZ2PqtcUz7XGrpvUwki1Pehzf7NYOuuvgTBJzdslbefINfuawypZD1n1TzG-zEcUDf5aUm4VA-5oaoVbb6Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/q_ZkX460kYWILK9dZQtJ2VJ5rBguWpnLjojYfAlk-8YzjcR4oeNmjXjNlJZq_ocPJkwPhY2Wm5zTCvieWVc9HNgClQacYSZ53WYKsIbJPFu5NBs_n-9gLKMMCL06ow7Z6g9XDQmCQQ=m18',
+                src: 'https://lh3.googleusercontent.com/YW-RtSu7OOCXtGDKbyl9DyFM1ZOYNtpirvj0YcWixrdcw6_8emc2-pnZZ2PqtcUz7XGrpvUwki1Pehzf7NYOuuvgTBJzdslbefINfuawypZD1n1TzG-zEcUDf5aUm4VA-5oaoVbb6Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -644,18 +943,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20024.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 24',
         name: 'Episode 24',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/Nrz3fpU3O9T21ddF6UASXT71nsoRx-yKaUJP0uVJwx6PYlthKBoHccabXutGi33YrFNLv2auxeihgMOfViQv1Hw8h75SoDvG1IrFR1rBmSFHJLIUAD3z45PgrNUUesEO3-Ri0yaSZQ=m22',
+                src: 'https://lh3.googleusercontent.com/TysrZZDlw2iiycB2HQY-d63hAurZ7jdocoFA646JGlyzwrd2MiayTrORzX8A1ZKui3bTIUzxEf7Qd7GET7aR9sD-2r7IZzXQqJN9uGWL_wGWgLYXC7Vt3L_cEfp9otgBeyMY012N9g=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/TysrZZDlw2iiycB2HQY-d63hAurZ7jdocoFA646JGlyzwrd2MiayTrORzX8A1ZKui3bTIUzxEf7Qd7GET7aR9sD-2r7IZzXQqJN9uGWL_wGWgLYXC7Vt3L_cEfp9otgBeyMY012N9g=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/Nrz3fpU3O9T21ddF6UASXT71nsoRx-yKaUJP0uVJwx6PYlthKBoHccabXutGi33YrFNLv2auxeihgMOfViQv1Hw8h75SoDvG1IrFR1rBmSFHJLIUAD3z45PgrNUUesEO3-Ri0yaSZQ=m18',
+                src: 'https://lh3.googleusercontent.com/TysrZZDlw2iiycB2HQY-d63hAurZ7jdocoFA646JGlyzwrd2MiayTrORzX8A1ZKui3bTIUzxEf7Qd7GET7aR9sD-2r7IZzXQqJN9uGWL_wGWgLYXC7Vt3L_cEfp9otgBeyMY012N9g=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -672,18 +984,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20025.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 25',
         name: 'Episode 25',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/S6tta2pShNSYGXPRZFOnCjVQ1su34rGH8BP2TF1tof0zb9x3lavjw_O-MQT6LVBoxMTcMU1EMX-dQL9roVW5UJ5bIuFLjqT-504Z19bpU-iaCxELBEgGE6tytjm-c2PBcVHFgsh9OQ=m22',
+                src: 'https://lh3.googleusercontent.com/kaQSYy0pKJM0rFGe03kgNARFoPbyCz8V1qaqNHBmbxviSz1Hqj6v4woEjQbkJkB3XF_lrEckSwZ21oWFqcHWatUYxtz23o2pDiKxqsE5C0eu8yi6cmHVW194goSVw7uxfCoJUxEaTg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/kaQSYy0pKJM0rFGe03kgNARFoPbyCz8V1qaqNHBmbxviSz1Hqj6v4woEjQbkJkB3XF_lrEckSwZ21oWFqcHWatUYxtz23o2pDiKxqsE5C0eu8yi6cmHVW194goSVw7uxfCoJUxEaTg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/S6tta2pShNSYGXPRZFOnCjVQ1su34rGH8BP2TF1tof0zb9x3lavjw_O-MQT6LVBoxMTcMU1EMX-dQL9roVW5UJ5bIuFLjqT-504Z19bpU-iaCxELBEgGE6tytjm-c2PBcVHFgsh9OQ=m18',
+                src: 'https://lh3.googleusercontent.com/kaQSYy0pKJM0rFGe03kgNARFoPbyCz8V1qaqNHBmbxviSz1Hqj6v4woEjQbkJkB3XF_lrEckSwZ21oWFqcHWatUYxtz23o2pDiKxqsE5C0eu8yi6cmHVW194goSVw7uxfCoJUxEaTg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -700,18 +1025,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20026.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 26',
         name: 'Episode 26',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/cpko6Nne5vHfECdgE_sdeC5qeRzeQCDPvZomy_coDpkjmsf33yHAsGkrpmW9Glyw6YPn7FvGkrfJmPEc0TIiIwivKXkXazMnEN_n4BmAP_zx40U_la0v17plrexIVpCaDkcPLHTd6g=m22',
+                src: 'https://lh3.googleusercontent.com/q9sPcht7AS1Jj5p-gd_mJxDWxax5R88x1xhm9WLQ6FnbBsAMiDP-puuvQAvbQnJay2C6aKtXz3HndA3ah7YoutbDsAQZ71_eAz06lDhmKRu3JE4ug4bluUr0McwcM58oXlaEtrRxng=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/q9sPcht7AS1Jj5p-gd_mJxDWxax5R88x1xhm9WLQ6FnbBsAMiDP-puuvQAvbQnJay2C6aKtXz3HndA3ah7YoutbDsAQZ71_eAz06lDhmKRu3JE4ug4bluUr0McwcM58oXlaEtrRxng=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/cpko6Nne5vHfECdgE_sdeC5qeRzeQCDPvZomy_coDpkjmsf33yHAsGkrpmW9Glyw6YPn7FvGkrfJmPEc0TIiIwivKXkXazMnEN_n4BmAP_zx40U_la0v17plrexIVpCaDkcPLHTd6g=m18',
+                src: 'https://lh3.googleusercontent.com/q9sPcht7AS1Jj5p-gd_mJxDWxax5R88x1xhm9WLQ6FnbBsAMiDP-puuvQAvbQnJay2C6aKtXz3HndA3ah7YoutbDsAQZ71_eAz06lDhmKRu3JE4ug4bluUr0McwcM58oXlaEtrRxng=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -728,18 +1066,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20027.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 27',
         name: 'Episode 27',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/oqCPQ4o9ziTTuq__iKiXrPv_I9zkXpA8zkqaSqfWuda3hVLcLr9WSKF0iHo4CUj1KxupVWfbhbE7pn69yEGH76UJZI5_oaRDiXI8DVA0VOgPshbDSR8WzF9hPlDPeQuWIN18sSlr5Q=m22',
+                src: 'https://lh3.googleusercontent.com/VZxFc2OFuHiDj17amFyXx7ThJnCttm9blVRF91NWlCAapRY6ZHSboLQBnG19_9PmwdUPanWj1WqIdiDS0ZxqWXCWlpcpG5hIvvNf7gwrLjTYWa_dhIFbb5KUEBg7PI2pnBN6dEEnHA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/VZxFc2OFuHiDj17amFyXx7ThJnCttm9blVRF91NWlCAapRY6ZHSboLQBnG19_9PmwdUPanWj1WqIdiDS0ZxqWXCWlpcpG5hIvvNf7gwrLjTYWa_dhIFbb5KUEBg7PI2pnBN6dEEnHA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/oqCPQ4o9ziTTuq__iKiXrPv_I9zkXpA8zkqaSqfWuda3hVLcLr9WSKF0iHo4CUj1KxupVWfbhbE7pn69yEGH76UJZI5_oaRDiXI8DVA0VOgPshbDSR8WzF9hPlDPeQuWIN18sSlr5Q=m18',
+                src: 'https://lh3.googleusercontent.com/VZxFc2OFuHiDj17amFyXx7ThJnCttm9blVRF91NWlCAapRY6ZHSboLQBnG19_9PmwdUPanWj1WqIdiDS0ZxqWXCWlpcpG5hIvvNf7gwrLjTYWa_dhIFbb5KUEBg7PI2pnBN6dEEnHA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -756,18 +1107,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20028.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 28',
         name: 'Episode 28',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/YXlEbuLh6CV9Hod-l3zXFjP9hE5ia7Dq-wb2k5sSwMJiCTtMK10VfBaIdH2koxAGE4f_LRBbyEHAmPMdPLCEZ864q2LlPaqb4zbRURMIOKmCoX591b2cPguL1Z-KQB3aBrOOPdNbSA=m22',
+                src: 'https://lh3.googleusercontent.com/lLa7TRI6VksaIBLMJtb13Gkl_vPjSMFylWfC4uzqRchPkjDYIlEQowdDczGBV-TdIx2cASZo0QQ7mZzY4I3u-vusObz_ZLCaoOFZ0B7tMf00emzX22DmBAibaN_Y4_l4-r84h1VTPQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/lLa7TRI6VksaIBLMJtb13Gkl_vPjSMFylWfC4uzqRchPkjDYIlEQowdDczGBV-TdIx2cASZo0QQ7mZzY4I3u-vusObz_ZLCaoOFZ0B7tMf00emzX22DmBAibaN_Y4_l4-r84h1VTPQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/YXlEbuLh6CV9Hod-l3zXFjP9hE5ia7Dq-wb2k5sSwMJiCTtMK10VfBaIdH2koxAGE4f_LRBbyEHAmPMdPLCEZ864q2LlPaqb4zbRURMIOKmCoX591b2cPguL1Z-KQB3aBrOOPdNbSA=m18',
+                src: 'https://lh3.googleusercontent.com/lLa7TRI6VksaIBLMJtb13Gkl_vPjSMFylWfC4uzqRchPkjDYIlEQowdDczGBV-TdIx2cASZo0QQ7mZzY4I3u-vusObz_ZLCaoOFZ0B7tMf00emzX22DmBAibaN_Y4_l4-r84h1VTPQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -784,18 +1148,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20029.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 29',
         name: 'Episode 29',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/fB5ItODsAebbJ0_2CNRcL_6NilmdKwIlRIQdE56rXxgptHEGB8-Dv_g40IjSLZNpjRNG27WxVMKwGX-UtHhb4NwFr95OV6JOrA9QJtLSXtD-ULLKIcjTql8iJVtP6U7G4SlJjMUskw=m22',
+                src: 'https://lh3.googleusercontent.com/BkIBoClawtH6jTGVhCDhIa9pG39OIRe09ZvfBOWJnPV_-On5jrZ0YIM-uoTm35LLXvHME7KoMUlqF0IFWkQtACPswSxohTcb80cwjg-p7S5vv_Q-iftECyjg6SbF09tAj1rst0hmOg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/BkIBoClawtH6jTGVhCDhIa9pG39OIRe09ZvfBOWJnPV_-On5jrZ0YIM-uoTm35LLXvHME7KoMUlqF0IFWkQtACPswSxohTcb80cwjg-p7S5vv_Q-iftECyjg6SbF09tAj1rst0hmOg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/fB5ItODsAebbJ0_2CNRcL_6NilmdKwIlRIQdE56rXxgptHEGB8-Dv_g40IjSLZNpjRNG27WxVMKwGX-UtHhb4NwFr95OV6JOrA9QJtLSXtD-ULLKIcjTql8iJVtP6U7G4SlJjMUskw=m18',
+                src: 'https://lh3.googleusercontent.com/BkIBoClawtH6jTGVhCDhIa9pG39OIRe09ZvfBOWJnPV_-On5jrZ0YIM-uoTm35LLXvHME7KoMUlqF0IFWkQtACPswSxohTcb80cwjg-p7S5vv_Q-iftECyjg6SbF09tAj1rst0hmOg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -812,18 +1189,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20030.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 30',
         name: 'Episode 30',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/BI0IyQXUhuHVn39AsNiY1P07Zd2Y1qxNNUrG2Ux7gWYkHvGzhFt1yQ6GvcyNuhuhWieGcyeUMDPJSdIMUKGSwHBs99l3cwmNqtx9rpK3jqLJ_pRN0BqzL6IIYhVWHiOlh3bysH3Llg=m22',
+                src: 'https://lh3.googleusercontent.com/PKt_Am929vN3OdYK5umT0gDO_AmgGpkiHHlbIZKPY1GypRWinNG9FOruJXXgngi9o9QeqhbgwgdLrOmBH5X3QroePbDtsrzPE5aiYZW7jKUiBFh8-EmKSc5dARMUAAc5LzhmwdCS-w=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/PKt_Am929vN3OdYK5umT0gDO_AmgGpkiHHlbIZKPY1GypRWinNG9FOruJXXgngi9o9QeqhbgwgdLrOmBH5X3QroePbDtsrzPE5aiYZW7jKUiBFh8-EmKSc5dARMUAAc5LzhmwdCS-w=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/BI0IyQXUhuHVn39AsNiY1P07Zd2Y1qxNNUrG2Ux7gWYkHvGzhFt1yQ6GvcyNuhuhWieGcyeUMDPJSdIMUKGSwHBs99l3cwmNqtx9rpK3jqLJ_pRN0BqzL6IIYhVWHiOlh3bysH3Llg=m18',
+                src: 'https://lh3.googleusercontent.com/PKt_Am929vN3OdYK5umT0gDO_AmgGpkiHHlbIZKPY1GypRWinNG9FOruJXXgngi9o9QeqhbgwgdLrOmBH5X3QroePbDtsrzPE5aiYZW7jKUiBFh8-EmKSc5dARMUAAc5LzhmwdCS-w=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -840,18 +1230,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20031.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 31',
         name: 'Episode 31',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/SNFFX7acWaOkuOVF1YR5373nyF_DIXDpLnXe7Pb6j3svsFFHeIY3caZiJoiD1JfE6hk-lAc0EEPIM5b5npgRYpkWrZ0ahtd3JnMdf9L11fv8V9T7ZLryY-5UopL-UzJPgT24z_rGNA=m22',
+                src: 'https://lh3.googleusercontent.com/mnkNok1IoBXPBoN7Nhk0dCwvjr_XAAcv_OasiPowuB6_AdHUMqniY5ZMMNOGD8TwitWWEd2I7d4_U4t7k45Yq4rN6qB7HLSR9Pbi83zbaa2maC1RcqFuufzLkDENEgrymeX_TIuOdQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/mnkNok1IoBXPBoN7Nhk0dCwvjr_XAAcv_OasiPowuB6_AdHUMqniY5ZMMNOGD8TwitWWEd2I7d4_U4t7k45Yq4rN6qB7HLSR9Pbi83zbaa2maC1RcqFuufzLkDENEgrymeX_TIuOdQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/SNFFX7acWaOkuOVF1YR5373nyF_DIXDpLnXe7Pb6j3svsFFHeIY3caZiJoiD1JfE6hk-lAc0EEPIM5b5npgRYpkWrZ0ahtd3JnMdf9L11fv8V9T7ZLryY-5UopL-UzJPgT24z_rGNA=m18',
+                src: 'https://lh3.googleusercontent.com/mnkNok1IoBXPBoN7Nhk0dCwvjr_XAAcv_OasiPowuB6_AdHUMqniY5ZMMNOGD8TwitWWEd2I7d4_U4t7k45Yq4rN6qB7HLSR9Pbi83zbaa2maC1RcqFuufzLkDENEgrymeX_TIuOdQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -868,18 +1271,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20032.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 32',
         name: 'Episode 32',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/c54z77Eh3gpclVtrFYsMbALas2vApihXJx8wJtSkTBHAV-n4dfa15-34pMK2X4HtR1Zg5hJwPkWnzV5lZnYEir_V7BF0vUtzggsHhRgOIOKqkVsl4zGrtNln1OopGPe3kEWXLcgAlw=m22',
+                src: 'https://lh3.googleusercontent.com/coOtCeFIh3laViJCgGcnP4Cg3ItumvpW81aVapnTu_OvWXn7DflTnvyDVdyvCGonGmZ4J_Kwft8wTag4cvn8IIeBKQdgcXd0NIzm8-C8fHDFDUrzPgjYFC-EMYN1R8IzCe_RQP1LxA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/coOtCeFIh3laViJCgGcnP4Cg3ItumvpW81aVapnTu_OvWXn7DflTnvyDVdyvCGonGmZ4J_Kwft8wTag4cvn8IIeBKQdgcXd0NIzm8-C8fHDFDUrzPgjYFC-EMYN1R8IzCe_RQP1LxA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/c54z77Eh3gpclVtrFYsMbALas2vApihXJx8wJtSkTBHAV-n4dfa15-34pMK2X4HtR1Zg5hJwPkWnzV5lZnYEir_V7BF0vUtzggsHhRgOIOKqkVsl4zGrtNln1OopGPe3kEWXLcgAlw=m18',
+                src: 'https://lh3.googleusercontent.com/coOtCeFIh3laViJCgGcnP4Cg3ItumvpW81aVapnTu_OvWXn7DflTnvyDVdyvCGonGmZ4J_Kwft8wTag4cvn8IIeBKQdgcXd0NIzm8-C8fHDFDUrzPgjYFC-EMYN1R8IzCe_RQP1LxA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -896,18 +1312,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20033.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 33',
         name: 'Episode 33',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/TDWVNAUR1QFRBJgcewQGsBUI9wL4bmlnP_Qn0bvL2z-nAY9v9CMun2IbgwuaxGYKBjw_NoMQ1orXJRvWh0uq4FnC76DQWG3rFVGOOeVQVEas6BDkQEkD_1C6JOxlgHBtSTxydMTOBw=m22',
+                src: 'https://lh3.googleusercontent.com/IcyoBq09Yjbm4pv9YHPZX1alMP4NbsyimWVcdHm5XI0qaODIIPFCJz-v0VIjbyhD4qoKbg2vxQboyKowTOXb9vJNfZZiKkG3__GPkgOKIZz0Qwgx0QfV0kR5XOsBvi78TTfi29s1jQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/IcyoBq09Yjbm4pv9YHPZX1alMP4NbsyimWVcdHm5XI0qaODIIPFCJz-v0VIjbyhD4qoKbg2vxQboyKowTOXb9vJNfZZiKkG3__GPkgOKIZz0Qwgx0QfV0kR5XOsBvi78TTfi29s1jQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/TDWVNAUR1QFRBJgcewQGsBUI9wL4bmlnP_Qn0bvL2z-nAY9v9CMun2IbgwuaxGYKBjw_NoMQ1orXJRvWh0uq4FnC76DQWG3rFVGOOeVQVEas6BDkQEkD_1C6JOxlgHBtSTxydMTOBw=m18',
+                src: 'https://lh3.googleusercontent.com/IcyoBq09Yjbm4pv9YHPZX1alMP4NbsyimWVcdHm5XI0qaODIIPFCJz-v0VIjbyhD4qoKbg2vxQboyKowTOXb9vJNfZZiKkG3__GPkgOKIZz0Qwgx0QfV0kR5XOsBvi78TTfi29s1jQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -924,18 +1353,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20034.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 34',
         name: 'Episode 34',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/-_zNPsv08gETxWX8HuN95Asrz0JjyVT7-e3wKnWB44COpE7wXukUTWLK8biSb9uDSq38OKXeIecJHMg4BrwmhNvMOYxAfZSmE1ZIhTpGuVQEot7y7q6oEe52Xke7tsiUQPfyVHUd6g=m22',
+                src: 'https://lh3.googleusercontent.com/P93l1iYX00IQSkx75ts7qgNNfGRBF3sohUTWuU4kcBIuURuGQDk_h5vfLeqPkHju6MFefhaJGpyqjegQRvJFRvJ7Lc46VK13_7Pc8mwtHu5FqEN0BoE2q41Zbvq5yqlAOqE--3eFpA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/P93l1iYX00IQSkx75ts7qgNNfGRBF3sohUTWuU4kcBIuURuGQDk_h5vfLeqPkHju6MFefhaJGpyqjegQRvJFRvJ7Lc46VK13_7Pc8mwtHu5FqEN0BoE2q41Zbvq5yqlAOqE--3eFpA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/-_zNPsv08gETxWX8HuN95Asrz0JjyVT7-e3wKnWB44COpE7wXukUTWLK8biSb9uDSq38OKXeIecJHMg4BrwmhNvMOYxAfZSmE1ZIhTpGuVQEot7y7q6oEe52Xke7tsiUQPfyVHUd6g=m18',
+                src: 'https://lh3.googleusercontent.com/P93l1iYX00IQSkx75ts7qgNNfGRBF3sohUTWuU4kcBIuURuGQDk_h5vfLeqPkHju6MFefhaJGpyqjegQRvJFRvJ7Lc46VK13_7Pc8mwtHu5FqEN0BoE2q41Zbvq5yqlAOqE--3eFpA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -952,18 +1394,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20035.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 35',
         name: 'Episode 35',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/-PFSEJqCbAZsWd3yXknj_umyvzmw6izdigmfJo_73gj-LAUnZSEY-C5KQXDSR2FIJe9mjr93XarJwvMCcY9MYYPFXA9VgW-8o8Aw7KAnyP1wnzvYUiXEnadFpAg-hQM3VJPGWyAs6Q=m22',
+                src: 'https://lh3.googleusercontent.com/JqumaojNCcdoMawWERFsKQ1HdD_HQsUhka12Z0CizIBZm-cmlpSQbLIelKwCDceFGAARQaDG6DwT9-x5GEEpoDt2CMMBBDDYU1-WDAbPyktNDfQiwB2z_A4coWsSqMea4WA2DuA50g=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/JqumaojNCcdoMawWERFsKQ1HdD_HQsUhka12Z0CizIBZm-cmlpSQbLIelKwCDceFGAARQaDG6DwT9-x5GEEpoDt2CMMBBDDYU1-WDAbPyktNDfQiwB2z_A4coWsSqMea4WA2DuA50g=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/-PFSEJqCbAZsWd3yXknj_umyvzmw6izdigmfJo_73gj-LAUnZSEY-C5KQXDSR2FIJe9mjr93XarJwvMCcY9MYYPFXA9VgW-8o8Aw7KAnyP1wnzvYUiXEnadFpAg-hQM3VJPGWyAs6Q=m18',
+                src: 'https://lh3.googleusercontent.com/JqumaojNCcdoMawWERFsKQ1HdD_HQsUhka12Z0CizIBZm-cmlpSQbLIelKwCDceFGAARQaDG6DwT9-x5GEEpoDt2CMMBBDDYU1-WDAbPyktNDfQiwB2z_A4coWsSqMea4WA2DuA50g=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -980,18 +1435,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20036.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 36',
         name: 'Episode 36',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/hhmeM7HgfbAXvuVQ3iEsZ6Lw0nVvGTFy-LQimE2l4QhMHGBb9KKpfh4mNbzgKg0hfxO8nf4mgd-MEifG_nFVH04bX5XHrxgT_JZy9Oc2lODTGqRv5bD3bw5NVPE1EDx4VjS_xWO4Pw=m22',
+                src: 'https://lh3.googleusercontent.com/_9xKol_-vsI_pdg6tisgcgthYcHr1AaGbBSMPANj4oGDAHFfNCn-xlgsXdAXvBuk0NXnIcMzDKLERr8-n26gxBtV0I82UYCOa738heFDperWx7hV1Tw2kpr83OEPyUApdkg9tVA4ww=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/_9xKol_-vsI_pdg6tisgcgthYcHr1AaGbBSMPANj4oGDAHFfNCn-xlgsXdAXvBuk0NXnIcMzDKLERr8-n26gxBtV0I82UYCOa738heFDperWx7hV1Tw2kpr83OEPyUApdkg9tVA4ww=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/hhmeM7HgfbAXvuVQ3iEsZ6Lw0nVvGTFy-LQimE2l4QhMHGBb9KKpfh4mNbzgKg0hfxO8nf4mgd-MEifG_nFVH04bX5XHrxgT_JZy9Oc2lODTGqRv5bD3bw5NVPE1EDx4VjS_xWO4Pw=m18',
+                src: 'https://lh3.googleusercontent.com/_9xKol_-vsI_pdg6tisgcgthYcHr1AaGbBSMPANj4oGDAHFfNCn-xlgsXdAXvBuk0NXnIcMzDKLERr8-n26gxBtV0I82UYCOa738heFDperWx7hV1Tw2kpr83OEPyUApdkg9tVA4ww=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1008,18 +1476,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20037.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 37',
         name: 'Episode 37',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/1u1VB-b6QEJNt3CuMMBEHQKJIyLQd_iELJ3Hzz7F5sv57MJekqXnKU6bgFrpLKfVdv1HmZ-eAAqljNObe8sOPRNm67jhcSucfuTmiAS0v5BDWotmthhkpgMhDbH5qhxhWVDI6zfqqg=m22',
+                src: 'https://lh3.googleusercontent.com/QWczsoG7P1KSCmPKOiYPodzntkmckGXHiGQk3DNAN55SCL8R9Mu5GDQWailaKnNWxPgMeT87ePeuWgSMHl0k7JjIp2LX_gca5TKuDQjrv6FtcmGzk58BTR7f6Xc5a8xFNGl2qCgz-A=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/QWczsoG7P1KSCmPKOiYPodzntkmckGXHiGQk3DNAN55SCL8R9Mu5GDQWailaKnNWxPgMeT87ePeuWgSMHl0k7JjIp2LX_gca5TKuDQjrv6FtcmGzk58BTR7f6Xc5a8xFNGl2qCgz-A=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/1u1VB-b6QEJNt3CuMMBEHQKJIyLQd_iELJ3Hzz7F5sv57MJekqXnKU6bgFrpLKfVdv1HmZ-eAAqljNObe8sOPRNm67jhcSucfuTmiAS0v5BDWotmthhkpgMhDbH5qhxhWVDI6zfqqg=m18',
+                src: 'https://lh3.googleusercontent.com/QWczsoG7P1KSCmPKOiYPodzntkmckGXHiGQk3DNAN55SCL8R9Mu5GDQWailaKnNWxPgMeT87ePeuWgSMHl0k7JjIp2LX_gca5TKuDQjrv6FtcmGzk58BTR7f6Xc5a8xFNGl2qCgz-A=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1036,18 +1517,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20038.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 38',
         name: 'Episode 38',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/1sDFjQIH2uJ3NZ4woR_MV30x9d3-J1qkxYRbFczlBbusiY4dEj1SjZQdukT0FshrIVyUYkWaYGkroGZFVB8HfId-kfW-9Y8oGK-NYl4CxYCBo98xFgs5Y2nq61Nepv8EpRqUjhcp6A=m22',
+                src: 'https://lh3.googleusercontent.com/4KPjrnz25P4OI-0WGrECW2XgBO4lbP585YbBRgjRbrVQ_WF233s0fRqV3RsgZzjfDCVXTf22Ve43XM79KxwEjPG6HSM8Lc6V363QpvFlUSpHMAOoc25stqoxrlEZnnupLkaPCqlWwA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/4KPjrnz25P4OI-0WGrECW2XgBO4lbP585YbBRgjRbrVQ_WF233s0fRqV3RsgZzjfDCVXTf22Ve43XM79KxwEjPG6HSM8Lc6V363QpvFlUSpHMAOoc25stqoxrlEZnnupLkaPCqlWwA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/1sDFjQIH2uJ3NZ4woR_MV30x9d3-J1qkxYRbFczlBbusiY4dEj1SjZQdukT0FshrIVyUYkWaYGkroGZFVB8HfId-kfW-9Y8oGK-NYl4CxYCBo98xFgs5Y2nq61Nepv8EpRqUjhcp6A=m18',
+                src: 'https://lh3.googleusercontent.com/4KPjrnz25P4OI-0WGrECW2XgBO4lbP585YbBRgjRbrVQ_WF233s0fRqV3RsgZzjfDCVXTf22Ve43XM79KxwEjPG6HSM8Lc6V363QpvFlUSpHMAOoc25stqoxrlEZnnupLkaPCqlWwA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1064,18 +1558,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20039.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 39',
         name: 'Episode 39',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/U79QqTu0IbRdtRPjT8G8log_wV3EDnPqZeYnvFFAy5XomdGgjEBJ-Vuy78cGQoROHIlMrsQPTmQ_H5zeYSCtiNBR19L6mDUvmLJmoYC9kGolr9FJLQfx3U_WGY9TPfpFYzObG_0DUw=m22',
+                src: 'https://lh3.googleusercontent.com/5mBjswPDd82urV6MtCrBbWZ01zIVxGURQx0FfLfBhTkwcGAAmDtXI_3oAFyZSoG9YRjp4WC7qFPSD7RviZrnyXOnE1_nx68aBsmKsMp0hGW5lQU7VDiIlVDGr3OEuUtTzl76kz_Z1w=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/5mBjswPDd82urV6MtCrBbWZ01zIVxGURQx0FfLfBhTkwcGAAmDtXI_3oAFyZSoG9YRjp4WC7qFPSD7RviZrnyXOnE1_nx68aBsmKsMp0hGW5lQU7VDiIlVDGr3OEuUtTzl76kz_Z1w=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/U79QqTu0IbRdtRPjT8G8log_wV3EDnPqZeYnvFFAy5XomdGgjEBJ-Vuy78cGQoROHIlMrsQPTmQ_H5zeYSCtiNBR19L6mDUvmLJmoYC9kGolr9FJLQfx3U_WGY9TPfpFYzObG_0DUw=m18',
+                src: 'https://lh3.googleusercontent.com/5mBjswPDd82urV6MtCrBbWZ01zIVxGURQx0FfLfBhTkwcGAAmDtXI_3oAFyZSoG9YRjp4WC7qFPSD7RviZrnyXOnE1_nx68aBsmKsMp0hGW5lQU7VDiIlVDGr3OEuUtTzl76kz_Z1w=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1092,18 +1599,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20040.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 40',
         name: 'Episode 40',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/bwD1PTmAFhqtZ2L_EFpJ_TjbyMNJIqblMh9vJGD1yXGzl6vfy8q-Tq8ujAaFFYxCnQcAMVnDdxxVOtQXJMxKCLGDcY6hXmHdIO17-otrrF5tqeUJIRK4hp5L9NluvzvwtYqti1j1vQ=m22',
+                src: 'https://lh3.googleusercontent.com/9Rh38sK9knYA8p9BAUgDi_399bH0z1OR4RR0S5ddq4hg3pTPwc2FwrcSIdCQUga9JghTyv26Z-5i3pr38grl1hlWj8B_DD4_jSSRAjkSD16LqSldGz6uJcyYlL4Y5aF4o1_s9W-Ytg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/9Rh38sK9knYA8p9BAUgDi_399bH0z1OR4RR0S5ddq4hg3pTPwc2FwrcSIdCQUga9JghTyv26Z-5i3pr38grl1hlWj8B_DD4_jSSRAjkSD16LqSldGz6uJcyYlL4Y5aF4o1_s9W-Ytg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/bwD1PTmAFhqtZ2L_EFpJ_TjbyMNJIqblMh9vJGD1yXGzl6vfy8q-Tq8ujAaFFYxCnQcAMVnDdxxVOtQXJMxKCLGDcY6hXmHdIO17-otrrF5tqeUJIRK4hp5L9NluvzvwtYqti1j1vQ=m18',
+                src: 'https://lh3.googleusercontent.com/9Rh38sK9knYA8p9BAUgDi_399bH0z1OR4RR0S5ddq4hg3pTPwc2FwrcSIdCQUga9JghTyv26Z-5i3pr38grl1hlWj8B_DD4_jSSRAjkSD16LqSldGz6uJcyYlL4Y5aF4o1_s9W-Ytg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1120,18 +1640,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20041.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 41',
         name: 'Episode 41',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/HfJ0nzbzEgUTe7ZoiAZ2PaqNc-GeAiF8AIqPpwxUfuj4uJ7uRUqkjaRNnqCq0IDvpqOhAyU4jXsndlp5sT39olHWQJyBV06djV6PqjFDLyUyVQbsaINuYv5F7dxEM17esQFOXjURWA=m22',
+                src: 'https://lh3.googleusercontent.com/ITCnGrzrTxYZrXRpLsycLE07qi1erTDV3hG9n7PabVH_nz6UZS4wAzoHc85zOe-mwCQTb0_tdV5psmQPUbn0qEWEslt2SUNwWcjIqSnm9VdRhfokFn-jhb7-iOdr3FKfA0hTRLO1_g=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/ITCnGrzrTxYZrXRpLsycLE07qi1erTDV3hG9n7PabVH_nz6UZS4wAzoHc85zOe-mwCQTb0_tdV5psmQPUbn0qEWEslt2SUNwWcjIqSnm9VdRhfokFn-jhb7-iOdr3FKfA0hTRLO1_g=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/HfJ0nzbzEgUTe7ZoiAZ2PaqNc-GeAiF8AIqPpwxUfuj4uJ7uRUqkjaRNnqCq0IDvpqOhAyU4jXsndlp5sT39olHWQJyBV06djV6PqjFDLyUyVQbsaINuYv5F7dxEM17esQFOXjURWA=m18',
+                src: 'https://lh3.googleusercontent.com/ITCnGrzrTxYZrXRpLsycLE07qi1erTDV3hG9n7PabVH_nz6UZS4wAzoHc85zOe-mwCQTb0_tdV5psmQPUbn0qEWEslt2SUNwWcjIqSnm9VdRhfokFn-jhb7-iOdr3FKfA0hTRLO1_g=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1148,18 +1681,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20042.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 42',
         name: 'Episode 42',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/VmZTzniGdrzlNog6kRc7N9a877B_iGI6ESj-ieNcvhaMdnlG_PjWCemeYjUDeke4Dq-745kk9rMoTvH1KuCGJXwO8Hi9wMchiQ4-huv4pRHQbYnlGuoLboFV_u7pa7LF72GN24h0Ew=m22',
+                src: 'https://lh3.googleusercontent.com/wt-DDOt_FMXSu-ixN4HCxZjZo0r40FT9nXOa4HemUXOPI4ezWtE455ouZ0AiuukoYil6tFxeQCXSqJiN5kRpw6yCKIh1pOnACmUbAXFJBxQo5TwemGoTtC0KvKVgla9yut9mLBC-8Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/wt-DDOt_FMXSu-ixN4HCxZjZo0r40FT9nXOa4HemUXOPI4ezWtE455ouZ0AiuukoYil6tFxeQCXSqJiN5kRpw6yCKIh1pOnACmUbAXFJBxQo5TwemGoTtC0KvKVgla9yut9mLBC-8Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/VmZTzniGdrzlNog6kRc7N9a877B_iGI6ESj-ieNcvhaMdnlG_PjWCemeYjUDeke4Dq-745kk9rMoTvH1KuCGJXwO8Hi9wMchiQ4-huv4pRHQbYnlGuoLboFV_u7pa7LF72GN24h0Ew=m18',
+                src: 'https://lh3.googleusercontent.com/wt-DDOt_FMXSu-ixN4HCxZjZo0r40FT9nXOa4HemUXOPI4ezWtE455ouZ0AiuukoYil6tFxeQCXSqJiN5kRpw6yCKIh1pOnACmUbAXFJBxQo5TwemGoTtC0KvKVgla9yut9mLBC-8Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1176,18 +1722,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20043.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 43',
         name: 'Episode 43',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/eL0VkbBsG38jStMwDoX5Tu6eg76ZE0Qn-LfmHiOvAiZaB_pF7iTDbMcB0ejNrl9Fc2qyqs17k9NNIPe19AHv6rJViYIUoVI3U0Yd-_SEbR1tkfxENdjmjd5Ym0mnJSgxbbGu0KpKMA=m22',
+                src: 'https://lh3.googleusercontent.com/sj3YtdkX6ohF0p2UyMaEwCtejO-L3plXg_x342pHfRmb9piHiLQU0NyrGXefgtoIqwamDuxsmkRMna4jPoq--d-AQNfvHgegPFVSaQJ-2bXniTLdaEXHhvUzGAyAJ8_llp9iKdd_ZA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/sj3YtdkX6ohF0p2UyMaEwCtejO-L3plXg_x342pHfRmb9piHiLQU0NyrGXefgtoIqwamDuxsmkRMna4jPoq--d-AQNfvHgegPFVSaQJ-2bXniTLdaEXHhvUzGAyAJ8_llp9iKdd_ZA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/eL0VkbBsG38jStMwDoX5Tu6eg76ZE0Qn-LfmHiOvAiZaB_pF7iTDbMcB0ejNrl9Fc2qyqs17k9NNIPe19AHv6rJViYIUoVI3U0Yd-_SEbR1tkfxENdjmjd5Ym0mnJSgxbbGu0KpKMA=m18',
+                src: 'https://lh3.googleusercontent.com/sj3YtdkX6ohF0p2UyMaEwCtejO-L3plXg_x342pHfRmb9piHiLQU0NyrGXefgtoIqwamDuxsmkRMna4jPoq--d-AQNfvHgegPFVSaQJ-2bXniTLdaEXHhvUzGAyAJ8_llp9iKdd_ZA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1204,18 +1763,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20044.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 44',
         name: 'Episode 44',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/uvE1oiueY_ne-f6JKfZvCOKZv8I2J2LqJE0g97jX6ALLtUJPwyCnaWsBglYyURMPRkK6TL2nIUXEF8Vlq3RsDhlcx-NZSVSsA-ntOwY42_VrM9EfIsguhPZCDQF-Nq1_y79rpdLAfQ=m22',
+                src: 'https://lh3.googleusercontent.com/1zOia7w2-JbAIVIUgMX8u3xX0-BCBeNbp0IF0E6C4fRJjet33E6OD-sKkXRhof9TXbaR9C_P5pS4u148FWQBBbbReR9ICrn5faQFxatEqlUYx3uBIg2zqKwmD6MASclTUh6AyqcYVg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/1zOia7w2-JbAIVIUgMX8u3xX0-BCBeNbp0IF0E6C4fRJjet33E6OD-sKkXRhof9TXbaR9C_P5pS4u148FWQBBbbReR9ICrn5faQFxatEqlUYx3uBIg2zqKwmD6MASclTUh6AyqcYVg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/uvE1oiueY_ne-f6JKfZvCOKZv8I2J2LqJE0g97jX6ALLtUJPwyCnaWsBglYyURMPRkK6TL2nIUXEF8Vlq3RsDhlcx-NZSVSsA-ntOwY42_VrM9EfIsguhPZCDQF-Nq1_y79rpdLAfQ=m18',
+                src: 'https://lh3.googleusercontent.com/1zOia7w2-JbAIVIUgMX8u3xX0-BCBeNbp0IF0E6C4fRJjet33E6OD-sKkXRhof9TXbaR9C_P5pS4u148FWQBBbbReR9ICrn5faQFxatEqlUYx3uBIg2zqKwmD6MASclTUh6AyqcYVg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1232,18 +1804,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20045.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 45',
         name: 'Episode 45',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/bsWugRTDS5ig5_eIDNK5BinlLeIrA57Jjwezgpno1khW0wgva3PuGUAHoWSHq10ns-ZLV7nCS8nQa4H-T4V4AP9vZy8sI9Qn1f8YYEttVqn1lAHu47-CdColDOA-cyQcCEUdUxef5g=m22',
+                src: 'https://lh3.googleusercontent.com/MHuZhAvFiHjSyRZTzZZhpXay7mUQoS3T4_igK8hUeFTRDUdW6INfNplgovk9E3TRX4ov6HxjCR9E-te5ejv8s9EMKbxAAuASVy5xEakU6QRYXjfpm6nwD8g68vgzw4PvTRlPOCBO_w=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/MHuZhAvFiHjSyRZTzZZhpXay7mUQoS3T4_igK8hUeFTRDUdW6INfNplgovk9E3TRX4ov6HxjCR9E-te5ejv8s9EMKbxAAuASVy5xEakU6QRYXjfpm6nwD8g68vgzw4PvTRlPOCBO_w=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/bsWugRTDS5ig5_eIDNK5BinlLeIrA57Jjwezgpno1khW0wgva3PuGUAHoWSHq10ns-ZLV7nCS8nQa4H-T4V4AP9vZy8sI9Qn1f8YYEttVqn1lAHu47-CdColDOA-cyQcCEUdUxef5g=m18',
+                src: 'https://lh3.googleusercontent.com/MHuZhAvFiHjSyRZTzZZhpXay7mUQoS3T4_igK8hUeFTRDUdW6INfNplgovk9E3TRX4ov6HxjCR9E-te5ejv8s9EMKbxAAuASVy5xEakU6QRYXjfpm6nwD8g68vgzw4PvTRlPOCBO_w=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1260,18 +1845,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20046.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 46',
         name: 'Episode 46',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/jN2wnDvsUSuroPxNprHDugJo2bQKXaqZXfVYde9utwdg-eyJ-6K5CSyNIpvM0kbMIzNhK77w3uoFmtYm0pSbLXTt6w-1i30fCP_cPjpoTiCoJNtErMEV5x9F5KMROsxI0JNFefphgw=m22',
+                src: 'https://lh3.googleusercontent.com/ZCTRsb5f4Oo-HUVG1U2z1mTtlCTxyWkIsbFOeeoRtYxAmMvAxCxaVTHWW3P9JTPKLKlOtmUHTs1kzFL3lAjFZ7gRtb_CSfnbA1OBlSjVMLzgc9LVZKhm0wyFHUKLVNQp_h1cnK0W_Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/ZCTRsb5f4Oo-HUVG1U2z1mTtlCTxyWkIsbFOeeoRtYxAmMvAxCxaVTHWW3P9JTPKLKlOtmUHTs1kzFL3lAjFZ7gRtb_CSfnbA1OBlSjVMLzgc9LVZKhm0wyFHUKLVNQp_h1cnK0W_Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/jN2wnDvsUSuroPxNprHDugJo2bQKXaqZXfVYde9utwdg-eyJ-6K5CSyNIpvM0kbMIzNhK77w3uoFmtYm0pSbLXTt6w-1i30fCP_cPjpoTiCoJNtErMEV5x9F5KMROsxI0JNFefphgw=m18',
+                src: 'https://lh3.googleusercontent.com/ZCTRsb5f4Oo-HUVG1U2z1mTtlCTxyWkIsbFOeeoRtYxAmMvAxCxaVTHWW3P9JTPKLKlOtmUHTs1kzFL3lAjFZ7gRtb_CSfnbA1OBlSjVMLzgc9LVZKhm0wyFHUKLVNQp_h1cnK0W_Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1288,18 +1886,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20047.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 47',
         name: 'Episode 47',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/3wvAIHNHwiIy7LD4V6E0HyYlH5BEp8Zu3pz59rw2kxoAV5LCMjIPoHRbIgwMnCBzEVOpDglg4boOBlUFvH5h6BPBOTA-9f1oQXdnxoDxnnoAHRH9ME-148KSLMob1DV5xVcAoWkwiA=m22',
+                src: 'https://lh3.googleusercontent.com/kq1dQhJ3TMJTddsXZyQNuastkelFisDHZehoqOVOUCtASVW3-e4BrF0iIR6qFIFxouNcybJ5vzVZddWAkv5eW15AmeBiaD94ysNqtUhCYNFiNuYubwKxcEhTFEg_ZalKfH_GGsLenQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/kq1dQhJ3TMJTddsXZyQNuastkelFisDHZehoqOVOUCtASVW3-e4BrF0iIR6qFIFxouNcybJ5vzVZddWAkv5eW15AmeBiaD94ysNqtUhCYNFiNuYubwKxcEhTFEg_ZalKfH_GGsLenQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/3wvAIHNHwiIy7LD4V6E0HyYlH5BEp8Zu3pz59rw2kxoAV5LCMjIPoHRbIgwMnCBzEVOpDglg4boOBlUFvH5h6BPBOTA-9f1oQXdnxoDxnnoAHRH9ME-148KSLMob1DV5xVcAoWkwiA=m18',
+                src: 'https://lh3.googleusercontent.com/kq1dQhJ3TMJTddsXZyQNuastkelFisDHZehoqOVOUCtASVW3-e4BrF0iIR6qFIFxouNcybJ5vzVZddWAkv5eW15AmeBiaD94ysNqtUhCYNFiNuYubwKxcEhTFEg_ZalKfH_GGsLenQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1316,18 +1927,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20048.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 48',
         name: 'Episode 48',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/EGikavw-jx4JLGhVczjEp42DbuS6LtsDyNM81dUhePg11Mx4XuEmFAN43VLONSEzE2mCVKygXhVWTglYNX44riV55AkVIb6HnQor8YK-lALtfnVc0CdaQvinOd3GadAC-vaHZMJyQg=m22',
+                src: 'https://lh3.googleusercontent.com/vU7oKB9VIfQtPPv_dH54joqCHDjy6x0E8AsiGO47SzU4Ux00uu0tMnNXOU8_85MdWWP9SqRpgvHz5vxRiOgZzIf1cCwHy2p-jsLSktSyCOEXk3F0fK6l4vj7-rIrM3FN89vPIFmXbQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/vU7oKB9VIfQtPPv_dH54joqCHDjy6x0E8AsiGO47SzU4Ux00uu0tMnNXOU8_85MdWWP9SqRpgvHz5vxRiOgZzIf1cCwHy2p-jsLSktSyCOEXk3F0fK6l4vj7-rIrM3FN89vPIFmXbQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/EGikavw-jx4JLGhVczjEp42DbuS6LtsDyNM81dUhePg11Mx4XuEmFAN43VLONSEzE2mCVKygXhVWTglYNX44riV55AkVIb6HnQor8YK-lALtfnVc0CdaQvinOd3GadAC-vaHZMJyQg=m18',
+                src: 'https://lh3.googleusercontent.com/vU7oKB9VIfQtPPv_dH54joqCHDjy6x0E8AsiGO47SzU4Ux00uu0tMnNXOU8_85MdWWP9SqRpgvHz5vxRiOgZzIf1cCwHy2p-jsLSktSyCOEXk3F0fK6l4vj7-rIrM3FN89vPIFmXbQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1344,18 +1968,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20049.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 49',
         name: 'Episode 49',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/NRXzANTwdnnjKJlT-g1oCEPWaasiMoKqzjhhw4CLZLxL0OUzyqIerkIdVkRJVi2cB2ypXBDjSNGpotyGmU3aQxK5ZVrLmfPYPUyVvhw8ZmumYYCaUa1tc05Ac6i-QwjUaTfDYTxXTQ=m22',
+                src: 'https://lh3.googleusercontent.com/UnNnbxKs96WD6PGG2v0NaKnyP1LPoNXWYe3QwDtVbLoDDmzNA11QeaP_qStDOJqyPcfitur0NnKznT-SUXU7LBlLhQ3BAMAN6j3ruFRAIQYWo1y02lOY8_No2rdum0-ZGfNarVt8Bw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/UnNnbxKs96WD6PGG2v0NaKnyP1LPoNXWYe3QwDtVbLoDDmzNA11QeaP_qStDOJqyPcfitur0NnKznT-SUXU7LBlLhQ3BAMAN6j3ruFRAIQYWo1y02lOY8_No2rdum0-ZGfNarVt8Bw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/NRXzANTwdnnjKJlT-g1oCEPWaasiMoKqzjhhw4CLZLxL0OUzyqIerkIdVkRJVi2cB2ypXBDjSNGpotyGmU3aQxK5ZVrLmfPYPUyVvhw8ZmumYYCaUa1tc05Ac6i-QwjUaTfDYTxXTQ=m18',
+                src: 'https://lh3.googleusercontent.com/UnNnbxKs96WD6PGG2v0NaKnyP1LPoNXWYe3QwDtVbLoDDmzNA11QeaP_qStDOJqyPcfitur0NnKznT-SUXU7LBlLhQ3BAMAN6j3ruFRAIQYWo1y02lOY8_No2rdum0-ZGfNarVt8Bw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1372,18 +2009,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20050.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 50',
         name: 'Episode 50',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/WtxlzLy4UVRRdLol_8XLQiW863i5xziEC6xhpdLTnrZKVwXOayciJdQc-XnINT1yqxlxdnkdbgCpY0vKGyCNwdRb63a3ly9yV8KnnEZ7frDQIZiaGQhCIiHC0HQEEnVIdAGqdIIbVQ=m22',
+                src: 'https://lh3.googleusercontent.com/ac0GVuZnPycuBCTxDW6-jdztwCs0ITRKaqDSqSnrru-1VXyerfWFXUpA8a8ycHfBBO1GGC_jFskXr5RlLU4rzwlpiKVetZ5uYpUYPFiBQ9r4Zy4CVxRsVKPU3VBpzWwXRkX1lPJEcw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/ac0GVuZnPycuBCTxDW6-jdztwCs0ITRKaqDSqSnrru-1VXyerfWFXUpA8a8ycHfBBO1GGC_jFskXr5RlLU4rzwlpiKVetZ5uYpUYPFiBQ9r4Zy4CVxRsVKPU3VBpzWwXRkX1lPJEcw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/WtxlzLy4UVRRdLol_8XLQiW863i5xziEC6xhpdLTnrZKVwXOayciJdQc-XnINT1yqxlxdnkdbgCpY0vKGyCNwdRb63a3ly9yV8KnnEZ7frDQIZiaGQhCIiHC0HQEEnVIdAGqdIIbVQ=m18',
+                src: 'https://lh3.googleusercontent.com/ac0GVuZnPycuBCTxDW6-jdztwCs0ITRKaqDSqSnrru-1VXyerfWFXUpA8a8ycHfBBO1GGC_jFskXr5RlLU4rzwlpiKVetZ5uYpUYPFiBQ9r4Zy4CVxRsVKPU3VBpzWwXRkX1lPJEcw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1400,18 +2050,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20051.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 51',
         name: 'Episode 51',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/sGAEjWwSvbJk6WBwvyOdCq_UMC_aYCdI7K7JpOGIuHW26i4MJmmBsh6CtqRSc50z7fIORN66itNuNDToEZc01Ym067RhiGPsY8V2uinXf5FDkTDGsKsAdB9zcQ3_JB-2IEHCbZOTgA=m22',
+                src: 'https://lh3.googleusercontent.com/z-nDQqCXGYdwdsXkfZyFR99PmgyRBmdqUyLTvGXKI6-0qyYvUScwJMMVgT9BTyZ2LJVS8OTRUWifGNO3NXRweW7I4N4SF2ZDDPF6ofhE6Z_4BUwWQIvRM7V3-E1GrDgdhfjbztiTLA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/z-nDQqCXGYdwdsXkfZyFR99PmgyRBmdqUyLTvGXKI6-0qyYvUScwJMMVgT9BTyZ2LJVS8OTRUWifGNO3NXRweW7I4N4SF2ZDDPF6ofhE6Z_4BUwWQIvRM7V3-E1GrDgdhfjbztiTLA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/sGAEjWwSvbJk6WBwvyOdCq_UMC_aYCdI7K7JpOGIuHW26i4MJmmBsh6CtqRSc50z7fIORN66itNuNDToEZc01Ym067RhiGPsY8V2uinXf5FDkTDGsKsAdB9zcQ3_JB-2IEHCbZOTgA=m18',
+                src: 'https://lh3.googleusercontent.com/z-nDQqCXGYdwdsXkfZyFR99PmgyRBmdqUyLTvGXKI6-0qyYvUScwJMMVgT9BTyZ2LJVS8OTRUWifGNO3NXRweW7I4N4SF2ZDDPF6ofhE6Z_4BUwWQIvRM7V3-E1GrDgdhfjbztiTLA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1428,18 +2091,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20052.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 52',
         name: 'Episode 52',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/7hozeChimXt0txLYiTIgkJOu8vbt0DwSZcjhruynnGfG0EP8VPZYAsz5weEbkpfUxGaEMjxhwlN-M5J7sYpseYcCKvnI6n1vwlz1hVg1AoEok8RpHftWHGN1xWOWsjJkOvxerSQV7A=m22',
+                src: 'https://lh3.googleusercontent.com/O6Zvudc6yM5JCTZaoTHGobgeh9IdHfXq-1vJvs0BV3hd152i25DK5BxycQ0gvwIuTxak1wGDDkanMny3pBk7N0k10c2MjNESIiJ-yqCPi9afCzo4JyRnTAsl2LkrJMoxXDnrmoVy4A=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/O6Zvudc6yM5JCTZaoTHGobgeh9IdHfXq-1vJvs0BV3hd152i25DK5BxycQ0gvwIuTxak1wGDDkanMny3pBk7N0k10c2MjNESIiJ-yqCPi9afCzo4JyRnTAsl2LkrJMoxXDnrmoVy4A=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/7hozeChimXt0txLYiTIgkJOu8vbt0DwSZcjhruynnGfG0EP8VPZYAsz5weEbkpfUxGaEMjxhwlN-M5J7sYpseYcCKvnI6n1vwlz1hVg1AoEok8RpHftWHGN1xWOWsjJkOvxerSQV7A=m18',
+                src: 'https://lh3.googleusercontent.com/O6Zvudc6yM5JCTZaoTHGobgeh9IdHfXq-1vJvs0BV3hd152i25DK5BxycQ0gvwIuTxak1wGDDkanMny3pBk7N0k10c2MjNESIiJ-yqCPi9afCzo4JyRnTAsl2LkrJMoxXDnrmoVy4A=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1456,18 +2132,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20053.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 53',
         name: 'Episode 53',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/C4QHLAI2f57AoZXHB8tTIDwVO6g5b7ursjaGiMSgQm0c_Asnjb6Y9OWvBaePb6_WWjtj8ylgicpLdeveN7iurpvYthS4_dabQOUSBhWwL6m-GMuudnKU_uRb5QRhTzVnvewGHWwzYA=m22',
+                src: 'https://lh3.googleusercontent.com/cCVEQNpFo0UH8u-aSbEc-MnWWIhUmgmW15SqQ9d_ZPR02e56aSoc6V7D5pfb29I0PrgQv9mqtAbz-2YuaA1_ed_jONaUhxpyDs6vrSXHMw94Qk_arlyx3thPmahWmpRzwc8_Nl2JrA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/cCVEQNpFo0UH8u-aSbEc-MnWWIhUmgmW15SqQ9d_ZPR02e56aSoc6V7D5pfb29I0PrgQv9mqtAbz-2YuaA1_ed_jONaUhxpyDs6vrSXHMw94Qk_arlyx3thPmahWmpRzwc8_Nl2JrA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/C4QHLAI2f57AoZXHB8tTIDwVO6g5b7ursjaGiMSgQm0c_Asnjb6Y9OWvBaePb6_WWjtj8ylgicpLdeveN7iurpvYthS4_dabQOUSBhWwL6m-GMuudnKU_uRb5QRhTzVnvewGHWwzYA=m18',
+                src: 'https://lh3.googleusercontent.com/cCVEQNpFo0UH8u-aSbEc-MnWWIhUmgmW15SqQ9d_ZPR02e56aSoc6V7D5pfb29I0PrgQv9mqtAbz-2YuaA1_ed_jONaUhxpyDs6vrSXHMw94Qk_arlyx3thPmahWmpRzwc8_Nl2JrA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1484,18 +2173,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20054.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 54',
         name: 'Episode 54',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/ijUZq-oehLtrnhUOBw0KAstGpPy9zl8FzvbDuI0mdRvwh1el5QyIyQ-ueOlHDs1htafXA82WxfIl78RiUbRyBPMv6yHMVAlc4VGb577fSot4YG3HiqWwvgOMY1YhhrJA4Gho6Dmp6w=m22',
+                src: 'https://lh3.googleusercontent.com/TBfI-ZC85zFO7TE5iLrVCBn75wE-HDdGqz7cChmdbQ4O_Oci0YZy2OFngyV8f_I9atlQdgv_rE13CilqRTtD1Aa2yepBRNpdWNaCnwZxjqXEl-UlCHR2jek7D4i3hg3GdTBUz4OYXA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/TBfI-ZC85zFO7TE5iLrVCBn75wE-HDdGqz7cChmdbQ4O_Oci0YZy2OFngyV8f_I9atlQdgv_rE13CilqRTtD1Aa2yepBRNpdWNaCnwZxjqXEl-UlCHR2jek7D4i3hg3GdTBUz4OYXA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/ijUZq-oehLtrnhUOBw0KAstGpPy9zl8FzvbDuI0mdRvwh1el5QyIyQ-ueOlHDs1htafXA82WxfIl78RiUbRyBPMv6yHMVAlc4VGb577fSot4YG3HiqWwvgOMY1YhhrJA4Gho6Dmp6w=m18',
+                src: 'https://lh3.googleusercontent.com/TBfI-ZC85zFO7TE5iLrVCBn75wE-HDdGqz7cChmdbQ4O_Oci0YZy2OFngyV8f_I9atlQdgv_rE13CilqRTtD1Aa2yepBRNpdWNaCnwZxjqXEl-UlCHR2jek7D4i3hg3GdTBUz4OYXA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1512,18 +2214,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20055.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 55',
         name: 'Episode 55',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/bTUWLBgoErUapMOJwbt-4n-ls-JxxBYpEibxqDldRNUYh3-1yqGXKXs9u1e-8HgcQakWZ_GCxVW-I9ufuv-VniDOzmhVCcKsXtfX3cpXVQwy2w2JIfImf9Fa-IlFhEhKWY3E-BMz9g=m22',
+                src: 'https://lh3.googleusercontent.com/7mKlYSnLemNeDh8oAcY97XMwvT0z6xf-umqnMpMlP_feBSYBFHKxIB0z_reJaZMT_U1W7iE9dHdm2qg6Ol8ZeJWw4ZWYuW8QGuaHinwULld9AVgIy5LylWh8DzvidtOikgd9pierNA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/7mKlYSnLemNeDh8oAcY97XMwvT0z6xf-umqnMpMlP_feBSYBFHKxIB0z_reJaZMT_U1W7iE9dHdm2qg6Ol8ZeJWw4ZWYuW8QGuaHinwULld9AVgIy5LylWh8DzvidtOikgd9pierNA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/bTUWLBgoErUapMOJwbt-4n-ls-JxxBYpEibxqDldRNUYh3-1yqGXKXs9u1e-8HgcQakWZ_GCxVW-I9ufuv-VniDOzmhVCcKsXtfX3cpXVQwy2w2JIfImf9Fa-IlFhEhKWY3E-BMz9g=m18',
+                src: 'https://lh3.googleusercontent.com/7mKlYSnLemNeDh8oAcY97XMwvT0z6xf-umqnMpMlP_feBSYBFHKxIB0z_reJaZMT_U1W7iE9dHdm2qg6Ol8ZeJWw4ZWYuW8QGuaHinwULld9AVgIy5LylWh8DzvidtOikgd9pierNA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1540,18 +2255,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20056.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 56',
         name: 'Episode 56',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/Dkkek8wIGa8LahzVHvtAMuiS11DvOvY87cNYYftubnGtRbl0szRyathVr684TjChvmHChUItF1lI-mXM9Qv3o3LN3fNkBMps59GUjaPbvyBIOTtzKFJvFOZmd-RL-Wi8O_3aMgCYWw=m22',
+                src: 'https://lh3.googleusercontent.com/-cGXhMypVVlMjs3xkNOpYjugJYyNo8qrss-iTDnc4ufoOhSamEQuieLwtKgqcX7Gc2gipLxI-AC8yuERpQR0l1QyEqYBbpkvyd3o8UMn5OP9U7eQ_4erogkhLj5OLxi9heb50GKWOg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/-cGXhMypVVlMjs3xkNOpYjugJYyNo8qrss-iTDnc4ufoOhSamEQuieLwtKgqcX7Gc2gipLxI-AC8yuERpQR0l1QyEqYBbpkvyd3o8UMn5OP9U7eQ_4erogkhLj5OLxi9heb50GKWOg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/Dkkek8wIGa8LahzVHvtAMuiS11DvOvY87cNYYftubnGtRbl0szRyathVr684TjChvmHChUItF1lI-mXM9Qv3o3LN3fNkBMps59GUjaPbvyBIOTtzKFJvFOZmd-RL-Wi8O_3aMgCYWw=m18',
+                src: 'https://lh3.googleusercontent.com/-cGXhMypVVlMjs3xkNOpYjugJYyNo8qrss-iTDnc4ufoOhSamEQuieLwtKgqcX7Gc2gipLxI-AC8yuERpQR0l1QyEqYBbpkvyd3o8UMn5OP9U7eQ_4erogkhLj5OLxi9heb50GKWOg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1568,18 +2296,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20057.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 57',
         name: 'Episode 57',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/NheIMtpCFT5VcY8Jh6BD2vk1RY3AqOPrvbUHL6hYg7VLq7ffjHy3FzYqSYCkyjw5sNZGZ5StTezdVZgRIBsj-2KPCP9P5tVedtLSK1DJWsyzjSlBCUNB1pcKlNONhp3tymoZ_7ypRg=m22',
+                src: 'https://lh3.googleusercontent.com/gHffsifF3bEFXW7tjq4o9FBC0T5D-ksiigRTw3UzFxftx5wMWnpO_zbYIge6_2tmzAjBO_jvPP-o2aqFPfA4QbkLxA2RXO2x_AZ35apOPIB9LsZ0LF82r-0JIeFJfVSaLMH_F4USpQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/gHffsifF3bEFXW7tjq4o9FBC0T5D-ksiigRTw3UzFxftx5wMWnpO_zbYIge6_2tmzAjBO_jvPP-o2aqFPfA4QbkLxA2RXO2x_AZ35apOPIB9LsZ0LF82r-0JIeFJfVSaLMH_F4USpQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/NheIMtpCFT5VcY8Jh6BD2vk1RY3AqOPrvbUHL6hYg7VLq7ffjHy3FzYqSYCkyjw5sNZGZ5StTezdVZgRIBsj-2KPCP9P5tVedtLSK1DJWsyzjSlBCUNB1pcKlNONhp3tymoZ_7ypRg=m18',
+                src: 'https://lh3.googleusercontent.com/gHffsifF3bEFXW7tjq4o9FBC0T5D-ksiigRTw3UzFxftx5wMWnpO_zbYIge6_2tmzAjBO_jvPP-o2aqFPfA4QbkLxA2RXO2x_AZ35apOPIB9LsZ0LF82r-0JIeFJfVSaLMH_F4USpQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1596,18 +2337,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20058.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 58',
         name: 'Episode 58',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/RNxhLWAVtrBiy8e8etJ3Wavv664Q0lN-wR1D8UnPqoo7SelXl92VXZfGQrSddFFbIGbbPbminctT_klbCxvJwJ9aDwuMFjs_sDoV0-P0xxe_ry_amf12ARN3FVXNboWDxq7pOJkU3g=m22',
+                src: 'https://lh3.googleusercontent.com/9bUXaewy1UMOSGrEae8WWpgVAog5LXO9zyNNxp2sPziWhm8ULcc0JIDdotkjDyOF3G3GGN3DPtpo4C4VStlaQYKk0Qki8eFIwmt_O4RsQCTNxnT2uKy6ITNXsv4pAFnv-mmtXJVQTQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/9bUXaewy1UMOSGrEae8WWpgVAog5LXO9zyNNxp2sPziWhm8ULcc0JIDdotkjDyOF3G3GGN3DPtpo4C4VStlaQYKk0Qki8eFIwmt_O4RsQCTNxnT2uKy6ITNXsv4pAFnv-mmtXJVQTQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/RNxhLWAVtrBiy8e8etJ3Wavv664Q0lN-wR1D8UnPqoo7SelXl92VXZfGQrSddFFbIGbbPbminctT_klbCxvJwJ9aDwuMFjs_sDoV0-P0xxe_ry_amf12ARN3FVXNboWDxq7pOJkU3g=m18',
+                src: 'https://lh3.googleusercontent.com/9bUXaewy1UMOSGrEae8WWpgVAog5LXO9zyNNxp2sPziWhm8ULcc0JIDdotkjDyOF3G3GGN3DPtpo4C4VStlaQYKk0Qki8eFIwmt_O4RsQCTNxnT2uKy6ITNXsv4pAFnv-mmtXJVQTQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1624,18 +2378,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20059.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 59',
         name: 'Episode 59',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/Hlui72J7B9v6wg_eHEhBMR_V1oAMY_9EtzflrWImjCOC9dfvAupxGGxhhXForIYczTYLDT3xLB1lMJYEmB0p8NlmR7Ecu1_O29S5lTXFAlL1N49XmCEleqqoLi7yKs1A08E0OwUpug=m22',
+                src: 'https://lh3.googleusercontent.com/wlrshdSBJaGO5UQ21J8dEaT7tpNg_kkU0C3nXYX-O0UGC1VHKcEb9QTjAQxsdKPglqvdMBCovc9heOGPyvXJ5-OyeAclRAkr9Wk1l3l9bIdKMpzAm3c0dSPKTp-D7Hx6BApzkUU7Fg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/wlrshdSBJaGO5UQ21J8dEaT7tpNg_kkU0C3nXYX-O0UGC1VHKcEb9QTjAQxsdKPglqvdMBCovc9heOGPyvXJ5-OyeAclRAkr9Wk1l3l9bIdKMpzAm3c0dSPKTp-D7Hx6BApzkUU7Fg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/Hlui72J7B9v6wg_eHEhBMR_V1oAMY_9EtzflrWImjCOC9dfvAupxGGxhhXForIYczTYLDT3xLB1lMJYEmB0p8NlmR7Ecu1_O29S5lTXFAlL1N49XmCEleqqoLi7yKs1A08E0OwUpug=m18',
+                src: 'https://lh3.googleusercontent.com/wlrshdSBJaGO5UQ21J8dEaT7tpNg_kkU0C3nXYX-O0UGC1VHKcEb9QTjAQxsdKPglqvdMBCovc9heOGPyvXJ5-OyeAclRAkr9Wk1l3l9bIdKMpzAm3c0dSPKTp-D7Hx6BApzkUU7Fg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1652,18 +2419,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20060.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 60',
         name: 'Episode 60',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/koalF7-_bWV-kf_VqsWmzqQ2qRZTWbOlX1Z2jlzUV9xP1t5VbDwNRoRUJUDCYAkkcFoYGKja0u_V1xi1j8cFHTo_q4hWzZ-ZwKv15bM3TpaD9b7ZjHRSSM1trlFplKYF6pn5qRUvOg=m22',
+                src: 'https://lh3.googleusercontent.com/0RnfiQ0oRo-ruHVD-upDdxhgh_Tnh2u5gT_9b3ng2QwCMzq25eJiA6IMgUbOZKU2eezTVu8DuFM8jg2DTg5oUdOdSuH5ZPgIBgIlXaivbKlU9Yo6fSuSFrxpW46VHntJ5t3k7LRM9Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/0RnfiQ0oRo-ruHVD-upDdxhgh_Tnh2u5gT_9b3ng2QwCMzq25eJiA6IMgUbOZKU2eezTVu8DuFM8jg2DTg5oUdOdSuH5ZPgIBgIlXaivbKlU9Yo6fSuSFrxpW46VHntJ5t3k7LRM9Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/koalF7-_bWV-kf_VqsWmzqQ2qRZTWbOlX1Z2jlzUV9xP1t5VbDwNRoRUJUDCYAkkcFoYGKja0u_V1xi1j8cFHTo_q4hWzZ-ZwKv15bM3TpaD9b7ZjHRSSM1trlFplKYF6pn5qRUvOg=m18',
+                src: 'https://lh3.googleusercontent.com/0RnfiQ0oRo-ruHVD-upDdxhgh_Tnh2u5gT_9b3ng2QwCMzq25eJiA6IMgUbOZKU2eezTVu8DuFM8jg2DTg5oUdOdSuH5ZPgIBgIlXaivbKlU9Yo6fSuSFrxpW46VHntJ5t3k7LRM9Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1680,18 +2460,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20061.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 61',
         name: 'Episode 61',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/RKxTnnhya0m4iwGq7tXk_sYJJUiwj8h277ABFfSi6jPcXJohIfIRQXCtYHhmNQBf6KYYxwhhClf51L-2CQj-n3D2MuPJher9xCM7oUhRBGF4M4eIG-o0czJ1a4Ioludf13jjg1X8Gw=m22',
+                src: 'https://lh3.googleusercontent.com/xhhvxI8y-rlINwN1tAyWr05s0IRoUvnoCo3pvKB7xrBfLiAYjJ8VR2eHHej2WkwuvKTvPbESil7LHlP851MBiHr4VfKppV6-XYFAC7Iac0ss14t8afbqiYaOFGJxqMqiKwol4U883A=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/xhhvxI8y-rlINwN1tAyWr05s0IRoUvnoCo3pvKB7xrBfLiAYjJ8VR2eHHej2WkwuvKTvPbESil7LHlP851MBiHr4VfKppV6-XYFAC7Iac0ss14t8afbqiYaOFGJxqMqiKwol4U883A=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/RKxTnnhya0m4iwGq7tXk_sYJJUiwj8h277ABFfSi6jPcXJohIfIRQXCtYHhmNQBf6KYYxwhhClf51L-2CQj-n3D2MuPJher9xCM7oUhRBGF4M4eIG-o0czJ1a4Ioludf13jjg1X8Gw=m18',
+                src: 'https://lh3.googleusercontent.com/xhhvxI8y-rlINwN1tAyWr05s0IRoUvnoCo3pvKB7xrBfLiAYjJ8VR2eHHej2WkwuvKTvPbESil7LHlP851MBiHr4VfKppV6-XYFAC7Iac0ss14t8afbqiYaOFGJxqMqiKwol4U883A=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1708,18 +2501,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20062.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 62',
         name: 'Episode 62',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/nyc9f2EoB0RevUMqX-RPpn8uyoXHxBsnXte00PYeCZkLB55eF0G8bNu9GeWfmjEIubyr3eKC8f2WbnM0_H3s_ZRQ8sx3RgClauBhk7GP5llxK5CWZdwDvIeoHrgFPxiLmocRsZ2XuQ=m22',
+                src: 'https://lh3.googleusercontent.com/K_QIQOQayk01JsfvKfl2P300BkiVMI5MvfK_o2Sw6yPSNEqyoq4A-kkB1ZZZjJiHU-50lck7bgJDx3xOtBtY0BUkx1Mq68s619p-DnJFXdPzF6WX3q71clM5ML6R4J44SKKv_JEffw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/K_QIQOQayk01JsfvKfl2P300BkiVMI5MvfK_o2Sw6yPSNEqyoq4A-kkB1ZZZjJiHU-50lck7bgJDx3xOtBtY0BUkx1Mq68s619p-DnJFXdPzF6WX3q71clM5ML6R4J44SKKv_JEffw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/nyc9f2EoB0RevUMqX-RPpn8uyoXHxBsnXte00PYeCZkLB55eF0G8bNu9GeWfmjEIubyr3eKC8f2WbnM0_H3s_ZRQ8sx3RgClauBhk7GP5llxK5CWZdwDvIeoHrgFPxiLmocRsZ2XuQ=m18',
+                src: 'https://lh3.googleusercontent.com/K_QIQOQayk01JsfvKfl2P300BkiVMI5MvfK_o2Sw6yPSNEqyoq4A-kkB1ZZZjJiHU-50lck7bgJDx3xOtBtY0BUkx1Mq68s619p-DnJFXdPzF6WX3q71clM5ML6R4J44SKKv_JEffw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1736,18 +2542,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20063.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 63',
         name: 'Episode 63',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/k3Bpeni-yffACJyEe_YZR0EGzXWIxUXLdFgpoUzk8YHgIwf8G5KyW6gR_0Z3ctyy5jyase4-4wsC-xKfUzLrsA0S7pBwEsW9U-jiaAJdrCaGIz3iyU0JmQGvpuKnO3USo4x0BvrIcQ=m22',
+                src: 'https://lh3.googleusercontent.com/HORz2mdEpodtc6DJ_QCaMjE6SEiB4BFM0NxuQM89Ib8cbQPzX8M80nW_tHgjaRvbybLMHTqIkgGAz0Ikp9EBjZwh_VJrCqQp4xl8gZyhO0Vhtha49P00tprywTj2AC2gy1SrHCMZDQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/HORz2mdEpodtc6DJ_QCaMjE6SEiB4BFM0NxuQM89Ib8cbQPzX8M80nW_tHgjaRvbybLMHTqIkgGAz0Ikp9EBjZwh_VJrCqQp4xl8gZyhO0Vhtha49P00tprywTj2AC2gy1SrHCMZDQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/k3Bpeni-yffACJyEe_YZR0EGzXWIxUXLdFgpoUzk8YHgIwf8G5KyW6gR_0Z3ctyy5jyase4-4wsC-xKfUzLrsA0S7pBwEsW9U-jiaAJdrCaGIz3iyU0JmQGvpuKnO3USo4x0BvrIcQ=m18',
+                src: 'https://lh3.googleusercontent.com/HORz2mdEpodtc6DJ_QCaMjE6SEiB4BFM0NxuQM89Ib8cbQPzX8M80nW_tHgjaRvbybLMHTqIkgGAz0Ikp9EBjZwh_VJrCqQp4xl8gZyhO0Vhtha49P00tprywTj2AC2gy1SrHCMZDQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1764,18 +2583,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20064.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 64',
         name: 'Episode 64',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/qURDVEolgYrX5YEGDY4vhBaI0fvXOdTo5z6C0-adVhaylTJkXAHzZGqEmwtXYCcR3ex8fXEHx4mU_Kt63RPquQbBRTyCftWN63DvyzlyPJho1lnDlfjNxCQUodw2RxGHUUjdGVJ6GA=m22',
+                src: 'https://lh3.googleusercontent.com/aFuLk7EYjmLAbLLXoAIFoLjBFlMeeAXsfLgiPGen5gf9388Zq5iHol9qxZL9uXoFJ2iy0fUa9DWin3c_jcgTpHzlpFwAd33w54npmz0atF7xUX4waOiME_-rVq8tHMx2feP61dX8pQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/aFuLk7EYjmLAbLLXoAIFoLjBFlMeeAXsfLgiPGen5gf9388Zq5iHol9qxZL9uXoFJ2iy0fUa9DWin3c_jcgTpHzlpFwAd33w54npmz0atF7xUX4waOiME_-rVq8tHMx2feP61dX8pQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/qURDVEolgYrX5YEGDY4vhBaI0fvXOdTo5z6C0-adVhaylTJkXAHzZGqEmwtXYCcR3ex8fXEHx4mU_Kt63RPquQbBRTyCftWN63DvyzlyPJho1lnDlfjNxCQUodw2RxGHUUjdGVJ6GA=m18',
+                src: 'https://lh3.googleusercontent.com/aFuLk7EYjmLAbLLXoAIFoLjBFlMeeAXsfLgiPGen5gf9388Zq5iHol9qxZL9uXoFJ2iy0fUa9DWin3c_jcgTpHzlpFwAd33w54npmz0atF7xUX4waOiME_-rVq8tHMx2feP61dX8pQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1792,18 +2624,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20065.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 65',
         name: 'Episode 65',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/i3uCKqh0_WoAli5FgP10s5iVhRUKs7uhIjyrC3xm8y-h78X3RjNOIZHr0cT_WVU-CSLL0j3n3CqLjAJ-w4pRuuDp0qRfUqO8gf-lAg9K4aEU3qU-ULx_PAEJBegiRakAMYVBwY2TxQ=m22',
+                src: 'https://lh3.googleusercontent.com/jiVd7NYKJ2SuFwvSbD1hnaPxerK0KJPmU0VLU8wkPsqr0P_Cproshl4wmqc7BvJOhxa-rGFbpTjHRex_MCYJ4jsFYYcKfQDVUI_bVhpTMsj4-CfHu6fVzXD-NcAiKWW9EQMi72b1bg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/jiVd7NYKJ2SuFwvSbD1hnaPxerK0KJPmU0VLU8wkPsqr0P_Cproshl4wmqc7BvJOhxa-rGFbpTjHRex_MCYJ4jsFYYcKfQDVUI_bVhpTMsj4-CfHu6fVzXD-NcAiKWW9EQMi72b1bg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/i3uCKqh0_WoAli5FgP10s5iVhRUKs7uhIjyrC3xm8y-h78X3RjNOIZHr0cT_WVU-CSLL0j3n3CqLjAJ-w4pRuuDp0qRfUqO8gf-lAg9K4aEU3qU-ULx_PAEJBegiRakAMYVBwY2TxQ=m18',
+                src: 'https://lh3.googleusercontent.com/jiVd7NYKJ2SuFwvSbD1hnaPxerK0KJPmU0VLU8wkPsqr0P_Cproshl4wmqc7BvJOhxa-rGFbpTjHRex_MCYJ4jsFYYcKfQDVUI_bVhpTMsj4-CfHu6fVzXD-NcAiKWW9EQMi72b1bg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1820,18 +2665,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20066.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 66',
         name: 'Episode 66',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/vvByxpoK4QPWTURWzvXyPhVRLmdrah5HzJX2ouxXNwakeOvFWuAJH_dOSh1u3IB29_NmemAsAto8N698A6rgXO2HIbukYct7nRkZczFiUdjXuWxfBJJX5vLAQvWlLbpvlgUday_o7A=m22',
+                src: 'https://lh3.googleusercontent.com/XQqcorC4TPboWUrl8xM7JFat4vJS895swpWe1jJ1eEohYeNWGd4XXR4upGzYOM6og9YOBu3pShTb-9LteusAwnHCtf3JgKevPHfHqpcFkyHpltq58g6Gilalhf6Aw54gUkQ6my-CcA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/XQqcorC4TPboWUrl8xM7JFat4vJS895swpWe1jJ1eEohYeNWGd4XXR4upGzYOM6og9YOBu3pShTb-9LteusAwnHCtf3JgKevPHfHqpcFkyHpltq58g6Gilalhf6Aw54gUkQ6my-CcA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/vvByxpoK4QPWTURWzvXyPhVRLmdrah5HzJX2ouxXNwakeOvFWuAJH_dOSh1u3IB29_NmemAsAto8N698A6rgXO2HIbukYct7nRkZczFiUdjXuWxfBJJX5vLAQvWlLbpvlgUday_o7A=m18',
+                src: 'https://lh3.googleusercontent.com/XQqcorC4TPboWUrl8xM7JFat4vJS895swpWe1jJ1eEohYeNWGd4XXR4upGzYOM6og9YOBu3pShTb-9LteusAwnHCtf3JgKevPHfHqpcFkyHpltq58g6Gilalhf6Aw54gUkQ6my-CcA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1848,18 +2706,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20067.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 67',
         name: 'Episode 67',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/nZ9cKjo3ad99YvvpM8-0o5ETQpAMwLW3HtL9_2qt2CFBtap5ESKWOEZzI454lBDt9KD8lEkFbJ9Iu0lBdEicwmcxIZqEdqh6xdF-xW5jtbVUUYCWFcrmS5W0LmzWo5SckKWASdfiWg=m22',
+                src: 'https://lh3.googleusercontent.com/y5pHAfZgj-P7t_Ug3EPY_ECeNoaIJiIh_MQW0dWDC0FxUx7K1CWHuCIhIi-QRgskitKStXjjyrAOvOyHbV487FOLmjs9D_BR0MS_VZoZ_R6hwVxOpi7vYTrTFV6CNGKwpCpMiIemBA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/y5pHAfZgj-P7t_Ug3EPY_ECeNoaIJiIh_MQW0dWDC0FxUx7K1CWHuCIhIi-QRgskitKStXjjyrAOvOyHbV487FOLmjs9D_BR0MS_VZoZ_R6hwVxOpi7vYTrTFV6CNGKwpCpMiIemBA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/nZ9cKjo3ad99YvvpM8-0o5ETQpAMwLW3HtL9_2qt2CFBtap5ESKWOEZzI454lBDt9KD8lEkFbJ9Iu0lBdEicwmcxIZqEdqh6xdF-xW5jtbVUUYCWFcrmS5W0LmzWo5SckKWASdfiWg=m18',
+                src: 'https://lh3.googleusercontent.com/y5pHAfZgj-P7t_Ug3EPY_ECeNoaIJiIh_MQW0dWDC0FxUx7K1CWHuCIhIi-QRgskitKStXjjyrAOvOyHbV487FOLmjs9D_BR0MS_VZoZ_R6hwVxOpi7vYTrTFV6CNGKwpCpMiIemBA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1876,18 +2747,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20068.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 68',
         name: 'Episode 68',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/tCmOtRLLOyAw-9UEQh-0nFE0K8GMrMnbI90ruYDxrDoBfy78C1ZXd-y9ZHkzwpbzQmUFp_cBO620Lb5f68UBPcUI20btqOnvpXv6WIaY7an4yHOmfRLneQs3hgwsywEc-G3d_cw3ag=m22',
+                src: 'https://lh3.googleusercontent.com/08rhsbsqwCzkTvj9dcpsxHAOYeAEcBMbtI8z7MMkRNBw4qlYd7AsKj79lFn6Xxf5GK08f3zKh9lXDgFegFtMjbPQRMjOSaqaJR25AirUg6_2-8MitCQCtPZ8QknDYGLTG6RXtEloPg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/08rhsbsqwCzkTvj9dcpsxHAOYeAEcBMbtI8z7MMkRNBw4qlYd7AsKj79lFn6Xxf5GK08f3zKh9lXDgFegFtMjbPQRMjOSaqaJR25AirUg6_2-8MitCQCtPZ8QknDYGLTG6RXtEloPg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/tCmOtRLLOyAw-9UEQh-0nFE0K8GMrMnbI90ruYDxrDoBfy78C1ZXd-y9ZHkzwpbzQmUFp_cBO620Lb5f68UBPcUI20btqOnvpXv6WIaY7an4yHOmfRLneQs3hgwsywEc-G3d_cw3ag=m18',
+                src: 'https://lh3.googleusercontent.com/08rhsbsqwCzkTvj9dcpsxHAOYeAEcBMbtI8z7MMkRNBw4qlYd7AsKj79lFn6Xxf5GK08f3zKh9lXDgFegFtMjbPQRMjOSaqaJR25AirUg6_2-8MitCQCtPZ8QknDYGLTG6RXtEloPg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1904,18 +2788,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20069.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 69',
         name: 'Episode 69',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/bj_F0MGEZA3ESwHEnDwjjL_2Mnltr0u8ZMQZu_tZzKNySLVl63_mmh4IplJ-Sqzz7eI_AJRUVBVNy7tRrAvgyH2ULpd2iZ7p8fKOHoSAkUTC8Tis9xoUDsuo1lZh9OJCiCLdXh3p4g=m22',
+                src: 'https://lh3.googleusercontent.com/6KfxCyiL6qUobXRKN5M-k3PIOI8JFGU45LPq3mgJBkULPT1IsCX7YUpXzkV7rkxw215xncV6ThdCosF2k00o3kQHGxZuP5TKnCHjgnCV5QKD_KPaQQyT5bGGIQqJDyHGF-JI8rCinA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/6KfxCyiL6qUobXRKN5M-k3PIOI8JFGU45LPq3mgJBkULPT1IsCX7YUpXzkV7rkxw215xncV6ThdCosF2k00o3kQHGxZuP5TKnCHjgnCV5QKD_KPaQQyT5bGGIQqJDyHGF-JI8rCinA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/bj_F0MGEZA3ESwHEnDwjjL_2Mnltr0u8ZMQZu_tZzKNySLVl63_mmh4IplJ-Sqzz7eI_AJRUVBVNy7tRrAvgyH2ULpd2iZ7p8fKOHoSAkUTC8Tis9xoUDsuo1lZh9OJCiCLdXh3p4g=m18',
+                src: 'https://lh3.googleusercontent.com/6KfxCyiL6qUobXRKN5M-k3PIOI8JFGU45LPq3mgJBkULPT1IsCX7YUpXzkV7rkxw215xncV6ThdCosF2k00o3kQHGxZuP5TKnCHjgnCV5QKD_KPaQQyT5bGGIQqJDyHGF-JI8rCinA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1932,18 +2829,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20070.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 70',
         name: 'Episode 70',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/X4IIFDo3U8l5uYxGCLGrd16mlCgCKG_JYSXEX6D6IWSL3_YhWILX-xymWEed1WlHvT_YdJ88HsCq8e6s60sUz5CPlyn7nTRUaxyp6OLUJnDj5OltmWn0BLMs_Gc2RCsLxk9FmtolGg=m22',
+                src: 'https://lh3.googleusercontent.com/oWmy9lsWYj0vJHb9Px7RSwhePw7WWwd2b46W7tmJrI9ocrst1avH1L1sv91H1ms8ghXuTaiz5vn7N_P7R1POSl9YHYzY1fO-iZMGy3mmVLjGmA4jC0jp5XJuHWwL7Xyh-hnHJqFilg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/oWmy9lsWYj0vJHb9Px7RSwhePw7WWwd2b46W7tmJrI9ocrst1avH1L1sv91H1ms8ghXuTaiz5vn7N_P7R1POSl9YHYzY1fO-iZMGy3mmVLjGmA4jC0jp5XJuHWwL7Xyh-hnHJqFilg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/X4IIFDo3U8l5uYxGCLGrd16mlCgCKG_JYSXEX6D6IWSL3_YhWILX-xymWEed1WlHvT_YdJ88HsCq8e6s60sUz5CPlyn7nTRUaxyp6OLUJnDj5OltmWn0BLMs_Gc2RCsLxk9FmtolGg=m18',
+                src: 'https://lh3.googleusercontent.com/oWmy9lsWYj0vJHb9Px7RSwhePw7WWwd2b46W7tmJrI9ocrst1avH1L1sv91H1ms8ghXuTaiz5vn7N_P7R1POSl9YHYzY1fO-iZMGy3mmVLjGmA4jC0jp5XJuHWwL7Xyh-hnHJqFilg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1960,18 +2870,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20071.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 71',
         name: 'Episode 71',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/xkBbOWmf6V-kiF3fGtQbsnpXPOk8_IBMqMuEz8WlXm1TxeFbXhKvs3PpcWJ-V-d52EKov457-o42C0ksKZDxY1tgSuxQdjs8Mpb9Uq-yfq8X-QjngJ5sPHE3-SgS101PEld3AoxZow=m22',
+                src: 'https://lh3.googleusercontent.com/fOnyZ1GpX8MbfG9XmXrS3-hxm0jX7CrQuWE-GpIm1P9ciXSUntFmM9uYzrbyos9P4tEtyxOWRQ0jEWm41KM_MBLeJufvPFfGNkvHpPTcIbbEJG4QFBXAZzYhN_hZz9XxzREWOvcdyA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/fOnyZ1GpX8MbfG9XmXrS3-hxm0jX7CrQuWE-GpIm1P9ciXSUntFmM9uYzrbyos9P4tEtyxOWRQ0jEWm41KM_MBLeJufvPFfGNkvHpPTcIbbEJG4QFBXAZzYhN_hZz9XxzREWOvcdyA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/xkBbOWmf6V-kiF3fGtQbsnpXPOk8_IBMqMuEz8WlXm1TxeFbXhKvs3PpcWJ-V-d52EKov457-o42C0ksKZDxY1tgSuxQdjs8Mpb9Uq-yfq8X-QjngJ5sPHE3-SgS101PEld3AoxZow=m18',
+                src: 'https://lh3.googleusercontent.com/fOnyZ1GpX8MbfG9XmXrS3-hxm0jX7CrQuWE-GpIm1P9ciXSUntFmM9uYzrbyos9P4tEtyxOWRQ0jEWm41KM_MBLeJufvPFfGNkvHpPTcIbbEJG4QFBXAZzYhN_hZz9XxzREWOvcdyA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -1988,18 +2911,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20072.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 72',
         name: 'Episode 72',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/H7YB7TOTdlzUCzjUt8oGJI7wF66LxW8D3qtUx8B4DWVgPcJh79e9nH7UWjhvK2Pore1DVO9ekN63jtqk8MsOB_FBturnwIHidqACWgqMZxpE6tT4lqef6-ZEhv-eUiMKEMka3GHFtQ=m22',
+                src: 'https://lh3.googleusercontent.com/USHo4vo1OOq96QF2UkPFknxaFkIfT7TCT00GPgkO7J5rkxPRlPVTzlnrqyKwuIgtctFndpGj-jjqQ04Ouq4GfxSRUIBveD5MtokLnjEDeumKhEYY4F6jYjD3aC6qHt8tXp7W79iYwQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/USHo4vo1OOq96QF2UkPFknxaFkIfT7TCT00GPgkO7J5rkxPRlPVTzlnrqyKwuIgtctFndpGj-jjqQ04Ouq4GfxSRUIBveD5MtokLnjEDeumKhEYY4F6jYjD3aC6qHt8tXp7W79iYwQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/H7YB7TOTdlzUCzjUt8oGJI7wF66LxW8D3qtUx8B4DWVgPcJh79e9nH7UWjhvK2Pore1DVO9ekN63jtqk8MsOB_FBturnwIHidqACWgqMZxpE6tT4lqef6-ZEhv-eUiMKEMka3GHFtQ=m18',
+                src: 'https://lh3.googleusercontent.com/USHo4vo1OOq96QF2UkPFknxaFkIfT7TCT00GPgkO7J5rkxPRlPVTzlnrqyKwuIgtctFndpGj-jjqQ04Ouq4GfxSRUIBveD5MtokLnjEDeumKhEYY4F6jYjD3aC6qHt8tXp7W79iYwQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2016,18 +2952,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20073.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 73',
         name: 'Episode 73',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/AW6AZzDhQti1wgIymdhFzquhzXXY4OaiyLUqDcC1E6H86J3wUlmwRwYqhZX5tvJKVWAe6EzWj9t3MHjMWBxTZikq56iPUFx-K4EFL6qrO_hpvmGzXqeH2n3VQMyvcMy-KfDn9vRUbw=m22',
+                src: 'https://lh3.googleusercontent.com/ooClinHsVmOkvk5ZWA6-Y4JgwH9t0tOHxnbpwCRjkz_Kzr7i9z0Lgmjet_iFtFLVp5VKSMT3SOpH5mLcgREqseCPvbrySNr-HIhg5yNRDg6Iu0y3lgA4BOM4-DE8wKmTUGyJS2j25Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/ooClinHsVmOkvk5ZWA6-Y4JgwH9t0tOHxnbpwCRjkz_Kzr7i9z0Lgmjet_iFtFLVp5VKSMT3SOpH5mLcgREqseCPvbrySNr-HIhg5yNRDg6Iu0y3lgA4BOM4-DE8wKmTUGyJS2j25Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/AW6AZzDhQti1wgIymdhFzquhzXXY4OaiyLUqDcC1E6H86J3wUlmwRwYqhZX5tvJKVWAe6EzWj9t3MHjMWBxTZikq56iPUFx-K4EFL6qrO_hpvmGzXqeH2n3VQMyvcMy-KfDn9vRUbw=m18',
+                src: 'https://lh3.googleusercontent.com/ooClinHsVmOkvk5ZWA6-Y4JgwH9t0tOHxnbpwCRjkz_Kzr7i9z0Lgmjet_iFtFLVp5VKSMT3SOpH5mLcgREqseCPvbrySNr-HIhg5yNRDg6Iu0y3lgA4BOM4-DE8wKmTUGyJS2j25Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2044,18 +2993,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20074.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 74',
         name: 'Episode 74',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/G33jODrEBeToD86XPvVP6mJPRtcdv1MoCmnKxAqlzX9S7A9PKiB_G1m9UVVoSjgGA9ESW8ozuIxvB8TEg3Hw4LqfLEy6ZMGzFEPmBs6mL0cFZDxddrzKizWlQKq5gT6N6-3mKWFWOA=m22',
+                src: 'https://lh3.googleusercontent.com/pmKGlSprEI28iW7SQwjmEbqCPQs5wEciPzdTcoe7KltocpQvtLTKwXgnMsvIQrLXzUrsU581er6VPG6ZKGfDW1Nx8ZDJ2HzFY7UuJ-QDzbFtW1Krmpf46ZmQYwn49rWEKfd1abuDHg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/pmKGlSprEI28iW7SQwjmEbqCPQs5wEciPzdTcoe7KltocpQvtLTKwXgnMsvIQrLXzUrsU581er6VPG6ZKGfDW1Nx8ZDJ2HzFY7UuJ-QDzbFtW1Krmpf46ZmQYwn49rWEKfd1abuDHg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/G33jODrEBeToD86XPvVP6mJPRtcdv1MoCmnKxAqlzX9S7A9PKiB_G1m9UVVoSjgGA9ESW8ozuIxvB8TEg3Hw4LqfLEy6ZMGzFEPmBs6mL0cFZDxddrzKizWlQKq5gT6N6-3mKWFWOA=m18',
+                src: 'https://lh3.googleusercontent.com/pmKGlSprEI28iW7SQwjmEbqCPQs5wEciPzdTcoe7KltocpQvtLTKwXgnMsvIQrLXzUrsU581er6VPG6ZKGfDW1Nx8ZDJ2HzFY7UuJ-QDzbFtW1Krmpf46ZmQYwn49rWEKfd1abuDHg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2072,18 +3034,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20075.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 75',
         name: 'Episode 75',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/VPgkhl1JmIui-fBt699FW_XLXSB46gkC3ihDKPu8s_ztNCxC-ST30nbzz6EbFzvAuU2q9uyJ-M8ypE_I5nDUmlncQwN74lD2REqUyDsW_juBZ3KA_pIkc7neeTxmIrY_k94YBUWHpw=m22',
+                src: 'https://lh3.googleusercontent.com/pmkwW6PqArk4FtSTodkv_OD1TylV9QGSj2xBc2cd1AFVMpE6UK0YDs3rCBopad0iPirN4gGTmqHaH5gzB90mMXW9jFc9EcCwKmMuXHoxaxlVEELiP1Z7XpoPmV5Dpn6U0diEcY1Vkw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/pmkwW6PqArk4FtSTodkv_OD1TylV9QGSj2xBc2cd1AFVMpE6UK0YDs3rCBopad0iPirN4gGTmqHaH5gzB90mMXW9jFc9EcCwKmMuXHoxaxlVEELiP1Z7XpoPmV5Dpn6U0diEcY1Vkw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/VPgkhl1JmIui-fBt699FW_XLXSB46gkC3ihDKPu8s_ztNCxC-ST30nbzz6EbFzvAuU2q9uyJ-M8ypE_I5nDUmlncQwN74lD2REqUyDsW_juBZ3KA_pIkc7neeTxmIrY_k94YBUWHpw=m18',
+                src: 'https://lh3.googleusercontent.com/pmkwW6PqArk4FtSTodkv_OD1TylV9QGSj2xBc2cd1AFVMpE6UK0YDs3rCBopad0iPirN4gGTmqHaH5gzB90mMXW9jFc9EcCwKmMuXHoxaxlVEELiP1Z7XpoPmV5Dpn6U0diEcY1Vkw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2100,18 +3075,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20076.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 76',
         name: 'Episode 76',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/tCwEhxXyyCZpUcPOzBgcbqEdqlARx4ZasLAxVVgpYLfL1t2Qo92tZ9wXyDUAuJ6ajoLQDwmfpyT45eH-cBzppAnMtsMwO1eLcnSOvfz1ZiTSq5Wl7nai8ADCJK1nd-nn2Cb1ar9G2Q=m22',
+                src: 'https://lh3.googleusercontent.com/ymjpDG2kbsjGFOBg2y3ei2_sCa6p6k2v21YDmgxAwU8N_nzgzrMpoi--h1ihx6P8Gc0l5_go430iASDoqBEMSJrmVvrkNZm0OVfPG3Rbr868HfjLFVFAPlHb88-SuNfriIUxIblsjA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/ymjpDG2kbsjGFOBg2y3ei2_sCa6p6k2v21YDmgxAwU8N_nzgzrMpoi--h1ihx6P8Gc0l5_go430iASDoqBEMSJrmVvrkNZm0OVfPG3Rbr868HfjLFVFAPlHb88-SuNfriIUxIblsjA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/tCwEhxXyyCZpUcPOzBgcbqEdqlARx4ZasLAxVVgpYLfL1t2Qo92tZ9wXyDUAuJ6ajoLQDwmfpyT45eH-cBzppAnMtsMwO1eLcnSOvfz1ZiTSq5Wl7nai8ADCJK1nd-nn2Cb1ar9G2Q=m18',
+                src: 'https://lh3.googleusercontent.com/ymjpDG2kbsjGFOBg2y3ei2_sCa6p6k2v21YDmgxAwU8N_nzgzrMpoi--h1ihx6P8Gc0l5_go430iASDoqBEMSJrmVvrkNZm0OVfPG3Rbr868HfjLFVFAPlHb88-SuNfriIUxIblsjA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2128,18 +3116,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20077.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 77',
         name: 'Episode 77',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/d-0OgG1XWUZfh0a3kdRDFdiAj8iEO9G6nSFwsufMz3ta0sUNpdLhSXcS49IKjkYascz7co-e2fqWmsAp093iI9tuaSaPcVkd5TJTfIc3nSrprnRbY-iKspygo006oQq1bNpbZA8YGg=m22',
+                src: 'https://lh3.googleusercontent.com/B0V_-_idntTMtRvhNhwkRrkG2PimG-PYoisXCWe_tiqrzrb8GnSKhTS2lgrh9dzRuWKtJn-3S9cJN5cYVYhBc8o9KEbH6zMb_YcNr8h3hrSj-9UGZ8SDo1xwVIuHqvNgjAQqelPf5g=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/B0V_-_idntTMtRvhNhwkRrkG2PimG-PYoisXCWe_tiqrzrb8GnSKhTS2lgrh9dzRuWKtJn-3S9cJN5cYVYhBc8o9KEbH6zMb_YcNr8h3hrSj-9UGZ8SDo1xwVIuHqvNgjAQqelPf5g=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/d-0OgG1XWUZfh0a3kdRDFdiAj8iEO9G6nSFwsufMz3ta0sUNpdLhSXcS49IKjkYascz7co-e2fqWmsAp093iI9tuaSaPcVkd5TJTfIc3nSrprnRbY-iKspygo006oQq1bNpbZA8YGg=m18',
+                src: 'https://lh3.googleusercontent.com/B0V_-_idntTMtRvhNhwkRrkG2PimG-PYoisXCWe_tiqrzrb8GnSKhTS2lgrh9dzRuWKtJn-3S9cJN5cYVYhBc8o9KEbH6zMb_YcNr8h3hrSj-9UGZ8SDo1xwVIuHqvNgjAQqelPf5g=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2156,18 +3157,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20078.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 78',
         name: 'Episode 78',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/2dA1s6HaYzrwgSueIRQl5d-yr5SVTidDk9ZN8atP_Kbm5cI-8NiBZIay5wLzuKaLp7xTtWzZL2apxt_gz79TmAEiSwUicMN-7ccmajcCZ00ITV4CvtrPUdTiwjj2JDH4gp9sl3bxWw=m22',
+                src: 'https://lh3.googleusercontent.com/h2lEuQs1tAHJ2mnkFogG0OSGaY9dFJMlxB251sc7TrIlUijfN0AbcZzTcg705UdfTxlUrZJQNSUgxiCdlDtLlzCvQxgcyXXnGjC117pZIDWwRhKaz4x8xZCfgdHJ9h_i-nAlrr8a7A=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/h2lEuQs1tAHJ2mnkFogG0OSGaY9dFJMlxB251sc7TrIlUijfN0AbcZzTcg705UdfTxlUrZJQNSUgxiCdlDtLlzCvQxgcyXXnGjC117pZIDWwRhKaz4x8xZCfgdHJ9h_i-nAlrr8a7A=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/2dA1s6HaYzrwgSueIRQl5d-yr5SVTidDk9ZN8atP_Kbm5cI-8NiBZIay5wLzuKaLp7xTtWzZL2apxt_gz79TmAEiSwUicMN-7ccmajcCZ00ITV4CvtrPUdTiwjj2JDH4gp9sl3bxWw=m18',
+                src: 'https://lh3.googleusercontent.com/h2lEuQs1tAHJ2mnkFogG0OSGaY9dFJMlxB251sc7TrIlUijfN0AbcZzTcg705UdfTxlUrZJQNSUgxiCdlDtLlzCvQxgcyXXnGjC117pZIDWwRhKaz4x8xZCfgdHJ9h_i-nAlrr8a7A=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2184,18 +3198,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20079.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 79',
         name: 'Episode 79',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/nJ1mwnFvShK89pl-Hdw4QkbOKGA-8hDBhUgTaZgASlX3wAzDZkaU7_1q_tQSWf-lxNgjuGRUoXYDTqdmkj-EXvMRxrpPowhit16pdCxlP32mc34uJUA7Bh4QmgN9i-O-coRIheFIUA=m22',
+                src: 'https://lh3.googleusercontent.com/GSxd1OyOkUks7CMIvApWWJmZYjnvRnlDXKW5Uyp3vLsrM7qDhMaDrCziGpktuo2z-jEFCEJGLDFjfEzAK2MR4VaSB-gmoFMaJ6Xr0nEqOhiZcN4TzPlVBQMAtXe86fgcDl0F_9dJ3A=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/GSxd1OyOkUks7CMIvApWWJmZYjnvRnlDXKW5Uyp3vLsrM7qDhMaDrCziGpktuo2z-jEFCEJGLDFjfEzAK2MR4VaSB-gmoFMaJ6Xr0nEqOhiZcN4TzPlVBQMAtXe86fgcDl0F_9dJ3A=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/nJ1mwnFvShK89pl-Hdw4QkbOKGA-8hDBhUgTaZgASlX3wAzDZkaU7_1q_tQSWf-lxNgjuGRUoXYDTqdmkj-EXvMRxrpPowhit16pdCxlP32mc34uJUA7Bh4QmgN9i-O-coRIheFIUA=m18',
+                src: 'https://lh3.googleusercontent.com/GSxd1OyOkUks7CMIvApWWJmZYjnvRnlDXKW5Uyp3vLsrM7qDhMaDrCziGpktuo2z-jEFCEJGLDFjfEzAK2MR4VaSB-gmoFMaJ6Xr0nEqOhiZcN4TzPlVBQMAtXe86fgcDl0F_9dJ3A=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2212,18 +3239,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20080.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 80',
         name: 'Episode 80',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/o1mHst8ntH8ZkTMOgtpHpEm0IumrWSXkHjGrYm0tGrLKy7Tl6Tsz5XP6H08PiuhtP2xbXwTvX0uQRtW-GCxmK5hgA2I07AH2DeCfzslHBwkYW5T4QdWJL2sFkTxgMb9o1YNx9tVA-w=m22',
+                src: 'https://lh3.googleusercontent.com/GAa2Ny4psdNB9OGTgD1CwKL8MIjmyIN3EGqadi1IigKw3TL6jrs395xOMPlek8bvAKJ6yMNU49zyBt0UtvW6tl-6BnUL63SJqyFvxbdBeIascu2L6piJM45XwUxxyPxkpDmy3WKOBg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/GAa2Ny4psdNB9OGTgD1CwKL8MIjmyIN3EGqadi1IigKw3TL6jrs395xOMPlek8bvAKJ6yMNU49zyBt0UtvW6tl-6BnUL63SJqyFvxbdBeIascu2L6piJM45XwUxxyPxkpDmy3WKOBg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/o1mHst8ntH8ZkTMOgtpHpEm0IumrWSXkHjGrYm0tGrLKy7Tl6Tsz5XP6H08PiuhtP2xbXwTvX0uQRtW-GCxmK5hgA2I07AH2DeCfzslHBwkYW5T4QdWJL2sFkTxgMb9o1YNx9tVA-w=m18',
+                src: 'https://lh3.googleusercontent.com/GAa2Ny4psdNB9OGTgD1CwKL8MIjmyIN3EGqadi1IigKw3TL6jrs395xOMPlek8bvAKJ6yMNU49zyBt0UtvW6tl-6BnUL63SJqyFvxbdBeIascu2L6piJM45XwUxxyPxkpDmy3WKOBg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2240,18 +3280,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20081.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 81',
         name: 'Episode 81',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/zIGKQ1vlFpcLw7IqWDX4v97kfBJn5xwK6VAyvY-oH8CEMVDXH93zLd5hsKLo1K5vRXEBjHTdAnGon2iuycbo_A2l0Kk7VBSFlvZdQpnLQYaHrp_eaAURtcVSrlGMjAjmEyxWj0jeAw=m22',
+                src: 'https://lh3.googleusercontent.com/QpDYy9wJO1ckPJVJoIhk3WXe-hTOhF0priVy593ypHROXf52bNLcCjBG_5CF4RGnm-2uK3jxcaOCBZoeHw6k678Iq1Er9BQ1JBWg-TsnnUzkyGnC-qojhtZ75pZXuFY5GdZjUO_ByA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/QpDYy9wJO1ckPJVJoIhk3WXe-hTOhF0priVy593ypHROXf52bNLcCjBG_5CF4RGnm-2uK3jxcaOCBZoeHw6k678Iq1Er9BQ1JBWg-TsnnUzkyGnC-qojhtZ75pZXuFY5GdZjUO_ByA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/zIGKQ1vlFpcLw7IqWDX4v97kfBJn5xwK6VAyvY-oH8CEMVDXH93zLd5hsKLo1K5vRXEBjHTdAnGon2iuycbo_A2l0Kk7VBSFlvZdQpnLQYaHrp_eaAURtcVSrlGMjAjmEyxWj0jeAw=m18',
+                src: 'https://lh3.googleusercontent.com/QpDYy9wJO1ckPJVJoIhk3WXe-hTOhF0priVy593ypHROXf52bNLcCjBG_5CF4RGnm-2uK3jxcaOCBZoeHw6k678Iq1Er9BQ1JBWg-TsnnUzkyGnC-qojhtZ75pZXuFY5GdZjUO_ByA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2268,18 +3321,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20082.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 82',
         name: 'Episode 82',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/awxUvswiFCvGDCA0xmH9DQdR11bBqsRK9KE679zxLj23LtsnCS5nQ9WEUcW7uZhjQkVNOQ1Au1GLumZtdQn42VvY7-Swpu1fYfsBd47jSxea-pxsxG6w6BMUJcQyjdjGuiyvRXDxcQ=m22',
+                src: 'https://lh3.googleusercontent.com/jMeluqrwoXNs3mYASAtJUluEsDiFTSk-Vud0-WMzr8mysWKXaxOt9IaOsq62-eZ4iFRD4r6thei6tKIOaXiSOtvvxI4k5jkZlAXHe-yyFAgfG2IhrfnszNFw5zZN3UK6PxeCwGaZ5Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/jMeluqrwoXNs3mYASAtJUluEsDiFTSk-Vud0-WMzr8mysWKXaxOt9IaOsq62-eZ4iFRD4r6thei6tKIOaXiSOtvvxI4k5jkZlAXHe-yyFAgfG2IhrfnszNFw5zZN3UK6PxeCwGaZ5Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/awxUvswiFCvGDCA0xmH9DQdR11bBqsRK9KE679zxLj23LtsnCS5nQ9WEUcW7uZhjQkVNOQ1Au1GLumZtdQn42VvY7-Swpu1fYfsBd47jSxea-pxsxG6w6BMUJcQyjdjGuiyvRXDxcQ=m18',
+                src: 'https://lh3.googleusercontent.com/jMeluqrwoXNs3mYASAtJUluEsDiFTSk-Vud0-WMzr8mysWKXaxOt9IaOsq62-eZ4iFRD4r6thei6tKIOaXiSOtvvxI4k5jkZlAXHe-yyFAgfG2IhrfnszNFw5zZN3UK6PxeCwGaZ5Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2296,18 +3362,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20083.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 83',
         name: 'Episode 83',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/zyBTsbf6ughBpZv6msfSOXFM6a5Brga3NIrtkk3c7zrg-T0OTyAjWj8uVmmpjrYrSEDkhSfqQV6H-tUSUDnPaJgsn4htJaEkwJ2PfiqiyVjuu4QtuD5eBasSwT0d9WHRSUcv6ai7ew=m22',
+                src: 'https://lh3.googleusercontent.com/9LyO_deF5vNmqlT2lsq_MGyJg99R33S7-LsccgDH6QlwHCtwalFJZZapln9qoDa1kwX3P1d3mjjxEiLvl5R2SMUvPQ6sBfrXjTSBkmvPqOdDLz28c6LWAX-jKzK0sLQAYbDfYuO4VQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/9LyO_deF5vNmqlT2lsq_MGyJg99R33S7-LsccgDH6QlwHCtwalFJZZapln9qoDa1kwX3P1d3mjjxEiLvl5R2SMUvPQ6sBfrXjTSBkmvPqOdDLz28c6LWAX-jKzK0sLQAYbDfYuO4VQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/zyBTsbf6ughBpZv6msfSOXFM6a5Brga3NIrtkk3c7zrg-T0OTyAjWj8uVmmpjrYrSEDkhSfqQV6H-tUSUDnPaJgsn4htJaEkwJ2PfiqiyVjuu4QtuD5eBasSwT0d9WHRSUcv6ai7ew=m18',
+                src: 'https://lh3.googleusercontent.com/9LyO_deF5vNmqlT2lsq_MGyJg99R33S7-LsccgDH6QlwHCtwalFJZZapln9qoDa1kwX3P1d3mjjxEiLvl5R2SMUvPQ6sBfrXjTSBkmvPqOdDLz28c6LWAX-jKzK0sLQAYbDfYuO4VQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2324,18 +3403,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20084.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 84',
         name: 'Episode 84',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/JNEz48Ao_3cczimkOZhYOn5_DId5WBDJsiIIk6OMDLk130PBphKTvUiQurtfntQZQajWJJ7GnPlCDHK1ck8TZLhjDVDnG7FMmnG1F42UGXYDphLRfcrST9nClkGqaABjHci3Z0xZdw=m22',
+                src: 'https://lh3.googleusercontent.com/pM-5jdEkaTZ_UBTUoR9Zqv4fHGSCUlinUFZg4rchFvaQiUeYqZegS-72PcyyhBJRUzptHA6SMX0uW8YtcMhtN0X6joyfI6LoqjTH53rFBD4fsJA5UErqtKhtY7Ul4mfgQoMezPejnQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/pM-5jdEkaTZ_UBTUoR9Zqv4fHGSCUlinUFZg4rchFvaQiUeYqZegS-72PcyyhBJRUzptHA6SMX0uW8YtcMhtN0X6joyfI6LoqjTH53rFBD4fsJA5UErqtKhtY7Ul4mfgQoMezPejnQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/JNEz48Ao_3cczimkOZhYOn5_DId5WBDJsiIIk6OMDLk130PBphKTvUiQurtfntQZQajWJJ7GnPlCDHK1ck8TZLhjDVDnG7FMmnG1F42UGXYDphLRfcrST9nClkGqaABjHci3Z0xZdw=m18',
+                src: 'https://lh3.googleusercontent.com/pM-5jdEkaTZ_UBTUoR9Zqv4fHGSCUlinUFZg4rchFvaQiUeYqZegS-72PcyyhBJRUzptHA6SMX0uW8YtcMhtN0X6joyfI6LoqjTH53rFBD4fsJA5UErqtKhtY7Ul4mfgQoMezPejnQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2352,18 +3444,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20085.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 85',
         name: 'Episode 85',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/2-wpgH7Vmya1uVeGf2io64KgNmQ_P4OOVX5O6saA65SXeriQGJormpKKu8Tp8P7cx1QCAnqPNdJOFd7uSjkm_rBsrLLOoJnniKkzuj2cZEeo7mQTW6l8nZ1SoX3PH3LEqUa4gwjZNQ=m22',
+                src: 'https://lh3.googleusercontent.com/O6pe7GLC11pL_MDOSpyHZd4A9lZX-1HEKfsN20M87ke9yUBP66GviTLptWxmRV2JL5vcItXmz-g8QMorqIWoEVUQgj9FcyU9XtGlMhWuuFqEFRKJdo8sX8RAWAtAKsZlcA52ZedXmw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/O6pe7GLC11pL_MDOSpyHZd4A9lZX-1HEKfsN20M87ke9yUBP66GviTLptWxmRV2JL5vcItXmz-g8QMorqIWoEVUQgj9FcyU9XtGlMhWuuFqEFRKJdo8sX8RAWAtAKsZlcA52ZedXmw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/2-wpgH7Vmya1uVeGf2io64KgNmQ_P4OOVX5O6saA65SXeriQGJormpKKu8Tp8P7cx1QCAnqPNdJOFd7uSjkm_rBsrLLOoJnniKkzuj2cZEeo7mQTW6l8nZ1SoX3PH3LEqUa4gwjZNQ=m18',
+                src: 'https://lh3.googleusercontent.com/O6pe7GLC11pL_MDOSpyHZd4A9lZX-1HEKfsN20M87ke9yUBP66GviTLptWxmRV2JL5vcItXmz-g8QMorqIWoEVUQgj9FcyU9XtGlMhWuuFqEFRKJdo8sX8RAWAtAKsZlcA52ZedXmw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2380,18 +3485,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20086.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 86',
         name: 'Episode 86',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/spGdB9p9x4KXdhy21LThg5T9Oyl7Fl3CmsF7y-VXDqtuCsVz4zITIFhjhsrK7M18H1BEsQkmjPbJrCyVqHJ1O7MynaOVj_BPpuoKj1YRWK5G3Sca49_nf1DTtB7radHIgqSbGxJ5vA=m22',
+                src: 'https://lh3.googleusercontent.com/onk8DmxKfUasHCkRk9mYGPG-K6N-WG5YDSkP9HuGJKmhRf-rzYY1hwcif8g3p-24vqILXB37YELPmdCmPlc_MuE2fRvEY-5pbgUjbk1WeTGeL7cNIb6lvU762MAbiS_Paak5opS6Ig=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/onk8DmxKfUasHCkRk9mYGPG-K6N-WG5YDSkP9HuGJKmhRf-rzYY1hwcif8g3p-24vqILXB37YELPmdCmPlc_MuE2fRvEY-5pbgUjbk1WeTGeL7cNIb6lvU762MAbiS_Paak5opS6Ig=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/spGdB9p9x4KXdhy21LThg5T9Oyl7Fl3CmsF7y-VXDqtuCsVz4zITIFhjhsrK7M18H1BEsQkmjPbJrCyVqHJ1O7MynaOVj_BPpuoKj1YRWK5G3Sca49_nf1DTtB7radHIgqSbGxJ5vA=m18',
+                src: 'https://lh3.googleusercontent.com/onk8DmxKfUasHCkRk9mYGPG-K6N-WG5YDSkP9HuGJKmhRf-rzYY1hwcif8g3p-24vqILXB37YELPmdCmPlc_MuE2fRvEY-5pbgUjbk1WeTGeL7cNIb6lvU762MAbiS_Paak5opS6Ig=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2408,18 +3526,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20087.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 87',
         name: 'Episode 87',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/DSfPNN4zBuciyxuGZZx0nT-ZAF3mW-zjQ5Y9t6vlZ4gHQyyDUvWjKxmMlaQnfeAEuB2PZDUV-7sT5UGBrv4AVc68OKkeYA0Z5sVrzvK4BM3AI2x5OiD_T0P70iGzDbH2DCzX9COMPA=m22',
+                src: 'https://lh3.googleusercontent.com/JlEQLmCLSPNR9Uk_gRezfJgxew0iCkpUERaom8F73EI5csGA7f9S2KUuk-6dDUeRYV0P-LXGXK-omQ6HmoenAUDV43lcabG3ItIuXnjoa6PKFOBW2IQC-bJq4SGaC8oYZpT7pdVx1w=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/JlEQLmCLSPNR9Uk_gRezfJgxew0iCkpUERaom8F73EI5csGA7f9S2KUuk-6dDUeRYV0P-LXGXK-omQ6HmoenAUDV43lcabG3ItIuXnjoa6PKFOBW2IQC-bJq4SGaC8oYZpT7pdVx1w=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/DSfPNN4zBuciyxuGZZx0nT-ZAF3mW-zjQ5Y9t6vlZ4gHQyyDUvWjKxmMlaQnfeAEuB2PZDUV-7sT5UGBrv4AVc68OKkeYA0Z5sVrzvK4BM3AI2x5OiD_T0P70iGzDbH2DCzX9COMPA=m18',
+                src: 'https://lh3.googleusercontent.com/JlEQLmCLSPNR9Uk_gRezfJgxew0iCkpUERaom8F73EI5csGA7f9S2KUuk-6dDUeRYV0P-LXGXK-omQ6HmoenAUDV43lcabG3ItIuXnjoa6PKFOBW2IQC-bJq4SGaC8oYZpT7pdVx1w=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2436,18 +3567,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20088.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 88',
         name: 'Episode 88',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/R6Fo_g8j9WaLjwrxwIN3g0PH726YzC2SQJxkWg--sXg3Id8eFOqBdnyBUvgRKib31r1i6dH1g8Y-HMFHNRaO1IQyBgRZ6epU92ZeTGPIVuWNhX1pOAoTPyY47KTePyh7PtGoF5z92g=m22',
+                src: 'https://lh3.googleusercontent.com/58GKfr2hSAJCtrYuTLJW-e_xp5lrGRCgOnY_fVjHUoZMiXGHApiNwyXlzGsyvykcaaK1-fX--G-If9lPwC_7CxIXw8uYEeSsvwR03L7swDkVP1p5tz4UwY7UzR5gLbKSWEbr0EecKw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/58GKfr2hSAJCtrYuTLJW-e_xp5lrGRCgOnY_fVjHUoZMiXGHApiNwyXlzGsyvykcaaK1-fX--G-If9lPwC_7CxIXw8uYEeSsvwR03L7swDkVP1p5tz4UwY7UzR5gLbKSWEbr0EecKw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/R6Fo_g8j9WaLjwrxwIN3g0PH726YzC2SQJxkWg--sXg3Id8eFOqBdnyBUvgRKib31r1i6dH1g8Y-HMFHNRaO1IQyBgRZ6epU92ZeTGPIVuWNhX1pOAoTPyY47KTePyh7PtGoF5z92g=m18',
+                src: 'https://lh3.googleusercontent.com/58GKfr2hSAJCtrYuTLJW-e_xp5lrGRCgOnY_fVjHUoZMiXGHApiNwyXlzGsyvykcaaK1-fX--G-If9lPwC_7CxIXw8uYEeSsvwR03L7swDkVP1p5tz4UwY7UzR5gLbKSWEbr0EecKw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2464,18 +3608,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20089.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 89',
         name: 'Episode 89',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/EUyVT2moY0PwfZjNgUbaMXG0oCPy0kjBXAgVnSOuVYrI1Qjwsdked0B-MqK9F183HufxFUyXJOrE03p63aPN3GA49f7uelY2I4q4GQdzC2BjC8NUYXrEWBcrxiDpK1FIIjre_ploWw=m22',
+                src: 'https://lh3.googleusercontent.com/Vpah-WttFnBvS8fWeY1_Mrynf9W6AD_mNjUrsT7AMiVfawMyjkfKEGu14twDgPp1_TklH3Vmkj0OAiFIDfrhXfS7j29M_zgRMYpVDTnhHVRm9m7YDxYA404W1VaUT_KGQswZPUojbQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Vpah-WttFnBvS8fWeY1_Mrynf9W6AD_mNjUrsT7AMiVfawMyjkfKEGu14twDgPp1_TklH3Vmkj0OAiFIDfrhXfS7j29M_zgRMYpVDTnhHVRm9m7YDxYA404W1VaUT_KGQswZPUojbQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/EUyVT2moY0PwfZjNgUbaMXG0oCPy0kjBXAgVnSOuVYrI1Qjwsdked0B-MqK9F183HufxFUyXJOrE03p63aPN3GA49f7uelY2I4q4GQdzC2BjC8NUYXrEWBcrxiDpK1FIIjre_ploWw=m18',
+                src: 'https://lh3.googleusercontent.com/Vpah-WttFnBvS8fWeY1_Mrynf9W6AD_mNjUrsT7AMiVfawMyjkfKEGu14twDgPp1_TklH3Vmkj0OAiFIDfrhXfS7j29M_zgRMYpVDTnhHVRm9m7YDxYA404W1VaUT_KGQswZPUojbQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2492,18 +3649,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20090.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 90',
         name: 'Episode 90',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/dxJLFQaf-0qJF_TTL6het0uH7R7-Hqpf-aXdSJ_8LA0Zc2sld0pSl-jsBKb00tGTpPU3J-gaTre4aBH_5Vp1oUSK2BigpeE_X-XQqSwhMK-qBY_dKVzPBZQ3bTQENE1Auz_35AmfYw=m22',
+                src: 'https://lh3.googleusercontent.com/Etx7DzH2BLd9f3az2m8QIj8W5VZuVSC-8isEPm5WEJokrShvFaEhnWwEXVUTHc8yq2gLDU5u4tce6K32ZPpysoRBFZfjV-5Bg7Iqq5Y3UfVzPddlO04kTRki9FXp65qoLHuwEohVeA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Etx7DzH2BLd9f3az2m8QIj8W5VZuVSC-8isEPm5WEJokrShvFaEhnWwEXVUTHc8yq2gLDU5u4tce6K32ZPpysoRBFZfjV-5Bg7Iqq5Y3UfVzPddlO04kTRki9FXp65qoLHuwEohVeA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/dxJLFQaf-0qJF_TTL6het0uH7R7-Hqpf-aXdSJ_8LA0Zc2sld0pSl-jsBKb00tGTpPU3J-gaTre4aBH_5Vp1oUSK2BigpeE_X-XQqSwhMK-qBY_dKVzPBZQ3bTQENE1Auz_35AmfYw=m18',
+                src: 'https://lh3.googleusercontent.com/Etx7DzH2BLd9f3az2m8QIj8W5VZuVSC-8isEPm5WEJokrShvFaEhnWwEXVUTHc8yq2gLDU5u4tce6K32ZPpysoRBFZfjV-5Bg7Iqq5Y3UfVzPddlO04kTRki9FXp65qoLHuwEohVeA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2520,18 +3690,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20091.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 91',
         name: 'Episode 91',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/LLZAs_7o8Gb-tnnWESrb4bLupFiQ2EaOcSrWJBESh87XG0HCWdXN-20UQz5KiPlxynTzJr9vgmpjI1du8HpO0Ht9qddDlPglKHqvSmiabYf1TT575q8JnqafynyeEbNWTDL59nCQeQ=m22',
+                src: 'https://lh3.googleusercontent.com/r9s_W7jusN77UM4M8Fwo8gJW687qTudCiq4TR6bE6GCOtdP75UggBlCJaJ1XmTtVku0hubo9Zyr0ktJENFB4p-bomizU0BNxS3N1v9Y2Tjp5AOPP7GjLvt_BUekLp5N-OtGHp9iEEQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/r9s_W7jusN77UM4M8Fwo8gJW687qTudCiq4TR6bE6GCOtdP75UggBlCJaJ1XmTtVku0hubo9Zyr0ktJENFB4p-bomizU0BNxS3N1v9Y2Tjp5AOPP7GjLvt_BUekLp5N-OtGHp9iEEQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/LLZAs_7o8Gb-tnnWESrb4bLupFiQ2EaOcSrWJBESh87XG0HCWdXN-20UQz5KiPlxynTzJr9vgmpjI1du8HpO0Ht9qddDlPglKHqvSmiabYf1TT575q8JnqafynyeEbNWTDL59nCQeQ=m18',
+                src: 'https://lh3.googleusercontent.com/r9s_W7jusN77UM4M8Fwo8gJW687qTudCiq4TR6bE6GCOtdP75UggBlCJaJ1XmTtVku0hubo9Zyr0ktJENFB4p-bomizU0BNxS3N1v9Y2Tjp5AOPP7GjLvt_BUekLp5N-OtGHp9iEEQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2548,18 +3731,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20092.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 92',
         name: 'Episode 92',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/L-81mv-t-dUSvrhEox2VF49rImBIULmrTiofenbbNA85V5Po-t_sCW7Sf74AWwFE1Hkmdh-baz0fR_0961hbDloGZbz6KndO0rhZQMPjGMu-OrcgIxHaHqcN3dyJK8Nb8Cg7DSJz7Q=m22',
+                src: 'https://lh3.googleusercontent.com/awKDJe1VdhtPhlHNVkxnHuleqZueIOFn-RvbTm_CdSp3DyiC7-x4Uv2nssTKOTtloqJPJ6HP2945MGqrC-ziguFt0IqboWDzV8Cjp0TWDsTK4-wILkkQ-2TBzmMdrAf0fa6cyeMkuA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/awKDJe1VdhtPhlHNVkxnHuleqZueIOFn-RvbTm_CdSp3DyiC7-x4Uv2nssTKOTtloqJPJ6HP2945MGqrC-ziguFt0IqboWDzV8Cjp0TWDsTK4-wILkkQ-2TBzmMdrAf0fa6cyeMkuA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/L-81mv-t-dUSvrhEox2VF49rImBIULmrTiofenbbNA85V5Po-t_sCW7Sf74AWwFE1Hkmdh-baz0fR_0961hbDloGZbz6KndO0rhZQMPjGMu-OrcgIxHaHqcN3dyJK8Nb8Cg7DSJz7Q=m18',
+                src: 'https://lh3.googleusercontent.com/awKDJe1VdhtPhlHNVkxnHuleqZueIOFn-RvbTm_CdSp3DyiC7-x4Uv2nssTKOTtloqJPJ6HP2945MGqrC-ziguFt0IqboWDzV8Cjp0TWDsTK4-wILkkQ-2TBzmMdrAf0fa6cyeMkuA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2576,18 +3772,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20093.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 93',
         name: 'Episode 93',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/OwR1N1hLaolUkP28EcPc0fQL44Ewkso4SmreVxwsw9yATD1qXiSw3VDlbq8jRd-Fw4QYtU45KsIAO06ghW2AQmOLfuOKYpr7-8L7FcjEKcKWUJoIZmPAKt1oSOiF6TExsW-Q4cK9Ow=m22',
+                src: 'https://lh3.googleusercontent.com/VercqTJFRnlPRq7r2hmXY3pRzaSQchov3PmS1G7BlonCaFo4weNfZTjljTd955KZhhsgH6yWmSG9GMxjw3OWK76bz-3kPFpHpNxkhE-vIPJcEAuDZS_hmhLc3-gfYSigLeMCswSuAg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/VercqTJFRnlPRq7r2hmXY3pRzaSQchov3PmS1G7BlonCaFo4weNfZTjljTd955KZhhsgH6yWmSG9GMxjw3OWK76bz-3kPFpHpNxkhE-vIPJcEAuDZS_hmhLc3-gfYSigLeMCswSuAg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/OwR1N1hLaolUkP28EcPc0fQL44Ewkso4SmreVxwsw9yATD1qXiSw3VDlbq8jRd-Fw4QYtU45KsIAO06ghW2AQmOLfuOKYpr7-8L7FcjEKcKWUJoIZmPAKt1oSOiF6TExsW-Q4cK9Ow=m18',
+                src: 'https://lh3.googleusercontent.com/VercqTJFRnlPRq7r2hmXY3pRzaSQchov3PmS1G7BlonCaFo4weNfZTjljTd955KZhhsgH6yWmSG9GMxjw3OWK76bz-3kPFpHpNxkhE-vIPJcEAuDZS_hmhLc3-gfYSigLeMCswSuAg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2604,18 +3813,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20094.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 94',
         name: 'Episode 94',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/mc052nRkpwyxmE8bAdc2ZrT7xykCVLO6bwdty3xGR4Ch1ST2-3nLLdSb1_AVzRNDUn4fuAC3y4BjIwjQeZZIfoiWyqBXEiy8JDHO_q0IR1nX60VFijq586l6AUpOUXTnyIWs6ktatw=m22',
+                src: 'https://lh3.googleusercontent.com/6qnleubmE5-pouRNnK_iL4IiHDqtWnxLZWP4TJHs9f4AfOxLY2nBnIIl1C-6d5yAYxUgpT6Hfcr1LfGgvqV6G9L4EsiFoL9W6X2lMfwi2x7322PbLs7seDZJAjQUJJqEW63DtkQFPA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/6qnleubmE5-pouRNnK_iL4IiHDqtWnxLZWP4TJHs9f4AfOxLY2nBnIIl1C-6d5yAYxUgpT6Hfcr1LfGgvqV6G9L4EsiFoL9W6X2lMfwi2x7322PbLs7seDZJAjQUJJqEW63DtkQFPA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/mc052nRkpwyxmE8bAdc2ZrT7xykCVLO6bwdty3xGR4Ch1ST2-3nLLdSb1_AVzRNDUn4fuAC3y4BjIwjQeZZIfoiWyqBXEiy8JDHO_q0IR1nX60VFijq586l6AUpOUXTnyIWs6ktatw=m18',
+                src: 'https://lh3.googleusercontent.com/6qnleubmE5-pouRNnK_iL4IiHDqtWnxLZWP4TJHs9f4AfOxLY2nBnIIl1C-6d5yAYxUgpT6Hfcr1LfGgvqV6G9L4EsiFoL9W6X2lMfwi2x7322PbLs7seDZJAjQUJJqEW63DtkQFPA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2632,18 +3854,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20095.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 95',
         name: 'Episode 95',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/Qj9M_gG5AAffOPAAXhWVFop9i-kIeFVFyELkO1cRtsnLCSbqrLrhMlqzLdZLP3p-tJClTHgQCFWaXpxVyH1Pq-FtBE_DfIFxTp-84yLZ15hEBxZ7FA4HjqB7lwopr8JqXXq5tRLBaQ=m22',
+                src: 'https://lh3.googleusercontent.com/grJgsDL57jBpQPnSI_51OlWNnJ5_65nN6tkVYaPQq08DgSLszQ3OBMJL9fbqCgdnXnkpexAvncoybMYqRtSsWIIQyciaKakimHa_5xrrM9ZVDngT42m6Vj774HRZQWtdsuVuRSH1RA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/grJgsDL57jBpQPnSI_51OlWNnJ5_65nN6tkVYaPQq08DgSLszQ3OBMJL9fbqCgdnXnkpexAvncoybMYqRtSsWIIQyciaKakimHa_5xrrM9ZVDngT42m6Vj774HRZQWtdsuVuRSH1RA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/Qj9M_gG5AAffOPAAXhWVFop9i-kIeFVFyELkO1cRtsnLCSbqrLrhMlqzLdZLP3p-tJClTHgQCFWaXpxVyH1Pq-FtBE_DfIFxTp-84yLZ15hEBxZ7FA4HjqB7lwopr8JqXXq5tRLBaQ=m18',
+                src: 'https://lh3.googleusercontent.com/grJgsDL57jBpQPnSI_51OlWNnJ5_65nN6tkVYaPQq08DgSLszQ3OBMJL9fbqCgdnXnkpexAvncoybMYqRtSsWIIQyciaKakimHa_5xrrM9ZVDngT42m6Vj774HRZQWtdsuVuRSH1RA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2660,18 +3895,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20096.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 96',
         name: 'Episode 96',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/uOlmoNSxwLryUVdglQsU4M97nt0TAMWj4DKNU6n2QRr9eUHhSdWet86eWzs3569N9xCsh30aLDJ78lPtElA6pbioK4SN9KXU70UdCcLwPrYCObxJ6KWDUMhLzNXRcj3ba80-T39Y-A=m22',
+                src: 'https://lh3.googleusercontent.com/zmx5xifal7hI1DfD4YPGrfDNASCLT47FRS01xe-MOGiCzILAvhUOJfczS78R1tLkZInNjodPSfC0PZisBLvh1H9-orAS6NdkSSaqywaoEjI2fklN7KKT7Ka-M2ahPJb5Evee26xKyg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/zmx5xifal7hI1DfD4YPGrfDNASCLT47FRS01xe-MOGiCzILAvhUOJfczS78R1tLkZInNjodPSfC0PZisBLvh1H9-orAS6NdkSSaqywaoEjI2fklN7KKT7Ka-M2ahPJb5Evee26xKyg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/uOlmoNSxwLryUVdglQsU4M97nt0TAMWj4DKNU6n2QRr9eUHhSdWet86eWzs3569N9xCsh30aLDJ78lPtElA6pbioK4SN9KXU70UdCcLwPrYCObxJ6KWDUMhLzNXRcj3ba80-T39Y-A=m18',
+                src: 'https://lh3.googleusercontent.com/zmx5xifal7hI1DfD4YPGrfDNASCLT47FRS01xe-MOGiCzILAvhUOJfczS78R1tLkZInNjodPSfC0PZisBLvh1H9-orAS6NdkSSaqywaoEjI2fklN7KKT7Ka-M2ahPJb5Evee26xKyg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2688,18 +3936,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20097.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 97',
         name: 'Episode 97',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/L8gtmatPSqAksXM91P6P5Lk-YyYusYuC3qweFQLiyAepQvWc_oUc6qySmudj0xrZm84qt8egYpKhiUZp3B_ShXZwPax9TrXND-icj3GcVD9WGoy5iZE9ObQTBVb2qYqnQS0II_mhWg=m22',
+                src: 'https://lh3.googleusercontent.com/R_-cuDm6I2cbGOzF-n1QqDIi3yNLX5XQfnHY3QbffaUhuS3I4Y5x6yHsIal9viIJqevV9iGxvFypS1-jF7PQcmRlemUbKtC5XJ8qfxebmZQhicCpHPNesJmzymgHaqAuhpaRAHmUWA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/R_-cuDm6I2cbGOzF-n1QqDIi3yNLX5XQfnHY3QbffaUhuS3I4Y5x6yHsIal9viIJqevV9iGxvFypS1-jF7PQcmRlemUbKtC5XJ8qfxebmZQhicCpHPNesJmzymgHaqAuhpaRAHmUWA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/L8gtmatPSqAksXM91P6P5Lk-YyYusYuC3qweFQLiyAepQvWc_oUc6qySmudj0xrZm84qt8egYpKhiUZp3B_ShXZwPax9TrXND-icj3GcVD9WGoy5iZE9ObQTBVb2qYqnQS0II_mhWg=m18',
+                src: 'https://lh3.googleusercontent.com/R_-cuDm6I2cbGOzF-n1QqDIi3yNLX5XQfnHY3QbffaUhuS3I4Y5x6yHsIal9viIJqevV9iGxvFypS1-jF7PQcmRlemUbKtC5XJ8qfxebmZQhicCpHPNesJmzymgHaqAuhpaRAHmUWA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2716,18 +3977,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20098.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 98',
         name: 'Episode 98',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/knFW4AU3XBVFs5VkN_3L0y8fn44OYev-iWE6BIq2urn7eM-t4ZKMo8x9_nQLqLqQ5AjBP2l1Et_KeIY4VidH3vwBtyhOS0RFIQsvrWzOnlczyRDLM_WTDykYhTiv-lIgHvzWi_JBmA=m22',
+                src: 'https://lh3.googleusercontent.com/J2Lh0BqALnUQgAmEfrPAYFoSbCiC1ZxEE4qdzWNEqnW14U1i4ilmJEtmJmw5IrVVHEZwC8cXe-ZVyG-aO6hj4EtaUXrBgKuJSaALj7m7OQval-UvIL9pgDf1V4np6UwfsAgRxupkdw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/J2Lh0BqALnUQgAmEfrPAYFoSbCiC1ZxEE4qdzWNEqnW14U1i4ilmJEtmJmw5IrVVHEZwC8cXe-ZVyG-aO6hj4EtaUXrBgKuJSaALj7m7OQval-UvIL9pgDf1V4np6UwfsAgRxupkdw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/knFW4AU3XBVFs5VkN_3L0y8fn44OYev-iWE6BIq2urn7eM-t4ZKMo8x9_nQLqLqQ5AjBP2l1Et_KeIY4VidH3vwBtyhOS0RFIQsvrWzOnlczyRDLM_WTDykYhTiv-lIgHvzWi_JBmA=m18',
+                src: 'https://lh3.googleusercontent.com/J2Lh0BqALnUQgAmEfrPAYFoSbCiC1ZxEE4qdzWNEqnW14U1i4ilmJEtmJmw5IrVVHEZwC8cXe-ZVyG-aO6hj4EtaUXrBgKuJSaALj7m7OQval-UvIL9pgDf1V4np6UwfsAgRxupkdw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2744,18 +4018,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20099.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 99',
         name: 'Episode 99',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/FHWLpcm4LwUJ5Z4dryUITX4U7y_bMJzr7ib3UbzuwVNNaO9ATZ0DCjfAKyqk1H5JLG6RSZsH3GhfjmPJyihBbvm0S0UVZK-c18-cfeE7vi1LpF1tfjJT6lMncrUnzGna87TRK2tYMw=m22',
+                src: 'https://lh3.googleusercontent.com/kpi7abw8Dy-D1sDi7kUvmDztm06f-JyOniOEn1gRrUsiR999beFg6tUiG2HP9PtE_pD63ijPIgCKl2oe5SciNH3BLxegY-3OLaYTzRqbSS13oiyl3Xji7q5gJX7m9hon_JTnhWT_ww=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/kpi7abw8Dy-D1sDi7kUvmDztm06f-JyOniOEn1gRrUsiR999beFg6tUiG2HP9PtE_pD63ijPIgCKl2oe5SciNH3BLxegY-3OLaYTzRqbSS13oiyl3Xji7q5gJX7m9hon_JTnhWT_ww=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/FHWLpcm4LwUJ5Z4dryUITX4U7y_bMJzr7ib3UbzuwVNNaO9ATZ0DCjfAKyqk1H5JLG6RSZsH3GhfjmPJyihBbvm0S0UVZK-c18-cfeE7vi1LpF1tfjJT6lMncrUnzGna87TRK2tYMw=m18',
+                src: 'https://lh3.googleusercontent.com/kpi7abw8Dy-D1sDi7kUvmDztm06f-JyOniOEn1gRrUsiR999beFg6tUiG2HP9PtE_pD63ijPIgCKl2oe5SciNH3BLxegY-3OLaYTzRqbSS13oiyl3Xji7q5gJX7m9hon_JTnhWT_ww=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2772,18 +4059,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20100.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 100',
         name: 'Episode 100',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/wH1uaIZH97diPL7Fam80h1fh03E4VaZqkrXTTl5H7muaHe3iSbMLoS_zVtwLvUz6-qgXpQwhBURKLtR2j9Y5qaHOUncyH9rgkq8jIZY-oSJ4XCVWyiIU26sk_ODsu9UGnpwJIzkR0w=m22',
+                src: 'https://lh3.googleusercontent.com/5siAplOLBEnava2_KTgvwwX7J_a0HyzM2HHMZZ7rzYLeGE2Y7PLuT34h_fuFhInRbwG30eh9fdhLNrQr5-i0B7l5hPlp8ulHAp5Xr5_IE3eQi3YjMHxF-9Fy4JGJYFXbChSu_5o4Fw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/5siAplOLBEnava2_KTgvwwX7J_a0HyzM2HHMZZ7rzYLeGE2Y7PLuT34h_fuFhInRbwG30eh9fdhLNrQr5-i0B7l5hPlp8ulHAp5Xr5_IE3eQi3YjMHxF-9Fy4JGJYFXbChSu_5o4Fw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/wH1uaIZH97diPL7Fam80h1fh03E4VaZqkrXTTl5H7muaHe3iSbMLoS_zVtwLvUz6-qgXpQwhBURKLtR2j9Y5qaHOUncyH9rgkq8jIZY-oSJ4XCVWyiIU26sk_ODsu9UGnpwJIzkR0w=m18',
+                src: 'https://lh3.googleusercontent.com/5siAplOLBEnava2_KTgvwwX7J_a0HyzM2HHMZZ7rzYLeGE2Y7PLuT34h_fuFhInRbwG30eh9fdhLNrQr5-i0B7l5hPlp8ulHAp5Xr5_IE3eQi3YjMHxF-9Fy4JGJYFXbChSu_5o4Fw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2800,18 +4100,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20101.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 101',
         name: 'Episode 101',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/B9jc9Kx_nAqNelSksGK12KL42OZfQbNfFyKNISlrxKhVKc43IbQnwiUrHjO5dWTEh48SjLWB0YUt7AQ72M4onTaNmoaKMw6p8yQgdoMsLN7ECEBc-SvRuvq8tyXLILDtPR8tADZZdQ=m22',
+                src: 'https://lh3.googleusercontent.com/IS4tJvC-AP0S5-sfivXO9SpGtA4WBcQBVcqTYRsOjXIb7srr32dyILJuULgrIGcLyJuxhDOlD-0EZY01mey8a6FZSMVUI7fn3tNuK1YQWXM0GWdS_oSpB0Vx7t3xbNviMlXi-OZydg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/IS4tJvC-AP0S5-sfivXO9SpGtA4WBcQBVcqTYRsOjXIb7srr32dyILJuULgrIGcLyJuxhDOlD-0EZY01mey8a6FZSMVUI7fn3tNuK1YQWXM0GWdS_oSpB0Vx7t3xbNviMlXi-OZydg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/B9jc9Kx_nAqNelSksGK12KL42OZfQbNfFyKNISlrxKhVKc43IbQnwiUrHjO5dWTEh48SjLWB0YUt7AQ72M4onTaNmoaKMw6p8yQgdoMsLN7ECEBc-SvRuvq8tyXLILDtPR8tADZZdQ=m18',
+                src: 'https://lh3.googleusercontent.com/IS4tJvC-AP0S5-sfivXO9SpGtA4WBcQBVcqTYRsOjXIb7srr32dyILJuULgrIGcLyJuxhDOlD-0EZY01mey8a6FZSMVUI7fn3tNuK1YQWXM0GWdS_oSpB0Vx7t3xbNviMlXi-OZydg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2828,18 +4141,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20102.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 102',
         name: 'Episode 102',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/FgrbfTbdskOaPJZ2ym3AVSegqT_QP3ZIm0CW5TllEaCNJJBxF9KxbenlZ4fNhnp9ZetRZv-hg2cby-YZcTKRbhBe547nBCgVgYXhu1QZkSZ9Sfk3Da9Ps269FHj9uJC4mv1YbtWDqw=m22',
+                src: 'https://lh3.googleusercontent.com/CNVxUPslVtDTHuOlIBj027a-Guc-7lAH6vBUpKOG5-cPCnIsHd504hYjRIVAe4uuL9kKrIEwiO6QodlTEQ_ZWGJ6WNftmvxKDzmLQfkiM03atI_72rjs9XATJahJ_FNs5mfKZYGP_w=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/CNVxUPslVtDTHuOlIBj027a-Guc-7lAH6vBUpKOG5-cPCnIsHd504hYjRIVAe4uuL9kKrIEwiO6QodlTEQ_ZWGJ6WNftmvxKDzmLQfkiM03atI_72rjs9XATJahJ_FNs5mfKZYGP_w=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/FgrbfTbdskOaPJZ2ym3AVSegqT_QP3ZIm0CW5TllEaCNJJBxF9KxbenlZ4fNhnp9ZetRZv-hg2cby-YZcTKRbhBe547nBCgVgYXhu1QZkSZ9Sfk3Da9Ps269FHj9uJC4mv1YbtWDqw=m18',
+                src: 'https://lh3.googleusercontent.com/CNVxUPslVtDTHuOlIBj027a-Guc-7lAH6vBUpKOG5-cPCnIsHd504hYjRIVAe4uuL9kKrIEwiO6QodlTEQ_ZWGJ6WNftmvxKDzmLQfkiM03atI_72rjs9XATJahJ_FNs5mfKZYGP_w=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2856,18 +4182,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20103.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 103',
         name: 'Episode 103',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/1z4mSnz626SdYUrSa9P9ZvRj9ZFlj_zDVfI0-MDHOxl37XP9KHR8w8OVumcwLM0NokrG9Wu0v8XqsYIW0hc7b2y88cLjhBHXxSB3qwQT-6-6vZF9MfA_PMg_I6cjYPzjELXMRBQMTg=m22',
+                src: 'https://lh3.googleusercontent.com/nsYy6YqgrWX3njBt6BnMadOAOUZdQkN8NXXsugPiyz9ifgCa16554sJw-uMo9yelzdeT2cXFdDLSOY_qiTAGYJgOJf1OKQh_5dNywm1FomS62cWu971lYOwdoyRBz5_BsSiyCm8gtQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/nsYy6YqgrWX3njBt6BnMadOAOUZdQkN8NXXsugPiyz9ifgCa16554sJw-uMo9yelzdeT2cXFdDLSOY_qiTAGYJgOJf1OKQh_5dNywm1FomS62cWu971lYOwdoyRBz5_BsSiyCm8gtQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/1z4mSnz626SdYUrSa9P9ZvRj9ZFlj_zDVfI0-MDHOxl37XP9KHR8w8OVumcwLM0NokrG9Wu0v8XqsYIW0hc7b2y88cLjhBHXxSB3qwQT-6-6vZF9MfA_PMg_I6cjYPzjELXMRBQMTg=m18',
+                src: 'https://lh3.googleusercontent.com/nsYy6YqgrWX3njBt6BnMadOAOUZdQkN8NXXsugPiyz9ifgCa16554sJw-uMo9yelzdeT2cXFdDLSOY_qiTAGYJgOJf1OKQh_5dNywm1FomS62cWu971lYOwdoyRBz5_BsSiyCm8gtQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2884,18 +4223,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20104.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 104',
         name: 'Episode 104',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/O_HBZ2USJp02XoCqR-Immf7ca_rJikpboijFKgryBL-FWkHjEbbIaq-nDVol3Dcdrows9vjXPjs8vFS76lbPDkp-j2WEqTl-kySGHjudWZfJ1TuujLwF_QCj6HCiXIsmLPdMYKulmw=m22',
+                src: 'https://lh3.googleusercontent.com/bNo-JrSVwO-_31rYC0MbXdvYWkkVkVd9gpr4Zec2hIo6-ZEB41YmB2vbsNnYRBtF7FybdAxsYfXQ8q2kQZOBK3alGH9m1IlzhHn2O2vomoMyhicA8ocJONR2nKsZr_zkELx1AjAzPg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/bNo-JrSVwO-_31rYC0MbXdvYWkkVkVd9gpr4Zec2hIo6-ZEB41YmB2vbsNnYRBtF7FybdAxsYfXQ8q2kQZOBK3alGH9m1IlzhHn2O2vomoMyhicA8ocJONR2nKsZr_zkELx1AjAzPg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/O_HBZ2USJp02XoCqR-Immf7ca_rJikpboijFKgryBL-FWkHjEbbIaq-nDVol3Dcdrows9vjXPjs8vFS76lbPDkp-j2WEqTl-kySGHjudWZfJ1TuujLwF_QCj6HCiXIsmLPdMYKulmw=m18',
+                src: 'https://lh3.googleusercontent.com/bNo-JrSVwO-_31rYC0MbXdvYWkkVkVd9gpr4Zec2hIo6-ZEB41YmB2vbsNnYRBtF7FybdAxsYfXQ8q2kQZOBK3alGH9m1IlzhHn2O2vomoMyhicA8ocJONR2nKsZr_zkELx1AjAzPg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2912,18 +4264,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20105.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 105',
         name: 'Episode 105',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/3CeKSMAa5tdGtgR7gGbYM8kZfuQGLvFQLW1B7a8toFjiPpd_3vteiXOPTY8yJH_XAkVE-Qz7kPFWv-zdg6Y0xYw9wi-viX8Jmrwz9d95_wuOvgjFa2PSmV-rDjjh8z-UQH1txGHlcg=m22',
+                src: 'https://lh3.googleusercontent.com/0ZS_mKSLUbJzWE-hI1vyfKWE9hsRdpTq7OpufnJb41R4V6uTu-tDACIGThFd6DKd98R81cVhIzgbsiVcjiKwvFaY5nqq00U-mU-KaIRO32wdCL7SXTf059JOXIivUCphRRx5NL67OA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/0ZS_mKSLUbJzWE-hI1vyfKWE9hsRdpTq7OpufnJb41R4V6uTu-tDACIGThFd6DKd98R81cVhIzgbsiVcjiKwvFaY5nqq00U-mU-KaIRO32wdCL7SXTf059JOXIivUCphRRx5NL67OA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/3CeKSMAa5tdGtgR7gGbYM8kZfuQGLvFQLW1B7a8toFjiPpd_3vteiXOPTY8yJH_XAkVE-Qz7kPFWv-zdg6Y0xYw9wi-viX8Jmrwz9d95_wuOvgjFa2PSmV-rDjjh8z-UQH1txGHlcg=m18',
+                src: 'https://lh3.googleusercontent.com/0ZS_mKSLUbJzWE-hI1vyfKWE9hsRdpTq7OpufnJb41R4V6uTu-tDACIGThFd6DKd98R81cVhIzgbsiVcjiKwvFaY5nqq00U-mU-KaIRO32wdCL7SXTf059JOXIivUCphRRx5NL67OA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2940,18 +4305,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20106.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 106',
         name: 'Episode 106',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/908eiDXV3p5-rLaZCUmTSu9qx3Ia2QzB1KiUfq_G-BJQdg2C99uug2-0zPk6UYFO6cjpRJnZpPBtJXS9cCMLcVwlTZ_KoKT93MMiinujxsG692Qfn6cjYfephto8Im2cN6v2uX__qQ=m22',
+                src: 'https://lh3.googleusercontent.com/QK_Gk6hvMKgz6x8ONd6XWcs8dfTXAsDk4z181RwgSxZc8rZknUn_tZvkqkK7YbDZbKXjPbwIX1taIwq60SefQXTGur-uYKYPGraBg3Xa-9ZpI71XaWF877h2fn8Bdda8eg4j8-f_bg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/QK_Gk6hvMKgz6x8ONd6XWcs8dfTXAsDk4z181RwgSxZc8rZknUn_tZvkqkK7YbDZbKXjPbwIX1taIwq60SefQXTGur-uYKYPGraBg3Xa-9ZpI71XaWF877h2fn8Bdda8eg4j8-f_bg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/908eiDXV3p5-rLaZCUmTSu9qx3Ia2QzB1KiUfq_G-BJQdg2C99uug2-0zPk6UYFO6cjpRJnZpPBtJXS9cCMLcVwlTZ_KoKT93MMiinujxsG692Qfn6cjYfephto8Im2cN6v2uX__qQ=m18',
+                src: 'https://lh3.googleusercontent.com/QK_Gk6hvMKgz6x8ONd6XWcs8dfTXAsDk4z181RwgSxZc8rZknUn_tZvkqkK7YbDZbKXjPbwIX1taIwq60SefQXTGur-uYKYPGraBg3Xa-9ZpI71XaWF877h2fn8Bdda8eg4j8-f_bg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2968,18 +4346,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20107.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 107',
         name: 'Episode 107',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/Goq_ziun2p_U5vRQM0aGThLy_7mP0EvpzcKxOZT7iZ9EnSmY9yLQWnQ3pwIT14-ThfUkw9p1DChVqxELPkkvvIoH4Fobjd_D9LohjWVVjlPm4Y81fbMfxt0xX6br4_TA36E-1WEBrg=m22',
+                src: 'https://lh3.googleusercontent.com/W7s8VDehmLFQVDmnIKHUrkoNfL0fu3H5LHQwxNKgGUuBYamDKjjp_MvjKtspQePsbTUB91h-Iww_lIuOwvWj7zqLsTspt1BcRaF93sbjmQXYuO149LfhzYtf00iC_Vd8PdZbfRCYZA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/W7s8VDehmLFQVDmnIKHUrkoNfL0fu3H5LHQwxNKgGUuBYamDKjjp_MvjKtspQePsbTUB91h-Iww_lIuOwvWj7zqLsTspt1BcRaF93sbjmQXYuO149LfhzYtf00iC_Vd8PdZbfRCYZA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/Goq_ziun2p_U5vRQM0aGThLy_7mP0EvpzcKxOZT7iZ9EnSmY9yLQWnQ3pwIT14-ThfUkw9p1DChVqxELPkkvvIoH4Fobjd_D9LohjWVVjlPm4Y81fbMfxt0xX6br4_TA36E-1WEBrg=m18',
+                src: 'https://lh3.googleusercontent.com/W7s8VDehmLFQVDmnIKHUrkoNfL0fu3H5LHQwxNKgGUuBYamDKjjp_MvjKtspQePsbTUB91h-Iww_lIuOwvWj7zqLsTspt1BcRaF93sbjmQXYuO149LfhzYtf00iC_Vd8PdZbfRCYZA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -2996,18 +4387,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20108.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 108',
         name: 'Episode 108',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/9JTmILyg4SA5w2G3JX9qppceQnDbXsKHIanlMR_AZhWb69iaMJzEnp2l08GTQru6JtGSur7IEO6la-rD-EtI7mvC7NlPgZsBBrwO_j7BMyi_yUAEwGCaTJkiaKgMBrHu_HFZHaX4hA=m22',
+                src: 'https://lh3.googleusercontent.com/IF1GQF1pQwlbab3QwOfEOku--D2zxtKZRaJeQ8up-Jv3qXr_QDSPbNH8oSRhZl7s_p19i9TEqWYiu0PPnmA2KwNWDIwvAI2FUtbn8BLjDHjZEJ9tKKkvoFwb3fds97TUlNc3dXarWg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/IF1GQF1pQwlbab3QwOfEOku--D2zxtKZRaJeQ8up-Jv3qXr_QDSPbNH8oSRhZl7s_p19i9TEqWYiu0PPnmA2KwNWDIwvAI2FUtbn8BLjDHjZEJ9tKKkvoFwb3fds97TUlNc3dXarWg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/9JTmILyg4SA5w2G3JX9qppceQnDbXsKHIanlMR_AZhWb69iaMJzEnp2l08GTQru6JtGSur7IEO6la-rD-EtI7mvC7NlPgZsBBrwO_j7BMyi_yUAEwGCaTJkiaKgMBrHu_HFZHaX4hA=m18',
+                src: 'https://lh3.googleusercontent.com/IF1GQF1pQwlbab3QwOfEOku--D2zxtKZRaJeQ8up-Jv3qXr_QDSPbNH8oSRhZl7s_p19i9TEqWYiu0PPnmA2KwNWDIwvAI2FUtbn8BLjDHjZEJ9tKKkvoFwb3fds97TUlNc3dXarWg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3024,18 +4428,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20109.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 109',
         name: 'Episode 109',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/tdtBud7VJ0LeDN7Cvw9nHrFHEtKGG34cGPKpV1mUbZyR-bYCCLPOvamfga2U9zOuUZkeukidAt_W1DC1QZjXiR3s4QoM73roe9zwDh5QVaFz_7mNgD31vDcP3Co-mO0DqJnR6rVHyQ=m22',
+                src: 'https://lh3.googleusercontent.com/UVEhU8q3AgEivOni-jeb4-PGMmPDlcXlcli287HG9xLqzFb6_aPGuW75nbhaGnhVySZv5Wl4delwPMY20sbxzeqx3Og6Xhuy9_2yL615KLYU_EYZX2KGmplJCwhtcHQBhZI8UMBiHQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/UVEhU8q3AgEivOni-jeb4-PGMmPDlcXlcli287HG9xLqzFb6_aPGuW75nbhaGnhVySZv5Wl4delwPMY20sbxzeqx3Og6Xhuy9_2yL615KLYU_EYZX2KGmplJCwhtcHQBhZI8UMBiHQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/tdtBud7VJ0LeDN7Cvw9nHrFHEtKGG34cGPKpV1mUbZyR-bYCCLPOvamfga2U9zOuUZkeukidAt_W1DC1QZjXiR3s4QoM73roe9zwDh5QVaFz_7mNgD31vDcP3Co-mO0DqJnR6rVHyQ=m18',
+                src: 'https://lh3.googleusercontent.com/UVEhU8q3AgEivOni-jeb4-PGMmPDlcXlcli287HG9xLqzFb6_aPGuW75nbhaGnhVySZv5Wl4delwPMY20sbxzeqx3Og6Xhuy9_2yL615KLYU_EYZX2KGmplJCwhtcHQBhZI8UMBiHQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3052,18 +4469,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20110.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 110',
         name: 'Episode 110',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/AGlrVI9lVx1tCLAF4aYxnXcOkik7ytVWu4Ee2nhp4hLmYd4Yi7a7aZadDhpPWc2XryC4jDMCDQ4nMpMJQ1e1paXjFq7tcDkqIM1BuOkc5eEsK2pbByOMGZuYgY25SIqRcCVMyfwAcw=m22',
+                src: 'https://lh3.googleusercontent.com/LzNuN3P42tDGBSMfI8XAOjvUdkkhsGZBGpVg5ZC_gb1FS3S8SNk8GTgxVEQRDc7OzD7Xw6X0GPo-fQ9qpGyTrIfIdVz1uIuc8pRoVAdjxRBJRfXA6jruy0Z8caGboEXvQM6qGMgpIg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/LzNuN3P42tDGBSMfI8XAOjvUdkkhsGZBGpVg5ZC_gb1FS3S8SNk8GTgxVEQRDc7OzD7Xw6X0GPo-fQ9qpGyTrIfIdVz1uIuc8pRoVAdjxRBJRfXA6jruy0Z8caGboEXvQM6qGMgpIg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/AGlrVI9lVx1tCLAF4aYxnXcOkik7ytVWu4Ee2nhp4hLmYd4Yi7a7aZadDhpPWc2XryC4jDMCDQ4nMpMJQ1e1paXjFq7tcDkqIM1BuOkc5eEsK2pbByOMGZuYgY25SIqRcCVMyfwAcw=m18',
+                src: 'https://lh3.googleusercontent.com/LzNuN3P42tDGBSMfI8XAOjvUdkkhsGZBGpVg5ZC_gb1FS3S8SNk8GTgxVEQRDc7OzD7Xw6X0GPo-fQ9qpGyTrIfIdVz1uIuc8pRoVAdjxRBJRfXA6jruy0Z8caGboEXvQM6qGMgpIg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3080,18 +4510,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20111.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 111',
         name: 'Episode 111',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/ImWSIVFSvrKWAdi1206eKnmzdPj-L-0FdZNBVjHk2uT2L6J9ptgS_Mo90mxUSRtP13LCn7qNaTWQrZFVCiPHD48wux-cJnCHaFkU5q-WY6juPPOQX526NXjgaaDnbg4T5OHjgrnLNQ=m22',
+                src: 'https://lh3.googleusercontent.com/hq84Djci0T3tCFeErkRRXauKk_vmROElffFWVtwzRgKYAOXRJYAjQGBJGKm5LJToH9znCiOw-yQyZFb0H9HpQx7sdyTNEfy134yctT6LYAlHQjpH0Vv0N_KI84V4UpFqOS6NdpsRbQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/hq84Djci0T3tCFeErkRRXauKk_vmROElffFWVtwzRgKYAOXRJYAjQGBJGKm5LJToH9znCiOw-yQyZFb0H9HpQx7sdyTNEfy134yctT6LYAlHQjpH0Vv0N_KI84V4UpFqOS6NdpsRbQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/ImWSIVFSvrKWAdi1206eKnmzdPj-L-0FdZNBVjHk2uT2L6J9ptgS_Mo90mxUSRtP13LCn7qNaTWQrZFVCiPHD48wux-cJnCHaFkU5q-WY6juPPOQX526NXjgaaDnbg4T5OHjgrnLNQ=m18',
+                src: 'https://lh3.googleusercontent.com/hq84Djci0T3tCFeErkRRXauKk_vmROElffFWVtwzRgKYAOXRJYAjQGBJGKm5LJToH9znCiOw-yQyZFb0H9HpQx7sdyTNEfy134yctT6LYAlHQjpH0Vv0N_KI84V4UpFqOS6NdpsRbQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3108,18 +4551,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20112.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 112',
         name: 'Episode 112',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/uvPIwQ65Y99OU96bCZsexOpNK96qf4AraWrVMQC-fwLnWojcDy7FSfEnfSuo0LQ1X4GikH7CBDQFgBmdesk0tS9ShhtKtQGuQzftj0E3N_CQQdetGYY_34PEN6hq4yrFzMydQw6BfA=m22',
+                src: 'https://lh3.googleusercontent.com/wXTMWS2VX-AHK55hyNmLHQr-zjclkkffXZ_8Aq-ddQ7PMhhSO6hrJu0MaqXE5-O__nsOA2U4duiG3z1vp99SCBCVjUTABzKi1-hFFZeEKF_6CTPAaHWjZO-ZKClqr_XvPF4PmuTbTg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/wXTMWS2VX-AHK55hyNmLHQr-zjclkkffXZ_8Aq-ddQ7PMhhSO6hrJu0MaqXE5-O__nsOA2U4duiG3z1vp99SCBCVjUTABzKi1-hFFZeEKF_6CTPAaHWjZO-ZKClqr_XvPF4PmuTbTg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/uvPIwQ65Y99OU96bCZsexOpNK96qf4AraWrVMQC-fwLnWojcDy7FSfEnfSuo0LQ1X4GikH7CBDQFgBmdesk0tS9ShhtKtQGuQzftj0E3N_CQQdetGYY_34PEN6hq4yrFzMydQw6BfA=m18',
+                src: 'https://lh3.googleusercontent.com/wXTMWS2VX-AHK55hyNmLHQr-zjclkkffXZ_8Aq-ddQ7PMhhSO6hrJu0MaqXE5-O__nsOA2U4duiG3z1vp99SCBCVjUTABzKi1-hFFZeEKF_6CTPAaHWjZO-ZKClqr_XvPF4PmuTbTg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3136,18 +4592,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20113.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 113',
         name: 'Episode 113',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/g19O5Rei7MOsuK-q-vVzryJie5Jh_BhRJfGw-hyERmni_UaxkmFUwEb_Z-VHpR_nfaoZ8P14SmpkrxbUow7Us9HdMobFr4k8NBFJhqbm1ARXMl-rnic6BgnHW5FWCdoVgjH6cWq6Iw=m22',
+                src: 'https://lh3.googleusercontent.com/2stnXZ4MlJsxb2l6cOVWUyi-HcpePlDlNz8xuNmrcesSh0HPQAIATqMdG-3cy2kVlBJCZ3ShA_j9LhNjIsw2OLtbm05cA_Ef5mPoKqh_4w53hJj9FiHr1EHwFB-Qjk3iwY9RF93LUQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/2stnXZ4MlJsxb2l6cOVWUyi-HcpePlDlNz8xuNmrcesSh0HPQAIATqMdG-3cy2kVlBJCZ3ShA_j9LhNjIsw2OLtbm05cA_Ef5mPoKqh_4w53hJj9FiHr1EHwFB-Qjk3iwY9RF93LUQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/g19O5Rei7MOsuK-q-vVzryJie5Jh_BhRJfGw-hyERmni_UaxkmFUwEb_Z-VHpR_nfaoZ8P14SmpkrxbUow7Us9HdMobFr4k8NBFJhqbm1ARXMl-rnic6BgnHW5FWCdoVgjH6cWq6Iw=m18',
+                src: 'https://lh3.googleusercontent.com/2stnXZ4MlJsxb2l6cOVWUyi-HcpePlDlNz8xuNmrcesSh0HPQAIATqMdG-3cy2kVlBJCZ3ShA_j9LhNjIsw2OLtbm05cA_Ef5mPoKqh_4w53hJj9FiHr1EHwFB-Qjk3iwY9RF93LUQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3164,18 +4633,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20114.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 114',
         name: 'Episode 114',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/eEgwqPfTjhBtrHtev5ygAP3Suk77ih8njDaa7coxB-MRqnSuF_BFVNQpQOrlcBRYZAUDxcPE4H-3gWsVTdSHVMAyOJpDDfSrkev5z30cQ2Pcvuss9rUMsuKcOidvzZZZJ83OxqMNOA=m22',
+                src: 'https://lh3.googleusercontent.com/a-In7PPgEfuJx033p7_3r3broCWADBNhOe_LYSyhE_2cIuWyQxTF4iKDPlz072KnoIXEsjOeWZmYd4Gj6hgFIBLPfBGHCFrE0zB-OO3CR_VVf44Un56nslsGKAJ09gkYkHj0S5UOrw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/a-In7PPgEfuJx033p7_3r3broCWADBNhOe_LYSyhE_2cIuWyQxTF4iKDPlz072KnoIXEsjOeWZmYd4Gj6hgFIBLPfBGHCFrE0zB-OO3CR_VVf44Un56nslsGKAJ09gkYkHj0S5UOrw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/eEgwqPfTjhBtrHtev5ygAP3Suk77ih8njDaa7coxB-MRqnSuF_BFVNQpQOrlcBRYZAUDxcPE4H-3gWsVTdSHVMAyOJpDDfSrkev5z30cQ2Pcvuss9rUMsuKcOidvzZZZJ83OxqMNOA=m18',
+                src: 'https://lh3.googleusercontent.com/a-In7PPgEfuJx033p7_3r3broCWADBNhOe_LYSyhE_2cIuWyQxTF4iKDPlz072KnoIXEsjOeWZmYd4Gj6hgFIBLPfBGHCFrE0zB-OO3CR_VVf44Un56nslsGKAJ09gkYkHj0S5UOrw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3192,18 +4674,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20115.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 115',
         name: 'Episode 115',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/WaqIHmIiQNg3Xphwb72Qip7jH81gUReubykinVQqrfOOdTb_3NWea9JdLyX_e8VfJcIGPu2X68E9KEg1P8-BDmHAAVlnBoPkd_7I_MdcsmbeyQQU1W67FrA1AYuL3NyQqTeDfFJD-g=m22',
+                src: 'https://lh3.googleusercontent.com/PKceSH_puRRvj5JxR6n8QvmGzDhzxd_3V0FKzWrp5-nngAwVIXpG3o6uWd_v4dM10J2xMUlK2JdDgdLsUwvGrEas9k9Ke2Y8zSY8nq6CrKONz1Cl3CQAdgjux-9Zhsa09DCs1q7CMQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/PKceSH_puRRvj5JxR6n8QvmGzDhzxd_3V0FKzWrp5-nngAwVIXpG3o6uWd_v4dM10J2xMUlK2JdDgdLsUwvGrEas9k9Ke2Y8zSY8nq6CrKONz1Cl3CQAdgjux-9Zhsa09DCs1q7CMQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/WaqIHmIiQNg3Xphwb72Qip7jH81gUReubykinVQqrfOOdTb_3NWea9JdLyX_e8VfJcIGPu2X68E9KEg1P8-BDmHAAVlnBoPkd_7I_MdcsmbeyQQU1W67FrA1AYuL3NyQqTeDfFJD-g=m18',
+                src: 'https://lh3.googleusercontent.com/PKceSH_puRRvj5JxR6n8QvmGzDhzxd_3V0FKzWrp5-nngAwVIXpG3o6uWd_v4dM10J2xMUlK2JdDgdLsUwvGrEas9k9Ke2Y8zSY8nq6CrKONz1Cl3CQAdgjux-9Zhsa09DCs1q7CMQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3220,18 +4715,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20116.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 116',
         name: 'Episode 116',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/4RddLriFdgSoix8IPiGvE1RbEMhiwrT-kZIDd902eFtnHiwKvN9dyeaz3OWYS9HvBz1qx-TkpAfsAY8ZVm9hRChcI3dFcyoH7K9dsV5Q_IdglySjmiYIJD7jv-gX_XY95JKdmzeB3A=m22',
+                src: 'https://lh3.googleusercontent.com/027EktD11Yz4qpoCMYVvQ_LAJBOdgqvssg_NEsaW9StFbPrFyBM-6pjBPI6mspVljWMHOOHhq9WDwFx6oVnd84KUIHJQrZhiHCoNy-HwaZGWVxnPMRsLwTEw2uH-iixfqdhZXjWrHw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/027EktD11Yz4qpoCMYVvQ_LAJBOdgqvssg_NEsaW9StFbPrFyBM-6pjBPI6mspVljWMHOOHhq9WDwFx6oVnd84KUIHJQrZhiHCoNy-HwaZGWVxnPMRsLwTEw2uH-iixfqdhZXjWrHw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/4RddLriFdgSoix8IPiGvE1RbEMhiwrT-kZIDd902eFtnHiwKvN9dyeaz3OWYS9HvBz1qx-TkpAfsAY8ZVm9hRChcI3dFcyoH7K9dsV5Q_IdglySjmiYIJD7jv-gX_XY95JKdmzeB3A=m18',
+                src: 'https://lh3.googleusercontent.com/027EktD11Yz4qpoCMYVvQ_LAJBOdgqvssg_NEsaW9StFbPrFyBM-6pjBPI6mspVljWMHOOHhq9WDwFx6oVnd84KUIHJQrZhiHCoNy-HwaZGWVxnPMRsLwTEw2uH-iixfqdhZXjWrHw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3248,18 +4756,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20117.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 117',
         name: 'Episode 117',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/R5F95ni90ki58yb0j_I2r3zwMrDzoCUJYt3knGfoS0u8CpH4z78criCBjSuSoqNprYQmZbV6fhauXf9oSFm8CJaAYGiAShjUrFqwkMBiFpJqwuYRTxJ1h5HPfkxfPoNPw9YJHVFM4Q=m22',
+                src: 'https://lh3.googleusercontent.com/ftyMZyJ6IpHcYDrufolz1jb8_DAquWvdB1S3cpPcuHwqwwwoWjHUa7tYjxKDxh-W43aJBeStpO4oui1D4bifpbm1OeIbBtkX75p5qNCEkwdlHe8Ef-yn6Vvu4f99XIv3A6S0NiY_JQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/ftyMZyJ6IpHcYDrufolz1jb8_DAquWvdB1S3cpPcuHwqwwwoWjHUa7tYjxKDxh-W43aJBeStpO4oui1D4bifpbm1OeIbBtkX75p5qNCEkwdlHe8Ef-yn6Vvu4f99XIv3A6S0NiY_JQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/R5F95ni90ki58yb0j_I2r3zwMrDzoCUJYt3knGfoS0u8CpH4z78criCBjSuSoqNprYQmZbV6fhauXf9oSFm8CJaAYGiAShjUrFqwkMBiFpJqwuYRTxJ1h5HPfkxfPoNPw9YJHVFM4Q=m18',
+                src: 'https://lh3.googleusercontent.com/ftyMZyJ6IpHcYDrufolz1jb8_DAquWvdB1S3cpPcuHwqwwwoWjHUa7tYjxKDxh-W43aJBeStpO4oui1D4bifpbm1OeIbBtkX75p5qNCEkwdlHe8Ef-yn6Vvu4f99XIv3A6S0NiY_JQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3276,18 +4797,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20118.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 118',
         name: 'Episode 118',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/1gUWPMKcI1ntjDsMcy9MNc_oAOzBGvZ_WHz-foCIThM0mdKGxXd9yAnQuzCOC24SH6k19se5b8McgkEQhsEB3ReKfiTvJUHR7QjrN4jxOx752WnX_cGd-jDJyIRhdc0o65Iss2ILaA=m22',
+                src: 'https://lh3.googleusercontent.com/hcchNbnre6X58iy3JM-jfQNbpw8wn3b1i4av465Z4gQiPx8BNaxdIcJS6j1bDThl1-bkY520yqEAo2jjw-HYsCEH1po5ADjlW9og7fdfjuNDd-XVAE9bpMA4wIAn2eFSOeIOMUMoPA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/hcchNbnre6X58iy3JM-jfQNbpw8wn3b1i4av465Z4gQiPx8BNaxdIcJS6j1bDThl1-bkY520yqEAo2jjw-HYsCEH1po5ADjlW9og7fdfjuNDd-XVAE9bpMA4wIAn2eFSOeIOMUMoPA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/1gUWPMKcI1ntjDsMcy9MNc_oAOzBGvZ_WHz-foCIThM0mdKGxXd9yAnQuzCOC24SH6k19se5b8McgkEQhsEB3ReKfiTvJUHR7QjrN4jxOx752WnX_cGd-jDJyIRhdc0o65Iss2ILaA=m18',
+                src: 'https://lh3.googleusercontent.com/hcchNbnre6X58iy3JM-jfQNbpw8wn3b1i4av465Z4gQiPx8BNaxdIcJS6j1bDThl1-bkY520yqEAo2jjw-HYsCEH1po5ADjlW9og7fdfjuNDd-XVAE9bpMA4wIAn2eFSOeIOMUMoPA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3304,18 +4838,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20119.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 119',
         name: 'Episode 119',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/qdLNH2W9S5M2iq0dyCDUb46MjtwKzjtnxnUXbJG0Ry3XgB9TWFHdZy7vbOnkU6snIGiGGI87xhfalJwd89Axm2LLfUQxhzBQN08zUZW8YyuCr07Pnf11E-N7OR7C680q4nvub3eJWg=m22',
+                src: 'https://lh3.googleusercontent.com/aBuKzE4cQ_eNi3MSwiM5iV7p5-mr63kKr8Vath6NC5hRlbhd1SayAGXxMSNWxDDoumdZTMrLKEPe7Tfz1xeo8Oea-wDJmB-VYTbFBi_r1jSzDnCcG7VH1t9H5CURI0skHUhSN0rC2Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/aBuKzE4cQ_eNi3MSwiM5iV7p5-mr63kKr8Vath6NC5hRlbhd1SayAGXxMSNWxDDoumdZTMrLKEPe7Tfz1xeo8Oea-wDJmB-VYTbFBi_r1jSzDnCcG7VH1t9H5CURI0skHUhSN0rC2Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/qdLNH2W9S5M2iq0dyCDUb46MjtwKzjtnxnUXbJG0Ry3XgB9TWFHdZy7vbOnkU6snIGiGGI87xhfalJwd89Axm2LLfUQxhzBQN08zUZW8YyuCr07Pnf11E-N7OR7C680q4nvub3eJWg=m18',
+                src: 'https://lh3.googleusercontent.com/aBuKzE4cQ_eNi3MSwiM5iV7p5-mr63kKr8Vath6NC5hRlbhd1SayAGXxMSNWxDDoumdZTMrLKEPe7Tfz1xeo8Oea-wDJmB-VYTbFBi_r1jSzDnCcG7VH1t9H5CURI0skHUhSN0rC2Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3332,18 +4879,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20120.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 120',
         name: 'Episode 120',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/p09WV-xI_KI0akniukreO9THMHz5x6MlamMyWS-36U3aIcnbV8BGYJEV1-h1K7R14lIOwnbGLw8ZN2cfA7Y31YewpkQkkXqbB5MJNQXnwUwmrYdky1xnbEwtfz7VCvUzgehFyGLHwQ=m22',
+                src: 'https://lh3.googleusercontent.com/jYEM5InRg9SzuZTRHqflEwJmFTKtJuGiDWgm8Ug-9-hFay0httFGfiSJ6i_REmgyS_RV-o-JL1ipYeTLEq7dCUX7FzDXyddwnEQnma9f_4Pt7WiFdA5ppPUYclcvFOu2mo7zVHsYpw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/jYEM5InRg9SzuZTRHqflEwJmFTKtJuGiDWgm8Ug-9-hFay0httFGfiSJ6i_REmgyS_RV-o-JL1ipYeTLEq7dCUX7FzDXyddwnEQnma9f_4Pt7WiFdA5ppPUYclcvFOu2mo7zVHsYpw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/p09WV-xI_KI0akniukreO9THMHz5x6MlamMyWS-36U3aIcnbV8BGYJEV1-h1K7R14lIOwnbGLw8ZN2cfA7Y31YewpkQkkXqbB5MJNQXnwUwmrYdky1xnbEwtfz7VCvUzgehFyGLHwQ=m18',
+                src: 'https://lh3.googleusercontent.com/jYEM5InRg9SzuZTRHqflEwJmFTKtJuGiDWgm8Ug-9-hFay0httFGfiSJ6i_REmgyS_RV-o-JL1ipYeTLEq7dCUX7FzDXyddwnEQnma9f_4Pt7WiFdA5ppPUYclcvFOu2mo7zVHsYpw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3360,18 +4920,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20121.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 121',
         name: 'Episode 121',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/49HfTMfn6xTerD6nkJUCaxtCVTJZKkTr41JUaEM9V5h53Rj9BJfJzKOnS5HZ7DD36KKSTUxTiImBKIWhCEDgBGJT6Q3Arx7896WlyvOo2TaDf6Ub5hWAgQOE1i79MBgudvls5rsq4Q=m22',
+                src: 'https://lh3.googleusercontent.com/5oXdEHtKt22ctOfQP9fW74GBrdzdWEnRJeM3saP9qMTsds6bq-9bjP4k9FjI4dgleYQjpybcAqXJo_WH7_BXsqkEDYzSW2mhXulQiz7tG6HzeTeNkaascHIqyC7ahuyLYeEJAde77w=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/5oXdEHtKt22ctOfQP9fW74GBrdzdWEnRJeM3saP9qMTsds6bq-9bjP4k9FjI4dgleYQjpybcAqXJo_WH7_BXsqkEDYzSW2mhXulQiz7tG6HzeTeNkaascHIqyC7ahuyLYeEJAde77w=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/49HfTMfn6xTerD6nkJUCaxtCVTJZKkTr41JUaEM9V5h53Rj9BJfJzKOnS5HZ7DD36KKSTUxTiImBKIWhCEDgBGJT6Q3Arx7896WlyvOo2TaDf6Ub5hWAgQOE1i79MBgudvls5rsq4Q=m18',
+                src: 'https://lh3.googleusercontent.com/5oXdEHtKt22ctOfQP9fW74GBrdzdWEnRJeM3saP9qMTsds6bq-9bjP4k9FjI4dgleYQjpybcAqXJo_WH7_BXsqkEDYzSW2mhXulQiz7tG6HzeTeNkaascHIqyC7ahuyLYeEJAde77w=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3388,18 +4961,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20122.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 122',
         name: 'Episode 122',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/f2EUjqODjFvLfWNGTsFff_GGSfiCOJx4rgp-GYcKg_O6_L6haa96Ishv_nKdDNpZIOjhmpWzg4HdjHb6awocClyI2PoQH-KXw7H1zw_DNBfF14x_i3OWjnelSeEqI1TAgvoYABDrfg=m22',
+                src: 'https://lh3.googleusercontent.com/IcRCK1CacHRZArvfO0p05ZdD3ZL-erTYUEK1bhNh1voOWJRvW2bM7YBnUEu2m23eTVINbSliFSiU2Fa4Z3wQ-4hPOGuBwMQTqmyLPJ9vUANadPQv3yBJjyIIHRSyQPvb0eSteD1lEg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/IcRCK1CacHRZArvfO0p05ZdD3ZL-erTYUEK1bhNh1voOWJRvW2bM7YBnUEu2m23eTVINbSliFSiU2Fa4Z3wQ-4hPOGuBwMQTqmyLPJ9vUANadPQv3yBJjyIIHRSyQPvb0eSteD1lEg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/f2EUjqODjFvLfWNGTsFff_GGSfiCOJx4rgp-GYcKg_O6_L6haa96Ishv_nKdDNpZIOjhmpWzg4HdjHb6awocClyI2PoQH-KXw7H1zw_DNBfF14x_i3OWjnelSeEqI1TAgvoYABDrfg=m18',
+                src: 'https://lh3.googleusercontent.com/IcRCK1CacHRZArvfO0p05ZdD3ZL-erTYUEK1bhNh1voOWJRvW2bM7YBnUEu2m23eTVINbSliFSiU2Fa4Z3wQ-4hPOGuBwMQTqmyLPJ9vUANadPQv3yBJjyIIHRSyQPvb0eSteD1lEg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3416,18 +5002,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20123.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 123',
         name: 'Episode 123',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/MPKAe83UesDbKmV10PKNywGxui8p2QQ-wGIPcxVBl-_fi_Mw7fjjaqI-nBhRVj5VWdh8DJupd0t4FTSSsE5omRiGUPOcSJnHUOPRJmj4dVCKcg0lMCS7k1ce1nb1LjB8WqEPmHS9lg=m22',
+                src: 'https://lh3.googleusercontent.com/EYgmDh_S1qV8kr0-HLZi9q-JU-v1rPJ8vud0gAguYydhQd8SXB3d7an5idsImwWRpMJe-7Oroej8L_uuDEd9mU5oZdT-oIJ1C2mQyeikOOTbym0CoBRMWCevsx3Ae3L0P9OTFAP9Ig=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/EYgmDh_S1qV8kr0-HLZi9q-JU-v1rPJ8vud0gAguYydhQd8SXB3d7an5idsImwWRpMJe-7Oroej8L_uuDEd9mU5oZdT-oIJ1C2mQyeikOOTbym0CoBRMWCevsx3Ae3L0P9OTFAP9Ig=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/MPKAe83UesDbKmV10PKNywGxui8p2QQ-wGIPcxVBl-_fi_Mw7fjjaqI-nBhRVj5VWdh8DJupd0t4FTSSsE5omRiGUPOcSJnHUOPRJmj4dVCKcg0lMCS7k1ce1nb1LjB8WqEPmHS9lg=m18',
+                src: 'https://lh3.googleusercontent.com/EYgmDh_S1qV8kr0-HLZi9q-JU-v1rPJ8vud0gAguYydhQd8SXB3d7an5idsImwWRpMJe-7Oroej8L_uuDEd9mU5oZdT-oIJ1C2mQyeikOOTbym0CoBRMWCevsx3Ae3L0P9OTFAP9Ig=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3444,18 +5043,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20124.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 124',
         name: 'Episode 124',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/UI4hnPFypyhvvLXseHBOua-ei351J-7soWaG21NGtjXLCnRA7LEPJRCTIHjjuFu97Wnnwepf_HBss4PR18KSmkTJljDZYYJnRU4bB5YU0i8nkb-MINjNmyKNQhw84dKzoAu_SnvIRQ=m22',
+                src: 'https://lh3.googleusercontent.com/ZaHJ5etIhPI2rpOSPh3PTHt88hR4Wajjr5Kw0nvQQo7w2tb-ou6q6icUdVOmijTrFdTG8MRddrc6yA1rRgk573S-dxNnhlN-CelbM1CvR5MR514o53qQCKI1e_--lKwDy_zD_N11yw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/ZaHJ5etIhPI2rpOSPh3PTHt88hR4Wajjr5Kw0nvQQo7w2tb-ou6q6icUdVOmijTrFdTG8MRddrc6yA1rRgk573S-dxNnhlN-CelbM1CvR5MR514o53qQCKI1e_--lKwDy_zD_N11yw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/UI4hnPFypyhvvLXseHBOua-ei351J-7soWaG21NGtjXLCnRA7LEPJRCTIHjjuFu97Wnnwepf_HBss4PR18KSmkTJljDZYYJnRU4bB5YU0i8nkb-MINjNmyKNQhw84dKzoAu_SnvIRQ=m18',
+                src: 'https://lh3.googleusercontent.com/ZaHJ5etIhPI2rpOSPh3PTHt88hR4Wajjr5Kw0nvQQo7w2tb-ou6q6icUdVOmijTrFdTG8MRddrc6yA1rRgk573S-dxNnhlN-CelbM1CvR5MR514o53qQCKI1e_--lKwDy_zD_N11yw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3472,18 +5084,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20125.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 125',
         name: 'Episode 125',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/yqInuGmMpUnZ3faeid5ezL7I_2bYz7m9WBrLYpQGhUR_u--AblWurqBffsDTWCyRv14ImddlpzVEGByuH0nmMYqwMx642zHrWAQuvVGDLpRE2_SmikT3PyLT6yZAGplLIPeVpnUNig=m22',
+                src: 'https://lh3.googleusercontent.com/HahoH4hW-jqrcKl9F8Qbeyx9fD-UWiwJtKJgeRr6P9jDMeD3nrn0lo9jw5Oa9iDRfMAUZ-wdQnL4sJVxb4LCqI126ju-NFwDtW9SZNJMYn5irYghg5el6DqtJkMuLQoBw_b5PigCIg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/HahoH4hW-jqrcKl9F8Qbeyx9fD-UWiwJtKJgeRr6P9jDMeD3nrn0lo9jw5Oa9iDRfMAUZ-wdQnL4sJVxb4LCqI126ju-NFwDtW9SZNJMYn5irYghg5el6DqtJkMuLQoBw_b5PigCIg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/yqInuGmMpUnZ3faeid5ezL7I_2bYz7m9WBrLYpQGhUR_u--AblWurqBffsDTWCyRv14ImddlpzVEGByuH0nmMYqwMx642zHrWAQuvVGDLpRE2_SmikT3PyLT6yZAGplLIPeVpnUNig=m18',
+                src: 'https://lh3.googleusercontent.com/HahoH4hW-jqrcKl9F8Qbeyx9fD-UWiwJtKJgeRr6P9jDMeD3nrn0lo9jw5Oa9iDRfMAUZ-wdQnL4sJVxb4LCqI126ju-NFwDtW9SZNJMYn5irYghg5el6DqtJkMuLQoBw_b5PigCIg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3500,18 +5125,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20126.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 126',
         name: 'Episode 126',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/Dcm5EG8c6xw_T-nhLLsrjzbfJa4t8jM493ii3oOIo4zuqAJQ8uPcw8kjezUdRRs0BuOba0pROAzp-kEuYfvmtmtIKX7MotTF7hcseiSwACX64-8qnVPS1l_yAH7s_KiF9-M50cd0_A=m22',
+                src: 'https://lh3.googleusercontent.com/aWxYx-CoczYBrBaMtxxouvWmYWrufubUWQ7tjwZus8Yy7IShfJdi8j6UXYbNw43SFGUbu7MktaKj5PePoQOqTmjC5zPurr--ACd4VoUkEIWft0_0zJbus0EpuE6nRU8wpUPNJvAACg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/aWxYx-CoczYBrBaMtxxouvWmYWrufubUWQ7tjwZus8Yy7IShfJdi8j6UXYbNw43SFGUbu7MktaKj5PePoQOqTmjC5zPurr--ACd4VoUkEIWft0_0zJbus0EpuE6nRU8wpUPNJvAACg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/Dcm5EG8c6xw_T-nhLLsrjzbfJa4t8jM493ii3oOIo4zuqAJQ8uPcw8kjezUdRRs0BuOba0pROAzp-kEuYfvmtmtIKX7MotTF7hcseiSwACX64-8qnVPS1l_yAH7s_KiF9-M50cd0_A=m18',
+                src: 'https://lh3.googleusercontent.com/aWxYx-CoczYBrBaMtxxouvWmYWrufubUWQ7tjwZus8Yy7IShfJdi8j6UXYbNw43SFGUbu7MktaKj5PePoQOqTmjC5zPurr--ACd4VoUkEIWft0_0zJbus0EpuE6nRU8wpUPNJvAACg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3528,18 +5166,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20127.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 127',
         name: 'Episode 127',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/bJ3v1xJ31KIVMzHpbZmE84mh7T2237MDup4dNJ4b70TEszLZi3Glmfkanpl6V9wtqLLoNEPyVmu-atsIgf2gbbBD7eOY-bC_Nks7XuKeayxC5UrS-XdVjrYYGVUyYZwEjagDaJ0SKQ=m22',
+                src: 'https://lh3.googleusercontent.com/sixPsp_OHCDaMsAXAk0huaFJL1ziwAVjhVEljWxg2ZzczdCppXWHw95GX78OlBrujEfwEBBU7JZwZQdJmlpiGVcDoXO6GYL5Nn_cv31OmXwB1Prj86as-Wdiquc7gnVXVgYU6Fv3mg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/sixPsp_OHCDaMsAXAk0huaFJL1ziwAVjhVEljWxg2ZzczdCppXWHw95GX78OlBrujEfwEBBU7JZwZQdJmlpiGVcDoXO6GYL5Nn_cv31OmXwB1Prj86as-Wdiquc7gnVXVgYU6Fv3mg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/bJ3v1xJ31KIVMzHpbZmE84mh7T2237MDup4dNJ4b70TEszLZi3Glmfkanpl6V9wtqLLoNEPyVmu-atsIgf2gbbBD7eOY-bC_Nks7XuKeayxC5UrS-XdVjrYYGVUyYZwEjagDaJ0SKQ=m18',
+                src: 'https://lh3.googleusercontent.com/sixPsp_OHCDaMsAXAk0huaFJL1ziwAVjhVEljWxg2ZzczdCppXWHw95GX78OlBrujEfwEBBU7JZwZQdJmlpiGVcDoXO6GYL5Nn_cv31OmXwB1Prj86as-Wdiquc7gnVXVgYU6Fv3mg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3556,18 +5207,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20128.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 128',
         name: 'Episode 128',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/V55-TQ1wKv6bNKoqag8LXcsYwS562k23ZXGGK0YO2KIvR9-jRtamG0pG7ZaRdKFZy9zZu4h8eHRM5WoH01RlljYZhJezNKtJKYOBbqvDU0Dk3UgmkB9mXpwkmZVdfU8kQv0lRe3meg=m22',
+                src: 'https://lh3.googleusercontent.com/g_9RvH62iSNls7uRgiriYPUKyEgMRi-UEFHl0FtQ0cfKTBLta5Xuvnpk0tX4aP0KYISWHmoJhl5j8XhE3JtA0lNstkH5JfOAguuYifWyZjL_Nxy-z6DEmKsLDRrKrMRioGFEEh6vWg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/g_9RvH62iSNls7uRgiriYPUKyEgMRi-UEFHl0FtQ0cfKTBLta5Xuvnpk0tX4aP0KYISWHmoJhl5j8XhE3JtA0lNstkH5JfOAguuYifWyZjL_Nxy-z6DEmKsLDRrKrMRioGFEEh6vWg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/V55-TQ1wKv6bNKoqag8LXcsYwS562k23ZXGGK0YO2KIvR9-jRtamG0pG7ZaRdKFZy9zZu4h8eHRM5WoH01RlljYZhJezNKtJKYOBbqvDU0Dk3UgmkB9mXpwkmZVdfU8kQv0lRe3meg=m18',
+                src: 'https://lh3.googleusercontent.com/g_9RvH62iSNls7uRgiriYPUKyEgMRi-UEFHl0FtQ0cfKTBLta5Xuvnpk0tX4aP0KYISWHmoJhl5j8XhE3JtA0lNstkH5JfOAguuYifWyZjL_Nxy-z6DEmKsLDRrKrMRioGFEEh6vWg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3584,18 +5248,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20129.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 129',
         name: 'Episode 129',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/6VaiKF--kmSJ3DKa4AMVOJapMeZTwdvZOiKLcIGM68SYQ1UNKFCeYCUk4r7kww57aSI_GU2NE4syGXwIFBXOxzddAwT6DL4keU1qd6lciX66m2aLZ1_4TXArlDdeTjyHV_Z2VUJs4g=m22',
+                src: 'https://lh3.googleusercontent.com/UmOhOS2Ph6WlTGjFqIY7DnU8lI2y7Z0UyJ8sLq49QViyDtqfh__1vPqLSBxiTSE7h73yVlIOUwPonQV2fxsw330nwgUTALHNy5QyengjEwq7_LyOsiwglU1wufvpI-ZCLV9CHq9-Cg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/UmOhOS2Ph6WlTGjFqIY7DnU8lI2y7Z0UyJ8sLq49QViyDtqfh__1vPqLSBxiTSE7h73yVlIOUwPonQV2fxsw330nwgUTALHNy5QyengjEwq7_LyOsiwglU1wufvpI-ZCLV9CHq9-Cg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/6VaiKF--kmSJ3DKa4AMVOJapMeZTwdvZOiKLcIGM68SYQ1UNKFCeYCUk4r7kww57aSI_GU2NE4syGXwIFBXOxzddAwT6DL4keU1qd6lciX66m2aLZ1_4TXArlDdeTjyHV_Z2VUJs4g=m18',
+                src: 'https://lh3.googleusercontent.com/UmOhOS2Ph6WlTGjFqIY7DnU8lI2y7Z0UyJ8sLq49QViyDtqfh__1vPqLSBxiTSE7h73yVlIOUwPonQV2fxsw330nwgUTALHNy5QyengjEwq7_LyOsiwglU1wufvpI-ZCLV9CHq9-Cg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3612,18 +5289,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20130.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 130',
         name: 'Episode 130',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/Zd82OUNIle3ydQpVohKu_pjq2IaxLAP2tLPM43BWR5CUPuHfrmDhn0eIuONkOXReXmuNrxkjBGNK0QCa7_wRHGTQz_B9eDDu-VHcH3sCpKAmuVLr_yjjKSSFuQ7EEKLhES6vHYF0tw=m22',
+                src: 'https://lh3.googleusercontent.com/JaBM9uYmbV0upPALe2RVVQ3x4kFaNGpLfjS_-TnqbPoGsjOfD4wSDpUSJ0lkZYy8pbJ0F9RX1na07ljn2zv5-aXxCc2QJRW8uWBn983KuTDaxbT_aHC0eri_PGkBVyz-8O-2eRiubg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/JaBM9uYmbV0upPALe2RVVQ3x4kFaNGpLfjS_-TnqbPoGsjOfD4wSDpUSJ0lkZYy8pbJ0F9RX1na07ljn2zv5-aXxCc2QJRW8uWBn983KuTDaxbT_aHC0eri_PGkBVyz-8O-2eRiubg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/Zd82OUNIle3ydQpVohKu_pjq2IaxLAP2tLPM43BWR5CUPuHfrmDhn0eIuONkOXReXmuNrxkjBGNK0QCa7_wRHGTQz_B9eDDu-VHcH3sCpKAmuVLr_yjjKSSFuQ7EEKLhES6vHYF0tw=m18',
+                src: 'https://lh3.googleusercontent.com/JaBM9uYmbV0upPALe2RVVQ3x4kFaNGpLfjS_-TnqbPoGsjOfD4wSDpUSJ0lkZYy8pbJ0F9RX1na07ljn2zv5-aXxCc2QJRW8uWBn983KuTDaxbT_aHC0eri_PGkBVyz-8O-2eRiubg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3640,18 +5330,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20131.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 131',
         name: 'Episode 131',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/UxW-nBPPyF2WMeG0RWx7zt-nKvf1vr8cYKR7Swc-vWwLciX8gVXXNEEUpjdei4NV4MVwSZjJZh-cJX4L2hvG-GfU0IXOpHRro4Zb7IfXUI8U8QiS1-1bNP0DnRibYsQNdpYvy3Ufxg=m22',
+                src: 'https://lh3.googleusercontent.com/PAUAq-XFPRAqIRLnJW50cyeHbJumVoh0o_wj5PXpzPawpURdqm2jdl39nuE8ua1I5p24TVDn7QpkipQgB3My3ytCk_3taX78PqPWF86f5AANg9i8bcW7AA3YB9wwzc6ZhX6kVgULzA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/PAUAq-XFPRAqIRLnJW50cyeHbJumVoh0o_wj5PXpzPawpURdqm2jdl39nuE8ua1I5p24TVDn7QpkipQgB3My3ytCk_3taX78PqPWF86f5AANg9i8bcW7AA3YB9wwzc6ZhX6kVgULzA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/UxW-nBPPyF2WMeG0RWx7zt-nKvf1vr8cYKR7Swc-vWwLciX8gVXXNEEUpjdei4NV4MVwSZjJZh-cJX4L2hvG-GfU0IXOpHRro4Zb7IfXUI8U8QiS1-1bNP0DnRibYsQNdpYvy3Ufxg=m18',
+                src: 'https://lh3.googleusercontent.com/PAUAq-XFPRAqIRLnJW50cyeHbJumVoh0o_wj5PXpzPawpURdqm2jdl39nuE8ua1I5p24TVDn7QpkipQgB3My3ytCk_3taX78PqPWF86f5AANg9i8bcW7AA3YB9wwzc6ZhX6kVgULzA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3668,18 +5371,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20132.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 132',
         name: 'Episode 132',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/6jQxzSJjlnXU--tbKOKi63XbYYXKMoumC46IOzbibSTpPWKKjg3XCKxL8Rpy_9yGdmkFh-QG0vT38Wp1Q__rroF3M8ox80H1SXrr5oX2wVmbmaoB-4rJOdtjAHJau98WIPKRyuYlew=m22',
+                src: 'https://lh3.googleusercontent.com/DWDmWJlCeHMOgTnEmFleSw9dpKNs0ZuIUhkFuGCp3-q-jMQXSpf_Gy2ui9iUyY47Mo_GNtcWyoFOFYUW8EOjSnjzSpuKC8_Bq_DfM99ERmfzrzSO7XoGNg8IxkCEaVTjTpFM-2QPHw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/DWDmWJlCeHMOgTnEmFleSw9dpKNs0ZuIUhkFuGCp3-q-jMQXSpf_Gy2ui9iUyY47Mo_GNtcWyoFOFYUW8EOjSnjzSpuKC8_Bq_DfM99ERmfzrzSO7XoGNg8IxkCEaVTjTpFM-2QPHw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/6jQxzSJjlnXU--tbKOKi63XbYYXKMoumC46IOzbibSTpPWKKjg3XCKxL8Rpy_9yGdmkFh-QG0vT38Wp1Q__rroF3M8ox80H1SXrr5oX2wVmbmaoB-4rJOdtjAHJau98WIPKRyuYlew=m18',
+                src: 'https://lh3.googleusercontent.com/DWDmWJlCeHMOgTnEmFleSw9dpKNs0ZuIUhkFuGCp3-q-jMQXSpf_Gy2ui9iUyY47Mo_GNtcWyoFOFYUW8EOjSnjzSpuKC8_Bq_DfM99ERmfzrzSO7XoGNg8IxkCEaVTjTpFM-2QPHw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3696,18 +5412,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20133.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 133',
         name: 'Episode 133',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/LyJSm-U9qeQ4cd0FqLxZPNsqFHQs4LK-gkZ63ZyOyBDMZhXXUJccZ5puOqmHWp1IAtOxyzRu8i674-BQJPtBZUWVB9vQcl785Ug5xN3elgQYpt2PW8E5Z0hFZl1xvFijkr7kDC_N9Q=m22',
+                src: 'https://lh3.googleusercontent.com/G607wrEeC47KsvKQvVJi6f9-jz7RBALBC8nrurUsG42eHniltqbSgN_jVvcDIGQ_eBtJ9MldbgOS3Q0-wJJtLOUyP7XHOnRHBDdzLIjltrz0iBkZXLn1WkDJkE1sd2PnZNXgsjm6IQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/G607wrEeC47KsvKQvVJi6f9-jz7RBALBC8nrurUsG42eHniltqbSgN_jVvcDIGQ_eBtJ9MldbgOS3Q0-wJJtLOUyP7XHOnRHBDdzLIjltrz0iBkZXLn1WkDJkE1sd2PnZNXgsjm6IQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/LyJSm-U9qeQ4cd0FqLxZPNsqFHQs4LK-gkZ63ZyOyBDMZhXXUJccZ5puOqmHWp1IAtOxyzRu8i674-BQJPtBZUWVB9vQcl785Ug5xN3elgQYpt2PW8E5Z0hFZl1xvFijkr7kDC_N9Q=m18',
+                src: 'https://lh3.googleusercontent.com/G607wrEeC47KsvKQvVJi6f9-jz7RBALBC8nrurUsG42eHniltqbSgN_jVvcDIGQ_eBtJ9MldbgOS3Q0-wJJtLOUyP7XHOnRHBDdzLIjltrz0iBkZXLn1WkDJkE1sd2PnZNXgsjm6IQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3724,18 +5453,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20134.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 134',
         name: 'Episode 134',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/3KGEag9amYgLSRdWRclIfA_D1x785ysBaIUSfunTWOHKhKkwkmr3T7Y52_Ebtgc8fhbgT_lsnw8ttrV71lX1aboW3YN9po4PoVogos-L7g8H6_eFsljzI_7cAOyMMiWsibhsv0MOrA=m22',
+                src: 'https://lh3.googleusercontent.com/oyvd3Emh4R3TwtROiTw87CEds26q7qhuEdyCsfjLPKHqFTpMb1HzVOHyDBnkkxLK1tbSf9Bp90LkiOGZyNYSs_uXFnIS9huAw0Im8oV3uArsjmbvaOY0SlrBDoWYHj_fqBknWHBLig=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/oyvd3Emh4R3TwtROiTw87CEds26q7qhuEdyCsfjLPKHqFTpMb1HzVOHyDBnkkxLK1tbSf9Bp90LkiOGZyNYSs_uXFnIS9huAw0Im8oV3uArsjmbvaOY0SlrBDoWYHj_fqBknWHBLig=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/3KGEag9amYgLSRdWRclIfA_D1x785ysBaIUSfunTWOHKhKkwkmr3T7Y52_Ebtgc8fhbgT_lsnw8ttrV71lX1aboW3YN9po4PoVogos-L7g8H6_eFsljzI_7cAOyMMiWsibhsv0MOrA=m18',
+                src: 'https://lh3.googleusercontent.com/oyvd3Emh4R3TwtROiTw87CEds26q7qhuEdyCsfjLPKHqFTpMb1HzVOHyDBnkkxLK1tbSf9Bp90LkiOGZyNYSs_uXFnIS9huAw0Im8oV3uArsjmbvaOY0SlrBDoWYHj_fqBknWHBLig=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3752,18 +5494,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20135.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 135',
         name: 'Episode 135',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/WXPm09Lecub2V8zkh9y4B6oTTOWKu28xL7XaiTspXShCKmrtuo3xJ4NFJIJWTS-2Aq5XCniZlv1mzGzsEqglY9C-kbZhng4Me2kX282PJQFAQ1VzqVYD46NGkV9PkmQmVrjPfTAc9Q=m22',
+                src: 'https://lh3.googleusercontent.com/Ssk5h3VebOstxQR6PPslU-HrSmtBwFi1uKBmrSBb3z3g_ChaeLl0Wty7zqeKSo0yRATcYUK68A21_SJnwOr0JqZNCr6v2FQdSjr5UDHvqe0C1nVPCoBtyuHsUHmUfdQTxe4ELWY5Tw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Ssk5h3VebOstxQR6PPslU-HrSmtBwFi1uKBmrSBb3z3g_ChaeLl0Wty7zqeKSo0yRATcYUK68A21_SJnwOr0JqZNCr6v2FQdSjr5UDHvqe0C1nVPCoBtyuHsUHmUfdQTxe4ELWY5Tw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/WXPm09Lecub2V8zkh9y4B6oTTOWKu28xL7XaiTspXShCKmrtuo3xJ4NFJIJWTS-2Aq5XCniZlv1mzGzsEqglY9C-kbZhng4Me2kX282PJQFAQ1VzqVYD46NGkV9PkmQmVrjPfTAc9Q=m18',
+                src: 'https://lh3.googleusercontent.com/Ssk5h3VebOstxQR6PPslU-HrSmtBwFi1uKBmrSBb3z3g_ChaeLl0Wty7zqeKSo0yRATcYUK68A21_SJnwOr0JqZNCr6v2FQdSjr5UDHvqe0C1nVPCoBtyuHsUHmUfdQTxe4ELWY5Tw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3780,18 +5535,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20136.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 136',
         name: 'Episode 136',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/jZKV9Ki8-wFhpWQt__6_lJ79Yo-h8iXa_6Jg0g5RzmHzUV_GNXYL8jXz0n1lqg-j-BLKR9VO1CpgXHbWIpRG2x6HkU1altAZk-56nP4wHpdC3xFhMcGJgmJhGIDlJfVDlQ6ckHta6g=m22',
+                src: 'https://lh3.googleusercontent.com/hnL8Zqa5LG82j94ZfE1uIDF1SZkARW-a-Wz0_rH6DsE6zBt8hu9GlJrbfvN6afc-60COxVukZiZuuupg5sPl0olp33Y4EvZQULtQV3Xk4fNHdRAp0eXz3s4oTbqyICdpxD6aSxXwrQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/hnL8Zqa5LG82j94ZfE1uIDF1SZkARW-a-Wz0_rH6DsE6zBt8hu9GlJrbfvN6afc-60COxVukZiZuuupg5sPl0olp33Y4EvZQULtQV3Xk4fNHdRAp0eXz3s4oTbqyICdpxD6aSxXwrQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/jZKV9Ki8-wFhpWQt__6_lJ79Yo-h8iXa_6Jg0g5RzmHzUV_GNXYL8jXz0n1lqg-j-BLKR9VO1CpgXHbWIpRG2x6HkU1altAZk-56nP4wHpdC3xFhMcGJgmJhGIDlJfVDlQ6ckHta6g=m18',
+                src: 'https://lh3.googleusercontent.com/hnL8Zqa5LG82j94ZfE1uIDF1SZkARW-a-Wz0_rH6DsE6zBt8hu9GlJrbfvN6afc-60COxVukZiZuuupg5sPl0olp33Y4EvZQULtQV3Xk4fNHdRAp0eXz3s4oTbqyICdpxD6aSxXwrQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3808,18 +5576,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20137.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 137',
         name: 'Episode 137',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/AGV2xGjaLiEz-vGbugHOA5-K9oGuTfJmIorSZ-AMD5_7Tj6EWoPL1Qi_UDXGeJPC1DjEYfCDPOWSLT2bDzfpW9lMjbpsXNQN_BvbDoEtFx_a9aculuCPg2GGfa_lAI8i8D6Ev-yg3A=m22',
+                src: 'https://lh3.googleusercontent.com/snazr2yBhkmfsHOBWhx8nkl1Vhy1eea15wyV7wqafUenPzlwo17-RYBjzNhyMETAixslqf7Pebugeg4oCPCptzfDDEUENTT1woPySxefIOvEJ2ZBJ2V30hWUhfpSaKQCLajOy6XWNg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/snazr2yBhkmfsHOBWhx8nkl1Vhy1eea15wyV7wqafUenPzlwo17-RYBjzNhyMETAixslqf7Pebugeg4oCPCptzfDDEUENTT1woPySxefIOvEJ2ZBJ2V30hWUhfpSaKQCLajOy6XWNg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/AGV2xGjaLiEz-vGbugHOA5-K9oGuTfJmIorSZ-AMD5_7Tj6EWoPL1Qi_UDXGeJPC1DjEYfCDPOWSLT2bDzfpW9lMjbpsXNQN_BvbDoEtFx_a9aculuCPg2GGfa_lAI8i8D6Ev-yg3A=m18',
+                src: 'https://lh3.googleusercontent.com/snazr2yBhkmfsHOBWhx8nkl1Vhy1eea15wyV7wqafUenPzlwo17-RYBjzNhyMETAixslqf7Pebugeg4oCPCptzfDDEUENTT1woPySxefIOvEJ2ZBJ2V30hWUhfpSaKQCLajOy6XWNg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3836,18 +5617,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20138.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 138',
         name: 'Episode 138',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/zqSMb_boikr-e4_SD3MWWx8khhC9l86c8vCvkooxT9KvVubhL_9r3yFJL-yF0jzk7eNzOGrCVBJdcHPr6dxr8OkOAGPPpY69rwuGvToPQi1aAwWR3kAmEyt2Or8_obnva00KTAR0Uw=m22',
+                src: 'https://lh3.googleusercontent.com/m92BUlyeyAFnB4q0PqWEswG9irtTp75rzHyRsI78qJfj9GHHVMS-AnzbTlKaoRNgDqHE7SBMvm3vJUlN978L8xY7UrBVhT7AI57NDJOCnGOcfxav-0pa93wIY2Guaquhi9X3gc8sJg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/m92BUlyeyAFnB4q0PqWEswG9irtTp75rzHyRsI78qJfj9GHHVMS-AnzbTlKaoRNgDqHE7SBMvm3vJUlN978L8xY7UrBVhT7AI57NDJOCnGOcfxav-0pa93wIY2Guaquhi9X3gc8sJg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/zqSMb_boikr-e4_SD3MWWx8khhC9l86c8vCvkooxT9KvVubhL_9r3yFJL-yF0jzk7eNzOGrCVBJdcHPr6dxr8OkOAGPPpY69rwuGvToPQi1aAwWR3kAmEyt2Or8_obnva00KTAR0Uw=m18',
+                src: 'https://lh3.googleusercontent.com/m92BUlyeyAFnB4q0PqWEswG9irtTp75rzHyRsI78qJfj9GHHVMS-AnzbTlKaoRNgDqHE7SBMvm3vJUlN978L8xY7UrBVhT7AI57NDJOCnGOcfxav-0pa93wIY2Guaquhi9X3gc8sJg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3864,18 +5658,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20139.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 139',
         name: 'Episode 139',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/_g20Mno4g8C4Zoj29xoYfKYtk1vjhvIayqg5j7TtjVMTzOVtppjKFOgn9BlM-uAfJSGd0D86prRNAuruoujAuoELoeL4iuf7Dt8N8oZwdMwi40pqjzdwfYwLEn89L1MO2bS-FaLgfA=m22',
+                src: 'https://lh3.googleusercontent.com/BfRIsNaJuwpbnC88oRoQdV6ArBBSYl1PAuSED0g9FACVW5nSF8v9acaahUoTUYr7XvXld8sy-g47ppG5kIe5J6FiWSp2Nja6feBO5gx8nd2ILkhwnC91Wm1IFmn40946KNC9FRH7kg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/BfRIsNaJuwpbnC88oRoQdV6ArBBSYl1PAuSED0g9FACVW5nSF8v9acaahUoTUYr7XvXld8sy-g47ppG5kIe5J6FiWSp2Nja6feBO5gx8nd2ILkhwnC91Wm1IFmn40946KNC9FRH7kg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/_g20Mno4g8C4Zoj29xoYfKYtk1vjhvIayqg5j7TtjVMTzOVtppjKFOgn9BlM-uAfJSGd0D86prRNAuruoujAuoELoeL4iuf7Dt8N8oZwdMwi40pqjzdwfYwLEn89L1MO2bS-FaLgfA=m18',
+                src: 'https://lh3.googleusercontent.com/BfRIsNaJuwpbnC88oRoQdV6ArBBSYl1PAuSED0g9FACVW5nSF8v9acaahUoTUYr7XvXld8sy-g47ppG5kIe5J6FiWSp2Nja6feBO5gx8nd2ILkhwnC91Wm1IFmn40946KNC9FRH7kg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3892,18 +5699,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20140.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 140',
         name: 'Episode 140',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/iNsxi66vAsscvzHrS1_k9AlhPCfsVIzVMYlj9S0z54l-nXzupbuAglqoVPs-l_o7zoDCtPSs5t5rCj1_ZudDct1YbixgXomSn_XBLSi4biOONwmDWZ0bHiHXKnnrxuqGBP8xEaqFBg=m22',
+                src: 'https://lh3.googleusercontent.com/JjDj6mcobUHkApTGTz8nZTGvEXZ94rtheCRBBSMDYJLuj1zhl60quuWaFzY1Z7iIhQyuquz3lZnMznsZuSbZdmw6Tc4Qk01RLEtT6ioAdjlVdhG1-SnqgaB5xDHFf9EHaPH1U_Cu_Q=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/JjDj6mcobUHkApTGTz8nZTGvEXZ94rtheCRBBSMDYJLuj1zhl60quuWaFzY1Z7iIhQyuquz3lZnMznsZuSbZdmw6Tc4Qk01RLEtT6ioAdjlVdhG1-SnqgaB5xDHFf9EHaPH1U_Cu_Q=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/iNsxi66vAsscvzHrS1_k9AlhPCfsVIzVMYlj9S0z54l-nXzupbuAglqoVPs-l_o7zoDCtPSs5t5rCj1_ZudDct1YbixgXomSn_XBLSi4biOONwmDWZ0bHiHXKnnrxuqGBP8xEaqFBg=m18',
+                src: 'https://lh3.googleusercontent.com/JjDj6mcobUHkApTGTz8nZTGvEXZ94rtheCRBBSMDYJLuj1zhl60quuWaFzY1Z7iIhQyuquz3lZnMznsZuSbZdmw6Tc4Qk01RLEtT6ioAdjlVdhG1-SnqgaB5xDHFf9EHaPH1U_Cu_Q=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3920,18 +5740,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20141.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 141',
         name: 'Episode 141',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/aZ_r-p0s6KCTIzL-k7rdTem6ijY11hj052zK2EyI-WXudE2uN4TARfvkpTVwD5XrsZDAsCZ6HduwWFeXZaZt5ZyP9ZsFAwArT8hRz9a8yutUzkZskASo-gsrygZNGONhpRaKsO01Qg=m22',
+                src: 'https://lh3.googleusercontent.com/3GZiXYjCsXuHk_H-rj0l96bAGq3iuAT1iecLTGVJ77WsQVlWT3mdPZ9j1dnJX99cQBsKrJ3IVoU4uxq0WeisOt9iJFtbtEcXDyr0rIG0uuj63oQXcyD3LfEE-taHBa5KCvDie8eKSw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/3GZiXYjCsXuHk_H-rj0l96bAGq3iuAT1iecLTGVJ77WsQVlWT3mdPZ9j1dnJX99cQBsKrJ3IVoU4uxq0WeisOt9iJFtbtEcXDyr0rIG0uuj63oQXcyD3LfEE-taHBa5KCvDie8eKSw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/aZ_r-p0s6KCTIzL-k7rdTem6ijY11hj052zK2EyI-WXudE2uN4TARfvkpTVwD5XrsZDAsCZ6HduwWFeXZaZt5ZyP9ZsFAwArT8hRz9a8yutUzkZskASo-gsrygZNGONhpRaKsO01Qg=m18',
+                src: 'https://lh3.googleusercontent.com/3GZiXYjCsXuHk_H-rj0l96bAGq3iuAT1iecLTGVJ77WsQVlWT3mdPZ9j1dnJX99cQBsKrJ3IVoU4uxq0WeisOt9iJFtbtEcXDyr0rIG0uuj63oQXcyD3LfEE-taHBa5KCvDie8eKSw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3948,18 +5781,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20142.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 142',
         name: 'Episode 142',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/CA1unfAjKqvSaN2hcL20Kof6Vxve_SeRvclX3PBPFS-cSiMSs4zaIL7nurPytmG-mW9HYzPDoPKvvCNu-SPuarsio2R4TOqeGBytaolFn4WHlhi2LMyXCJRHvQvb0qMhaq-ZVLhqfw=m22',
+                src: 'https://lh3.googleusercontent.com/bCLxyvXfvUxDoRGyBuzd5n8hQ_5M34HDCWyZQUdwGUv4ALptZSZbUi1YrEu1-rNEz-UN-eAG0WzvWO6TnnKPdp40-eE2EPeujkKkfm-p5Foj73g3_EthR8apr1FwyIQg0MnS0aqIGg=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/bCLxyvXfvUxDoRGyBuzd5n8hQ_5M34HDCWyZQUdwGUv4ALptZSZbUi1YrEu1-rNEz-UN-eAG0WzvWO6TnnKPdp40-eE2EPeujkKkfm-p5Foj73g3_EthR8apr1FwyIQg0MnS0aqIGg=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/CA1unfAjKqvSaN2hcL20Kof6Vxve_SeRvclX3PBPFS-cSiMSs4zaIL7nurPytmG-mW9HYzPDoPKvvCNu-SPuarsio2R4TOqeGBytaolFn4WHlhi2LMyXCJRHvQvb0qMhaq-ZVLhqfw=m18',
+                src: 'https://lh3.googleusercontent.com/bCLxyvXfvUxDoRGyBuzd5n8hQ_5M34HDCWyZQUdwGUv4ALptZSZbUi1YrEu1-rNEz-UN-eAG0WzvWO6TnnKPdp40-eE2EPeujkKkfm-p5Foj73g3_EthR8apr1FwyIQg0MnS0aqIGg=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -3976,18 +5822,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20143.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 143',
         name: 'Episode 143',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/9SqPa__wPCv5tQhcyfcIwe8kUOx9fhYLKylspF6i5cTn3eBoBfv6zCYw-eoVajQJdeoJL0OkUmSMbFkpic4M2828KHOAsUC5I2_3I8ak3ThlNAP-zNaYKCcvDdL63KPexSr0b5qu3w=m22',
+                src: 'https://lh3.googleusercontent.com/oPxurobTiHpBKXDx6rzabTi0g3gVxPJA0r4bb_M6ZjfnliWfUjNy7WgRYoNNhc6UxFWidfiMTauA1dlRYL-WNE1i0wPjmOoTJnmhLQsfL6-HyTsbryMeOCAg0AG23pDnVA48n3ikFQ=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/oPxurobTiHpBKXDx6rzabTi0g3gVxPJA0r4bb_M6ZjfnliWfUjNy7WgRYoNNhc6UxFWidfiMTauA1dlRYL-WNE1i0wPjmOoTJnmhLQsfL6-HyTsbryMeOCAg0AG23pDnVA48n3ikFQ=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/9SqPa__wPCv5tQhcyfcIwe8kUOx9fhYLKylspF6i5cTn3eBoBfv6zCYw-eoVajQJdeoJL0OkUmSMbFkpic4M2828KHOAsUC5I2_3I8ak3ThlNAP-zNaYKCcvDdL63KPexSr0b5qu3w=m18',
+                src: 'https://lh3.googleusercontent.com/oPxurobTiHpBKXDx6rzabTi0g3gVxPJA0r4bb_M6ZjfnliWfUjNy7WgRYoNNhc6UxFWidfiMTauA1dlRYL-WNE1i0wPjmOoTJnmhLQsfL6-HyTsbryMeOCAg0AG23pDnVA48n3ikFQ=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -4004,18 +5863,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20144.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 144',
         name: 'Episode 144',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/hZ615lRQggd2ALaXn_cFJnDuasmzxLDscybhdo_Iq3zam4LS4PVS3wGhLGAYLgQIWjldAyNIkcuabX1qqoYIIw8SI-eAWO6LTuHgSeVW-CT8eg1MkjYX7FAjk6QjvV07ITmz0pMrog=m22',
+                src: 'https://lh3.googleusercontent.com/WhlzrQevsEvFRDfuyvs-tZo3rIoYZ4EnQDjKr36xqVbOyL-gseUHYSis-9o1jtvvXCCzy62mQmzpAON_TEq3jktBERT534hhvTdxcUijmhLC8HzmNrO0XtVTBGRuGPofnHhInYlsoA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/WhlzrQevsEvFRDfuyvs-tZo3rIoYZ4EnQDjKr36xqVbOyL-gseUHYSis-9o1jtvvXCCzy62mQmzpAON_TEq3jktBERT534hhvTdxcUijmhLC8HzmNrO0XtVTBGRuGPofnHhInYlsoA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/hZ615lRQggd2ALaXn_cFJnDuasmzxLDscybhdo_Iq3zam4LS4PVS3wGhLGAYLgQIWjldAyNIkcuabX1qqoYIIw8SI-eAWO6LTuHgSeVW-CT8eg1MkjYX7FAjk6QjvV07ITmz0pMrog=m18',
+                src: 'https://lh3.googleusercontent.com/WhlzrQevsEvFRDfuyvs-tZo3rIoYZ4EnQDjKr36xqVbOyL-gseUHYSis-9o1jtvvXCCzy62mQmzpAON_TEq3jktBERT534hhvTdxcUijmhLC8HzmNrO0XtVTBGRuGPofnHhInYlsoA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -4032,18 +5904,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20145.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 145',
         name: 'Episode 145',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/hnJTgOkLlFFqEYBALhbJBjuUKEn3bOyDn68sRn_-bQm4sjOvKFum1Qe1IfyVl8ISSP0x6TEvUP-SbA-QKk0C-8lRMVEdaT9SYzmkcJCtHiKUK5PQe307IlirAjj1ZtwBr82czjN0ZA=m22',
+                src: 'https://lh3.googleusercontent.com/eyUqfj0PO4uGa_rLIVeKaQt_C-tJebGk7Ui12ylUe3eP29mVtvfs9XvYv6b8uE29GWTxmi2XhvGvKBgvvUXhznO0EdwiCozsw2E48qkYCulVVDz1ItNFtKQNEq4hkEAlUFAjRNnncw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/eyUqfj0PO4uGa_rLIVeKaQt_C-tJebGk7Ui12ylUe3eP29mVtvfs9XvYv6b8uE29GWTxmi2XhvGvKBgvvUXhznO0EdwiCozsw2E48qkYCulVVDz1ItNFtKQNEq4hkEAlUFAjRNnncw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/hnJTgOkLlFFqEYBALhbJBjuUKEn3bOyDn68sRn_-bQm4sjOvKFum1Qe1IfyVl8ISSP0x6TEvUP-SbA-QKk0C-8lRMVEdaT9SYzmkcJCtHiKUK5PQe307IlirAjj1ZtwBr82czjN0ZA=m18',
+                src: 'https://lh3.googleusercontent.com/eyUqfj0PO4uGa_rLIVeKaQt_C-tJebGk7Ui12ylUe3eP29mVtvfs9XvYv6b8uE29GWTxmi2XhvGvKBgvvUXhznO0EdwiCozsw2E48qkYCulVVDz1ItNFtKQNEq4hkEAlUFAjRNnncw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -4060,18 +5945,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20146.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 146',
         name: 'Episode 146',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/6fwu2-NFhgBilBz62gcevOEC96D8shfYcg3cWvtlP-o788BzK5h1wuGl-jue8Hz3E8LIqJ-uHrqLuvIms0nQerEBKxfg5ghy1G-dsDX4fVtBdoHQqOGdl4Lszwzm5w0l1sJxqLj-5w=m22',
+                src: 'https://lh3.googleusercontent.com/YlLtC8OatuLiDZdds6A8IbDVOgE_-EXMziDvGy5g4FCskb4Zd8eIZL1OLfn07jYpT2ISIz2OzZ27uFUtMR6VxiJnpamAMrD3DJFf67Oo799VeEoIvGqvx6M_2b3Y-ZSwJcdEqVbqWw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/YlLtC8OatuLiDZdds6A8IbDVOgE_-EXMziDvGy5g4FCskb4Zd8eIZL1OLfn07jYpT2ISIz2OzZ27uFUtMR6VxiJnpamAMrD3DJFf67Oo799VeEoIvGqvx6M_2b3Y-ZSwJcdEqVbqWw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/6fwu2-NFhgBilBz62gcevOEC96D8shfYcg3cWvtlP-o788BzK5h1wuGl-jue8Hz3E8LIqJ-uHrqLuvIms0nQerEBKxfg5ghy1G-dsDX4fVtBdoHQqOGdl4Lszwzm5w0l1sJxqLj-5w=m18',
+                src: 'https://lh3.googleusercontent.com/YlLtC8OatuLiDZdds6A8IbDVOgE_-EXMziDvGy5g4FCskb4Zd8eIZL1OLfn07jYpT2ISIz2OzZ27uFUtMR6VxiJnpamAMrD3DJFf67Oo799VeEoIvGqvx6M_2b3Y-ZSwJcdEqVbqWw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -4088,18 +5986,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20147.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 147',
         name: 'Episode 147',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/scqniF7CFFCnOKlL179kVECpZXszWKkvi64yZlrgD1lrbPUJI2D-lT_HzVIgXZrib_YWQRwi5wlqf_ZpQgWNxEatC7gzFLNoJJiemz6WdMA368vqnC_gQq-R6YsldeIrg35ludA8pg=m22',
+                src: 'https://lh3.googleusercontent.com/LKrJdff12OVAQj9iKxlHdjAgxcBqTI4_R5fgD-8bvYVZamirC1R0sIeZPkTtH6Upiro6hqq2BC0wD24dKA6y0SOHgIMfoYZDP4ffpia1SPXAltRzPDNDbAyzDOQbV72PUecKi0N8OA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/LKrJdff12OVAQj9iKxlHdjAgxcBqTI4_R5fgD-8bvYVZamirC1R0sIeZPkTtH6Upiro6hqq2BC0wD24dKA6y0SOHgIMfoYZDP4ffpia1SPXAltRzPDNDbAyzDOQbV72PUecKi0N8OA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/scqniF7CFFCnOKlL179kVECpZXszWKkvi64yZlrgD1lrbPUJI2D-lT_HzVIgXZrib_YWQRwi5wlqf_ZpQgWNxEatC7gzFLNoJJiemz6WdMA368vqnC_gQq-R6YsldeIrg35ludA8pg=m18',
+                src: 'https://lh3.googleusercontent.com/LKrJdff12OVAQj9iKxlHdjAgxcBqTI4_R5fgD-8bvYVZamirC1R0sIeZPkTtH6Upiro6hqq2BC0wD24dKA6y0SOHgIMfoYZDP4ffpia1SPXAltRzPDNDbAyzDOQbV72PUecKi0N8OA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -4116,18 +6027,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/H/Hunter%20x%20Hunter%20(2011)/%5Bdunia-anime%5D%20Hunter%20x%20Hunter%20id%20Episode%20148.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Hunter x Hunter (2011)',
         episode: '* Episode 148',
         name: 'Episode 148',
         deskrip1: '* Rating : 9.10',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/ZGTW8c_2CIGtzkTIZtrJRRGAkNpMvzKnJzXDfmhxRFfCkRF44phr74RibRnJXCTtcj3ce0fEA-SvsVPF_Lvu28r1qOiSTwhZp1D6oQX1mYZQC0jXKp7q0_5-wUt8LapMlE86Pzl5Gg=m22',
+                src: 'https://lh3.googleusercontent.com/oOgM1wkQji3LjHk7OqcdwH0Ft9QVuJ8oxMNZTaDOOV49o4stca0c4ed-_TnH_nZLyysCIJPikB-SUSIgABgK6MaAGe2B4H4p4SN1mcD1FJ5eUXN-1aZPrbXU3bG_Tcrj4Y2M4dCcUA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/oOgM1wkQji3LjHk7OqcdwH0Ft9QVuJ8oxMNZTaDOOV49o4stca0c4ed-_TnH_nZLyysCIJPikB-SUSIgABgK6MaAGe2B4H4p4SN1mcD1FJ5eUXN-1aZPrbXU3bG_Tcrj4Y2M4dCcUA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/ZGTW8c_2CIGtzkTIZtrJRRGAkNpMvzKnJzXDfmhxRFfCkRF44phr74RibRnJXCTtcj3ce0fEA-SvsVPF_Lvu28r1qOiSTwhZp1D6oQX1mYZQC0jXKp7q0_5-wUt8LapMlE86Pzl5Gg=m18',
+                src: 'https://lh3.googleusercontent.com/oOgM1wkQji3LjHk7OqcdwH0Ft9QVuJ8oxMNZTaDOOV49o4stca0c4ed-_TnH_nZLyysCIJPikB-SUSIgABgK6MaAGe2B4H4p4SN1mcD1FJ5eUXN-1aZPrbXU3bG_Tcrj4Y2M4dCcUA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -4144,7 +6068,7 @@ player.playlist([{
         ]
     }
 ]);
-// Initialize the playlist-ui plugi with no option (i.e. the defaults).
+// Initialize the playlist-ui plugin with no option (i.e. the defaults).
 player.playlistUi();
 
 videojs("video", {}, function () {
