@@ -201,13 +201,13 @@ player.playlist([{
         name: 'Episode 08',
         deskrip1: '* Rating : 6.15',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/e4Cn_0NE8IO4BB60uudZZLhvdbUZ9x48O6dJvJiR3cg2UrWXQeckZTe4ErlQ2qwKJ2qj1z-n1u306I415eYhs7c4H7cg0-FL-NROoSFw2ABcXFFN4qlwPS8LvrM3fVOuB_RpG6w6dO0=m22',
+                src: 'https://lh3.googleusercontent.com/6dtEg04H34Gi303J8rTj1YlAxOCkDO9HZntD5ptwpFJakQDeOiQKa3MYFoIrSUQqqqtyrngIdueJOMIJj_qTtsIYIxAU0ZVgHmsFpQReus0yY1WuQK4VqMvVt8QNwnh7UwhLKa8M99U=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/e4Cn_0NE8IO4BB60uudZZLhvdbUZ9x48O6dJvJiR3cg2UrWXQeckZTe4ErlQ2qwKJ2qj1z-n1u306I415eYhs7c4H7cg0-FL-NROoSFw2ABcXFFN4qlwPS8LvrM3fVOuB_RpG6w6dO0=m18',
+                src: 'https://lh3.googleusercontent.com/6dtEg04H34Gi303J8rTj1YlAxOCkDO9HZntD5ptwpFJakQDeOiQKa3MYFoIrSUQqqqtyrngIdueJOMIJj_qTtsIYIxAU0ZVgHmsFpQReus0yY1WuQK4VqMvVt8QNwnh7UwhLKa8M99U=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
