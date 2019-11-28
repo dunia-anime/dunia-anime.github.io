@@ -645,8 +645,8 @@ player.playlist([{
     },
     {
         judul: '* Denpa Kyoushi',
-        episode: '* Episode 24',
-        name: 'Episode 24',
+        episode: '* Episode 24 End',
+        name: 'Episode 24 End',
         deskrip1: '* Rating : 8.40',
         sources: [{
                 src: 'https://lh3.googleusercontent.com/qd9f3D86Pwn-Hpia9ebfdTC5AvqDlVmFbpq-eCJoD_GA9Z5ZAHuLZ-05Ai6FF-sMcrMzEzTtQr7AqyoQhLbPO210UPCAczbreONccd2hIL2wXGunBtRqyU4ypIsHWqSRoIFvxC-b_Rk=m22',
