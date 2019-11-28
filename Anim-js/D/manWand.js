@@ -500,8 +500,8 @@ player.playlist([{
             'default': true
         }],
         judul: '* Deadman Wonderland',
-        episode: '* Episode 13',
-        name: 'Episode 13',
+        episode: '* Episode OVA',
+        name: 'Episode OVA',
         deskrip1: '* Rating : 7.34',
         sources: [{
                 src: 'https://lh3.googleusercontent.com/RvhhkFs-tqIwG-iTr7a_cWnqwkmXn1rGxIrYObCgFlIDJzHoYjf-sz4SNUcK7TE21k9jBLYn-JgT6W--9LeOsRgF8uOfq-4Nl9wIFMi1C3MZOENTMVPxXhveFY4_2ZqzIhhlC4yyr00=m37',
