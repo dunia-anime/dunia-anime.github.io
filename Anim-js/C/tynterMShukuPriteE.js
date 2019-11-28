@@ -21,19 +21,17 @@
 
   videojs("my_video_1", {}, function () {
       var player = this;
-      player.controlBar.addChild('QualitySelector');
+      player.ass({
+              'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/C/City%20Hunter%20Movie%20Shinjuku%20Private%20Eyes/%5Bdunia-anime%5D%20City%20Hunter%20Movie%20Shinjuku%20Private%20Eyes.ass"],
+              label: "Indoesia",
+              videoWidth: 640,
+              videoHeight: 360,
+              enableSvg: false
+          }),
+          player.controlBar.addChild('QualitySelector');
       player.landscapeFullscreen();
   });
-  videojs("my_video_1", {}, function () {
-      var player = this;
-      player.ass({
-          'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/C/City%20Hunter%20Movie%20Shinjuku%20Private%20Eyes/%5Bdunia-anime%5D%20City%20Hunter%20Movie%20Shinjuku%20Private%20Eyes.ass"],
-          label: "Indoesia",
-          videoWidth: 640,
-          videoHeight: 360,
-          enableSvg: false
-      })
-  });
+
   videojs('video').ready(function () {
       this.hotkeys({
 
