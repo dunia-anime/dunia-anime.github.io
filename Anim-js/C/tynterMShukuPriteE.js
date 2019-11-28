@@ -18,6 +18,11 @@
       ]
 
   });
+  videojs('video').ready(function () {
+      this.hotkeys({
+
+      });
+  });
 
   videojs("my_video_1", {}, function () {
       var player = this;
@@ -30,10 +35,4 @@
           videoHeight: 360,
           enableSvg: false
       })
-  });
-
-  videojs('video').ready(function () {
-      this.hotkeys({
-
-      });
   });
