@@ -1,7 +1,7 @@
 var player = videojs('video')
 player.playlist([{
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2001.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2001.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -42,7 +42,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2002.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2002.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -83,7 +83,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2003.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2003.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -124,7 +124,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2004.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2004.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -165,7 +165,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2005.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2005.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -206,7 +206,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2006.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2006.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -247,7 +247,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2007.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2007.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -288,7 +288,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2008.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2008.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -329,7 +329,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2009.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2009.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -370,7 +370,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2010.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2010.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -411,7 +411,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2011.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2011.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -452,7 +452,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2012.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku/%5Bdunia-anime%5D%20Death%20March%20kara%20Hajimaru%20Isekai%20Kyousoukyoku%20-%2012.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
