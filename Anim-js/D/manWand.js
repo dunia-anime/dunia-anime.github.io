@@ -1,17 +1,30 @@
 var player = videojs('video')
 player.playlist([{
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2001.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 01',
         name: 'Episode 01',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/nub-vUulA75yQ0Yot9rzZNYaaRuIpvE21kmuN2KSP2OnTgkIUg9Nw2CDTwSAaKqk8HlztdXdtsvyK-ruXtwvuRBYo1PeF_EOeoQfRNYWwtnhmRz3GhxW0l6gW-hg2WGtxt0FgrKwBPo=m22',
+                src: 'https://lh3.googleusercontent.com/Z9DgMZNofu8fOEavqYAlP8xofsfe9NPVX6yNyXL4RBS-Pv-qmr-eZVvU-MyTLl1sQqAYtRyUt9U8lD67S9MbLx4pu0ReELjX4vZXwz24GL3Fw-8cUu-XyUNQT6RgN46bw2w8SDMv4Ww=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Z9DgMZNofu8fOEavqYAlP8xofsfe9NPVX6yNyXL4RBS-Pv-qmr-eZVvU-MyTLl1sQqAYtRyUt9U8lD67S9MbLx4pu0ReELjX4vZXwz24GL3Fw-8cUu-XyUNQT6RgN46bw2w8SDMv4Ww=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/nub-vUulA75yQ0Yot9rzZNYaaRuIpvE21kmuN2KSP2OnTgkIUg9Nw2CDTwSAaKqk8HlztdXdtsvyK-ruXtwvuRBYo1PeF_EOeoQfRNYWwtnhmRz3GhxW0l6gW-hg2WGtxt0FgrKwBPo=m18',
+                src: 'https://lh3.googleusercontent.com/Z9DgMZNofu8fOEavqYAlP8xofsfe9NPVX6yNyXL4RBS-Pv-qmr-eZVvU-MyTLl1sQqAYtRyUt9U8lD67S9MbLx4pu0ReELjX4vZXwz24GL3Fw-8cUu-XyUNQT6RgN46bw2w8SDMv4Ww=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -28,18 +41,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2002.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 02',
         name: 'Episode 02',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/59PhRzZ6Af-gpdKFFUzi_AaAg9xKaOK32WEvrRltFBMBcr6xIavWSGpCXnpjHxD9mthgyVcJzFeAKGFIZtxPbH9tLnHKypgNNv4y-Lq_kI_VuztZCqi9DP3rOWEFqulAoK0oXrK3yzA=m22',
+                src: 'https://lh3.googleusercontent.com/jEF8fnGIW48Xw8JssyZPhhRauveyIpT_b6AFh7kHGwNu4WzNQOG8RO5vOOmesg5GK10a3ZUNIXJxD3APFfeFwNZ_8LYfuOeWPIm1YhP6NeoHx3yu5qwLl0da7jDZQ-q0HH4jue48y0w=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/jEF8fnGIW48Xw8JssyZPhhRauveyIpT_b6AFh7kHGwNu4WzNQOG8RO5vOOmesg5GK10a3ZUNIXJxD3APFfeFwNZ_8LYfuOeWPIm1YhP6NeoHx3yu5qwLl0da7jDZQ-q0HH4jue48y0w=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/59PhRzZ6Af-gpdKFFUzi_AaAg9xKaOK32WEvrRltFBMBcr6xIavWSGpCXnpjHxD9mthgyVcJzFeAKGFIZtxPbH9tLnHKypgNNv4y-Lq_kI_VuztZCqi9DP3rOWEFqulAoK0oXrK3yzA=m18',
+                src: 'https://lh3.googleusercontent.com/jEF8fnGIW48Xw8JssyZPhhRauveyIpT_b6AFh7kHGwNu4WzNQOG8RO5vOOmesg5GK10a3ZUNIXJxD3APFfeFwNZ_8LYfuOeWPIm1YhP6NeoHx3yu5qwLl0da7jDZQ-q0HH4jue48y0w=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -56,18 +82,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2003.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 03',
         name: 'Episode 03',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/UtBIVJcwApwkxpnwoWMQGrbS4Khs6JV8377uLzAY9FDqPvpbuWMiXfE-05br3ouwzoYP6vsz9Zr-zDDRZVFsRwiumIWWaqKpgYzPIMN4oRQvQ9PMn90o5Vu1szEIZGZzNV1gNK33sPc=m22',
+                src: 'https://lh3.googleusercontent.com/r8ONMLkMFmsZP_uviWGVF4ids7VH2CcQmVOAK0rfJb8rrb-0g5Tor3eAjSoeOGd3VSKjOrFwTTvhai0LFnCk3-GygrzyuizRwo7p4KrUdya1gP9jb3VWyTAFxJxk6DoONTY9r2KLGUw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/r8ONMLkMFmsZP_uviWGVF4ids7VH2CcQmVOAK0rfJb8rrb-0g5Tor3eAjSoeOGd3VSKjOrFwTTvhai0LFnCk3-GygrzyuizRwo7p4KrUdya1gP9jb3VWyTAFxJxk6DoONTY9r2KLGUw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/UtBIVJcwApwkxpnwoWMQGrbS4Khs6JV8377uLzAY9FDqPvpbuWMiXfE-05br3ouwzoYP6vsz9Zr-zDDRZVFsRwiumIWWaqKpgYzPIMN4oRQvQ9PMn90o5Vu1szEIZGZzNV1gNK33sPc=m18',
+                src: 'https://lh3.googleusercontent.com/r8ONMLkMFmsZP_uviWGVF4ids7VH2CcQmVOAK0rfJb8rrb-0g5Tor3eAjSoeOGd3VSKjOrFwTTvhai0LFnCk3-GygrzyuizRwo7p4KrUdya1gP9jb3VWyTAFxJxk6DoONTY9r2KLGUw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -84,18 +123,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2004.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 04',
         name: 'Episode 04',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/P7sRhvxJ0uFI_OHSp8u_Tdpsar2wkPoGLab7nvZatnBDSQxrRjNaAQaP7VJwxC4Ld6gB5yIZe0ur2vKhJPBaTWymK2yyFwz-hT1_eJh6QkpniHBTnGMOYOgNmRCxCkE6bjOMxpOEJ5E=m22',
+                src: 'https://lh3.googleusercontent.com/vfvV0vdkBBQfEc8pwFp7Nz3SxkISquSE5bLSY70-pvJJdqbPT4uWFxoUqscu1bp7XNZKfUta8F9-H8jeeprbEC4PDzaQxsHG3rLyfAih1jI7fy4mA7GOa7FFPqY_cvmSxbsjUzcbSwc=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/vfvV0vdkBBQfEc8pwFp7Nz3SxkISquSE5bLSY70-pvJJdqbPT4uWFxoUqscu1bp7XNZKfUta8F9-H8jeeprbEC4PDzaQxsHG3rLyfAih1jI7fy4mA7GOa7FFPqY_cvmSxbsjUzcbSwc=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/P7sRhvxJ0uFI_OHSp8u_Tdpsar2wkPoGLab7nvZatnBDSQxrRjNaAQaP7VJwxC4Ld6gB5yIZe0ur2vKhJPBaTWymK2yyFwz-hT1_eJh6QkpniHBTnGMOYOgNmRCxCkE6bjOMxpOEJ5E=m18',
+                src: 'https://lh3.googleusercontent.com/vfvV0vdkBBQfEc8pwFp7Nz3SxkISquSE5bLSY70-pvJJdqbPT4uWFxoUqscu1bp7XNZKfUta8F9-H8jeeprbEC4PDzaQxsHG3rLyfAih1jI7fy4mA7GOa7FFPqY_cvmSxbsjUzcbSwc=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -112,18 +164,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2005.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 05',
         name: 'Episode 05',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/9jQOq8aUPKLrJQ8KHBnqzgmOogWLJ7EtxhFEr6rl-blxHFdaoE5HY5PP1njIJ8fDJS4MlrG1JoEqoIa9ImobY3W9AtBuI4F37uvrYKFx7R8o0x7nChpskWdlJFBel1EnaLmxlXYyIpg=m22',
+                src: 'https://lh3.googleusercontent.com/np3L5QzKz6u9QPXCpkk5G0bDDsy5bT7hUep-gTKjCuYLkQxI0K6Vdp2J_vG5FJJ68Z30b9SAyPcl5MoIFZlnkIHDJzvjyuodFHrG_TdmiVxmRoj6-em9LAprIMWdsfaYdnvm3RcDb20=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/np3L5QzKz6u9QPXCpkk5G0bDDsy5bT7hUep-gTKjCuYLkQxI0K6Vdp2J_vG5FJJ68Z30b9SAyPcl5MoIFZlnkIHDJzvjyuodFHrG_TdmiVxmRoj6-em9LAprIMWdsfaYdnvm3RcDb20=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/9jQOq8aUPKLrJQ8KHBnqzgmOogWLJ7EtxhFEr6rl-blxHFdaoE5HY5PP1njIJ8fDJS4MlrG1JoEqoIa9ImobY3W9AtBuI4F37uvrYKFx7R8o0x7nChpskWdlJFBel1EnaLmxlXYyIpg=m18',
+                src: 'https://lh3.googleusercontent.com/np3L5QzKz6u9QPXCpkk5G0bDDsy5bT7hUep-gTKjCuYLkQxI0K6Vdp2J_vG5FJJ68Z30b9SAyPcl5MoIFZlnkIHDJzvjyuodFHrG_TdmiVxmRoj6-em9LAprIMWdsfaYdnvm3RcDb20=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -140,18 +205,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2006.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 06',
         name: 'Episode 06',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/hWSa_2FxHtqZdl3u5RLk8quQ2eRlW_5nRXDpm7A1JJHVXJLqVHr6aJMTWOib_sVswQO2ik13M3XKCI7M01hbLiRMPjgJjIX4G28lOkAlYTFsfgWJy0Y0QJgOWZyAX7qKv92YqQHWT9M=m22',
+                src: 'https://lh3.googleusercontent.com/_-IpSd-6AybcivaByIRL3l8SUKjk4TwySZKAu_tzy9M6DiFTpd3OMpAgQl5PB_ZfLb5L2bXImR1P_ABPEokLPTAfIvYH6Mu4tL8Hv9a_PZ7zzGOVIbS4Wv9Cc9YEglV9x9UWG2fC1fo=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/_-IpSd-6AybcivaByIRL3l8SUKjk4TwySZKAu_tzy9M6DiFTpd3OMpAgQl5PB_ZfLb5L2bXImR1P_ABPEokLPTAfIvYH6Mu4tL8Hv9a_PZ7zzGOVIbS4Wv9Cc9YEglV9x9UWG2fC1fo=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/hWSa_2FxHtqZdl3u5RLk8quQ2eRlW_5nRXDpm7A1JJHVXJLqVHr6aJMTWOib_sVswQO2ik13M3XKCI7M01hbLiRMPjgJjIX4G28lOkAlYTFsfgWJy0Y0QJgOWZyAX7qKv92YqQHWT9M=m18',
+                src: 'https://lh3.googleusercontent.com/_-IpSd-6AybcivaByIRL3l8SUKjk4TwySZKAu_tzy9M6DiFTpd3OMpAgQl5PB_ZfLb5L2bXImR1P_ABPEokLPTAfIvYH6Mu4tL8Hv9a_PZ7zzGOVIbS4Wv9Cc9YEglV9x9UWG2fC1fo=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -168,18 +246,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2007.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 07',
         name: 'Episode 07',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/xecZBg8k7DkYr5LpH7Kd9tcR6MWYJevMpretlnJltgnyp6KYVrGFMT_303FuC4p2uPmMJ5xd6bQ4qbDpBC4OBo9B1imavX4WsBnUvFSDyMDMh1xjCB6xvZ4iKgC9UdkC_qC5McpPr-8=m22',
+                src: 'https://lh3.googleusercontent.com/TK0zMHGBAV1Y3KVeKfxfpqBGvqAbTKfmghOd-2gfol4W3_ijfIFSwK2-9qLGefeCQ08w3lgKheSBgWmq3RQLZpiIB2jhHsrdFmhsSfv6cZuyxRfVDounlY6rJWCxZsZMbUPSkW8G3-g=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/TK0zMHGBAV1Y3KVeKfxfpqBGvqAbTKfmghOd-2gfol4W3_ijfIFSwK2-9qLGefeCQ08w3lgKheSBgWmq3RQLZpiIB2jhHsrdFmhsSfv6cZuyxRfVDounlY6rJWCxZsZMbUPSkW8G3-g=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/xecZBg8k7DkYr5LpH7Kd9tcR6MWYJevMpretlnJltgnyp6KYVrGFMT_303FuC4p2uPmMJ5xd6bQ4qbDpBC4OBo9B1imavX4WsBnUvFSDyMDMh1xjCB6xvZ4iKgC9UdkC_qC5McpPr-8=m18',
+                src: 'https://lh3.googleusercontent.com/TK0zMHGBAV1Y3KVeKfxfpqBGvqAbTKfmghOd-2gfol4W3_ijfIFSwK2-9qLGefeCQ08w3lgKheSBgWmq3RQLZpiIB2jhHsrdFmhsSfv6cZuyxRfVDounlY6rJWCxZsZMbUPSkW8G3-g=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -196,18 +287,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2008.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 08',
         name: 'Episode 08',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/iPyr1IjbQC9iPzdg5dOnROUpsrRSgPb7a29p6AHgx71aCtB2eGOl93kmE9IiJ82j1fS09adzV0s4ioUNajTovL-LatgFOQuf2SngAHJuihofqXWyrzpgxFbmxUQLsk9Pv0Ed5W2zhgw=m22',
+                src: 'https://lh3.googleusercontent.com/1aICNbNJ3XCWQdGr-9pEuZVJSTO2jfRYFHTMMbdAR8-i7XyHIYkE0jfl99cJREBsYzzaA-4aYLko2cgGKtYWIxAFibCpkfE-6aab643a_VAV5c4LHG0u9rv928sIY6mu-HEAuHvY1-4=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/1aICNbNJ3XCWQdGr-9pEuZVJSTO2jfRYFHTMMbdAR8-i7XyHIYkE0jfl99cJREBsYzzaA-4aYLko2cgGKtYWIxAFibCpkfE-6aab643a_VAV5c4LHG0u9rv928sIY6mu-HEAuHvY1-4=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/iPyr1IjbQC9iPzdg5dOnROUpsrRSgPb7a29p6AHgx71aCtB2eGOl93kmE9IiJ82j1fS09adzV0s4ioUNajTovL-LatgFOQuf2SngAHJuihofqXWyrzpgxFbmxUQLsk9Pv0Ed5W2zhgw=m18',
+                src: 'https://lh3.googleusercontent.com/1aICNbNJ3XCWQdGr-9pEuZVJSTO2jfRYFHTMMbdAR8-i7XyHIYkE0jfl99cJREBsYzzaA-4aYLko2cgGKtYWIxAFibCpkfE-6aab643a_VAV5c4LHG0u9rv928sIY6mu-HEAuHvY1-4=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -224,18 +328,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2009.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 09',
         name: 'Episode 09',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/qQfEbydpzkTPFmq7VVonDDkCg-JsROv4-Ai6b3jS4G7ivcSQ-vdOwVriPEiX7DvibDv8RPs9OzOhK61VuxfDFG_5XXJMfiN9PWhHbFjMEWipgq05yXT2Rge_yKpbl53IbBQK3ivsb6c=m22',
+                src: 'https://lh3.googleusercontent.com/Fgs26MxjdzOgPm27wRg3n-6Nd-8yCRE5HkfkFWy15wryJCgJ0Ny2MH9qJIcrkUeOBhEt_DfbQ4iofxH2UegfhCFvTFwklLK-vmRPL4_VGNW-hKfjGgWzVFJBVSKLCzDB2GZzaJBXmJM=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Fgs26MxjdzOgPm27wRg3n-6Nd-8yCRE5HkfkFWy15wryJCgJ0Ny2MH9qJIcrkUeOBhEt_DfbQ4iofxH2UegfhCFvTFwklLK-vmRPL4_VGNW-hKfjGgWzVFJBVSKLCzDB2GZzaJBXmJM=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/qQfEbydpzkTPFmq7VVonDDkCg-JsROv4-Ai6b3jS4G7ivcSQ-vdOwVriPEiX7DvibDv8RPs9OzOhK61VuxfDFG_5XXJMfiN9PWhHbFjMEWipgq05yXT2Rge_yKpbl53IbBQK3ivsb6c=m18',
+                src: 'https://lh3.googleusercontent.com/Fgs26MxjdzOgPm27wRg3n-6Nd-8yCRE5HkfkFWy15wryJCgJ0Ny2MH9qJIcrkUeOBhEt_DfbQ4iofxH2UegfhCFvTFwklLK-vmRPL4_VGNW-hKfjGgWzVFJBVSKLCzDB2GZzaJBXmJM=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -252,18 +369,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2010.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 10',
         name: 'Episode 10',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/Bq4_3JXGPE56C-v2c0ecUE4xHC663td-RCuIc2wcT_z7qdDAvVg8vUW1BqeYPXKPuK35Z0Fs3TsLkhNc_xBztk7PbfdihkJAGVRA2HGb8U4Rp1nSV-F5an7jmgDmXFaql1ZctqK-2yg=m22',
+                src: 'https://lh3.googleusercontent.com/Y9kWUm48KbwTX4s9QLXLyWCWfalVpkgbixEorb7aN7geFvi_QI5fkgoJOKBRvq0xXEmrE0m9J9lP3TLRGuHOTwgfSzv-Oq_4moQG6VZYCaThhIIsTSxJHTA18SKXFSFYJzCLXn8Pc7s=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/Y9kWUm48KbwTX4s9QLXLyWCWfalVpkgbixEorb7aN7geFvi_QI5fkgoJOKBRvq0xXEmrE0m9J9lP3TLRGuHOTwgfSzv-Oq_4moQG6VZYCaThhIIsTSxJHTA18SKXFSFYJzCLXn8Pc7s=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/Bq4_3JXGPE56C-v2c0ecUE4xHC663td-RCuIc2wcT_z7qdDAvVg8vUW1BqeYPXKPuK35Z0Fs3TsLkhNc_xBztk7PbfdihkJAGVRA2HGb8U4Rp1nSV-F5an7jmgDmXFaql1ZctqK-2yg=m18',
+                src: 'https://lh3.googleusercontent.com/Y9kWUm48KbwTX4s9QLXLyWCWfalVpkgbixEorb7aN7geFvi_QI5fkgoJOKBRvq0xXEmrE0m9J9lP3TLRGuHOTwgfSzv-Oq_4moQG6VZYCaThhIIsTSxJHTA18SKXFSFYJzCLXn8Pc7s=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -280,18 +410,31 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2011.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 11',
         name: 'Episode 11',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/t_OBdkIs48kyjMdL6PnXXuRGmTbWa_KhaIrPqsr9McquXmMXao6Irr6opIgLIdRRDwBW01h7v2xsSCEZaltTACu1U5XM2kxAm8LjsEJj7GrQw9ZnhcB15eZicDcJIaAdCvbXgRlsk7Q=m22',
+                src: 'https://lh3.googleusercontent.com/xjE1g7SqdynjJmXhIcP_E2AGzBpeag_UMVoRnXH0UAb5iD4_zQE3h3mRFuNJ2vp1vvgEmDHgLRjbF7SHGgyWThsxPYlOXEUqVrqIzt9cE-Hk5r4KP2ZQnkT5XapniUt-iIOD1HS4BAw=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/xjE1g7SqdynjJmXhIcP_E2AGzBpeag_UMVoRnXH0UAb5iD4_zQE3h3mRFuNJ2vp1vvgEmDHgLRjbF7SHGgyWThsxPYlOXEUqVrqIzt9cE-Hk5r4KP2ZQnkT5XapniUt-iIOD1HS4BAw=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/t_OBdkIs48kyjMdL6PnXXuRGmTbWa_KhaIrPqsr9McquXmMXao6Irr6opIgLIdRRDwBW01h7v2xsSCEZaltTACu1U5XM2kxAm8LjsEJj7GrQw9ZnhcB15eZicDcJIaAdCvbXgRlsk7Q=m18',
+                src: 'https://lh3.googleusercontent.com/xjE1g7SqdynjJmXhIcP_E2AGzBpeag_UMVoRnXH0UAb5iD4_zQE3h3mRFuNJ2vp1vvgEmDHgLRjbF7SHGgyWThsxPYlOXEUqVrqIzt9cE-Hk5r4KP2ZQnkT5XapniUt-iIOD1HS4BAw=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -308,18 +451,72 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%2012.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Deadman Wonderland',
         episode: '* Episode 12',
         name: 'Episode 12',
         deskrip1: '* Rating : 7.34',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/uFb1bn6rHdDrbXUbqLkZFxxp09hQDByrYXVPT0k4rRkPvdHpyYMCGQN5ddo-wfuF7n5a3q8cJfIY0sm4FWcBPk5ZoShRCE6FmA0d0BQtzsNxJ5DlXNApPkfzsBHznn7i2pNsv7lj9NY=m22',
+                src: 'https://lh3.googleusercontent.com/kaKRSIu1xMO_XVTUaSDe5ogvMb9-kwwDsQtCSGx8mE1LRLjebjUPQMzwuRQwFgCaCMEkmp4u-KwDnvx37qoNf0Rhww9C9EKLhlcs_qPhP7FCJvui_Sa_sg1bUySUyBIEErSGmv3tvS4=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/kaKRSIu1xMO_XVTUaSDe5ogvMb9-kwwDsQtCSGx8mE1LRLjebjUPQMzwuRQwFgCaCMEkmp4u-KwDnvx37qoNf0Rhww9C9EKLhlcs_qPhP7FCJvui_Sa_sg1bUySUyBIEErSGmv3tvS4=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/uFb1bn6rHdDrbXUbqLkZFxxp09hQDByrYXVPT0k4rRkPvdHpyYMCGQN5ddo-wfuF7n5a3q8cJfIY0sm4FWcBPk5ZoShRCE6FmA0d0BQtzsNxJ5DlXNApPkfzsBHznn7i2pNsv7lj9NY=m18',
+                src: 'https://lh3.googleusercontent.com/kaKRSIu1xMO_XVTUaSDe5ogvMb9-kwwDsQtCSGx8mE1LRLjebjUPQMzwuRQwFgCaCMEkmp4u-KwDnvx37qoNf0Rhww9C9EKLhlcs_qPhP7FCJvui_Sa_sg1bUySUyBIEErSGmv3tvS4=m18',
+                type: 'video/mp4',
+                label: '480p',
+                selected: 'true'
+            }
+        ],
+        thumbnail: [{
+                srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+                type: 'image/jpeg',
+                media: '(min-width: 400px;)'
+            },
+            {
+                src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+        ]
+    },
+    {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Deadman%20Wonderland/%5Bdunia-anime%5D%20Deadman%20Wonderland%20-%20OVA.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
+        judul: '* Deadman Wonderland',
+        episode: '* Episode 13',
+        name: 'Episode 13',
+        deskrip1: '* Rating : 7.34',
+        sources: [{
+                src: 'https://lh3.googleusercontent.com/RvhhkFs-tqIwG-iTr7a_cWnqwkmXn1rGxIrYObCgFlIDJzHoYjf-sz4SNUcK7TE21k9jBLYn-JgT6W--9LeOsRgF8uOfq-4Nl9wIFMi1C3MZOENTMVPxXhveFY4_2ZqzIhhlC4yyr00=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/RvhhkFs-tqIwG-iTr7a_cWnqwkmXn1rGxIrYObCgFlIDJzHoYjf-sz4SNUcK7TE21k9jBLYn-JgT6W--9LeOsRgF8uOfq-4Nl9wIFMi1C3MZOENTMVPxXhveFY4_2ZqzIhhlC4yyr00=m22',
+                type: 'video/mp4',
+                label: '720p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/RvhhkFs-tqIwG-iTr7a_cWnqwkmXn1rGxIrYObCgFlIDJzHoYjf-sz4SNUcK7TE21k9jBLYn-JgT6W--9LeOsRgF8uOfq-4Nl9wIFMi1C3MZOENTMVPxXhveFY4_2ZqzIhhlC4yyr00=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
