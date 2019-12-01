@@ -1,5 +1,12 @@
 var player = videojs('video')
 player.playlist([{
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Kuro%20no%20Keiyakusha%20Gaiden/%5Bdunia-anime%5D Darker than Black Kuro no Keiyakusha Gaiden - 01.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black KnKG',
         episode: '* Episode 01',
         name: 'Episode 01',
@@ -28,6 +35,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Kuro%20no%20Keiyakusha%20Gaiden/%5Bdunia-anime%5D Darker than Black Kuro no Keiyakusha Gaiden - 02.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black KnKG',
         episode: '* Episode 02',
         name: 'Episode 02',
@@ -56,6 +70,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Kuro%20no%20Keiyakusha%20Gaiden/%5Bdunia-anime%5D Darker than Black Kuro no Keiyakusha Gaiden - 03.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black KnKG',
         episode: '* Episode 03',
         name: 'Episode 03',
@@ -84,6 +105,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Kuro%20no%20Keiyakusha%20Gaiden/%5Bdunia-anime%5D Darker than Black Kuro no Keiyakusha Gaiden - 04.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black KnKG',
         episode: '* Episode 04',
         name: 'Episode 04',
