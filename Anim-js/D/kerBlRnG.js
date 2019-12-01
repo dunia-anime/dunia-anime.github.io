@@ -1,5 +1,12 @@
 var player = videojs('video')
 player.playlist([{
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 01.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 01',
         name: 'Episode 01',
@@ -28,6 +35,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 02.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 02',
         name: 'Episode 02',
@@ -56,6 +70,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 03.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 03',
         name: 'Episode 03',
@@ -84,6 +105,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 04.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 04',
         name: 'Episode 04',
@@ -112,6 +140,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 05.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 05',
         name: 'Episode 05',
@@ -140,6 +175,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 06.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 06',
         name: 'Episode 06',
@@ -168,6 +210,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 07.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 07',
         name: 'Episode 07',
@@ -196,6 +245,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 08.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 08',
         name: 'Episode 08',
@@ -224,6 +280,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 09.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 09',
         name: 'Episode 09',
@@ -252,6 +315,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 10.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 10',
         name: 'Episode 10',
@@ -280,6 +350,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 11.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 11',
         name: 'Episode 11',
@@ -308,6 +385,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Darker%20than%20Black%20Ryuusei%20no%20Gemini/[dunia-anime] Darker than Black Ryuusei no Gemini - 12.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Darker than Black RnG',
         episode: '* Episode 12',
         name: 'Episode 12',
