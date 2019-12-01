@@ -1,10306 +1,14705 @@
 var player = videojs('video')
-player.playlist([{
+player.playlist([
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 01',
+  name: 'Episode 01',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/MA3fzCeIh938krqFNPtLn4p0Zme4Vl0fdQMBp_9ZpEd1TZFmxVYqFUGOITnVBs8mUFcYORmfnmCyHh0O1m8HZwKkEtmP-fhsMLiqyjyJ24shzc44N6ucw8fenpRu90s70QlNiaEo2X8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/MA3fzCeIh938krqFNPtLn4p0Zme4Vl0fdQMBp_9ZpEd1TZFmxVYqFUGOITnVBs8mUFcYORmfnmCyHh0O1m8HZwKkEtmP-fhsMLiqyjyJ24shzc44N6ucw8fenpRu90s70QlNiaEo2X8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 02',
+  name: 'Episode 02',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Va_29Te_-S8_YHx_TQU5cQsPSoLjJPEzGxgYor2jt9WrjPSiQiW0xBhIg6QeXm7tq3qNVjRSjNMzbWOjMkvwt9eLA07olVn6ZWMGpsJO9SlanNX5oBLxr04HXHhRaDDtUgXLxHtd5KM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Va_29Te_-S8_YHx_TQU5cQsPSoLjJPEzGxgYor2jt9WrjPSiQiW0xBhIg6QeXm7tq3qNVjRSjNMzbWOjMkvwt9eLA07olVn6ZWMGpsJO9SlanNX5oBLxr04HXHhRaDDtUgXLxHtd5KM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 03',
+  name: 'Episode 03',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/mDJhQq0jo_Y_w-R8oKZ8bwQJp83at9oiLCtOqj59Gol2ubjsrQnHo72ApgDIYY8ynOse0djPtdRMLYZ9r1lNbe4Lwk64Nt8J_FmMD1wsjYMOy6rp81NbjpOJliM_B-70KC0O2jWGtL8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/mDJhQq0jo_Y_w-R8oKZ8bwQJp83at9oiLCtOqj59Gol2ubjsrQnHo72ApgDIYY8ynOse0djPtdRMLYZ9r1lNbe4Lwk64Nt8J_FmMD1wsjYMOy6rp81NbjpOJliM_B-70KC0O2jWGtL8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 04',
+  name: 'Episode 04',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/MXRAwtDHd1tBlyH5yed9ut4FPWLqeMokMq6AgWaGWL044gCdjgMQu5UQe-MhlKq6hhsNnfHQYuwrrRCHiQA2PjK8VmjASgLjPxDNFC8A1SSWD2-cxm6d_cJ-909sjeSHCbTxGr9SCjE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/MXRAwtDHd1tBlyH5yed9ut4FPWLqeMokMq6AgWaGWL044gCdjgMQu5UQe-MhlKq6hhsNnfHQYuwrrRCHiQA2PjK8VmjASgLjPxDNFC8A1SSWD2-cxm6d_cJ-909sjeSHCbTxGr9SCjE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 05',
+  name: 'Episode 05',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/SzPetynnqwHcpS-VUIFONZmg2ZYPjIoREXO3H_niT-eT9aeT3ASysnSDvF2Djm0USUOWT3ko_jPB1UXQe-V8Q_l4JTh92p4EtwVOscbghCCb8BfhpN7vvSE_CvLVk1aKSVGPXk5kgRM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/SzPetynnqwHcpS-VUIFONZmg2ZYPjIoREXO3H_niT-eT9aeT3ASysnSDvF2Djm0USUOWT3ko_jPB1UXQe-V8Q_l4JTh92p4EtwVOscbghCCb8BfhpN7vvSE_CvLVk1aKSVGPXk5kgRM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 06',
+  name: 'Episode 06',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/tZtxiKSMoS6omgeik0EtQEdLVCT7fI4wog7DM0j41cK_8vTOn7va-iLQLpI4de3wnLcNyQroeszE2re7UMT-Mf9Gv0ZQ_LO_ZKrX6Ljprn1t48dAgKsLFLu4Y0vlbgk2EOVh2AtpiDE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/tZtxiKSMoS6omgeik0EtQEdLVCT7fI4wog7DM0j41cK_8vTOn7va-iLQLpI4de3wnLcNyQroeszE2re7UMT-Mf9Gv0ZQ_LO_ZKrX6Ljprn1t48dAgKsLFLu4Y0vlbgk2EOVh2AtpiDE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 07',
+  name: 'Episode 07',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/wIDv3TIMoHo726d3l8hbGx9UJhkzyggcFpmukla3ui6HSS9nP-2QDNmlxyMh-Hklw2fEu8A_Leuao_3PSiG5L0O7zFI_ihpizN3OlLmf9Jdl3HOJ5ZEovcsnb7HI0rnlzMbqQ-QNbgk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/wIDv3TIMoHo726d3l8hbGx9UJhkzyggcFpmukla3ui6HSS9nP-2QDNmlxyMh-Hklw2fEu8A_Leuao_3PSiG5L0O7zFI_ihpizN3OlLmf9Jdl3HOJ5ZEovcsnb7HI0rnlzMbqQ-QNbgk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 08',
+  name: 'Episode 08',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/MW86qzMd4TnsCL4U7ldUP_8kOXGUklZIW4awDAExo5gU87AGnom6rWmz_YH1bcLpDAfG1m86CLz1xIR4wqmLR9303d2ZqluiEzVXQASfoIZgILvHE0PV10HJ5408gAWUVq2aXkV6qUo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/MW86qzMd4TnsCL4U7ldUP_8kOXGUklZIW4awDAExo5gU87AGnom6rWmz_YH1bcLpDAfG1m86CLz1xIR4wqmLR9303d2ZqluiEzVXQASfoIZgILvHE0PV10HJ5408gAWUVq2aXkV6qUo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 09',
+  name: 'Episode 09',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/_yE82MHkhw3ZPb5OewXtS4n5UOzBHqr61NKxLza9r90Za0VdY5WBvuYdGL7cwCzxCfAHCHmJgaMq9RvW2RLhohLeQIeMj6WrYTYU_vs48OaTfafW8EZkgcnwOXXK6C8hLsh9RRTerik=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/_yE82MHkhw3ZPb5OewXtS4n5UOzBHqr61NKxLza9r90Za0VdY5WBvuYdGL7cwCzxCfAHCHmJgaMq9RvW2RLhohLeQIeMj6WrYTYU_vs48OaTfafW8EZkgcnwOXXK6C8hLsh9RRTerik=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 10',
+  name: 'Episode 10',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/UHMKcz-S5ulpoEevNwEINQukuZJhUzDYTWij0PYSfMsLXGN--sHrYU8EsF1ixqllpgBeA1e4k3HqRj3UMpQU6Z1cUARQvsoc8AYxa16EIVZg0YlI-lkf7HZOWALPp2Hc2p9lUrvlCCM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/UHMKcz-S5ulpoEevNwEINQukuZJhUzDYTWij0PYSfMsLXGN--sHrYU8EsF1ixqllpgBeA1e4k3HqRj3UMpQU6Z1cUARQvsoc8AYxa16EIVZg0YlI-lkf7HZOWALPp2Hc2p9lUrvlCCM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 11',
+  name: 'Episode 11',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/-XAkhQOTQ-Cc1t-RndvpVISnNdARVCl7ruiwQwWJOOvMSVtSDbwhbfcZfuUNUf5dJ6rL1DXCQU-JNADSBDtCppoVdZNpL2HNjLxcFOGRdSrHJ8nSO7XlT0z6LDdB_kPIj0InaKwRwNk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/-XAkhQOTQ-Cc1t-RndvpVISnNdARVCl7ruiwQwWJOOvMSVtSDbwhbfcZfuUNUf5dJ6rL1DXCQU-JNADSBDtCppoVdZNpL2HNjLxcFOGRdSrHJ8nSO7XlT0z6LDdB_kPIj0InaKwRwNk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 12',
+  name: 'Episode 12',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/bWlLVgkC5DxWL2BmrS_dmIGFskuYTXBlh6fxlTqM2YbdMuoYRXcSbs2ovqFPD93uZSYSD6IgPXxiTlp10SAOvVhzPb_gAtZPssitvAjwjfST9DWmB7ixYakIQAlllgAwW-FwtGKAHhk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/bWlLVgkC5DxWL2BmrS_dmIGFskuYTXBlh6fxlTqM2YbdMuoYRXcSbs2ovqFPD93uZSYSD6IgPXxiTlp10SAOvVhzPb_gAtZPssitvAjwjfST9DWmB7ixYakIQAlllgAwW-FwtGKAHhk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 13',
+  name: 'Episode 13',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/6JiDWUkla8E98g07RfKHpgnprJ2SLoqvFdkGdyp1kec8wVt0DuaDz1dRcYP1GQO26ctXYWS54NF2GWZLvbyC4gF-8XCl2LCCrBahx8QUPY82uHDVSVfEesgqHmv2OPgpD4nP327Ymi8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/6JiDWUkla8E98g07RfKHpgnprJ2SLoqvFdkGdyp1kec8wVt0DuaDz1dRcYP1GQO26ctXYWS54NF2GWZLvbyC4gF-8XCl2LCCrBahx8QUPY82uHDVSVfEesgqHmv2OPgpD4nP327Ymi8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 14',
+  name: 'Episode 14',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/M1HhyDz4rxkQtgerWSU7xjjFgyWOqQFtfB4HggXBRHhh8xyF4yTy7p8CsRAw38Htoxn71SKoMccmFlHwuRkTeWx9r6hphlyA2pJuUqN4vEXqMNQl0A-fED08y6ZHAfG7i6IKD0ZLmh0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/M1HhyDz4rxkQtgerWSU7xjjFgyWOqQFtfB4HggXBRHhh8xyF4yTy7p8CsRAw38Htoxn71SKoMccmFlHwuRkTeWx9r6hphlyA2pJuUqN4vEXqMNQl0A-fED08y6ZHAfG7i6IKD0ZLmh0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 15',
+  name: 'Episode 15',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/SnEExVX3RCZXJLPYmSN3yr5rDRMxTdIenYuFzc_vatFqkfsrX-ZWVoyFNhfOqB6j4ElL6W4xPK-iVYmdfNxnqTq9p0oQdc9jXuTv9ls1dBwgU3dZN1oR57ihQXV_TsEpSE7PVasruSg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/SnEExVX3RCZXJLPYmSN3yr5rDRMxTdIenYuFzc_vatFqkfsrX-ZWVoyFNhfOqB6j4ElL6W4xPK-iVYmdfNxnqTq9p0oQdc9jXuTv9ls1dBwgU3dZN1oR57ihQXV_TsEpSE7PVasruSg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 16',
+  name: 'Episode 16',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/7eTg-gkr4n5nJ78lI1P9bqtJV4f4QQY5Q5v3sC0AePouKfcv0c3fgodtwoPbutOXZr8rW17nsyV2Grjn_ZlEFb2TXMp6ZXHdA2ndyo_pK9IMtG_JZ-Rv02s29W9QuXGjDJrKDFXH5DI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/7eTg-gkr4n5nJ78lI1P9bqtJV4f4QQY5Q5v3sC0AePouKfcv0c3fgodtwoPbutOXZr8rW17nsyV2Grjn_ZlEFb2TXMp6ZXHdA2ndyo_pK9IMtG_JZ-Rv02s29W9QuXGjDJrKDFXH5DI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 17',
+  name: 'Episode 17',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/YU71KwvSka2tKxGe-TzCwHmnTtDb0AbAm9ZyJMLUwhEjGsq2ZfzFwxYbCfx_u66bjRBz7EIUNFI7gWCuxGAzunLmW3DwfcTX1DleowUPUzj3NnIpswz1cB6S8IaGakUMuQfj68pmkGM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/YU71KwvSka2tKxGe-TzCwHmnTtDb0AbAm9ZyJMLUwhEjGsq2ZfzFwxYbCfx_u66bjRBz7EIUNFI7gWCuxGAzunLmW3DwfcTX1DleowUPUzj3NnIpswz1cB6S8IaGakUMuQfj68pmkGM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 18',
+  name: 'Episode 18',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ja9fnMSv8Rol6qnanw7FjNY_QtbfcEXtaAmhxt7cqfKFO47m1Vrc1gy8LYk8gmaziCRmedhbM1PaFSVXZV1qq4tgNjyB7Thv8_p7-PPBuQn8y0bYLQSM0q9Wgv_sqXCduUGamtQXsBc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ja9fnMSv8Rol6qnanw7FjNY_QtbfcEXtaAmhxt7cqfKFO47m1Vrc1gy8LYk8gmaziCRmedhbM1PaFSVXZV1qq4tgNjyB7Thv8_p7-PPBuQn8y0bYLQSM0q9Wgv_sqXCduUGamtQXsBc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 19',
+  name: 'Episode 19',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/LB-Zs5-JEWUZjGTYAfuVKJQyT7s1ByZ2l7FzZJDVczpmbQVLnywhBICHpD1Xaxb0c9Y1IlBihUbK3MC8DtrU1_-NIQ6aJDGRAgFICPb738DfIM0EznFipTSr1Oee5AfbFF1pW4L4n8k=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/LB-Zs5-JEWUZjGTYAfuVKJQyT7s1ByZ2l7FzZJDVczpmbQVLnywhBICHpD1Xaxb0c9Y1IlBihUbK3MC8DtrU1_-NIQ6aJDGRAgFICPb738DfIM0EznFipTSr1Oee5AfbFF1pW4L4n8k=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 20',
+  name: 'Episode 20',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ZfT2xeG1ltaIW2j7hGcrFsjc1gT08cRKq2AJfRoRhLLPyXsi7sfrmYphmCLbX8zYAmTyB0_Qtk7iE4BnfkRK_sl_Tta7QtnsxJH-30C8WXDanyjA5OJj5bwpDHKU3gAAbe7HSDo0hfA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ZfT2xeG1ltaIW2j7hGcrFsjc1gT08cRKq2AJfRoRhLLPyXsi7sfrmYphmCLbX8zYAmTyB0_Qtk7iE4BnfkRK_sl_Tta7QtnsxJH-30C8WXDanyjA5OJj5bwpDHKU3gAAbe7HSDo0hfA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 21',
+  name: 'Episode 21',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/feJHe0dLWUP8xjEUN8F4K63OjkmW6tan0XOhIH_jSYAbOdceFy6zGn-0hnhFhufAGmonQo2H9EFJ8dUG2HliUUwBoC0S3xkHIk8nw_M3nZI9PASWc5anTmrfLoiPy_bpEJQOxlhKPDE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/feJHe0dLWUP8xjEUN8F4K63OjkmW6tan0XOhIH_jSYAbOdceFy6zGn-0hnhFhufAGmonQo2H9EFJ8dUG2HliUUwBoC0S3xkHIk8nw_M3nZI9PASWc5anTmrfLoiPy_bpEJQOxlhKPDE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 22',
+  name: 'Episode 22',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/UrfvxDn1MLcGC37ikJhU4_Wx7hHFc3phX5OOFZ5mKErxgMj0mJ6xFng8DRxl3C9_zz3iR7GQ3oEYMyVS5VY5gxePrWUuGlo1VY3ZugUouD_Mep-3X6oIJhlcCyxDtrZ5PfeTAG7nEMY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/UrfvxDn1MLcGC37ikJhU4_Wx7hHFc3phX5OOFZ5mKErxgMj0mJ6xFng8DRxl3C9_zz3iR7GQ3oEYMyVS5VY5gxePrWUuGlo1VY3ZugUouD_Mep-3X6oIJhlcCyxDtrZ5PfeTAG7nEMY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 23',
+  name: 'Episode 23',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/2GrkzBsY1a5UXAf4k8lYLx8ooM8a82H0ZTUSLvePrMWglRtmfQl9uONL-DoO6aXtD8JAa2cGoul0ITV4_VQcWkAdmzcWtOKh8z-4jUCCCeTQfovy9e4v6qZiUj2y5W62LKK941EFmhY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/2GrkzBsY1a5UXAf4k8lYLx8ooM8a82H0ZTUSLvePrMWglRtmfQl9uONL-DoO6aXtD8JAa2cGoul0ITV4_VQcWkAdmzcWtOKh8z-4jUCCCeTQfovy9e4v6qZiUj2y5W62LKK941EFmhY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 24',
+  name: 'Episode 24',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/oKuWWqePj52aZn-5lcPkPESDp43UjQ-gNoUE2svhKyyk_EXcoR12HD18g_HF6NUndavRnjm-QSrNRrKczYWZqFkssStIgMFYyOEMIEedlxJiDYFkFsFuQeDFsrOnbB2I4CFi75mQQAk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/oKuWWqePj52aZn-5lcPkPESDp43UjQ-gNoUE2svhKyyk_EXcoR12HD18g_HF6NUndavRnjm-QSrNRrKczYWZqFkssStIgMFYyOEMIEedlxJiDYFkFsFuQeDFsrOnbB2I4CFi75mQQAk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 25',
+  name: 'Episode 25',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/o05OjU1Hr3Us_OxRPPlB_gZ5S-IOKzSAqDw7wZaOPPdd1vxY0N4x_Nj76ieisQAavvGxR8sctbgOUu9cl9HUjyqqVD7GIvhG9nK__WBlnRSYWczKIGSKtkumPKmBEi3LJB6l7wMum1E=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/o05OjU1Hr3Us_OxRPPlB_gZ5S-IOKzSAqDw7wZaOPPdd1vxY0N4x_Nj76ieisQAavvGxR8sctbgOUu9cl9HUjyqqVD7GIvhG9nK__WBlnRSYWczKIGSKtkumPKmBEi3LJB6l7wMum1E=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 26',
+  name: 'Episode 26',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fcd7-MwWey8mvYOJcGOi4-UgU2-GoPHhg8cNcIVPFhnsYfx8sePsnE9av5AZYnJ4H0aUwt1xtoMrYHndlh5_9yfXih5F7JU7DbjRH8XZPj06gTolm_lFXjSnjUTrvWZ2269VW8FrtZ8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fcd7-MwWey8mvYOJcGOi4-UgU2-GoPHhg8cNcIVPFhnsYfx8sePsnE9av5AZYnJ4H0aUwt1xtoMrYHndlh5_9yfXih5F7JU7DbjRH8XZPj06gTolm_lFXjSnjUTrvWZ2269VW8FrtZ8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 27',
+  name: 'Episode 27',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/4tC-yh0_kJlX99U3piDoLFu8jJegpuCXDK32ToQ1tKqskRre1293RCjAoXSNsg9NoDTSGBhcNa8ioyF6wh4PwIBTa03T1MCkN7iX_9TLWGqCsAGY6FXvjNA_iP8Pn577rJpnNVmfCFM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/4tC-yh0_kJlX99U3piDoLFu8jJegpuCXDK32ToQ1tKqskRre1293RCjAoXSNsg9NoDTSGBhcNa8ioyF6wh4PwIBTa03T1MCkN7iX_9TLWGqCsAGY6FXvjNA_iP8Pn577rJpnNVmfCFM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 28',
+  name: 'Episode 28',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/89tnWRCtxGCLNcryfHY2N59Afop6TfXjV-QkVVmoflf8qbeP7jWlCKzChnG4UFyv7-Qy7Jcx-UMgkExZdLFVG6dwZYEAyEHG8TBsmGC6sUco1VZ4Pw0B5fJFP_G2eC53dBd2cdtc2sM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/89tnWRCtxGCLNcryfHY2N59Afop6TfXjV-QkVVmoflf8qbeP7jWlCKzChnG4UFyv7-Qy7Jcx-UMgkExZdLFVG6dwZYEAyEHG8TBsmGC6sUco1VZ4Pw0B5fJFP_G2eC53dBd2cdtc2sM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 29',
+  name: 'Episode 29',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/eGUBI711PTC6jpKUv4VPpceKXPrEmAU-9oo62pTVzfO-CiVJZHC__z81P64KUQeKmgO6Mq78Rcs2-rkBeGZTHsEXN40Y-8fBhfYTgRhFidEvKpzSUYmVv-EPiO07xmDL291E319Z9vU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/eGUBI711PTC6jpKUv4VPpceKXPrEmAU-9oo62pTVzfO-CiVJZHC__z81P64KUQeKmgO6Mq78Rcs2-rkBeGZTHsEXN40Y-8fBhfYTgRhFidEvKpzSUYmVv-EPiO07xmDL291E319Z9vU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 30',
+  name: 'Episode 30',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/n100IIuj1Ny71TZw1ESIgV8EGADveE6CPulNj6LsGFuTJCw7UFFQ5qRpdlbz1Bj-uux_y6jI-Mim3XdjkA-t8CwMVMWYtx5GgiZgOYWVijKbFC394T0PDNBVF3J7A5FOC9GSnfww1Uo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/n100IIuj1Ny71TZw1ESIgV8EGADveE6CPulNj6LsGFuTJCw7UFFQ5qRpdlbz1Bj-uux_y6jI-Mim3XdjkA-t8CwMVMWYtx5GgiZgOYWVijKbFC394T0PDNBVF3J7A5FOC9GSnfww1Uo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 31',
+  name: 'Episode 31',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/wCrqV6zE0iooMve13PJu8WVDgtIiutuV_erA-VeXe9ddWHE4PTzSJpwvea6e-YTIyMGexvuR9_-X35LvqyAqhdZcGZkAwyWYqdgvz9epxEhQOpj1ZNxjqk9HxR-B5-mlllJQd-k-v-Q=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/wCrqV6zE0iooMve13PJu8WVDgtIiutuV_erA-VeXe9ddWHE4PTzSJpwvea6e-YTIyMGexvuR9_-X35LvqyAqhdZcGZkAwyWYqdgvz9epxEhQOpj1ZNxjqk9HxR-B5-mlllJQd-k-v-Q=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 32',
+  name: 'Episode 32',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/_DL_vzf2yVlyt0zkRWhvO1IdeXwVsFxZgOeugZLx-qMIMfaup-ViV_TQWIExbHTsI-vgo2blejGz24E3_1nh1uxLCPpDJaoshG7qDYJ1pCxCkvWU5Zt4Aw10ASIIslSFLTxe7eNhbL4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/_DL_vzf2yVlyt0zkRWhvO1IdeXwVsFxZgOeugZLx-qMIMfaup-ViV_TQWIExbHTsI-vgo2blejGz24E3_1nh1uxLCPpDJaoshG7qDYJ1pCxCkvWU5Zt4Aw10ASIIslSFLTxe7eNhbL4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 33',
+  name: 'Episode 33',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/nAlVvJF5pmLuVIq611tWdtcRUPdF6UgDXYJ_4Bo1_XDHfF02pTFMR3ijetPd8Xb6So00A9nLj6s4t2E_VhhbF0QZG6CP8Mgmlb8-uQgZlanwNDTStiyxvpfoDcoxi5hiHV1XfWJRLig=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/nAlVvJF5pmLuVIq611tWdtcRUPdF6UgDXYJ_4Bo1_XDHfF02pTFMR3ijetPd8Xb6So00A9nLj6s4t2E_VhhbF0QZG6CP8Mgmlb8-uQgZlanwNDTStiyxvpfoDcoxi5hiHV1XfWJRLig=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 34',
+  name: 'Episode 34',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/tOmhBEhxS3qp2MgaBuL72xl8VJc55iPOWX64S33plEQsXCW6JvTeGmJHqBLQaqu5UEpXSlGK-XKUbwJz6S9j_oGV3RRAditVjrR-gjQlhhKUJIBwA94TENedu-8MEaPfoaIXKu3bJ1g=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/tOmhBEhxS3qp2MgaBuL72xl8VJc55iPOWX64S33plEQsXCW6JvTeGmJHqBLQaqu5UEpXSlGK-XKUbwJz6S9j_oGV3RRAditVjrR-gjQlhhKUJIBwA94TENedu-8MEaPfoaIXKu3bJ1g=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 35',
+  name: 'Episode 35',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/YcqLQd4XKyYq8rPHq-Dfiobqp2ehgMoCDVIVlq1wxGHXj5SvCGm9UBbkC_64B1zZFXxVljhKFmIldZk7Mi9XmopyaAD709a9O9tibEtjWitkIwg2uMKkNTToRj0uMCzU41jCUJdQR3Y=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/YcqLQd4XKyYq8rPHq-Dfiobqp2ehgMoCDVIVlq1wxGHXj5SvCGm9UBbkC_64B1zZFXxVljhKFmIldZk7Mi9XmopyaAD709a9O9tibEtjWitkIwg2uMKkNTToRj0uMCzU41jCUJdQR3Y=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 36',
+  name: 'Episode 36',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/_jKeBLobdD89vjxPQISxiaPsdhH25l87cGRt2TlYNQA5DkswQePPEgVoW1HCixFTla02Qh95pMvGVsTrFwLSStABeTs5J_A7vOHfF3Svt2rKN8Kql15f4KSpf6r902gGCcYE6SUd7uY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/_jKeBLobdD89vjxPQISxiaPsdhH25l87cGRt2TlYNQA5DkswQePPEgVoW1HCixFTla02Qh95pMvGVsTrFwLSStABeTs5J_A7vOHfF3Svt2rKN8Kql15f4KSpf6r902gGCcYE6SUd7uY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 37',
+  name: 'Episode 37',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/U0ZdbrPJflTIWwMJojXEJsKDF0oQZ3NBB6I7mP7I5pWyjCdmAMnFZhF-AsAh6czAklMjr_yIBhs2FTk-S0wmvKndr0MWfcuYILa-kCL28tWCz6m6DAW-u0tr39aY459geuQW4MsCLAc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/U0ZdbrPJflTIWwMJojXEJsKDF0oQZ3NBB6I7mP7I5pWyjCdmAMnFZhF-AsAh6czAklMjr_yIBhs2FTk-S0wmvKndr0MWfcuYILa-kCL28tWCz6m6DAW-u0tr39aY459geuQW4MsCLAc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 38',
+  name: 'Episode 38',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/n245fJSq1Gg0WeqztNJNIrDy3N2lb4Q1-ikJYIRXaTLzA_aZ8hlNcbwqwD-2KGRRKfkoozl96hX9yq4_7ojD7aZdDpT0EPzhpmMvo66n8K1Hj-c1I7dcqFHFzvwlLXU6hibP3ixuHuo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/n245fJSq1Gg0WeqztNJNIrDy3N2lb4Q1-ikJYIRXaTLzA_aZ8hlNcbwqwD-2KGRRKfkoozl96hX9yq4_7ojD7aZdDpT0EPzhpmMvo66n8K1Hj-c1I7dcqFHFzvwlLXU6hibP3ixuHuo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 39',
+  name: 'Episode 39',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/4bz2dD7KINpZoLvBJASTzQdsP45WnqjNppZBpCihKHkEi5kqaRxMdT8sr-NdIR44TmY9OdLIthoceVwx9Wxm2AB6c4Kp4C6pUVZHBGhWq4V3G5LnpRHKd14ZfgUZUOdu-OdRAUCKYKg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/4bz2dD7KINpZoLvBJASTzQdsP45WnqjNppZBpCihKHkEi5kqaRxMdT8sr-NdIR44TmY9OdLIthoceVwx9Wxm2AB6c4Kp4C6pUVZHBGhWq4V3G5LnpRHKd14ZfgUZUOdu-OdRAUCKYKg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 40',
+  name: 'Episode 40',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/XgQcUj223dGIbWwBDz2BE0B_eCfAlpnK1qIAT6r4_1GB6Vl9BQ105wTWpIoBHEWZDi7FBCHmhIFaVIQ6a_ECZfA48qXCx_dt1h3d-YBCPw6NUZEynO64Nj36BZSJDjj27JnTT6hBaZs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/XgQcUj223dGIbWwBDz2BE0B_eCfAlpnK1qIAT6r4_1GB6Vl9BQ105wTWpIoBHEWZDi7FBCHmhIFaVIQ6a_ECZfA48qXCx_dt1h3d-YBCPw6NUZEynO64Nj36BZSJDjj27JnTT6hBaZs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 41',
+  name: 'Episode 41',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/usZMwAAKiCTJV3GxTCIXitbWNXc5dt4iMZwvJBEdxrrWs89c-kGuUwn7jiS9Mo53XdCxS5ohmXT1d800i3RPv1nYH7C1nmTQ8HpYfEXIRHcvHyDUfOTFwz4tB-WKn6LfUjoeCj1Gryo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/usZMwAAKiCTJV3GxTCIXitbWNXc5dt4iMZwvJBEdxrrWs89c-kGuUwn7jiS9Mo53XdCxS5ohmXT1d800i3RPv1nYH7C1nmTQ8HpYfEXIRHcvHyDUfOTFwz4tB-WKn6LfUjoeCj1Gryo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 42',
+  name: 'Episode 42',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Oj4GwYhyDVUaelJvaNKjVMzKsKpqMuAs_eYqbK1J3-FqUHM49GHGNzai9BBZxZ7N3TJYtiXz1m_akPcfBmPaiHB1APbp5oi-23pHOXhEwHMTTIMnfnmfbHRiZR-4aLcQ_7j0HZjp5qM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Oj4GwYhyDVUaelJvaNKjVMzKsKpqMuAs_eYqbK1J3-FqUHM49GHGNzai9BBZxZ7N3TJYtiXz1m_akPcfBmPaiHB1APbp5oi-23pHOXhEwHMTTIMnfnmfbHRiZR-4aLcQ_7j0HZjp5qM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 43',
+  name: 'Episode 43',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/v6nTAWjTE-hzuWxWGmVkyDN5maoaIQsEGsBlxb0AzX1xyvW764lYlRT1-cJzbgYV-9Vi7o8X8_AoQEqqwfP2EWkiRuFiuOk8cqM5tz3Oo1IsWRRLSfcA3WSE0U_FBYztCdA-F5rgBBo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/v6nTAWjTE-hzuWxWGmVkyDN5maoaIQsEGsBlxb0AzX1xyvW764lYlRT1-cJzbgYV-9Vi7o8X8_AoQEqqwfP2EWkiRuFiuOk8cqM5tz3Oo1IsWRRLSfcA3WSE0U_FBYztCdA-F5rgBBo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 44',
+  name: 'Episode 44',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/s8zNUCUlAw6wUA3f5OJAcVBdU9bIk6oEzwyf5dXeGKK9B9q9DklLzYTeec055-RDrWntWqFXFreKgjYr97dgHGoMUPX8HzqRvsJS5gEr-J8sQ0ezNZubn6YwBFtwdlQiQDlLCbliByY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/s8zNUCUlAw6wUA3f5OJAcVBdU9bIk6oEzwyf5dXeGKK9B9q9DklLzYTeec055-RDrWntWqFXFreKgjYr97dgHGoMUPX8HzqRvsJS5gEr-J8sQ0ezNZubn6YwBFtwdlQiQDlLCbliByY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 45',
+  name: 'Episode 45',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fAcm6ezBpzsYtl91cq-gGEMrKfKXZ22q5Qqpto3fnXYNqFWECxRo-bgEdpMtNr7kndYBam68330r5bAjTco3w6-cwOS5j-KnnDp4IbAWhvbib-3BgTgXmSC93nGWgba0cz-A8cpB-AQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fAcm6ezBpzsYtl91cq-gGEMrKfKXZ22q5Qqpto3fnXYNqFWECxRo-bgEdpMtNr7kndYBam68330r5bAjTco3w6-cwOS5j-KnnDp4IbAWhvbib-3BgTgXmSC93nGWgba0cz-A8cpB-AQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 46',
+  name: 'Episode 46',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/CvkVayH4ksVAw5oFH-d3g1YdNYfYFnCRWzTKOwCKU9rzWuqAn5jYyWWLW5H2bImw5u93aKnoDZB4bc5wRvNPdzl6dNmp-RoVOWI0K4LfIwAv9c18A6XbKvc3bgw0geUboY4k17-0FAc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/CvkVayH4ksVAw5oFH-d3g1YdNYfYFnCRWzTKOwCKU9rzWuqAn5jYyWWLW5H2bImw5u93aKnoDZB4bc5wRvNPdzl6dNmp-RoVOWI0K4LfIwAv9c18A6XbKvc3bgw0geUboY4k17-0FAc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 47',
+  name: 'Episode 47',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Qrb_DEUnf-Knp3Zlxlf1i3mamISflfbidAbTlUYH1-icvL7Vvk-uz9wg1hgNldheu11dOzP4SVXg4_R14roEbhXuG5hN9FxXWlWixk7yOrqEkMlNwRQPPg8zR77wdguubEobdZksP48=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Qrb_DEUnf-Knp3Zlxlf1i3mamISflfbidAbTlUYH1-icvL7Vvk-uz9wg1hgNldheu11dOzP4SVXg4_R14roEbhXuG5hN9FxXWlWixk7yOrqEkMlNwRQPPg8zR77wdguubEobdZksP48=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 48',
+  name: 'Episode 48',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/58veevi9SW4XEwdJD82BSlGGnay7WCXVOtndB-HgdGHz3CFOvPR97SDcuwKi9zG2RRSWTr90nZmjmg8W9F6ahEXkhAV85nBfgvvjUJf1soeOhpJ3K3qnntJnwWFf1QuOW3rERB1Do10=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/58veevi9SW4XEwdJD82BSlGGnay7WCXVOtndB-HgdGHz3CFOvPR97SDcuwKi9zG2RRSWTr90nZmjmg8W9F6ahEXkhAV85nBfgvvjUJf1soeOhpJ3K3qnntJnwWFf1QuOW3rERB1Do10=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 49',
+  name: 'Episode 49',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/2kyRX2qMk-KEMn3jAKfMxHwqS1gQkFm_8PadQN-8qJQHERmsSmo4OieuPIbHVsTT0s1dAMukadVoy13D7eX2IhN5XMxnSpCrnUiVNqJG3F3EMVnVUxKeXA5cDC2JrzyzLLTkNpXpX-Q=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/2kyRX2qMk-KEMn3jAKfMxHwqS1gQkFm_8PadQN-8qJQHERmsSmo4OieuPIbHVsTT0s1dAMukadVoy13D7eX2IhN5XMxnSpCrnUiVNqJG3F3EMVnVUxKeXA5cDC2JrzyzLLTkNpXpX-Q=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 50',
+  name: 'Episode 50',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/QUcMcJTXM2Y65Qp9ce7kJ-d-_W5Moc6TumahP5moYkaUFbCz9K8uvSOfVOsyfqh-rgt1v2H2YuezOPoF7PDQXaMAvKM3I9le10lTvvpCzk2WnoBTwvejTf0-_t9nTXMR6EtbpikFx9I=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/QUcMcJTXM2Y65Qp9ce7kJ-d-_W5Moc6TumahP5moYkaUFbCz9K8uvSOfVOsyfqh-rgt1v2H2YuezOPoF7PDQXaMAvKM3I9le10lTvvpCzk2WnoBTwvejTf0-_t9nTXMR6EtbpikFx9I=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 51',
+  name: 'Episode 51',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/8wZTdDc5VH1sQ3ainiT4nyV6osnUPzLkiC3ru-b_ksARWGLzcODE88qrrrltVEP9DJV6veXqYk6gURHjFc13OKMV4yAsydPnJAKIARK09M0WXZbCJgT3N0CzpkvMARZ8ISter8kDjqs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/8wZTdDc5VH1sQ3ainiT4nyV6osnUPzLkiC3ru-b_ksARWGLzcODE88qrrrltVEP9DJV6veXqYk6gURHjFc13OKMV4yAsydPnJAKIARK09M0WXZbCJgT3N0CzpkvMARZ8ISter8kDjqs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 52',
+  name: 'Episode 52',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/MMXF48rSu8BIs9gZpcIX2MCQZfXj6ro_jd5eNjkuQMH9m0UvFb6tWC623rPCD-8r8DBAXjUSjlhb46c0GToy7X672HatlWivcsF2gr9H6z67gb_PR-FCgIP3AtfeNRCiI3d-anIK7jw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/MMXF48rSu8BIs9gZpcIX2MCQZfXj6ro_jd5eNjkuQMH9m0UvFb6tWC623rPCD-8r8DBAXjUSjlhb46c0GToy7X672HatlWivcsF2gr9H6z67gb_PR-FCgIP3AtfeNRCiI3d-anIK7jw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 53',
+  name: 'Episode 53',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/nYECfrWYw10a7C0tiuPAMJnZpLxUU-AakmkMK_IpEFuWTsWCGEDRFk2KlH61xKolMV4PBzoyNEwLF9zVJNGTXdM7l5HLf--oR92dWryfoqk7wxckTNBunE3ol1Yo4dBLxizvjdSrsI0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/nYECfrWYw10a7C0tiuPAMJnZpLxUU-AakmkMK_IpEFuWTsWCGEDRFk2KlH61xKolMV4PBzoyNEwLF9zVJNGTXdM7l5HLf--oR92dWryfoqk7wxckTNBunE3ol1Yo4dBLxizvjdSrsI0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 54',
+  name: 'Episode 54',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/r298K9OzGjB0iggodk_DFDrfK031YHUFIgHRF-_w9yxS32uYTthNgSp0rRj85AaAm-2l_xBR2KrIC9SErtb12z63Q1wkcr_9TAIROksUcSTbE5B2PN2D9kfRnIntlVH7uYa8qDHlCH4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/r298K9OzGjB0iggodk_DFDrfK031YHUFIgHRF-_w9yxS32uYTthNgSp0rRj85AaAm-2l_xBR2KrIC9SErtb12z63Q1wkcr_9TAIROksUcSTbE5B2PN2D9kfRnIntlVH7uYa8qDHlCH4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 55',
+  name: 'Episode 55',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/4ZLmbKzjRefwUuSx--SGM7xzvevs1Vz-xGbaeWZcjG-LzuYcK9NjtJ3tCMqAAMQM6fO2b9_UehsReKNwQxKWazT3pWCKFsIBVByvfkoJZSMUsVIgWrqHF656jXJfcx6yngLfgsaOS64=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/4ZLmbKzjRefwUuSx--SGM7xzvevs1Vz-xGbaeWZcjG-LzuYcK9NjtJ3tCMqAAMQM6fO2b9_UehsReKNwQxKWazT3pWCKFsIBVByvfkoJZSMUsVIgWrqHF656jXJfcx6yngLfgsaOS64=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 56',
+  name: 'Episode 56',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/osGHAMiVsAhiKwwHNg1Keg-I13M5INkRKZOQlF2XGLAy_43g0J1hme4JlF77mM-06BXqH31ONcJIdhXVmsN8Lu4DiZaGDB7mWVs_5Pn5IH5Qvb8wGfC0cinoClQm3H5wZXaOSRSw11g=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/osGHAMiVsAhiKwwHNg1Keg-I13M5INkRKZOQlF2XGLAy_43g0J1hme4JlF77mM-06BXqH31ONcJIdhXVmsN8Lu4DiZaGDB7mWVs_5Pn5IH5Qvb8wGfC0cinoClQm3H5wZXaOSRSw11g=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 57-58',
+  name: 'Episode 57-58',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/CBv5zM9tdPmNOPWSmmmE8EMBGv8evkblJZEPA8_XtJ0SJYf1l51kjMIRGHwZ3i7yKSzQFdKqEbpTaI2mA1JVVRe5aeQzGZSrkou6TJyRhFM5aWH5MYQ8QUdANefcMp8wdgMUwq_oKZM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/CBv5zM9tdPmNOPWSmmmE8EMBGv8evkblJZEPA8_XtJ0SJYf1l51kjMIRGHwZ3i7yKSzQFdKqEbpTaI2mA1JVVRe5aeQzGZSrkou6TJyRhFM5aWH5MYQ8QUdANefcMp8wdgMUwq_oKZM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 59',
+name: 'Episode 59',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/wwV6hPI0lg2Rd_MZgqBgUwQj6nhC1_ze9FfBpmEo46azEGi-qCguPjR17Xe5CtbKvKT74ycWnmw3tzBRIXMZg4iDl0RVsECgVFqJV3djTOy0wZZCzzAjLqWSFk-VmFsitH-p6VfvdZw=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/wwV6hPI0lg2Rd_MZgqBgUwQj6nhC1_ze9FfBpmEo46azEGi-qCguPjR17Xe5CtbKvKT74ycWnmw3tzBRIXMZg4iDl0RVsECgVFqJV3djTOy0wZZCzzAjLqWSFk-VmFsitH-p6VfvdZw=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},
+{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 60',
+name: 'Episode 60',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/2Qh3_EOItRDpmE2iQirgLAFeOqQSrEiQTQqEXSsEtFlPx_TZ8pIVIr4MTrXkGRS2RROk2O6sRU4ckrI7YgX7uhUuWotewI9NyF3oxrgYDf0Kz-_BuqymD-cEMwweyCDBV0PK6TPYspI=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/2Qh3_EOItRDpmE2iQirgLAFeOqQSrEiQTQqEXSsEtFlPx_TZ8pIVIr4MTrXkGRS2RROk2O6sRU4ckrI7YgX7uhUuWotewI9NyF3oxrgYDf0Kz-_BuqymD-cEMwweyCDBV0PK6TPYspI=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},
+{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 61',
+name: 'Episode 61',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/Q0ZZulf3KJWdjRxUaRyYDWZLFAMlSBV0WR0WorDP45OUpPA2pfIs6Ci_wf6-sSoT8rAeecaCbzinytas5hlv4HajrCv7pHXxu6Y_yDvoki6YXvm8HdTYDMmTAAKhydqBCWDZ7zsJANg=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/Q0ZZulf3KJWdjRxUaRyYDWZLFAMlSBV0WR0WorDP45OUpPA2pfIs6Ci_wf6-sSoT8rAeecaCbzinytas5hlv4HajrCv7pHXxu6Y_yDvoki6YXvm8HdTYDMmTAAKhydqBCWDZ7zsJANg=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},
+{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 62',
+name: 'Episode 62',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/k5ZZ0Dub1prCfoSOhNjaGJ_Pqty7RLJrHPtE0zik_pzZbkzQFoK9m4ArrFByE2r-1ZcPWtlxtkjE5UBRPluTaYBTqesysgMtLZhXdTK6_8lMkTUjoMw1LS7qf63gqLoW5PKOxYS8n2A=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/k5ZZ0Dub1prCfoSOhNjaGJ_Pqty7RLJrHPtE0zik_pzZbkzQFoK9m4ArrFByE2r-1ZcPWtlxtkjE5UBRPluTaYBTqesysgMtLZhXdTK6_8lMkTUjoMw1LS7qf63gqLoW5PKOxYS8n2A=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},
+{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 63',
+name: 'Episode 63',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/ARy_8HksKHxXQ5tXs0HoyWEvzncNlLbsYYXf04Ip064kvqhOz3yoezG4qwK80Hy_L8oCq_YTXc7OO0KqaarrQVnedboz3TfQQ6_cyfUP929gRxaGkRTpCclykAhsxhLG3-V6FXYewOA=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/ARy_8HksKHxXQ5tXs0HoyWEvzncNlLbsYYXf04Ip064kvqhOz3yoezG4qwK80Hy_L8oCq_YTXc7OO0KqaarrQVnedboz3TfQQ6_cyfUP929gRxaGkRTpCclykAhsxhLG3-V6FXYewOA=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},
+{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 64-65',
+name: 'Episode 64-65',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/IUjJuezGdg0mdemjbxOLsq11AF3t-cWev5al5U40t1ZENidC1kZc-LwJ5QlABzhLw1geRCwc2UPYhEWQdy6Gog-15hFkpOlczHzJZKwen0ibHR6j01nepH6MegMNPTKNFcyyyIyDTJw=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/IUjJuezGdg0mdemjbxOLsq11AF3t-cWev5al5U40t1ZENidC1kZc-LwJ5QlABzhLw1geRCwc2UPYhEWQdy6Gog-15hFkpOlczHzJZKwen0ibHR6j01nepH6MegMNPTKNFcyyyIyDTJw=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 66',
+name: 'Episode 66',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/UUEvaaGzx6Ilc8i9s_2pu2TvZ2-Tw3nCGYcEX13jEaznJPgScfEFgvgEzHVgqpuQMlm_SkfcotUxoHbmundB2ahZyZihv2MuwGk58NvetdgskPIa8IbflgIdmXnQtmXK7ey28jE_zQw=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/UUEvaaGzx6Ilc8i9s_2pu2TvZ2-Tw3nCGYcEX13jEaznJPgScfEFgvgEzHVgqpuQMlm_SkfcotUxoHbmundB2ahZyZihv2MuwGk58NvetdgskPIa8IbflgIdmXnQtmXK7ey28jE_zQw=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},
+{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 67',
+name: 'Episode 67',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/vaRRkqaFgFb9j_fR3nU8wOFVOYMbXcS_aPJCOujcys-NK61UWtOhl7gaVPmD2YGS1YNHPI1J3Mvyq6PFMinjL9Ka7Xfv9cwUlOTotHtMl_Tld3SycKfj_7wB3A398NghHa7EKS78ELs=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/vaRRkqaFgFb9j_fR3nU8wOFVOYMbXcS_aPJCOujcys-NK61UWtOhl7gaVPmD2YGS1YNHPI1J3Mvyq6PFMinjL9Ka7Xfv9cwUlOTotHtMl_Tld3SycKfj_7wB3A398NghHa7EKS78ELs=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},
+{ judul: '* Naruto: Shippuuden',
+episode: '* Episode 68-69',
+name: 'Episode 68-69',
+deskrip1 : '* Rating : 8.20',
+sources: [  
+{
+  src: 'https://lh3.googleusercontent.com/1CPFCnbswRkx2d-x-aJc_VkzzuSdOcyStqkBb5CnzSvGJpeqWT3CQFiwjAl8y7XphzsMpVehJULiXr0K64tjQer03I4V4e5VDTJabXzJpJyRYcbIgKZXuRRKyqQ8RXK0y0FwQ7dWeik=m22',
+  type: 'video/mp4',
+  label: '720p',
+  selected: 'false'
+},
+{
+  src: 'https://lh3.googleusercontent.com/1CPFCnbswRkx2d-x-aJc_VkzzuSdOcyStqkBb5CnzSvGJpeqWT3CQFiwjAl8y7XphzsMpVehJULiXr0K64tjQer03I4V4e5VDTJabXzJpJyRYcbIgKZXuRRKyqQ8RXK0y0FwQ7dWeik=m18',
+  type: 'video/mp4',
+  label: '480p',
+  selected: 'true'
+}],
+thumbnail: [
+      {
+        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+        type: 'image/jpeg',
+        media: '(min-width: 400px;)'
+      },
+      {
+        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+      }
+    ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 70',
+  name: 'Episode 70',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/w9yu6kL4mdPHMUSoRlp1klSg3KEVa8-S2WBRIgURGDIC5xrKCo-lg3aSSOJr2lk0qKCBnXY_LVwS1K3U0-EN0BqHWMhAbsS-fK5hbuNaAAcCP53_gzavfypY9TT6ZoY7OTZXgcUYr98=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/w9yu6kL4mdPHMUSoRlp1klSg3KEVa8-S2WBRIgURGDIC5xrKCo-lg3aSSOJr2lk0qKCBnXY_LVwS1K3U0-EN0BqHWMhAbsS-fK5hbuNaAAcCP53_gzavfypY9TT6ZoY7OTZXgcUYr98=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 71',
+  name: 'Episode 71',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/VejylWLC-tNOpSbJzvz_HAOX4cQ5CbzZyRK7GqpIIAO0R7teuOHT_GbysC-MqSNee6TbmV5-wy11qL0XGGZHjVCUkgdHUxICBOiZ-NXAz6wL6xoklR4Fr4SgexQ_XxvNtWU7_7nhiRU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/VejylWLC-tNOpSbJzvz_HAOX4cQ5CbzZyRK7GqpIIAO0R7teuOHT_GbysC-MqSNee6TbmV5-wy11qL0XGGZHjVCUkgdHUxICBOiZ-NXAz6wL6xoklR4Fr4SgexQ_XxvNtWU7_7nhiRU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 72',
+  name: 'Episode 72',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/_nk7uy5EsHDBY1erFWkBDKEge8zJQz5EbPHWLLv7uCXOekLHfkbM7rSDYN5N1rTdHj83DqLnG1_urS5cP_Ye-sF2OOOGR4rRQCY0Jdnc8DHfcRw-siG1i256RYiOkbIN-VbE-FZR4uI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/_nk7uy5EsHDBY1erFWkBDKEge8zJQz5EbPHWLLv7uCXOekLHfkbM7rSDYN5N1rTdHj83DqLnG1_urS5cP_Ye-sF2OOOGR4rRQCY0Jdnc8DHfcRw-siG1i256RYiOkbIN-VbE-FZR4uI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 73',
+  name: 'Episode 73',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/xfhaviR6QmLMlnX8NoqMBbsjDaykKVKkNF-zGlAOeqcg0qZInWFGqxenR2qJt014W8MJSu3nFKPbNNYYjbnH0cES4kktp1OD8IYZCc5GK0lAScgW2Q84Xzgbz63J2NBWt2r5yS_NP4w=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/xfhaviR6QmLMlnX8NoqMBbsjDaykKVKkNF-zGlAOeqcg0qZInWFGqxenR2qJt014W8MJSu3nFKPbNNYYjbnH0cES4kktp1OD8IYZCc5GK0lAScgW2Q84Xzgbz63J2NBWt2r5yS_NP4w=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 74',
+  name: 'Episode 74',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ERF9QGKgTBLsIupLDYINpIukAdToRgFhUgy4MECA8fofAaopWbH-f6XcanxNHduyKvh8JrXs81Wb_ihTCs8eO_m7ylL-YaLkkn6I1NDLUtBCAOhq8TfBZMGH0-uOzUmOAEfeYYngcko=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ERF9QGKgTBLsIupLDYINpIukAdToRgFhUgy4MECA8fofAaopWbH-f6XcanxNHduyKvh8JrXs81Wb_ihTCs8eO_m7ylL-YaLkkn6I1NDLUtBCAOhq8TfBZMGH0-uOzUmOAEfeYYngcko=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 75',
+  name: 'Episode 75',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/i4gCG2sMGpQszl82Gkq78ntYAPSSej7IqjG8cngPh3sfkHBzNE-UbbFol0D9W1qEfnilpS8kYegHAopsi3XX8Ipf5iKUSFfqyphnKiEYe6JcfN0I_S0TpoLkv6VLcDvxajhc8zwBGpc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/i4gCG2sMGpQszl82Gkq78ntYAPSSej7IqjG8cngPh3sfkHBzNE-UbbFol0D9W1qEfnilpS8kYegHAopsi3XX8Ipf5iKUSFfqyphnKiEYe6JcfN0I_S0TpoLkv6VLcDvxajhc8zwBGpc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 76-77',
+  name: 'Episode 76-77',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/-KpUmq8PO_BqcJKWLUshtFtGasAQi3a_ShlsDSIJ_GZUjW7Q3eEC5KW9arf2_wUhltZmCQPC9_ENDfMQwjBkeTUCntp1F1e-mf2jeXneNUHCZ6b7YyW1QCVAfMhs70tx6EASOuBcZ8Q=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/-KpUmq8PO_BqcJKWLUshtFtGasAQi3a_ShlsDSIJ_GZUjW7Q3eEC5KW9arf2_wUhltZmCQPC9_ENDfMQwjBkeTUCntp1F1e-mf2jeXneNUHCZ6b7YyW1QCVAfMhs70tx6EASOuBcZ8Q=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 78-79',
+  name: 'Episode 78-79',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/2eSlSp166qDLogDKyCGqim06d38hpokhUy9YzOW_UEZvMNpAyH71Q9BrOTiOUAGOgzQjdigF2jON8I8pf5B0OVY6vbxESufP0fY9dfCJRainyX93PYauukKKehDpsfJY7GNE_jzC0W8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/2eSlSp166qDLogDKyCGqim06d38hpokhUy9YzOW_UEZvMNpAyH71Q9BrOTiOUAGOgzQjdigF2jON8I8pf5B0OVY6vbxESufP0fY9dfCJRainyX93PYauukKKehDpsfJY7GNE_jzC0W8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 80',
+  name: 'Episode 80',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/2p0RlymUg236ER8ZXwqjr2EMLFaktf6RmMAfnZGYUqUB5sbAiCKHhyI1exDdaX4_KlfUp9Tgfiok9GqEW4fLFhnBvcfNvhPeKnHO-dAYeycgXwUJjiUQyDI0EatInFBn4AE2J7PwfNE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/2p0RlymUg236ER8ZXwqjr2EMLFaktf6RmMAfnZGYUqUB5sbAiCKHhyI1exDdaX4_KlfUp9Tgfiok9GqEW4fLFhnBvcfNvhPeKnHO-dAYeycgXwUJjiUQyDI0EatInFBn4AE2J7PwfNE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 81',
+  name: 'Episode 81',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/l1ScAPzH6CddjD8S1LPiZiAwZUzKf6DIqKLz39twTcus6VbrQgDxyzZVi1expHiQx-BQcQ8g7Wzezz9T2Q5f1mp3dBcfjpWj3ib1nPP1lYCOUWjNe3zXXf_J1ar3lnM-KxWS1VSVMIA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/l1ScAPzH6CddjD8S1LPiZiAwZUzKf6DIqKLz39twTcus6VbrQgDxyzZVi1expHiQx-BQcQ8g7Wzezz9T2Q5f1mp3dBcfjpWj3ib1nPP1lYCOUWjNe3zXXf_J1ar3lnM-KxWS1VSVMIA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 82',
+  name: 'Episode 82',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/gNMDiuoJvPaDpPSUnnv3_xKRpxXe-oyQnOVTb8Ta8TSKwk5Uzse_TIYMY41DX0Q22dpN-jqGsz_amaIqqVYZMA9x3KNWrBvwA4jkaPEgRuYNV4Cwy7wZVSAye4D7EBm_DKKVG3lNX9I=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/gNMDiuoJvPaDpPSUnnv3_xKRpxXe-oyQnOVTb8Ta8TSKwk5Uzse_TIYMY41DX0Q22dpN-jqGsz_amaIqqVYZMA9x3KNWrBvwA4jkaPEgRuYNV4Cwy7wZVSAye4D7EBm_DKKVG3lNX9I=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 83',
+  name: 'Episode 83',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/tmOch3bn8T1ke2lxYpBOr2XkaYYUni--SKViCIKG4jNVINNMqN5yqz5vVyvd-T6yL8e6lXiiaWLcih3kuwLIwV56plvCm4ftQ8V3-x_l6MnDlfGcPft4PgJ_zvlFLwc_nxRD021cRfQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/tmOch3bn8T1ke2lxYpBOr2XkaYYUni--SKViCIKG4jNVINNMqN5yqz5vVyvd-T6yL8e6lXiiaWLcih3kuwLIwV56plvCm4ftQ8V3-x_l6MnDlfGcPft4PgJ_zvlFLwc_nxRD021cRfQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 84',
+  name: 'Episode 84',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/QVfu-ZTZ5_g1N1zLP6KQoZMnS9cIqbt3wW3IIIYLlP-Ez6j2B8sUKj1Zs9U0GZ0cdATqJzdeiVnBRs3oVMJWtirnV8jZs9hqfvqO0vepbO08OmI6L__twHPP7KJJPCPwhgEsfT43mGY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/QVfu-ZTZ5_g1N1zLP6KQoZMnS9cIqbt3wW3IIIYLlP-Ez6j2B8sUKj1Zs9U0GZ0cdATqJzdeiVnBRs3oVMJWtirnV8jZs9hqfvqO0vepbO08OmI6L__twHPP7KJJPCPwhgEsfT43mGY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 85',
+  name: 'Episode 85',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/cFztnVWOy2bKbghlLiD45qrGYRFweKFjMpDzqhx8G7yZe2xHh7Ks_dSB4c-wuxQZbHc2JQE7t5xgKpdO7Q01HQhI2pmyLS0XEdnLA67wzZnSrROvksnx9nTxOQXzHGI5FLPrjw7DsWI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/cFztnVWOy2bKbghlLiD45qrGYRFweKFjMpDzqhx8G7yZe2xHh7Ks_dSB4c-wuxQZbHc2JQE7t5xgKpdO7Q01HQhI2pmyLS0XEdnLA67wzZnSrROvksnx9nTxOQXzHGI5FLPrjw7DsWI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 86-87',
+  name: 'Episode 86-87',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/-WKNUDXoFOxh2jYQG81MmROG463X8Ph781V2R7hjmCNA44CFcjZqnyka_kHwnUmy4NVNbg-Zno34A3pcNTLhTtGPVcXPRrt6z2Yv-rOjw2w0JCeX70otOAueofGFtNAzrzLbMhDCEQ4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/-WKNUDXoFOxh2jYQG81MmROG463X8Ph781V2R7hjmCNA44CFcjZqnyka_kHwnUmy4NVNbg-Zno34A3pcNTLhTtGPVcXPRrt6z2Yv-rOjw2w0JCeX70otOAueofGFtNAzrzLbMhDCEQ4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 88',
+  name: 'Episode 88',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/-YehQDbDiZLV4_Vu94MjOSCoZRnxeL3dWpt-RdK9MVLpHmSNNQtSPlV6hzGfTnFf8sNMxIn8Msb8Rl10f0Eaz5q8rsoyb0_m4QEjOGPliIKBcvY3hwhFs7KkPwkNdv3JMDDaEZzYGGg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/-YehQDbDiZLV4_Vu94MjOSCoZRnxeL3dWpt-RdK9MVLpHmSNNQtSPlV6hzGfTnFf8sNMxIn8Msb8Rl10f0Eaz5q8rsoyb0_m4QEjOGPliIKBcvY3hwhFs7KkPwkNdv3JMDDaEZzYGGg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 89',
+  name: 'Episode 89',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/pLSIPVLJgHnkCdzLzULFr-bs6XLL6Xzp9CVejgnXaLxlUENJB6jb9s2JBCu6KhKJev1BHLfak6p6WG-jdWDUjhP9gy_kOAE37GupJTYltkdBQNrVSQ9iUSbAYstkSTpxX2hDTnF6Tvo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/pLSIPVLJgHnkCdzLzULFr-bs6XLL6Xzp9CVejgnXaLxlUENJB6jb9s2JBCu6KhKJev1BHLfak6p6WG-jdWDUjhP9gy_kOAE37GupJTYltkdBQNrVSQ9iUSbAYstkSTpxX2hDTnF6Tvo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 90',
+  name: 'Episode 90',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Mr-6PncGXvwllLKZKhNt80sfJs4WUFmCFXSzeyH443arQFLUphcPs41-cYNlz56Ggqj7hwPFnHgFf0MoE_zLjRTrsIDoaN5PycuRE7adcOq4Z0cH2xGAnQSF6onwKv2WxH7HGwQBjBs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Mr-6PncGXvwllLKZKhNt80sfJs4WUFmCFXSzeyH443arQFLUphcPs41-cYNlz56Ggqj7hwPFnHgFf0MoE_zLjRTrsIDoaN5PycuRE7adcOq4Z0cH2xGAnQSF6onwKv2WxH7HGwQBjBs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 91',
+  name: 'Episode 91',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/OTU8chcynoLAVgfDR3npLMSZ1yg6xspqwwv_8HC6DeYhsqEZCic__i1Eo5RvjqWSOMFb4VFqz_6yPMprfTdNPuVkSFjpEerXcqnRvf_cF2LGa1ntr-jsP3b3_RBnXCKlqv4Tm3o6XZw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/OTU8chcynoLAVgfDR3npLMSZ1yg6xspqwwv_8HC6DeYhsqEZCic__i1Eo5RvjqWSOMFb4VFqz_6yPMprfTdNPuVkSFjpEerXcqnRvf_cF2LGa1ntr-jsP3b3_RBnXCKlqv4Tm3o6XZw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 92',
+  name: 'Episode 92',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/uZIP0gC0YxefwmrpKG5G6Pb0Pa5UTqfWkANDwLXm800QUlHzjPtqSMpW0oACkd_QnQE03QMwZvZqB4szdmATLwKycA_wxPC1iyx_ekqQ7mZV3eWIhhoV8dNVlBIWkN9Sm3FIdfpsFFI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/uZIP0gC0YxefwmrpKG5G6Pb0Pa5UTqfWkANDwLXm800QUlHzjPtqSMpW0oACkd_QnQE03QMwZvZqB4szdmATLwKycA_wxPC1iyx_ekqQ7mZV3eWIhhoV8dNVlBIWkN9Sm3FIdfpsFFI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 93',
+  name: 'Episode 93',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fWOV8a82L7SrJiCtdcSiR3yc5LqMDtMcmrBd2Df34sv4JfrJEw1vS-bgXEoUgdRjscWBjj4zk9UPnpeelVQi-Pt2qGnx3T35vKelhDej6xo4eA5TzY5ddhi57hdVMNpHow-oBvSlOtU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fWOV8a82L7SrJiCtdcSiR3yc5LqMDtMcmrBd2Df34sv4JfrJEw1vS-bgXEoUgdRjscWBjj4zk9UPnpeelVQi-Pt2qGnx3T35vKelhDej6xo4eA5TzY5ddhi57hdVMNpHow-oBvSlOtU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 94',
+  name: 'Episode 94',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/CS0yHSwAaGQQLaWo3U7A1NFd8wOB77qGXdB-IOuiSvnPW25eg0X1ix4_pYZ5B8Wib_kxASQrER69Qo5G1qStSpEuq15Fjqg7KpQb0yNmjGXG4P6k7oGEtney2GPnv9ueo-RVMFAUJ3Q=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/CS0yHSwAaGQQLaWo3U7A1NFd8wOB77qGXdB-IOuiSvnPW25eg0X1ix4_pYZ5B8Wib_kxASQrER69Qo5G1qStSpEuq15Fjqg7KpQb0yNmjGXG4P6k7oGEtney2GPnv9ueo-RVMFAUJ3Q=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 95',
+  name: 'Episode 95',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/cftuF60jHsLT3eBFLdsuYlbzsIT0DY2it1MYo0TOByaAyTc_IZP0PG1_-1UE4xbqiuuaSdr0yeXAjYUJRSCTMgD6sRrDdD9Cg55e2gkZ_10LYn98OsIIajVWsOCMkCUJ8F4IyZq1wBo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/cftuF60jHsLT3eBFLdsuYlbzsIT0DY2it1MYo0TOByaAyTc_IZP0PG1_-1UE4xbqiuuaSdr0yeXAjYUJRSCTMgD6sRrDdD9Cg55e2gkZ_10LYn98OsIIajVWsOCMkCUJ8F4IyZq1wBo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 96',
+  name: 'Episode 96',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/5TZaTin1t9uo49WVUi9D4jiDnPrWZazk_estOIMCnjiArgN1yuYKUay9QcE4ldXPbwI6yo93zeyejcJ7-Y2zdSS9kAer0tKFiCsg675v-iKtfDP8bV_jHl2LhwzVqdXqRrhq89VCG1c=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/5TZaTin1t9uo49WVUi9D4jiDnPrWZazk_estOIMCnjiArgN1yuYKUay9QcE4ldXPbwI6yo93zeyejcJ7-Y2zdSS9kAer0tKFiCsg675v-iKtfDP8bV_jHl2LhwzVqdXqRrhq89VCG1c=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 97',
+  name: 'Episode 97',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Wo21UACr2NFnfPzo84TtPfCfnevAvfv3hiHOfsvxlQeC76tOt0B4v_K_QIclsTfaEWXOdlBURthaQtgfLQ9yE8AGZ-2kZKDwjVatL4JfAP4Sw6GjB36x6OjnjIVUTh8KFjUjIozyn_U=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Wo21UACr2NFnfPzo84TtPfCfnevAvfv3hiHOfsvxlQeC76tOt0B4v_K_QIclsTfaEWXOdlBURthaQtgfLQ9yE8AGZ-2kZKDwjVatL4JfAP4Sw6GjB36x6OjnjIVUTh8KFjUjIozyn_U=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 98',
+  name: 'Episode 98',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/HAm4gg06zJCZd046Z_sI5DLxMmujFEV4Dr4Gj7hlSuFQuIhgyYLNZMKEIKGPmdZMe3TyQFoPxlKIok3HLmCRQMqW4SnElhniuuRendZxQHElc68C_4PWOsoDb_Oa9CHpCF_pu99HYoo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/HAm4gg06zJCZd046Z_sI5DLxMmujFEV4Dr4Gj7hlSuFQuIhgyYLNZMKEIKGPmdZMe3TyQFoPxlKIok3HLmCRQMqW4SnElhniuuRendZxQHElc68C_4PWOsoDb_Oa9CHpCF_pu99HYoo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 99',
+  name: 'Episode 99',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/69WXlwP4UlXwKyVLVjRlSABETx3M67SYr_nmrxtpv4QSrPYNFRC5LxDtTRz48s37ez8fTZAxhxZ5IIeyesjL6_iCuvPeWXgJjngXhaw4YGrGZBGyl0L2q3QpbB0QvaVpAhxp4TiFxqs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/69WXlwP4UlXwKyVLVjRlSABETx3M67SYr_nmrxtpv4QSrPYNFRC5LxDtTRz48s37ez8fTZAxhxZ5IIeyesjL6_iCuvPeWXgJjngXhaw4YGrGZBGyl0L2q3QpbB0QvaVpAhxp4TiFxqs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 100',
+  name: 'Episode 100',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/aAJAT6EkxC9ciELH4w_re5oEPH9R07hY2eF5fTBrv3FWJcj3aLuawIuygrg20JvlNEzjVBfe0delWP7Zz0xYiTFrYFKZwRDS5O5bvkkv9zynq4CpHqhGZb6LEmB5KUA1NpIehSKk6Tw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/aAJAT6EkxC9ciELH4w_re5oEPH9R07hY2eF5fTBrv3FWJcj3aLuawIuygrg20JvlNEzjVBfe0delWP7Zz0xYiTFrYFKZwRDS5O5bvkkv9zynq4CpHqhGZb6LEmB5KUA1NpIehSKk6Tw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 101-102',
+  name: 'Episode 101-102',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/X_65UsN73R-f_GSdFCqEPq_Ybzy2pFoPqBwh93fqPQptzBVNZeCL2B6U4Cpq_-mfPAvzTUBorHFQTzT8oXrOFEiAr4Q0jgx0VwGdEZg3oXD6-JWFCZfh_bI_yTEOuQP-vmozHGHS3qo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/X_65UsN73R-f_GSdFCqEPq_Ybzy2pFoPqBwh93fqPQptzBVNZeCL2B6U4Cpq_-mfPAvzTUBorHFQTzT8oXrOFEiAr4Q0jgx0VwGdEZg3oXD6-JWFCZfh_bI_yTEOuQP-vmozHGHS3qo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 103',
+  name: 'Episode 103',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/LgdmcLlQed-Vh8M7CyE9zgiQwkFkf-EyF73qFsW-sG_CVNZkpPhUMbyvc7ufDkvJpT2SeEGaTLUs0XnGPSk2NVc8CcAfOOMU5Cg8846tj6ZOWg4mFaZCaSuA-dgOGSjbCU49w8RmMpk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/LgdmcLlQed-Vh8M7CyE9zgiQwkFkf-EyF73qFsW-sG_CVNZkpPhUMbyvc7ufDkvJpT2SeEGaTLUs0XnGPSk2NVc8CcAfOOMU5Cg8846tj6ZOWg4mFaZCaSuA-dgOGSjbCU49w8RmMpk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 104',
+  name: 'Episode 104',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/thhcHp4I8TjEhUyL6DJZ_oBPnHwPePeM4_YZi3UU4Xe0g_aiAihZ3Mk_cRYRFT1bXD9bejdSTHi2_-uwWRCOVW5oz-f7Smgl7D4mI283SFxtq11gyhUvxECzzxTXdn-OnAsR4RyRhs8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/thhcHp4I8TjEhUyL6DJZ_oBPnHwPePeM4_YZi3UU4Xe0g_aiAihZ3Mk_cRYRFT1bXD9bejdSTHi2_-uwWRCOVW5oz-f7Smgl7D4mI283SFxtq11gyhUvxECzzxTXdn-OnAsR4RyRhs8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 105',
+  name: 'Episode 105',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/nJTGw7NPUrbw0hWqmuUE3fB6No0YjUkIki_1tsPPq-_goBJkLrpQDIuqbK5656cWBtSCbL0phdB3AtsQTMKbYTS2jZKFp9nFbCThKso832sKU6V3ZKkvN4wfjBJEO1_rasf42xiUg0Q=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/nJTGw7NPUrbw0hWqmuUE3fB6No0YjUkIki_1tsPPq-_goBJkLrpQDIuqbK5656cWBtSCbL0phdB3AtsQTMKbYTS2jZKFp9nFbCThKso832sKU6V3ZKkvN4wfjBJEO1_rasf42xiUg0Q=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 106',
+  name: 'Episode 106',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/srIdfjjxCyvhKy27yx1K7NPB1OsLpwDV2lEWQTPuj5jO9QL4F-9tNpfWwxUbYzjnzv0EEtl85HKGXj5nL55ncodlPOFaR2bnbEGUNqVlKqPVxca5KwzgVzT_rgaNo5JbS0ajGIgzI2c=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/srIdfjjxCyvhKy27yx1K7NPB1OsLpwDV2lEWQTPuj5jO9QL4F-9tNpfWwxUbYzjnzv0EEtl85HKGXj5nL55ncodlPOFaR2bnbEGUNqVlKqPVxca5KwzgVzT_rgaNo5JbS0ajGIgzI2c=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 107',
+  name: 'Episode 107',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ORdO_HS72Z02onpj5E-vXkVMgIPXfWJ7-Lv6wAB_CMWA0-h-ueL6d6bvcyjdZxyuP6XH17u6H4wYS0ABFPu_Y-nPie_4ow4VjjvWdQ5ecxH4K23Bc7yRRTPh5ON2cAE5OICYkYmO04A=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ORdO_HS72Z02onpj5E-vXkVMgIPXfWJ7-Lv6wAB_CMWA0-h-ueL6d6bvcyjdZxyuP6XH17u6H4wYS0ABFPu_Y-nPie_4ow4VjjvWdQ5ecxH4K23Bc7yRRTPh5ON2cAE5OICYkYmO04A=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 108',
+  name: 'Episode 108',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/wzQc9lh0DZzd6JlAz0VH2MJ5giQd2v2TfPjIwlmYHIzKpw2_jMOVGuuGobQMHM-uazhpDhTiEmGzl2YIYIWstcoh5KIJP4M9XnTuRL-r0ZYQaQYv4XJR4yMSvUtgNKLXK9b1s5ZyRJc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/wzQc9lh0DZzd6JlAz0VH2MJ5giQd2v2TfPjIwlmYHIzKpw2_jMOVGuuGobQMHM-uazhpDhTiEmGzl2YIYIWstcoh5KIJP4M9XnTuRL-r0ZYQaQYv4XJR4yMSvUtgNKLXK9b1s5ZyRJc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 109',
+  name: 'Episode 109',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/VObHTq-4rSjs8UHlrPaZE2QRG6jX8Sp5Zb12PSm_poHWXbRCvz95prpB-B5fZ3AHISp9hU8PKC9AwJHMEkX42PaoP-jSn5JG_F7MUamWkunAyjTA7rx3SUZenGo12-pwqxU58Zr7mYQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/VObHTq-4rSjs8UHlrPaZE2QRG6jX8Sp5Zb12PSm_poHWXbRCvz95prpB-B5fZ3AHISp9hU8PKC9AwJHMEkX42PaoP-jSn5JG_F7MUamWkunAyjTA7rx3SUZenGo12-pwqxU58Zr7mYQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 110',
+  name: 'Episode 110',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fR1y23i8M9ido0C2vw1TczRMd0uh9ZPFA3eOW24O86oBQjS6wvq76QYbbEoWHMXbJrC6fNvTN8gXymK6MtmZiFab5_b5wjA7I2s0SI1-I54MsB65lrw5XUizlex4LwWAVIacsLrVzo0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fR1y23i8M9ido0C2vw1TczRMd0uh9ZPFA3eOW24O86oBQjS6wvq76QYbbEoWHMXbJrC6fNvTN8gXymK6MtmZiFab5_b5wjA7I2s0SI1-I54MsB65lrw5XUizlex4LwWAVIacsLrVzo0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 111',
+  name: 'Episode 111',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ZcIHEyqHMhjPUBsBcMEMzeGY4_tXNEriabGgJmG9pxT7cri-1f3Xc9MmUkibd4L8tgCiwU1rUSxt27sOzxM2t1wQ6mDPnbh5s_4CxLVp9Sso_G6ASX_xIFBQTgpcRZWZvHO8TQzQgI0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ZcIHEyqHMhjPUBsBcMEMzeGY4_tXNEriabGgJmG9pxT7cri-1f3Xc9MmUkibd4L8tgCiwU1rUSxt27sOzxM2t1wQ6mDPnbh5s_4CxLVp9Sso_G6ASX_xIFBQTgpcRZWZvHO8TQzQgI0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 112',
+  name: 'Episode 112',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/QNqv9ZqpZ7yF0YM4ZPru_JWIjHSlHA6Gaqc4YN-Gv74UoJY2CM4Slz2fcjIdz7xB5JwqJTfxQ9Ui81ZUEEp0hXxjFHdLTIPIUFuv-TAozQlcdhezWHaTkKd-AVHv3-Ba7SwGx_s-vTY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/QNqv9ZqpZ7yF0YM4ZPru_JWIjHSlHA6Gaqc4YN-Gv74UoJY2CM4Slz2fcjIdz7xB5JwqJTfxQ9Ui81ZUEEp0hXxjFHdLTIPIUFuv-TAozQlcdhezWHaTkKd-AVHv3-Ba7SwGx_s-vTY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 113',
+  name: 'Episode 113',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/gaB5JI6ruxCTLR1MNGwmp31-4lhHJc8Wby3XAm-YlTpdQOR4pgt0KSoG3wlogGfghbsamv1hWXbWEwpZ6TmNQuzLLXbN2X27Dp4EzkIbm65wijbwNpFHvUQzUIFvSklC1OEckPnkY0w=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/gaB5JI6ruxCTLR1MNGwmp31-4lhHJc8Wby3XAm-YlTpdQOR4pgt0KSoG3wlogGfghbsamv1hWXbWEwpZ6TmNQuzLLXbN2X27Dp4EzkIbm65wijbwNpFHvUQzUIFvSklC1OEckPnkY0w=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 114',
+  name: 'Episode 114',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/azumkDo3GqUYmcUH5A_ESjwy0qESUD1-oNQ8_zkSjNsDXSI0VJhG_L8B2h7eyjuGRND3pvujrzxsa9VajO1kZQ4-T6nUpgFf4M7HS4sKW_WxPV314X1AFUA1PHeoKAjZbIw7hQBgkD4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/azumkDo3GqUYmcUH5A_ESjwy0qESUD1-oNQ8_zkSjNsDXSI0VJhG_L8B2h7eyjuGRND3pvujrzxsa9VajO1kZQ4-T6nUpgFf4M7HS4sKW_WxPV314X1AFUA1PHeoKAjZbIw7hQBgkD4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 115',
+  name: 'Episode 115',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/gzNkchO3iLF0bmQnfTa-wX8NtA0IkQsnFRpgAA4uzpIm5LTDkMP_VTcsqawJkUFngo2-y1cTdM9RIVeSjiv8dluDCrPqBwDEXBEIRw7tI8VSdCAdddNbcCdpcxBS8pyOZicRJoUG4_E=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/gzNkchO3iLF0bmQnfTa-wX8NtA0IkQsnFRpgAA4uzpIm5LTDkMP_VTcsqawJkUFngo2-y1cTdM9RIVeSjiv8dluDCrPqBwDEXBEIRw7tI8VSdCAdddNbcCdpcxBS8pyOZicRJoUG4_E=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 116',
+  name: 'Episode 116',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/HygaT7U9Rwzn8Wuru4jW8_tu8A7IgE6uu5Ly2lbTrP7rmNL9zabWBuvTVwNJNY2q_yVsUPVyTS2mvDgx-B7CyZdO0sY567STRdSp4evd4Bewl0dX_Cw97EiQ3mf9E1rYIdYNBuD4NJI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/HygaT7U9Rwzn8Wuru4jW8_tu8A7IgE6uu5Ly2lbTrP7rmNL9zabWBuvTVwNJNY2q_yVsUPVyTS2mvDgx-B7CyZdO0sY567STRdSp4evd4Bewl0dX_Cw97EiQ3mf9E1rYIdYNBuD4NJI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 117',
+  name: 'Episode 117',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/U5P-uRj0F3n8zKoe4rj_RGJYNYpz88_ACKCC2A2MF8cwvj2K_1-XDIENYSsVn4ISx5rM9tQrw1bqrGEe5j3NEEivcYvb1PpfH-uMGTXy8aWtGEB3zi8Fmyz63rZ4-m7J8SdNvIkUGy8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/U5P-uRj0F3n8zKoe4rj_RGJYNYpz88_ACKCC2A2MF8cwvj2K_1-XDIENYSsVn4ISx5rM9tQrw1bqrGEe5j3NEEivcYvb1PpfH-uMGTXy8aWtGEB3zi8Fmyz63rZ4-m7J8SdNvIkUGy8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 118',
+  name: 'Episode 118',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/oWmSP0q033Rxye1ENpTcUcPrsBbrb_hhM-Ofr3u8-NA3VQ7UhbIgI88-9YqaEon50QIsQpYkzIfO27tjKR6ky2sZQw_jB11fT3dR1Vf9SMkGv7R-VV-LDAHXQZ9PO_Bhm7X-o5gAn4w=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/oWmSP0q033Rxye1ENpTcUcPrsBbrb_hhM-Ofr3u8-NA3VQ7UhbIgI88-9YqaEon50QIsQpYkzIfO27tjKR6ky2sZQw_jB11fT3dR1Vf9SMkGv7R-VV-LDAHXQZ9PO_Bhm7X-o5gAn4w=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 119-120',
+  name: 'Episode 119-120',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/7fAlSqXZ9dkaqu7hz_-aMVAEhUJQVEy_YsZAQLb7KUA3piiCThG2PcEeowa2Bw8Ud7cDu0tkaInEZiqZ66tmR8UQ-9acucpw0pnhMyJ1n5XzA20DQrWYIBPZRAN1SqWVQyD-mHB2gvA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/7fAlSqXZ9dkaqu7hz_-aMVAEhUJQVEy_YsZAQLb7KUA3piiCThG2PcEeowa2Bw8Ud7cDu0tkaInEZiqZ66tmR8UQ-9acucpw0pnhMyJ1n5XzA20DQrWYIBPZRAN1SqWVQyD-mHB2gvA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 121',
+  name: 'Episode 121',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Nmw8pFmZmX4AQgOBNzJ36cK3po299xyht0kGi0DK9BrwBedFmE2Vj6jkBmWZrPTvz8HCy8RGUt_aGOxrtnrR8B7cPWRpATJ8tVRkT42tTiVvFXVLZba6QI_UKCGLZvjxcoMoHDt6UQk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Nmw8pFmZmX4AQgOBNzJ36cK3po299xyht0kGi0DK9BrwBedFmE2Vj6jkBmWZrPTvz8HCy8RGUt_aGOxrtnrR8B7cPWRpATJ8tVRkT42tTiVvFXVLZba6QI_UKCGLZvjxcoMoHDt6UQk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 122',
+  name: 'Episode 122',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/6j8eJHCVb1_AyA94p2vXCJ7qK2T70-RPMDV8xeS8iJpJYf4jw8mGMpZC71qFVkgHpqvuvWwxbEBN4PJZwzv_RvYg38rWeUigTmIFHUfgnficqGbpfVL783ug8-foaLzAaZd5z1AjGxc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/6j8eJHCVb1_AyA94p2vXCJ7qK2T70-RPMDV8xeS8iJpJYf4jw8mGMpZC71qFVkgHpqvuvWwxbEBN4PJZwzv_RvYg38rWeUigTmIFHUfgnficqGbpfVL783ug8-foaLzAaZd5z1AjGxc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 123',
+  name: 'Episode 123',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/UZfkgLoOexKgy870_nYLN7dsvW47GpK156TuPccLxnqC_QJxKf1UbnSnzI4QrDTzoHdpV5uwZ-Qt2W856fN1Kqr8tIuRFLV0wfCIKm8qFD7WPkZ1Nd5wk_JhruOAgvTu54TtnGyw5gY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/UZfkgLoOexKgy870_nYLN7dsvW47GpK156TuPccLxnqC_QJxKf1UbnSnzI4QrDTzoHdpV5uwZ-Qt2W856fN1Kqr8tIuRFLV0wfCIKm8qFD7WPkZ1Nd5wk_JhruOAgvTu54TtnGyw5gY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 124',
+  name: 'Episode 124',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/291XPOGUJiXBdQh5HK3tOg2OZeZC1Fh3P45byHkvpCw7vdjjKhAhtPesoY7jGP0TqgzSIoRhWSxwYYiJY741D5RGiZilnafIGaho6W8StLynCjXVGTo_1tCTUB2oNwaBkCa2uLTNfYw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/291XPOGUJiXBdQh5HK3tOg2OZeZC1Fh3P45byHkvpCw7vdjjKhAhtPesoY7jGP0TqgzSIoRhWSxwYYiJY741D5RGiZilnafIGaho6W8StLynCjXVGTo_1tCTUB2oNwaBkCa2uLTNfYw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 125',
+  name: 'Episode 125',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/tywEWMh9qs9kbaxwwexcsIPv0WchX8XOBPAsF4lZKwOpu0qC-u0-xfl_gP9FQGbEiv0yH_TyoyrgvhWQC2Mxa40Wn1lsicqSpkoTlkctI5rFGMrqp6L6BzgFHaZIpZXDiekyIkzVgoE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/tywEWMh9qs9kbaxwwexcsIPv0WchX8XOBPAsF4lZKwOpu0qC-u0-xfl_gP9FQGbEiv0yH_TyoyrgvhWQC2Mxa40Wn1lsicqSpkoTlkctI5rFGMrqp6L6BzgFHaZIpZXDiekyIkzVgoE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 126',
+  name: 'Episode 126',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/FRQ-vs0q5MMeYO8d4vjTFrqxFTZpRV33dr0KBIONQi5_3Wa28noClD0p9UHPFTxK0aMRyt96DLaDjIHM8ngP21_64zXapbd6tJxa_gJyNRfr3UO3yoVXuldLjeTtixP674rtPJixD48=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/FRQ-vs0q5MMeYO8d4vjTFrqxFTZpRV33dr0KBIONQi5_3Wa28noClD0p9UHPFTxK0aMRyt96DLaDjIHM8ngP21_64zXapbd6tJxa_gJyNRfr3UO3yoVXuldLjeTtixP674rtPJixD48=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 127-128',
+  name: 'Episode 127-128',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ZhyFkgNhLT9mIFYOjmxes6quEk3WDJ3pZetqezSl9ujSDBXi_ndM9IHQygqRUA-lm4fvszo6nsSy5Q-KobMHlu1t7arJnqzWAnuY0bzZrk-WKfGrZSRYf2AGPVwp86mDWZESPy4UlgI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ZhyFkgNhLT9mIFYOjmxes6quEk3WDJ3pZetqezSl9ujSDBXi_ndM9IHQygqRUA-lm4fvszo6nsSy5Q-KobMHlu1t7arJnqzWAnuY0bzZrk-WKfGrZSRYf2AGPVwp86mDWZESPy4UlgI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 129-130',
+  name: 'Episode 129-130',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/VhOZsc7pm8thm1tqtqeLOC9SKZFFf4Bly0VSz0JmSyiKBxrTwlflfqhc-DZSfvPhsDDQRiVd3nk8L5OM4IGCyHb2a-cevrZ35hYmxG3FLVK1j-eYza9qUyVkHwAd3eDcrmuaQXGsVl8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/VhOZsc7pm8thm1tqtqeLOC9SKZFFf4Bly0VSz0JmSyiKBxrTwlflfqhc-DZSfvPhsDDQRiVd3nk8L5OM4IGCyHb2a-cevrZ35hYmxG3FLVK1j-eYza9qUyVkHwAd3eDcrmuaQXGsVl8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 131',
+  name: 'Episode 131',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/xjhzUZtSXt9_b6COZ33Y_Di7q_UJSnz9B6oNwmYHg4RgLqrRtxB3E143ltPc0ptS7i_KQ6booVDvgDgch8OKGK5AbS5nFBBnFzEchk3DpP0ktyvWoowVZr5QpV3Rst1txv8i9xvZaE0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/xjhzUZtSXt9_b6COZ33Y_Di7q_UJSnz9B6oNwmYHg4RgLqrRtxB3E143ltPc0ptS7i_KQ6booVDvgDgch8OKGK5AbS5nFBBnFzEchk3DpP0ktyvWoowVZr5QpV3Rst1txv8i9xvZaE0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 132',
+  name: 'Episode 132',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/WHEfp6fZWfMdf58DZCUhK6raMAyHcCCwIXRmXTjc_r8ztz0jZlhmV1_m4OhqXr0udFqbCGa1B3Le5GwKmyXDLbaKI9siQYOz_8JCR3t9HBOP23oxSnfNUf9V97Evm8Sb4YivmCHEcnU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/WHEfp6fZWfMdf58DZCUhK6raMAyHcCCwIXRmXTjc_r8ztz0jZlhmV1_m4OhqXr0udFqbCGa1B3Le5GwKmyXDLbaKI9siQYOz_8JCR3t9HBOP23oxSnfNUf9V97Evm8Sb4YivmCHEcnU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 133',
+  name: 'Episode 133',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fodqfkMce4IVgowDhqnLRUgIY6_u4IU_1Kc8oEjVaqDCrOlQwArKJAVeHSt3K8LQaeFQXLMBCPJR60pZr46kd6Efo3euQzI_NwN_Fnrp2S_5weWAFnBYJNtcaWA-dZlNB3c0KUGjQtk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fodqfkMce4IVgowDhqnLRUgIY6_u4IU_1Kc8oEjVaqDCrOlQwArKJAVeHSt3K8LQaeFQXLMBCPJR60pZr46kd6Efo3euQzI_NwN_Fnrp2S_5weWAFnBYJNtcaWA-dZlNB3c0KUGjQtk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 134',
+  name: 'Episode 134',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/YXC8BxyWvYtQU7xElOqf4exqS6NdfaJjs3N9Pjq0KH6s5-t-PMPhHM84HJX26AxNr5OyEUAcNKfwIUNSuPpiYmcOO_LSyHrOY0IzwnLjBraAuc0I02pAf4z2aASjQXCgdYyOL5nLEcs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/YXC8BxyWvYtQU7xElOqf4exqS6NdfaJjs3N9Pjq0KH6s5-t-PMPhHM84HJX26AxNr5OyEUAcNKfwIUNSuPpiYmcOO_LSyHrOY0IzwnLjBraAuc0I02pAf4z2aASjQXCgdYyOL5nLEcs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 135',
+  name: 'Episode 135',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/nvUZl3yhYYaDypPrb5C43Mmt8ZKkrX3jHuTVvgQW0s2Mn-x_ieCeRrRw4VFASH2EvJ-crYlVwifzFKja-A2oA_nhcwcI-p4aonjKryrcUyLsBjkQFVYK4sV4-o9NOySupX_nUokNZLs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/nvUZl3yhYYaDypPrb5C43Mmt8ZKkrX3jHuTVvgQW0s2Mn-x_ieCeRrRw4VFASH2EvJ-crYlVwifzFKja-A2oA_nhcwcI-p4aonjKryrcUyLsBjkQFVYK4sV4-o9NOySupX_nUokNZLs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 136',
+  name: 'Episode 136',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/cOAVda7VXKuBTy5TsNpdFJHR_xYsGWo-6YrumRPE-NS_bTd1FqVcHLGdj1lAdhuFAuTbtBdKyybDa_mZH9JUd32pTSsH4fINULApBbir2ZwLg0AEwKFnsCG5jceNQ8aeB4Ad4_BPTZA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/cOAVda7VXKuBTy5TsNpdFJHR_xYsGWo-6YrumRPE-NS_bTd1FqVcHLGdj1lAdhuFAuTbtBdKyybDa_mZH9JUd32pTSsH4fINULApBbir2ZwLg0AEwKFnsCG5jceNQ8aeB4Ad4_BPTZA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 137',
+  name: 'Episode 137',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/XRQhzzJEViGCCapRC558XgX6W1P0X2bkIrZv_TXTYN86uwIK3IKjX1417mo71y4yjliJ7iLIVfCVlqHk4KxKUKExmqdqUHL3ZNrnh2giPaoPw72u4f_amzrOjiMUI00NfgHIaiwvv1k=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/XRQhzzJEViGCCapRC558XgX6W1P0X2bkIrZv_TXTYN86uwIK3IKjX1417mo71y4yjliJ7iLIVfCVlqHk4KxKUKExmqdqUHL3ZNrnh2giPaoPw72u4f_amzrOjiMUI00NfgHIaiwvv1k=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 138',
+  name: 'Episode 138',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/w_iF0SZHDDCmlSJb27IHK0e5bwJYOkePA8oGv8utAKqO6kW_AN3V4Me9ZguAk9ERW3EXiwSOZ-7LW_GrlGwNahp7rPjFddnT2JULdFyK89iXdQktlQNWxHl7wbx8uxg196e4aPZ8pho=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/w_iF0SZHDDCmlSJb27IHK0e5bwJYOkePA8oGv8utAKqO6kW_AN3V4Me9ZguAk9ERW3EXiwSOZ-7LW_GrlGwNahp7rPjFddnT2JULdFyK89iXdQktlQNWxHl7wbx8uxg196e4aPZ8pho=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 139',
+  name: 'Episode 139',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Kc3TS3FEbQLeK0z8iynE9pKJFd9kiQ37-BO7oU8Xy3x74EN4A5qVLGqBSqnFtHBWE07OdVRa4LhL0b2Kx4UsHuFyKtUwAiNySyGVSWkzTTuLhu2P-vFWv1YnjNBG_T9pCJTjvjhFfp0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Kc3TS3FEbQLeK0z8iynE9pKJFd9kiQ37-BO7oU8Xy3x74EN4A5qVLGqBSqnFtHBWE07OdVRa4LhL0b2Kx4UsHuFyKtUwAiNySyGVSWkzTTuLhu2P-vFWv1YnjNBG_T9pCJTjvjhFfp0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 140',
+  name: 'Episode 140',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/EM6mMqV6ekaw2i8DjUuFBIcnjH-kmxGNbaxdICaUfpBh5BS4n1gKgqr6cYeOlDNFmsHSszAOL4sge_OU17LGLDH9fJMg00yK2C17qfDpNGj3E9ue7bCID2NM0YywZgEo9FEkmrks5LU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/EM6mMqV6ekaw2i8DjUuFBIcnjH-kmxGNbaxdICaUfpBh5BS4n1gKgqr6cYeOlDNFmsHSszAOL4sge_OU17LGLDH9fJMg00yK2C17qfDpNGj3E9ue7bCID2NM0YywZgEo9FEkmrks5LU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 141',
+  name: 'Episode 141',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/qJ1-iXVl9HWwZ4eN6b7BLkifPFAQ3FdyHCBWUdtZKXIAGyr-YCYrc6u2GaijhF3JsOKn0YH_jcsAsTUqPjK_yHZy0qwWRYjmq_7ebfqgt_36QqnI_pTcYptpI8ouj8UOZGgS1UrjKt0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/qJ1-iXVl9HWwZ4eN6b7BLkifPFAQ3FdyHCBWUdtZKXIAGyr-YCYrc6u2GaijhF3JsOKn0YH_jcsAsTUqPjK_yHZy0qwWRYjmq_7ebfqgt_36QqnI_pTcYptpI8ouj8UOZGgS1UrjKt0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 142',
+  name: 'Episode 142',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/xvB3ioamYhBesuQUTpZRkySgcNrnBofT3BOW57k0gSNYlQuxJLzrUwFPIkRqDY7F-W9Kkn8MlSQWguHyfhSZWHUqKCO5pamRy47nKbUlmIcA9YK5vCfCxXjX6tPS_2pr9DRh20vooGU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/xvB3ioamYhBesuQUTpZRkySgcNrnBofT3BOW57k0gSNYlQuxJLzrUwFPIkRqDY7F-W9Kkn8MlSQWguHyfhSZWHUqKCO5pamRy47nKbUlmIcA9YK5vCfCxXjX6tPS_2pr9DRh20vooGU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 143',
+  name: 'Episode 143',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/iUlJHps_XxedW04BdDHQuqHbSV0WzZeidbl0BJFdDfz2oM2IlR738H2Z785RiI6GK6eLjZW9d_36WdjO4D48PMDoZ3o90jHtBwrCrVCHH4wpY72h8pz48iGmRk4gSSPG2Ve8NAXxc1Y=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/iUlJHps_XxedW04BdDHQuqHbSV0WzZeidbl0BJFdDfz2oM2IlR738H2Z785RiI6GK6eLjZW9d_36WdjO4D48PMDoZ3o90jHtBwrCrVCHH4wpY72h8pz48iGmRk4gSSPG2Ve8NAXxc1Y=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 144',
+  name: 'Episode 144',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/KfH9qsEJy7BhpAzuwVZTj9fqmKZVkt2XEB0B_LZzOZlW9pS2VpZYSWCNP67OXYr_ITi0MQCDiCkaI94HsxnxJJh-pomdypPkqVwnnE_rwpjmleiingoIqWkHHRfrzBCzNxbtPEGfwb8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/KfH9qsEJy7BhpAzuwVZTj9fqmKZVkt2XEB0B_LZzOZlW9pS2VpZYSWCNP67OXYr_ITi0MQCDiCkaI94HsxnxJJh-pomdypPkqVwnnE_rwpjmleiingoIqWkHHRfrzBCzNxbtPEGfwb8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 145',
+  name: 'Episode 145',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/VAzNLu7qdDVz4pfulh9TcfEt2axFpMyBICyHhqvcmFWl_1TMWqSjAL4RTQvKauZZpHMb2GdU0I8tos9IvpF1_lc9eXfIkVI7VJ5DEsVIIxw0g5IKymmv8X6wb47pG4gueObxnwF1CGI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/VAzNLu7qdDVz4pfulh9TcfEt2axFpMyBICyHhqvcmFWl_1TMWqSjAL4RTQvKauZZpHMb2GdU0I8tos9IvpF1_lc9eXfIkVI7VJ5DEsVIIxw0g5IKymmv8X6wb47pG4gueObxnwF1CGI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 146',
+  name: 'Episode 146',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Nd726RWXONephhg2iYeUtrgfgj4vxPn_xRQGe0VENFRVkxFs5Co6Xje-9bR6pzkEMRRELidqtJ3MgBapm6ExI0DVs7FoqVxYsIjjgPxg17b7-mp66RMRMwCk0hp-m8dHRrO7mLxnEys=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Nd726RWXONephhg2iYeUtrgfgj4vxPn_xRQGe0VENFRVkxFs5Co6Xje-9bR6pzkEMRRELidqtJ3MgBapm6ExI0DVs7FoqVxYsIjjgPxg17b7-mp66RMRMwCk0hp-m8dHRrO7mLxnEys=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 147',
+  name: 'Episode 147',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/5WcZ7wcN54jwTzQ68lgooRwgh4AcbpFkPsFbf-5_Uu0rvJXcHHSjgJ5MJaeC66EA0EpoOJcTGxmSf9BYHC-mXsIUAiApiDwXr6LfHjThShsABnxNnCBWO8PGWVdz9KV7UG9z8K_usPQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/5WcZ7wcN54jwTzQ68lgooRwgh4AcbpFkPsFbf-5_Uu0rvJXcHHSjgJ5MJaeC66EA0EpoOJcTGxmSf9BYHC-mXsIUAiApiDwXr6LfHjThShsABnxNnCBWO8PGWVdz9KV7UG9z8K_usPQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 148',
+  name: 'Episode 148',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/43W7k8donSEV3R2E7jgEMl52ky_pZFAK-D7T5IDV7hJSxtWfiL5UwQWzWIEsz2jvfHMP3OE8xcUDurDryPSa_6YDwlgq-ER2HJMeW8WZ4YrQ6SGPZ0ants7yQghYolAtud-A7_De4yY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/43W7k8donSEV3R2E7jgEMl52ky_pZFAK-D7T5IDV7hJSxtWfiL5UwQWzWIEsz2jvfHMP3OE8xcUDurDryPSa_6YDwlgq-ER2HJMeW8WZ4YrQ6SGPZ0ants7yQghYolAtud-A7_De4yY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 149',
+  name: 'Episode 149',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/cHQLm2R25qmcoLfC7AJvlZF3KNQ31mMMh1bdh4Mf9xUYrjInyCk7sCVrUKEmgNoQOrwyDV02Ud7r4LtCsKYsZ__RzHvUOzHZgnQGEJajwCJxxpDxB87VxKESEr_gyYHiULLGg43FG2s=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/cHQLm2R25qmcoLfC7AJvlZF3KNQ31mMMh1bdh4Mf9xUYrjInyCk7sCVrUKEmgNoQOrwyDV02Ud7r4LtCsKYsZ__RzHvUOzHZgnQGEJajwCJxxpDxB87VxKESEr_gyYHiULLGg43FG2s=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 150',
+  name: 'Episode 150',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/QGzuyM607bGfQZRrjLo0GQD7K9RH1U71DeziJPHkxCTN322sVVZJ3PYa9Xl5hJ0y4rtCxndHmJ4mHiFU4yLrhyOAmxmOvC3llEPS3aXNLzL_kA14PTeDidbqupHD16NdfEgtfLMoat4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/QGzuyM607bGfQZRrjLo0GQD7K9RH1U71DeziJPHkxCTN322sVVZJ3PYa9Xl5hJ0y4rtCxndHmJ4mHiFU4yLrhyOAmxmOvC3llEPS3aXNLzL_kA14PTeDidbqupHD16NdfEgtfLMoat4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 151',
+  name: 'Episode 151',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/yqLIMa_vSzXNZuAMOkjWv66TiUa-6AHMuggB4wL0Jc2U8I2ncHoDzXIuoas9oVX7LWat4OVsPPl1wuslXr5MvLGdxgh2pEy-7LYEo6kz0Ob5kkgvmw5vUViRO1ByTZqidp3Ku99C-qM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/yqLIMa_vSzXNZuAMOkjWv66TiUa-6AHMuggB4wL0Jc2U8I2ncHoDzXIuoas9oVX7LWat4OVsPPl1wuslXr5MvLGdxgh2pEy-7LYEo6kz0Ob5kkgvmw5vUViRO1ByTZqidp3Ku99C-qM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 152-153',
+  name: 'Episode 152-153',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/177sEpC8EmQF76GwtEK-eLh26aoUwa-1vI6cJrmJN4fmbtMHj7SA_3MQFmGgpxSHo-Nsayp-1wYgb8oPGbtofXePm09ifHIIs9GdtEpcjoJMwjD6mQ5fKSLkZylPqmdmL-iqRrFN2zk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/177sEpC8EmQF76GwtEK-eLh26aoUwa-1vI6cJrmJN4fmbtMHj7SA_3MQFmGgpxSHo-Nsayp-1wYgb8oPGbtofXePm09ifHIIs9GdtEpcjoJMwjD6mQ5fKSLkZylPqmdmL-iqRrFN2zk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 154',
+  name: 'Episode 154',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/k1-q93xPu8LOD08ZdN5YYf-cKRLVI5hbWb9OK83rhmPSw7rqZcsAoS2-aRNa74S1ttAwM2Pra94E7hgclS98sR6LZfvcjCkGgHY4yHHUx-2N_dk7yg2oDuA-fAw7gU1j5uOQHwKG5gY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/k1-q93xPu8LOD08ZdN5YYf-cKRLVI5hbWb9OK83rhmPSw7rqZcsAoS2-aRNa74S1ttAwM2Pra94E7hgclS98sR6LZfvcjCkGgHY4yHHUx-2N_dk7yg2oDuA-fAw7gU1j5uOQHwKG5gY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 155',
+  name: 'Episode 155',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/IJAVwxvZohTtLEjMXT27s7JoZBKoBwj3oJYQ3sIydXOhaWlaXjkn24d3g2IYojMUn-B9mpeWxMh_KZv70SFTFtrfNhx3pGcOeFuXDytG05Q2dTC12bMEavWQEUv8mceuhjpTeOThdTg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/IJAVwxvZohTtLEjMXT27s7JoZBKoBwj3oJYQ3sIydXOhaWlaXjkn24d3g2IYojMUn-B9mpeWxMh_KZv70SFTFtrfNhx3pGcOeFuXDytG05Q2dTC12bMEavWQEUv8mceuhjpTeOThdTg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 156',
+  name: 'Episode 156',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/_uFbqJ_RaThOQWlkqgALvZTbxQ3LtXlBQiGDPIi_XumqKDWxFfhE-4XosoyCJXI1g1Fdb1OOxcXBxB87DhjqCFxbSHLdQrFJyzPk4saMSxI-6xW5U4wcoaAkmaCe4TbWEzzOEky9Quk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/_uFbqJ_RaThOQWlkqgALvZTbxQ3LtXlBQiGDPIi_XumqKDWxFfhE-4XosoyCJXI1g1Fdb1OOxcXBxB87DhjqCFxbSHLdQrFJyzPk4saMSxI-6xW5U4wcoaAkmaCe4TbWEzzOEky9Quk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 157',
+  name: 'Episode 157',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/hmZBOyEiCBStiRNnrr5W4ljTkUlRX1hsqdD_fOL41_rPF0BW9fPfDfc7o97LePa6oO3tjgoqga-SwOCQAR5XHxS5PkzSehoSMAG_tABdK3WItlVdBhSiq1qD26WBQmUraM3gTAf2jSA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/hmZBOyEiCBStiRNnrr5W4ljTkUlRX1hsqdD_fOL41_rPF0BW9fPfDfc7o97LePa6oO3tjgoqga-SwOCQAR5XHxS5PkzSehoSMAG_tABdK3WItlVdBhSiq1qD26WBQmUraM3gTAf2jSA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 158',
+  name: 'Episode 158',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fGcs3NV1DTPGK2Nz1n3-f4n_C07QKVZBPg699oG0JynaBwdTatYkYCCuNUMlRjZqvXMTb86FmNT4chi2DSNEF5zk6XRTVZsUQa0eAgM3IneGAT0octx3o8DHEIy3Uz5P03Jv_zMOzh8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fGcs3NV1DTPGK2Nz1n3-f4n_C07QKVZBPg699oG0JynaBwdTatYkYCCuNUMlRjZqvXMTb86FmNT4chi2DSNEF5zk6XRTVZsUQa0eAgM3IneGAT0octx3o8DHEIy3Uz5P03Jv_zMOzh8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 159',
+  name: 'Episode 159',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/QulAgweyISgJtRDEzIYUzSXp9Y_MzyPOMLTOuzCsEdi6HmqTDVWJbei3JP3GgRVkeSJWUZFggNmV_-oEFeiovIlfp_btYjf_QmsVfMqt_AHyTXoG2L3M4c304t0AaYKqfVk3lgPz52M=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/QulAgweyISgJtRDEzIYUzSXp9Y_MzyPOMLTOuzCsEdi6HmqTDVWJbei3JP3GgRVkeSJWUZFggNmV_-oEFeiovIlfp_btYjf_QmsVfMqt_AHyTXoG2L3M4c304t0AaYKqfVk3lgPz52M=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 160',
+  name: 'Episode 160',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/X9k58EmAs4d7V1F0VTJ2Q_i4dfORWA0LWhRlZsJrXuYz0kSf-Jo6wZB-IRDxQgSuTEejcGgNFAiX2XnCnIsw8YDs53xsMW2Z-tSz52BMoTSOLyIEmKnnO2TJqk_HYhfZ6piP5yWSQNQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/X9k58EmAs4d7V1F0VTJ2Q_i4dfORWA0LWhRlZsJrXuYz0kSf-Jo6wZB-IRDxQgSuTEejcGgNFAiX2XnCnIsw8YDs53xsMW2Z-tSz52BMoTSOLyIEmKnnO2TJqk_HYhfZ6piP5yWSQNQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 161',
+  name: 'Episode 161',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/OPDpjy31fuUB32-tKftIYkHXfOiYlUbpErO26S0-HqqqNvD5jVPorzk8UQhkN7vLCurxLdgR7pUrRq1vfsNKOA1fSmHznZBW--VDq1o0HOYxjKmNucAnY3texMMid-REqMFnQmkvuUI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/OPDpjy31fuUB32-tKftIYkHXfOiYlUbpErO26S0-HqqqNvD5jVPorzk8UQhkN7vLCurxLdgR7pUrRq1vfsNKOA1fSmHznZBW--VDq1o0HOYxjKmNucAnY3texMMid-REqMFnQmkvuUI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 162',
+  name: 'Episode 162',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/e1zTSzc7lxoOB0xk6tr3EWHUNMUfnLfRx1lHIXIJm_WXYQBEVCwv3qZfPjzHLa7Zl2qPXTMzz35VOWKNyiHnG0ERr_Q3g0RoNFN6c6pp6U94jvuAYd-_qYY8yfJZxYMts66DMevufMw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/e1zTSzc7lxoOB0xk6tr3EWHUNMUfnLfRx1lHIXIJm_WXYQBEVCwv3qZfPjzHLa7Zl2qPXTMzz35VOWKNyiHnG0ERr_Q3g0RoNFN6c6pp6U94jvuAYd-_qYY8yfJZxYMts66DMevufMw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 163',
+  name: 'Episode 163',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/0rzGW8c830MJVkWHsLf3afZTZAD3PJchAgz3MGuowIAnNOf-bw6cMtcCbizo0AytcdRD5-Cb9oKGj3thANzlSfm2VahaGeI-GIRoZtRLWRzggrxJUeqBLkt-qBuddcFTyQtvZdAXPMw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/0rzGW8c830MJVkWHsLf3afZTZAD3PJchAgz3MGuowIAnNOf-bw6cMtcCbizo0AytcdRD5-Cb9oKGj3thANzlSfm2VahaGeI-GIRoZtRLWRzggrxJUeqBLkt-qBuddcFTyQtvZdAXPMw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 164',
+  name: 'Episode 164',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/z8KMzH3zbv7np8PXE1vGKJug6k0fTjl3ledBXIM6LTuS3RD94qvS6UATobuGnvbbtE46ZynhUGWqe7Gpd75bpO7uA_Zalx1rIEQuhA8saHLyh-I6EDNIpC7PUDLGxU6JBNDeYQ9q5x4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/z8KMzH3zbv7np8PXE1vGKJug6k0fTjl3ledBXIM6LTuS3RD94qvS6UATobuGnvbbtE46ZynhUGWqe7Gpd75bpO7uA_Zalx1rIEQuhA8saHLyh-I6EDNIpC7PUDLGxU6JBNDeYQ9q5x4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{
   textTracks:[
     {
-      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5BNSIF%5D%20Naruto%20Shippuuden%20001.vtt',
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 165_Track03.vtt',
       kind: 'captions',
       srclang: 'id',
       label: 'Indonesia',
       'default': true
     }],
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 01',
-    name: 'Episode 01',
-    deskrip1: '* Rating : 8.20',
-    sources: [
+   judul: '* Naruto: Shippuuden',
+    episode: '* Episode 165',
+    name: 'Episode 165',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
     {
-      src: 'https://lh3.googleusercontent.com/_PVErJq9tnD7gw7boscCQyx0jY0J2_56kCGahmeUISEKnTK6m9mOUbTel8wpwNQRS5gweLM9gmyWUXnDIc8KPwjCYqGfuZG78FwDmLPNZO8Apw68klkbh8ld2XXlbz1I2A82Yz-QrzT3KKAa6u6V8VHAg9aD85gY0BftDfBHauCwbrjTfb5RGarl2pIRFk6zLnzZ7yGkoBcO9s_MniDgsYfpNP0rNTaSDOQrHtVp8DmhXdtqtJhLo9LtIv8XNPKGl83dAEciQw_MeD3794bkwQgVkHP16CKK2c7a2q6YvR5jZIfD-6TdYvQOxhlX49oEFWhlbLwcGHRw7yNCgOH8xcD660n_ttvYodJpdipM-jQ8T3Upw0AI_u49tqL1mEAHZx9fVUoi9a5yromn7bUGAZOLf6FzWmvqA8C-taTen23cylzu3QTJ_YEbSJho6ddIQXoSONugzrF1Da26Sna0dciL0uYeJbgc-yZah86MOvWhtITqREHs3PIlUgm7FVQxV2aopg2K505AnoZvFpNUVJeocvO2gcY01YIzGXLZEzV465Ev_BMZfG7htOM150e54YUkGqBH4bXgdkkFB3gpZ2JZPHVGKi4ow36uK4M_RKj4lnc9GTL4KAZ0w_7dt7wfGz43QFAFSNdls6_agdMhKHki1gfXEkUHfrQ2ytr0STxR2hLNI-Yh8g=m37',
-      type: 'video/mp4',
-      label: '1080p',
-      selected: 'false'
-    },
-    {
-      src: 'https://lh3.googleusercontent.com/_PVErJq9tnD7gw7boscCQyx0jY0J2_56kCGahmeUISEKnTK6m9mOUbTel8wpwNQRS5gweLM9gmyWUXnDIc8KPwjCYqGfuZG78FwDmLPNZO8Apw68klkbh8ld2XXlbz1I2A82Yz-QrzT3KKAa6u6V8VHAg9aD85gY0BftDfBHauCwbrjTfb5RGarl2pIRFk6zLnzZ7yGkoBcO9s_MniDgsYfpNP0rNTaSDOQrHtVp8DmhXdtqtJhLo9LtIv8XNPKGl83dAEciQw_MeD3794bkwQgVkHP16CKK2c7a2q6YvR5jZIfD-6TdYvQOxhlX49oEFWhlbLwcGHRw7yNCgOH8xcD660n_ttvYodJpdipM-jQ8T3Upw0AI_u49tqL1mEAHZx9fVUoi9a5yromn7bUGAZOLf6FzWmvqA8C-taTen23cylzu3QTJ_YEbSJho6ddIQXoSONugzrF1Da26Sna0dciL0uYeJbgc-yZah86MOvWhtITqREHs3PIlUgm7FVQxV2aopg2K505AnoZvFpNUVJeocvO2gcY01YIzGXLZEzV465Ev_BMZfG7htOM150e54YUkGqBH4bXgdkkFB3gpZ2JZPHVGKi4ow36uK4M_RKj4lnc9GTL4KAZ0w_7dt7wfGz43QFAFSNdls6_agdMhKHki1gfXEkUHfrQ2ytr0STxR2hLNI-Yh8g=m22',
+      src: 'https://lh3.googleusercontent.com/U07bzSoSDkOrv34tbrY5EKE7u6BHSDiAAEyYaR1eFWSm9r1mlRIbmPCa5HPQsFpmFa1TknaBUSMPjamoMBebKu2JbhONWGWaGEz-nZUNySS3IzIUDhUURHMjVS_zodjhNV-I25ZEc8I=m22',
       type: 'video/mp4',
       label: '720p',
       selected: 'false'
     },
     {
-      src: 'https://lh3.googleusercontent.com/_PVErJq9tnD7gw7boscCQyx0jY0J2_56kCGahmeUISEKnTK6m9mOUbTel8wpwNQRS5gweLM9gmyWUXnDIc8KPwjCYqGfuZG78FwDmLPNZO8Apw68klkbh8ld2XXlbz1I2A82Yz-QrzT3KKAa6u6V8VHAg9aD85gY0BftDfBHauCwbrjTfb5RGarl2pIRFk6zLnzZ7yGkoBcO9s_MniDgsYfpNP0rNTaSDOQrHtVp8DmhXdtqtJhLo9LtIv8XNPKGl83dAEciQw_MeD3794bkwQgVkHP16CKK2c7a2q6YvR5jZIfD-6TdYvQOxhlX49oEFWhlbLwcGHRw7yNCgOH8xcD660n_ttvYodJpdipM-jQ8T3Upw0AI_u49tqL1mEAHZx9fVUoi9a5yromn7bUGAZOLf6FzWmvqA8C-taTen23cylzu3QTJ_YEbSJho6ddIQXoSONugzrF1Da26Sna0dciL0uYeJbgc-yZah86MOvWhtITqREHs3PIlUgm7FVQxV2aopg2K505AnoZvFpNUVJeocvO2gcY01YIzGXLZEzV465Ev_BMZfG7htOM150e54YUkGqBH4bXgdkkFB3gpZ2JZPHVGKi4ow36uK4M_RKj4lnc9GTL4KAZ0w_7dt7wfGz43QFAFSNdls6_agdMhKHki1gfXEkUHfrQ2ytr0STxR2hLNI-Yh8g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 02',
-    name: 'Episode 02',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/knLZG9C1lniKmd6erVev14f3NqpPSeSNnCq0qZtgiOcV-Wf5ZejZADHq8o88NxjVqginvrnjNls0KSqfy6DF6xXSY_TIaCyr1RY0UcZKIRjB-Jlw5C-l0DhnjSqah-n59KhbQb0TVw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 03',
-    name: 'Episode 03',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/W-dEHmf3l-qU6mrSuG-PjxbinTH-L7LtuSlBlA8W6qZPYp7XOt5wc6NUwCLdvYeIw_bmFSrYEhb4gxB5pnvYP_GWjO5wJVPH3AxsEyU-xyKlBuG__TiD-v3sE6ZfiMVhrqybXi_DUw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 04',
-    name: 'Episode 04',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ClklWuuDdx2WYrw8Cm2KmtKozSJzHUyYZc6TXVbUGQKtlw2MGR1n00sB1V-bMqXQzUBlEl70isYw4ASLNB3hbHV-3wayR9ckTJf_ORgD--PV5e67ogjF6mjZzgQuc_ngf58BqhRGMg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 05',
-    name: 'Episode 05',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/x-MsZtSyLMnDFjHGsdeTUNDkxamykIREiyxCt18d_Hr8t6AzlNwaEaISpAiYNEZitSp3HJa4yOPdS7b7pPocn3c85aF6ansuqvqS0GszL257-QxufU2H3OL0AT4DzwrGmszrwDnXXg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 06',
-    name: 'Episode 06',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Ac-ATzG5JJMdtVBy2gr57xFrCEkqgkBKwl7FQmy_24jq1QgXI167dlp6WyOAYUlfvp1q2xYjBsKDhJXqoJJEfdaln1wDLX5PyFkpkj96zcCu3FjesZP9wC4abJj59MJbiBBHQFA44A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 07',
-    name: 'Episode 07',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/uCWI8bQPW8dR6mfpRrivKckfSz8u0w8ot7nWKGzhYyGPdEuEXYX4sm-_qtbneJDlu2WgAT4XDKnJ_w71cJf2N3RidBOJMFUTEubq8cW-N9GmvVbtWt81ce4GkpSbn58ImyCyWWtJMg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 08',
-    name: 'Episode 08',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/_Pjp8YNnd3uu02OWwT2tSp1mT4uJd89BbKDyJ3EePYVredWgpIS5Q-HfIjAR1w22QJUtZ85kFeiU3NrDFwFB-YnqF1Y3scbsGP1-3NDlZYjm8z4U4MNkjtl-jNS6VvFNQqTYSeqirQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 09',
-    name: 'Episode 09',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/hKKwyOkliTX4l0xLhJQxwu2R6MiY7Leql588lw48dVrGwtuSItc6M7ev493MlTZfCHOcA84Ss5GaifOhamjTiNwSGpSfUGq-wiiA9uyG9N6opaW20gvAf7wte_6BlP-yjWslX7YJRA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 10',
-    name: 'Episode 10',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/-D0nwKsDbCQk2wVueEB7wuArPrtWSZUbQHiAaD8-XiepVbj2qAGiElf0FXesYRwYYI21lmqaPG1wVB_2NETU2Ptp9i1fW7zH1PKjzYFi_NMDBH0S-ze4M7RNudO_kHtwMGd5I0Sbtw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 11',
-    name: 'Episode 11',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/5Jwx27mXGj_5SAbDexTK_HOgrEBZPiWJUGH6vlreYzW_mX8QnKWHVPU9-pi2qRVe-3nzHnWHDvhLTVWG6FA-YCqtaZD7s0zxAbCquY_EyGzijNe2CNclqapyaYCBv7bPmMCTVVyw9A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 12',
-    name: 'Episode 12',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/JMihoneZmE5oPY4hETjFl9irkZLGAk_uTAOVQD-T1GRFKos6p6SBtwc6TtCwh9AGKte8O8Kl7RFUYHs5MsqVcAY8jsWBwlr3RmnaUOoWkaLi98zhHpDABW7VPtz5--Kvf7b-X77QuA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 13',
-    name: 'Episode 13',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Vr37-aNd0wa1gV4ThxRw8o_wfy9XEOzHizqhKXgoiUT-4pg7lI6k0E1UjBmCoI6HBjk3e2eiCuJ4RqWAUWZxmJ5W4pMb5n8KI-k2GDodX0ylF2DOA8jGICYsMC4S0gQXs5YG4hHk2A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 14',
-    name: 'Episode 14',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/uNFiKeVFrMZ2JNBVg6XzdsQkMECssl3YmahTmAk2XSr3W66QFIau8ckMSNoH5jQhkUzZiB_xGCdJ_DdFwa-_mapGhwrKhuwGeTsaq49iLEgjCI5tPNKvPC7g3GBKDTAcGiOYMZ_V4Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 15',
-    name: 'Episode 15',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/n25BkkQryEFupEJHHx9m-lPGwboLkXmieYmv-olDPcY1CCAGV18LiLEds2gcY0eyC5kWlbCKH-K-3gltLy0wO6rA-DVKX32FfmF5IDZUQ3uvb_RCXUrG96ksUDapMtUbzZ_K544nAQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 16',
-    name: 'Episode 16',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/dxAjJMOmga1csn98kPYeh4uPWxdBUm2x4AqJUA-BkT6qRQk4_9kNfZNpcFuMLxOZF1DI7ycxp_N5PI6nRMjcUn-tIKHwXHtqM0lWrpiMXeovd1NYtyXLHEG7pazzsOe_RuOjK7RgKQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 17',
-    name: 'Episode 17',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/YTtnQ_kIPtbZhXiXlt0XKHsxbtLcewK5ukKZ-0oGXjH-jk5iYGdx5Ud2kbyWv8sYO4E_VMkbkkMeVlSAb42FzFdxKbYIlT41QkJRX4R7Qic7Bn2ezI75uT54YPT0WyR8QComxXCkmg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 18',
-    name: 'Episode 18',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/V4BtK2rSZEzZ5Nggje3kuPIl2p6gzIlXShfqUzYYtsZqNpjdaDZhqunD5zjTfzt7LGAFhdOwDfKF-kizE4on6zt9XtXmqZUH30xEbji2FqLeJ2fTkSZIsZ-U86Orni2q-RnDpixPCQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 19',
-    name: 'Episode 19',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/LRC33JoiYAV54NDKv05XxQ0oTH3PKGuCG9_cnuChMBpQiJORImwCeWVdczGUo8D87V88_gm1_wiSoPseEvYi7JQhWNY7fMqZY_mL0zDcHzDRVafGG6m9CsJyQnadjVKsfhQVmBUELQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 20',
-    name: 'Episode 20',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/EtrMf5lZq7I1a3KslvwxIWdVG_9ACGnfFLTxfK9k8BldPqmYBBxvrTx_rx_Acfq22Hr1G4IZFncnxpYW2S6CwVCm-6UHnp-4ekT1R6wIAWXCMuq0E7c1CzF8UWYhUmXGc418peC3ow=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 21',
-    name: 'Episode 21',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/WPykiu0RMwiNJDTrjwmgepfGC1jXlBSbZYC6vUcl1GxzCHMkhmU-rVtA6zziFGVhvHTQp-7fWbrmgyR6YKd65X5jvx_HVmyV0g6j1WSBYdFfytD2iQEi8f5saEfdaMI5o6q0PY8lyw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 22',
-    name: 'Episode 22',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vk_EwH8cLsOYpmU5GPGIBl_n0MuOR4YAxjl78VI0kgUfxde1s28jSoeueOm1M6XTLWfD0QVaUbutmtJ49w4LEF0JDyZyy4-FOtBSS00oSn7WD0xOhgFN2aC0QHqidx7tJtIpyogPjw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 23',
-    name: 'Episode 23',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ZirP6uuA0tZrEkW3GEllc0aBjW9Nmeqv2gxSUKjdZO_yi9Ul-m-Bh4M8T_PZqGPmREPnreML7Z9zit7dFwy7uJ5SqutLAr7CtXBe2VG8rmJTp-5oXSZOfwXdri0Ci7y3wVM_ztJSFA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 24',
-    name: 'Episode 24',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/BX0Qx4iUY7sO30mmIP2Tbpclt20Ohwf71w0BIbJPL57Oifh3kh99bC321A71cgQ1aAxBQroA4iaj2lKfGoVLqPwgYfMbqBhKMqRNhOGxK2JkwulHdwv8TatEIfwIvnCgqRbEDFLX1g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 25',
-    name: 'Episode 25',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/W4BcjlHFIgLEQf4DtBO8jxOdfxL8_rTdZ5hcpFN-ITYyMzUcZZ5kjs90nnwemaoEJAYw0R3291hKThdVATcqBhB8VuRM0z5cmj-DihPZqruC_H0E05uWNdN3Dnp1ULxcduCj_Lftag=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 26',
-    name: 'Episode 26',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Tt_mP5YrCJ0LaWU6HbmaBLEXO6Of2iQGdt9BBxZ5K4E3Mj0_v9SUcMrY4V00rL2ttNQo9asOZ-wt1ATD7OEDIwTYE6TcZ1j2eX9iQ7xIMwhAZ4N9u1ukvvz7TrUstkXxwt7B0Q9NCg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 27',
-    name: 'Episode 27',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Blu02fKaOY37ApEPFuYwNl0YMNpiFcI46vkZrqco0cuyTL6W0QieNiGl1S8HpZqndvyJNfKYYet_HA-xhzAIJ8CNm19U_f4n4AZOGPjisGGN_Eob0oy02alyWYNCV4Y8pZuUh5Qseg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 28',
-    name: 'Episode 28',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/uJ5fQNUo_8EU6Z7HNCa6Tyr68JrSijkKAgtW-I4hXNbXWUE3j6lJETOQm206IurGEXifWtP4ropRM-Uoty-Wg4ENU60WAVeJ9YjBz5-YoHuwGMJkP6TM7RsYd9Meoe4F-zFEqj-Qrw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 29',
-    name: 'Episode 29',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/_ND4C6cA44dMH5MXEX5eilsDlakMDMcVGwAekOXgX46CmVga3cS1VMT9niwV2OOc6A4g2viBU5hiKGkMcA0hnUyIDF7vDkeaOel_wTtROkw1tD6khhNChZ87Q2pqnXdcXii99VZoTw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 30',
-    name: 'Episode 30',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/nXqC5vwpU1hLpiSMKqGOkUwV9By13HWDAkNHsl2jdYIAQXwjGMF3xqWdv5yT8dyVRJQSpG2nFc0erkg0mmjRZKI1uor0ZTn7a4P_wlHs3HRWDdLVRlCIYRA0Fgiy9f-M9n8NEjw_QA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 31',
-    name: 'Episode 31',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/jtFGpOe6Hf-b-55dVtaEzyfLvLS_saNb_T-Jv8N5qWfm6Sv4Syqy7qAaBFCN0TvoxTg7GLK1--P5bAE0ROsEe1KogqJ9-Ih5fCrxhFR3ONqOxoYkbZKLwz9ANq404wKJDk9YdoKd5Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 32',
-    name: 'Episode 32',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/tS5wpQL5TgK80DLkFSQjNnzzfHiSrp7RFm5FmVIiYIkfcogilNxc4xnSVBOVp1DDgRGGWL7gTygjOYmKuuvhGoy0rhxTjjw4rtCrcNILfgryQdjGpZchbMyGXGIciTxDiyIDhJRw5g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 33',
-    name: 'Episode 33',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/SewEiNXgkcUP9qmtLbbmBBMRhpnjRm1RPG43s-_6tnFuNFTxeTjlvfH2NwaivKTS495c_kDpf-qohtPs7nXja-rRR0lEE2pvsVO7RjJe3eHDRytR9YOKccIOgH49hRK9u-I0M5cqDA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 34',
-    name: 'Episode 34',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/p6rDeIvq1EifcQ3mNhPSlOnZcozWRoQOL3Y3TGbOWyq90JcJd5uXXkeAPZ2iaYeRbmRbZDmTJev9kBIKN6R8xhfgn584HzHD8pWX7hJg1xdUxhimG3EIAmMAofcU5ugmqR1pmuvXLg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 35',
-    name: 'Episode 35',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/WfhFEGeaA66_7i-qGzby_VfFne8OGP_Ym4AcyoQDaDhrEn1ub5T-otTBellbhUHnVuEqwdAx_QdJbvI1JJUDA02B3E6YAaAKImBY3AULI3lYIJFoPGDno9GcgJBtR7Wh1tHHVmq6ww=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 36',
-    name: 'Episode 36',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/5_hXLBkXEGrxqWNHzugEjupwRIVt11jM-XNENMvtGB7JDGej1fKIZGQHRBm4bHbgEXpGoQHhx3H5XCPX_toOMvIrk9hyp2QCFrjhElMEsLiDTjknzh3kfN-JKFGnyVbSG3ifiLy04Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 37',
-    name: 'Episode 37',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/LjRBw8l6QqEuRxIxezNFJZYBHKukO4kiyopBYa2Vt5CaeSaZWXrWZngHGcHb1ae8S2NFhD-m67201mihqybyHTH0jbcVTSwuna0S3TsIG1WwaAqoqaJEI_b8hFrhPntFcPJIOSHNZw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 38',
-    name: 'Episode 38',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/n94IaDizgOUW-dUrRY879FzGi1IgCczkJiiSBhpnd0ya5N-w4a__HcwPwexrKeDq7aiJwnQGCFav0xQKSITZlA50RcArigB7uUb3xaXbFPcdX8cJEMWjGR5RipMscdGK33oaP7jhXw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 39',
-    name: 'Episode 39',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/RxodvX5Qr6z-EXbSgcvffeu_P0lf86N_mEwsdruy0ucQcgnNknrxRySQmTHPAT5AitJ6hhxSFdycb3TlxddUbZrNWOeLP5-Qf7p6ctIOxBXLlllxpOqevGwCo3zT2muiXJukKvq0hw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 40',
-    name: 'Episode 40',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/VywjlnuXx6LktYh6SMrff66TOQD7g1dz8WTzl3DoeN12cjfNh4I0k4-xwQk6KwatGgFNGWDpk5ocAbC_mhQzWR3p_SqLhqrfbTuLAAx7DFvZsHnISF4lbAaAKQqqhrJch7gzqV1wHw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 41',
-    name: 'Episode 41',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/G4LxBuHbXKMVycRQM30KF8518VRrlRaLqOzub0biqEsQw2322nWWElTLKLDAbvbfWMZe2rzploTkSJC95IZCfPiFUb192MwA_js1UFYNl2fwD4BBTsCsqDtj4PUIjiekG-S0OnQOpQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 42',
-    name: 'Episode 42',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/HLQHxYmuYeVkVDtIC08kLd9N4S11zaoDvN9S3E9xQC6JEtg9L_6_79_YQLNan5O89ii0icUs5Qk-UekzYnqEZzKJ1A_X2q7y_l0Cmc7ztrpT2FH73HawRpB71cY8nmTHMNBYHD5wyQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 43',
-    name: 'Episode 43',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/4snDKhy5zgGdV903bXbMI5XYtCEsow9_YJfvzLICZQtYy7rrYhFweGbvCBZuF6w3Fs9YKzUXrfbDe1sZcSAi0ohL-b7lc-bSKVGehrz8IAiucrSm5rSIAweKMdlRBjW7OxO0nZes-w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 44',
-    name: 'Episode 44',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/deOjZqcQVqE5PM-lwm0bc-HYpTH6FgzT-KZq_AiK1g-82Sj1-IZqQQ_U-89NR3_USWcDfWm3_uZDoEyPIaKwgDPk6mRQgSlAe1sKs-JqR0_8aDoPXQssfYyWhA9goAUcT5euV2aLoA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 45',
-    name: 'Episode 45',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/S3ceHtumbLn0A_Saoz6EfrNs9JkmfIwp-XXuyw_VYXF5psx9s-mzxhSZ9NWWXGuGH9H5eToZK_qMjlvDORYVgJVYbrsK35ghYAKECbndL5Zv3_jnVzUW4aYhKDefYkVpsAlGvYEFiA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 46',
-    name: 'Episode 46',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/lpDa621BuB2gaqVn507JjNFZ1hXWhWjo8dnGwd1U__s4g7qctFoa24Zlwks9Fgf63S4sDFhI8UC1QX4sQd2NbYsiHEs6iHi-_X7Z0eCWeEFLk5uLsv_-5fuyphMgCppMHNdYF_VyHg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 47',
-    name: 'Episode 47',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/tfMh3tjNIQ0x_MprTYd6ALwpTsbreY4F7tbGNAQX8Ldlq56AMrjL_ZjI4Lmxc8ZfjOeohzwtjSs9NOfPoKjnrpYCz1RNninr8Ng1Wx0oDl_Ky5tO_CHk2FFHSC_8waAuT2AUTEdPfA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 48',
-    name: 'Episode 48',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/xp87tyXN4qhqc5ycbBWqW4--hWI-Rg57HuEoRUjASHbAwnnDdZ9IV0_pptIBuvn7U202ABYAl1fgqVoxrbxY5K5fgfVx3mcrFunXlX3d0f8yYOlQbFDXiJbORL4Y2tYXp5XA9paQQg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 49',
-    name: 'Episode 49',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/TUJGFXSYFYI4HDQ3OWqnfNsxIZKpB8tKdQIvsxSezDQpnWlhq5Bj2hIQQ4Ch-tENNfR94FDHp598xGRWMn8CyFLA4533jl6KCFoJ8LsgSwpBL27lTMz8ro5pgJK6bIP_68BTpwXCqw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 50',
-    name: 'Episode 50',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/eNiwwnIWuOXSJon7QN3ho-WPtbls7-mF0hy9DW8oOmhrUrTOjcWLZMSItGSYM3dqtngofiaxfQGOmDVelsazcwjqqYW-fgMnms7Go7cJdGFo2PcZSnscue6u4d3L3HYnyR2aCM_74w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 51',
-    name: 'Episode 51',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/hRpXhzgLfEiqsk6Qr8hJAQwFx27IUakw4nS7WI65WDaNbhJsWIC04QdPNzQHfUgD0QF2wFwFuBctDUfGiAzABN_nmIugpkjSqMv44L6LAZDmbBuUQHV07zJfdbGGmvjCMhWP44zq4A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 52',
-    name: 'Episode 52',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/P03STrPgrwNXJpQUq2zOMdKgjCXA0oBlsF8Gw2xbp-75WYyLGTxiaiKJoETybMFnjo0Fa1U8FeICj1zMC0SGiKqrD9mrEZnkPDHJoaUkWIEQ1xF4ctd2URIA3r1FfGV4F1GZ3VD3Xw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 53',
-    name: 'Episode 53',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/FOpXUKCIImsF0d6-nm8i7Sv5UYSjbXxxgcsLfuDx2gfFO4f7lDHZdwFGoJaZy1f6sdzijMM8rKqRdQKsItrEc6WlRzjltiHsT8nKkVYA-mcVEQ1wwS3igBl4oXZS5a11elb96QylCg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 54',
-    name: 'Episode 54',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Mip5cyDmIKj0ewMGo2PQLeigw9F8a08ODdxsgWWrfXMyHmF0l80_KxaAx7CWkBeMrJ5p5ktmMkKJmHdIPDvSC8fWJj1Y2Qkaa9yTYjSRoqCdAH2BwhNU3zTj1GC7ZaKI5NtbIlZF9w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 55',
-    name: 'Episode 55',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/hG6ZeMHZ3sqR9dGTTGRyi7wLGeEw6fsbrbfAVvImDNEWnI-1e8lf_AGhUz7ZdKaGTHIqQSf5VCVSIul1kfTxyRAaW3vCGxHYnuTEUzZr4GlQBD_PyO3vOgOBYDzhnzJzrKgZfu4PHg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 56',
-    name: 'Episode 56',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/QEzyzWQIwBaCNsefssSUGpNHQkQ8cWzGEBQE1MFWCNQQeG0nNe7HJLf5S0U_ANXFRSLPYZsj3n0R-2nmX3MHOHxPnfMM1NT-4UGc9mCVtFI1EizWVtd3Z1lm4BiQLZeqw2RbSc3gKw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 57-58',
-    name: 'Episode 57-58',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/YIs3xd3ygC4FMeKlvg83pPbhDX6hT2kzDZrMYwEbhxwNcaLXRe4esV2NFZjDWp_fpNBEtTmpr2KoFIo4Mc4r1gKcOml8DtHM_UA8pyXMmtt3Fhus9cFb-OCtuK_EoeHxyPZ93tHAfQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 59',
-    name: 'Episode 59',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Spo8QjE7DXb2Eu-MO7p_fiQB9YRyf6AX_i0fq65D6VcpipbQtMT6RoWP4AooSW0VamxEQGjw1QKBcTsB8CvlWZE4nANA1PYjeYomMBxcDl2IZ298zuLSDevs8_P-y7YQOg-Voyyelg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 60',
-    name: 'Episode 60',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/TdShi6zWZE2Se0FcYLA5i34T5M0LS2vOQec8qOJvAiiw2GtkcH7LGz_DghOS-xQswdiiyzdtQWoRwiuCImX-_9mVXu-Y04ep4Lo6jYh6vj7KX07aNeGi3AjplUUeZzfa2FLmTIcBVw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 61',
-    name: 'Episode 61',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/HAgtbOvKmSVzpeEwyaOXhk176qaO5jRbtbCS1VpU9jGCC7apSTcrUCcivr_QIewuT5--ZBt7OHnyoGhv9yoJ-bEC5yOlINuXRdkuYBDfbGteIAVZaCFAmRKmzk0-MTDuTqkKrDbnXA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 62',
-    name: 'Episode 62',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/xmWsGsJfwgPBvDWQu-0FayY1u5V4PoNRGeip255JsgsP2zg9k_Pw4WAV9h3F4GHNGzE_8lrZ4PSeyCgR7Nan68SHnHjPtaTVrsm4Uy9wtblLWNE-QaP5_mpHBArehPb2RsTnj30nhQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 63',
-    name: 'Episode 63',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/MbF50jsXutKTA6S6U_5W9Wyx-gwMomiY1WiRm4202r87dmNegCmDRGk__-qblnwzofhCb9PlSu2MNN9cjcR6U9lgXB5OySqmymDEZHn0Ime61Qn5zk1o7MmxturZXdUn-qC_OwLMcg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 64-65',
-    name: 'Episode 64-65',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/8O9eNz2VyyxL7sXk0iEc29yH8ygwv5j201e36HCLZziIMzgsLJqv5tx0A9uvw5S55YoB8bHgfPmEE9qt4DMWjX13e8bnNOSEbcOuKrzQqcSRI7iXvIyr9c1WA-Lz46x-4yypRG2tuA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 66',
-    name: 'Episode 66',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/OR9refQrGiW0fLZcVVZUow7Er1tqf0wlpQDlbWHiR5YQsEBQ-ZUAfytA2axwI0vNH8HS3X-gysrbTQNx3T8NvSi3DynFBtK-letXeB46PKT9Qbagx6Xet3wxOP4ixbynbzIbnxisdw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 67',
-    name: 'Episode 67',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/gYjarxY_IQuYdfmFsXTUBHJT6ioSKSofz-xg9IcPRvJNL5OlfocZN_qLRBvJVZ1rPOG84ALR2PSzp_xakuWPai9MPDlp1zLXBZcmAWRw7n76JinwaLpBu_pb1lVZywMZ78pZ-R3Tsw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 68-69',
-    name: 'Episode 68-69',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Ugo7FxmoG2kSteW8pc6E1zn9iu_w_3IkU0IPjFYzutCAcqu5Y1Ax_DcFAxSdR2oGXNI7Ltsq0WWyYS-knEEV_zKL85VjWFVDSSw2GbT4b_uV9Bu0YgGUEEhWnV-gpbwfo7VZaAnQEg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 70',
-    name: 'Episode 70',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/rzNRx7PX1mjprU3ho-C2oXuvbP9mnxXuo4jIUN6trgWPieczO7NehvGvm5WeVrn8Osa-KdzZHk8NockkOoW9GoJ5txLhpSrNC7ggwlZDUwC8WdCWRd9CgC-dwdVzrmjj00zZx-TD-g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 71',
-    name: 'Episode 71',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Pq0kcA9yoIv8YAZUWzmrp9upQ2KUqWVRLI89U543TkFcfqPGAfc6VfwE03IEP0Yp21QW1vUMlomODdwz_Q-2AtK1wRG4hDjGkGyJiRCAyU5ty-LlA63XYfiby80rx-zBEd3JU1bMZA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 72',
-    name: 'Episode 72',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/q8N5NfvIPE6wFcMjX5hl8S0MOjAB_iDCKSw2C51RpBYbf0u1nuvRpARw3Jh7zSGC-5aI51NYjxSUUHH2jsUCn81zwuoLZKH-NShJptfwP67EmGzyCe7zQBxNlvxEVXBaZMGEUjOuEg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 73',
-    name: 'Episode 73',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/KHO8V9FBvov6B-Zw1bqkzIwON9Q8IfhX_WkZ-D1s5ktmnj4N-ghxiF15dL-1wR6x00IxR6A3WkHAos6p1flJavG7qCkZgwhTehFAtWssveR6m6Z8S12HKouiCQ7mj4vrdPV4eYtw_Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 74',
-    name: 'Episode 74',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/BGyKXVdz072wY7kwpWCJZ4-V_K1Hpj65OCznBIhf-1Gn0cvGJGmZObY_mtPG3c9EjyRRT5JB52C1dOa-Bre8YiQ596t7pGyGMdkdGSkpLjeAcD4ycv8-TsPQbEKHPcTYCkhmazP_HQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 75',
-    name: 'Episode 75',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/h5Pj3xjn7tppFF9wVEJ19eo3Vcx7mxVVnQq4aDjxMmnHToS6-cwaZnJVd50f7TAWVTvTYR-2q4FPGGS9FzpncSU643aQghyDcQjI6yBKjkcnuP3Mdmre1Sz_LuWQT-oC0FrabkiI8g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 76-77',
-    name: 'Episode 76-77',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/mJsTa2kVQKel7SDNPolguDOaEOtFWfMEbiheE9gNW6goVkAUGWEVqEBdmGAQmGIStfl2xRgFA4xGiNZVtVX0JzSpVSPqT0X0EyaGWn96d4-VWjowkLgaz-9cRZELP_vEXrQpjsoStQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 78-79',
-    name: 'Episode 78-79',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/cUltFXILyel1GB06cnpIEJfi8uC-xBaih9zvqj5IMN9RapQl7uGjnsWAR-EcaHYBYAp7SxnUM2YMyKRmtGNl7F_AQUelKhZdKOeyueXTgSjL1v6lGRmIamFp1w4QRSeUWVYRauaOHQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 80',
-    name: 'Episode 80',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Cz5WVg96fEyVDA8WyCV0Fqkxbo13g4eBHskEIcMjdbRLbONPbnyrfmvzi3nWtfRsq7ol1xOvoa96d6J2ZKurgOEHPG9TB9VwlFv1xJa58PdqmvpksQ82zfIGMHdatKd3EAr_cHgfFA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 81',
-    name: 'Episode 81',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/wW3Sa3d9Y4JOknnUiB-A_g1C9BUJpnl_8_Vy3esbiq-MxQrrtbRDK-GyHNF3tOalfiow2qPZIWOq1VcoAgr0fweBCLlGt_jmL4lxKRbShrBd_Gwhfv0UXNyB7wfIGbOOpT7FohdroQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 82',
-    name: 'Episode 82',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/y7oFR4jtp0vCOgpbCNSfhV-r5jT1X-PeODa3z9pDy_daW2A5ZRavHKJ2XFfPWZpUT2iL4Fr6dFetQ7chX8ZZf3JIuyZ_X8b2tCVG3zBKmJGfCNUCqiTeBbC_0c9BHG9hJ6IxQQglVQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 83',
-    name: 'Episode 83',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/nsYA4JDqxp8p5LDGnRqepmZ-5Ecp20leaVdcGPrmM4h0kNaSzEBCzCHUV-O_pAK2litvRSr-aCeW8dPHwYuN5hr5wjRX5gFgzseTrBWlNWadxe8OMxlhcYB1TaAz9qT6P5bOgF0tBA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 84',
-    name: 'Episode 84',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/dZr1Jd0jAJUTVujIH2ea0zJgZ-IV2AcCYJGB8HKf_A2iW_bKXfef9sJzQqH6MvkAr6bkrM7uqlww1IJa5eKlqwwcDZXs8pWhyRNqbq5hveCCDkI4vDsLL1mAS6B7WRg-0_zopPiyDw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 85',
-    name: 'Episode 85',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/lLP69yy8eoFl3iDYJJ5qLF35wi6MU_PO5pebCNo-T0_HObIPFYbz8NXbs3wo9CPPcl0aTAwjKDpkv7yPvo6IApDO32md5sSstqkj-Wh1Zg7CATa2HG0slCmdJTf7ZsGtnFDY_B725A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 86-87',
-    name: 'Episode 86-87',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/f9J7rutr4kECOISZlITz7rja1m8-TnL6M_G0XRrOnRAWHHt036dRgXBSDJIPAc5fuwNq5acaMRfuuQGuhnQTPOrNuCQx3hmlde2fnA7J-BbBNhZ7MCvGwYl-zM-77PpxrlP9NmgqPQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 88',
-    name: 'Episode 88',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/uU1s3PN_tfUjOIC5rUexGebWGQk8NeXy1fjW-3n6EsAPKIHbGsyb5gKDys08iQ3dkf1U1VWNpEG96mZHs5pTdqAMk_YqK7ftSkKJrdMgQPe-gSmJ1VvSO5yvtZCN1b5xZn0STOlaOw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 89',
-    name: 'Episode 89',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6XaOjW281rwGsN_wZlHADxtzCqhlHmztwjpvcwgnb_KNZQQahcfho2v0eFrruyEptMIz8FkTKRyPO-rD6DFSSv4B8fD934luInHgl7c-IOTwkjX-MxQFA2lOPk91K7A3Sm4EGlOdTw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 90',
-    name: 'Episode 90',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/KERVmxCzZQ2DME4HyS-kYCQ7IgdWbAMY3LOkOOvZryiwJumCpLiUFJrUU-sJrF2djK9qvnM3oaSm8q8cx32fJdx2JFRyMlSwUlqgBSiy1SmZRBLAHOoqGbCYUx7qYwPsEDuien7qHQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 91',
-    name: 'Episode 91',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/FFEt8ygkt-N9u25UlHEXFwIoO9jAua_VmaYKZl0v3PiazB52wX0S2dvLpcUBqAOAPlQpV3mwkX-b4Jzl9SzkLl6z_qhwN7zpzcqd_xw5kNBlDW2JzMXJwNUV1drPQ6Qtp4rl2efJ0Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 92',
-    name: 'Episode 92',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6rmz6BeVcpv6-qLR-8yk1yeRhjruAIeNoRdzlbxt6pljtDcN8eAm6XLhDaNy5SeTEzYU9AZjOt1lcqPobTaXAJCev0R-Vu0WlzMzLzVJrb_dDRaVlEfPNYt7s3vp2ze6Ptm4wOEnTQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 93',
-    name: 'Episode 93',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Fa9XVr3_l4xGkIy4JZ0OhDA5D7qenLmqRH2o2ERnXmqEPiUhoWJugbnGCNpAhrgQzuInjzJkhdtVHWHkthVezIOC2YGvB17kC5eqimFa6JgA6aEwMrw6vXU_MYfdc6bl8bie89JGVQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 94',
-    name: 'Episode 94',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/uvPGwWipXTX08EtMY-wLAuw2yr6O0GboYQfeKCOeTwDON3d63LEoSsQ1KgwJqAd-Lxtnh7fUuINAEloBhchj2nltDtOLSSn75F27UQXPatVGddH31PsfcZW6xSZksPgS5K2htY1xZw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 95',
-    name: 'Episode 95',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/bNvXRi6PZR-veOVMu-BpeF09yXpQ-shYccsJejUH7p1pcmqeh1po-JmUUIes_rcG5OYr0GZCycWqEH1oTQ5MJsTNyH4tSYMtaDEqpFP1K98L6F4ovohINzndI4AOknoH7m0YRuY6mg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 96',
-    name: 'Episode 96',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/FNtXjmlmyivL0Cw62xCQBeEaWB6y-PUm8J11O-8VN0UcEs9vkaPZlKopqWRYgUsO6vQnM6Cint9sPwVWhdIBjB0lAmY-p59vZzHrm54N7Hvi5br_v4RkAaMNwRFVP-Z_6K6GORhjCQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 97',
-    name: 'Episode 97',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/l9wfyUcvmFxLoia3bmUMEV5JISvXe8TmxVxr8v2Nbk_97ci5IVnge2STGlTWBuPelJuu-XG9X0pyBQ_tFd3Ux7dXN2Bp8wEkgtKB7MIv3O4Bvc0DI2omwomBItnDQb6ygQlsamJIqg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 98',
-    name: 'Episode 98',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/BKldHVdr1mzfxJ_TupGwsMLTZmGx7gEq2Q_8YgemD8_GrfVfWR4Kuz5jRtjBYiWpbRI5VcIQw1r7fxPU3bC7zpLc-LIBTiAUcXSSBunUr4z-F6roHECeyeELzoJV7QjVDAkDUmAGfw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 99',
-    name: 'Episode 99',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/kZGE-QUEAbdZmJb0fFumHZwLgkXIRFQCPq_80WB8uF7BMAQ5vipnOgiGE9iBikuuNObsV16qca8QXoeYNB-beSVd8HUH84-mAsX2yGD9Rvyo92Qlmyr9UaPnlossMRLFFIzy0xx3VQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 100',
-    name: 'Episode 100',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/UWk7d4evM4Kot9_cRuIJWdkPbl2fOVOapWhTdpzkN1pl139xQ-tnf2t62-se3PLQTlRyrMx9eVBU0ZErCfQMnwgsPriSAYn7V_BzwZhbKPz51UEhDajv3rDnTtP7MGZTUUeQAqCnfg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 101-102',
-    name: 'Episode 101-102',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/kyCGbZt65wb8_aU1S01ZOu36KKf5MeZU93UWMnm8J7SK_J_Dud8pf31bzXjbyBehaYJCwwm2W6rF7PN7Cwp4bZODtQj_bxebq6VqLpsd3NWcA-QpXI-IfGn3uGXLDklSPXOy5svuKw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 103',
-    name: 'Episode 103',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/kV6R2Ip4NXkchXuhC_2EDSJsApXIWQ1ne_LXbFp9f-VFodY8p03Crkt-bx2XP0buWhjGytyxDloWGUJ8G-t324BY3IJ4TIMg4ryUm4kg3Z6h9Md4mckOMCqxXQPxGXjEZH_Vw88fmA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 104',
-    name: 'Episode 104',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/lZDd6kbw1XYL4pUKJ0OKpInC9CnSNyGgxeQonqcFVIZ6QzCjHs48pP-gopZsW_xpvMt57q0r39olWLIJCXzL3tQESmob96kLOiog6pftaEW1b6IVrfZqdRJ0U8rzDu953ksFyOekTA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 105',
-    name: 'Episode 105',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/VPnyO0znezxhuiGUR7ZqgfWF5CDrrrPLKyCtzvSF7WX1jRraiLu7SvG6lNOE9cuvH9gV_udAGQ6MXoU74TtbXKAEtMN-6EB5DfHM-dVieok4H6juhmfZJiI7qcETX31tbupdo8sxpg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 106',
-    name: 'Episode 106',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/REny6fggtjup9z7J80KC6Qq9kB7tQrM2AvJifLw0W0349XEYNDzSnwOg5SJOk3ivo5J6lTSKn75lIYZ3cLUNeE14Fad7K0dt0TNIUJAgeidTdCkwSXAuGofK22AD8jWiJnz_xjpPIw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 107',
-    name: 'Episode 107',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/icqCxgwSNEyMDvEARBxTYYXfLNapcJHMbx0pgilEcbLTT6w7g1EEroOt3EBKJcyWHk2twyYf9XS34L1AHCV8JQY9m_-RpHd93BA9trOK-Uay3vzwzH3rNrC8Pva2Db2gPIczujUeWg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 108',
-    name: 'Episode 108',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/C8D0u9uwqfPILmgv94UfnNsrILVvVGw15kjkqqy-9TNWepI0vF8G5JHB0r7sESdfy_inPDTytHt_eQdT2719ohHV0uMuQiQtAQVeTSe54VhmTXIKfgBAdlBaNwe5W4253qgWC58GLQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 109',
-    name: 'Episode 109',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/sQ8YtJ2z4KdjkQnYkj2ln-RLXXrUajJVmVnvsPykZQqfWG4v7SOJFaz90cRPwRxYoGz52VMO02zvMmsmeHMQi1C4_Ifth0maM5VGgYurjU5iHD1bcsinjadygmCSB7kZnx2ARHSiJQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 110',
-    name: 'Episode 110',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/STsQmRFhiBPMHOOD38252O6tgwBszoVnekGzxCroV0A5md63yHVG0LcBtHA0-nOXkXZMAQDJvZ4DrY9d8u2Ua-gy-nj0UQ_mWBdlca1VFFJ6To1jtW6V0QDfto-rBZlFnKlvD2ohGA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 111',
-    name: 'Episode 111',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/hoCSVbsTnUx1gxuHZM3T8ViIMY-TlnTXSPtHfJRRuoXT-RBBoLbDaRxePkugLlnI3sm7Q6CQoif9uVL6DVWSD_nEHYlQz2lx0ARpDI4VqCVcFmnGCLjxfXoNLsae44cuPF8-Ti1yNQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 112',
-    name: 'Episode 112',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/jFRrF34O__pIK2438p8Ogipacd2DwiNOMpjrDUdvCGkYWuaH8SpqZnsFG1GplXCVP9U1G2j-ZC5D9z8EvAPK18aj5CkdFAEmNZ-Hk7LeRnQ1NqQP3cQkM8E3VAXux9MPOB5hePF3Yw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 113',
-    name: 'Episode 113',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/8nF_9u7YUCiIOSbojBs6W4km0TOgd2kDALn1ZtO8eTuFDE44A2nGQ3RPlOCPxpVf5-9dYTZoZP2TSP2mv7aoQFvc0L8VIYgaro9v3XiAqWs9kSJm1ZDdXCSD-9-ycL83AbF4Af8sZg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 114',
-    name: 'Episode 114',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/n545m2W-ON9GwZ6yOUTRpgWEJ452sWz8eS3fTxu0s4gCewbpeeapsq9XWGjYsIah0I84HC58VrYmYY9RxzxSBGNSbCWJbBS0iA-TQcr_ezahTcEKBvHU21OqHFlSS7EzYQtPhKEZvQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 115',
-    name: 'Episode 115',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/1O5ppf8EKs_7fEXSWXGnCqr6kRf2OAxkrF2jfiwAeVttkjI54zEjt34PbAJPBVyDeCCkrR0rhd032CHrehg_7Mta0zc7irg6sIC5cO_IcrdysY3Ezb0RK9hPAKRMJ4BOX5GXLK1tKA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 116',
-    name: 'Episode 116',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Nr849qBJxG5KNa0suuzlzIqLSmpAqKvVaTC-kokYtQJjC14Dr8NbYOs3IuQSMrhd0zGTuV5nx68_V-Ql5b5ZY5esmmXqihSd22TGLxcgCHsBubHmuW--Db2mJrbENrW8ZH76ygpU_g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 117',
-    name: 'Episode 117',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/riijO-YdJZZGxnzgXjJySAYmeSfWDxhB51Ds16_TWW7dWRtJGN50WI6vMS6VxroNRRC6oNrdkHvSXvq7EmbxytjbsUNT8Zf_9akuwWg_ofAGt_pRjSlCyYMSx_K6zhiA0miuj_3ltg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 118',
-    name: 'Episode 118',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/xq2IZuH87hOeX89-dnid6hpi3yhHnclF1hEXrLtJyGsmb8tLORhLhbWDbKPzrr2Rj3JTH0djOysXoq8YfZm9FIp1tX2JLkyOv7JPZRPj_aaGZ-H0HM7VNm4OddxgEBVyOygqVOCEdg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 119-120',
-    name: 'Episode 119-120',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/t5DUBBjOfmMaRUHxv0RKXksW2-zpXMm9ovz36zQoWmJr98J-AmyR8Z4T6YskTauxCr6ajynoJnkDVMMNaht2oe-D1hMd-e1CrMPQ4yotJW8yyTJMuBxTIUnzm_DgSpfolQ4uxKkhvg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 121',
-    name: 'Episode 121',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/XhA26rW3ieMfQ5C0Ed1oIzWuGYPoN91-bAYn1fjbHewEma437mnbYHawBkLT_zf3kel_PgQCgRddMT3HBivvNVKqCK2x0JXh4zFi7ta9Fi8HRtBdOVzHwnzNiCfxeyz4Rb9mIuILUg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 122',
-    name: 'Episode 122',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vqNHDJGgnYTnOrBRJYNP8-9YeXJEy1wUUgLaqdjq6VN_-Mnw-nu2pDa1AciWmCiCJ_GtohI4VS8aOK73VfBuKtOqBtt-HGzbixbFdGznrBxwqf1vaLKxR5Bq7pYIAoQBeS2wXXoBoA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 123',
-    name: 'Episode 123',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/zqNllBwFOJWQOS0pR_3hAyPUn14ZWk9T_g2SAnud5d4Bem8LtBhu5NIWFRAPGoGqGOBt_RqC69LgjcqWP3tx7MQaZqAeizzan8Q1FoIyE9hK_oRSioZj6c2NiS2Kcad5GKphuH8t5A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 124',
-    name: 'Episode 124',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/9nEd9PXunIRPGdY5MaKID9EKvOKH9_FCu04ufiqrtQJ2WeiQVuMrb4mGtaUOSmp1CVuu9Necmkmjfx9aYR_n0PKvKO4MH8C_fZjMXcHkX4x58jgMkzQq3R5SW21rlj5HZ2l3Ej831w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 125',
-    name: 'Episode 125',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Um1ybOYTY2BI3cE0ujpujHv_T1Z_jrNfD_kB_zVxPZkgrCq90AQneG_TGuy9ddNN5ZD7150u9GYvHTkWvCJZShXBMogpC-8BCrwa7zYBwMwF34EvUfzz46-eqg42JBFAkXdHwIqeSw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 126',
-    name: 'Episode 126',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/LmK8rhUTZtZgtixJNp5G_745Qzier_pvTOFDIWhrxJehnSD-Pz-YzSoeeyPJhKiUAaj0i7oDTct9ByKtZSXSVx9tDEdjmfKMPOazx_EV_ajqFK3eeeo0RgVUG-p2xVOCLmQDgYdYSQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 127-128',
-    name: 'Episode 127-128',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/gSjj42TAXq_LJswNzY-L0HxE2Bx9oBxTyBQJjoCygZAhONxePTPRnhE5bfqdCAy9Txk5vm1Gd7AUM2hky6UBMj7lMFk8N1w9jpZvQjZF4e9whSbcsxnTlR9kW3STiW6gqDXHSeUk2Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 129-130',
-    name: 'Episode 129-130',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Zz_37A5MLbhPknc_1Yj6Sqp_EvtO4cdUFKc75vZ4itl3ER2a1aPR6Fc0mXwo3InKEhoPE5QpHLgKqTj6P1B0tD8f-NQfGXl0oMmukYXJ0JLZ03hsWBdOdYBNFGFRO1imhPL37O1vdQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 131',
-    name: 'Episode 131',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/75nRxnRYu9xff7EnLZ5rx_Das3OjuTTcHpAk8dsZZJlUZdK3zz4Px-wwsPpD75LcACATagMG83iprFN1DWUaOrhbYNGLUSe_ST7Lb5738yoluw3beUQgOfWKYglzqizHSIxgL8MyCA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 132',
-    name: 'Episode 132',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/LjU65pBWy7H01Ae6c0urnhnDMKOteUpE-xL4hbQnBrywcM6rpMr2ADrtaDhWGsGMs2WlZLHnvkhkYQAPSxHmIvrPMFS2c-CoscCoxpNl_P2-YPsysJUwpXqqizjf_o05bXIj1MfrwA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 133',
-    name: 'Episode 133',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/R8IpZPu0Yox2g9f8HsysIQ5shHmNQEnauydCC2DJaHJ4I_wmvsxu2ObpRWaUWfjvL0bAkqNgIZa_9E9bZR6L3NnqvlGjwcEmnEtkMGj7TweB2h5iqX0D2WKsKqLxJhA3WLrZVYSSfA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 134',
-    name: 'Episode 134',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/9YEzsfjO7Ng7U77f31HMsSGV3Me2hPW15gY612OR1lXeENMK9WmfuCobfycls6S7noQjuG0kqK4LLw_wxF_61PcN0UE4CpEDFJaVOrT2p7R61CS6IfJ8v6xj89rCGibtU7BG6vBcWQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 135-136',
-    name: 'Episode 135-136',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/N_Vzx1Jc8xqhnBE-QGT0381iCObCr1uWrQ6xM5AxM_MAT6kg4frvnkKYCEymibFTHNyPqVfCL_RUavfpWojS7kiHQOmUad3cTFtoypr-9swUuRTzF0v4ckF4dHCZAT0BaA9QuIZuvQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 137',
-    name: 'Episode 137',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/x733aMw2ap79T-Tb4IMkJnWK6Ffn5q1f9uW37e4Vvx9MyR-Z6_XObxLM3kaa4VcJZTczkUikEiKVhqpFPgFhKukx4Xi73icEkXlXN_YJ4Dn1AiqO6hezSHPp5449QlLq7gNWgi7B0w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 138',
-    name: 'Episode 138',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/MN63X9uLbxOUUkqaWR5hgD2XLrKPFCTU-c_hnEroDK3gBHDkJgQwXBPPLloloBG4kti8CCsKVuUqgDrSgDZm6Yy-P9ClR4zjYaERAEbu4xSHCHZ-cF3NOvlBf5YpU9l9XdkjbfJotw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 139',
-    name: 'Episode 139',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/s4XlPs7s-R8x_Gxki9UEtvM-xByolK7adn0P7FV3K_Kjo15eEQ14P2iIqpPb8QenFFw6RCzeo3fIEeCQbZay-p0Sqd6uELpVAVqoh7dysdhHS3Ob0Jrb9W2Yu1XO-lZyOcKkRukd9A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 140',
-    name: 'Episode 140',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/IPU-W1EOIMaVkUXu9A_-ewtSZq4J4B7k2HbrNjpXm8fgrnLvZ4xd7wV89V2OzbEuNgmJQsPs40wJEgVQ-_anuDtAiVjSCEQ2DI68DujEAXLZ0IERSb_SxsjNUzp-vEomxySuckJ_jw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 141',
-    name: 'Episode 141',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/iKE6TNkuy248Q59UUlJJK8VbY9gb4VZ3dLN5NBTVO2lufHlhHmW28_E7BetjRaygnKCCFHA3bkUmkBqsoiX_CIeXqjCRrMh5q7wxUHFD8Saeh2X4ayaACiJqQufLBoG11tKYr5VW2Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 142',
-    name: 'Episode 142',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Vv45DbRxo7sGMzqBmNgOdeErkmk0Qaz0o15dwJTTCK1jn1MAZfGDlGqKUU_m5MHFEYwQJGhET7wX51b5zr6MsP5NA6kVhFyvJRL5kXUaQPHwrrm2aT6MKYwpD1tO7L7m-WuVGagMZA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 143',
-    name: 'Episode 143',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/eEXZ4BSxk3oFd8oEIEMkUZosQbhRg4fDPn4rk94vzvrb-6KP-iJa7QtYPeGfDS-M8lJJBNykSLPXYVpezRiwcl5h1NxPotIrO_8xfRneD0oqQuA_TzkBIag8l55U6yiMbIhVovKEdg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 144',
-    name: 'Episode 144',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/0n9bsQCYkq28h3-_fxQwCSy9-PJxDKV-ed680CZjgczzA26wU2rbjOjEI9nsrrt1_Wefn04EKyO7QDVUW7Jnipl3wUi-AXB5r7smmoDal-cTmHdQ14-sAwYq4Ss_iTLNcvuA7lNy_w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 145',
-    name: 'Episode 145',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/a5UH9AQUaR1fr5gQJM7v5UO4zSNuyewxtPPSqEhs1nDL2sx7j8cJah-e7JrMeQ9_EV-UyHA63lRs727ASEbevHelfH6wK9P9oBvmEVkDWpbqc9Dvf8neBg6-hTIFjtR2Q4XL6dWW_A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 146',
-    name: 'Episode 146',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/RfU839Di83RI3odhPJyvsN2zEFQfIUeM-iQqGjrTO5_TFT1PWndkwkp2lcwt45gAV_QLOSdhiPD-TNmy1NoDdCzByWwLQvxu3jIkuLEjLtirDXyjrJKgQnsi6w9QIi0HifzFTZkSGQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 147',
-    name: 'Episode 147',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ThDFAk5gGZG20qzvaBRQW1zbGYAw_RtaKz0ycShED3seh1zfDCNIcrkO1wgUdNGqzfFGy1sII5KuNWqlFeeIrRcSLUHFVBSU2QoySPkUA8SI4CrPAG2zR2kmzspvIF7kztUB59f5tw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 148',
-    name: 'Episode 148',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/JtGc4bM4yg3tQkyIBJ3mzQImvh9AupYustvnGNqkPgHTnC3XcHsNKIiyyr4HfsixCNCF8rfaAoyqSXXByg8C4YocWRnjc0fLWVSrJql9S61NoaxgxGvg5ySZJYTVrWeoulRyWGdJRQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 149',
-    name: 'Episode 149',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/WP0hF1jmbvUpCnqOuyythkI4TwyKpdSeFUBXFYVr_ury7EAVRADVEoMHCAuMrl8aiE1xeT7pf-r_xR6EvJgZU5H9IX-qlKtqY6mpTKAdNykNQUtgFsc-Fo1TPzSwgqoyV1X8sASJPw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 150',
-    name: 'Episode 150',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/la9vVhxUnr_Ljg_5siKHgw2V6crOvrDvF-8KHWHOoWgwbz8FJrQuJ1lxUF498TQ2eJkkGAsfKG51DqtmcXir3JN9Zv54avJmkvg3yghudwApnSG-5e9lEBtTSrVZasZt7RL8mYi5MQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 151',
-    name: 'Episode 151',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/fcLqMTrdWXfiSRvcdQrecaKhGBSXdzKLCOAySromNs7CsDTnp7mI9o2vWyebfK3bL028J4T8B0hz7jIYW5VgXM4tatrwXhF8qFJtA6FCuh8mkXV5MsKNpV6_ygl-c3Ypho3_MjS4CQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 152',
-    name: 'Episode 152',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/AMD4VL7T90uuO4WY6npyIQ7B2Hblbfv_YV3n6X5_qkIsXRzx7quu6Q1W4H6Mnln-yJKBMrpUqPCg0vQp68lChidznlpwDd5JyNm0a3jent_W7ujygN-Jzj2U6xhcgpq_jQAd9A8xKQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 153',
-    name: 'Episode 153',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/nvT_Q6mJCYfZ4dEcnC-VvrJIAd-ZXjG5qv_RMQeCI_w8PLkPqKIsqTlS2hMNghqTxBS1OTdUuY0QMRzegvyY7k2kS1XXcMjhHLvmKtEQ2hBbVJnH3oadXqi8Ichrq5GVPLuqXanGuQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 154',
-    name: 'Episode 154',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/mKxOtWi0tqONmtdrUa9nTgpAUw4t3bO4uT34f5puz41LvLLuIKEzQM-fLHthTSCi81KD3e3dibjgdRNEh5ysXxHy6gK2V3yIA8cJp7lK43sT3Gzu23iSvxGZBZfxN3P03FVITUucxA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 155',
-    name: 'Episode 155',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/8bRzVaGcISQbJ7JHUPeOtzBMflVUpl_xu6lU7fPqSdmixEA0FkKkFo5fs4PNmwlYct-3gvwE91WBs2qJy0gokm4De9k01DKFjxvdNPwdgoIsYKJylZngChRpdH2iWvOTlcpBYH_P0w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 156',
-    name: 'Episode 156',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/AZEKPN1dZKMBtK4tH6X3Ev2saI36jUHR-iCQwvkFDlaUaWOnqg-gHW75Nx5Qp3NCILxG4DkevL5DACzbPKSPS0X4IthnWLZsGDjbPTREEGkTZmEJR97eOsuousuKBpuFOJUKCh9Bcw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 157',
-    name: 'Episode 157',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/O0iQF-zLSo88WY8IJnypDVRb21MtjXpoU2V2jgQuFveZYgWbm9o6JNyxhJzVBBbmUog2_I2_UPiB5HxDMxFA15-ozs4MbDceC0DtcqcO0T2_kVBZt0aCtRTL4BcSStxqsddVZlXIAQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 158',
-    name: 'Episode 158',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/RN_f_3P0Z-sD9LaMWJwh5TNM8NuAQcQDswW1rkPY32XORUeJTSysdQdYn0TjvaHveDDkytD72xv6eIN6bxDV8_a0__W8iDwKao34_fWqbMjkkvPolMnmOqCbMqZE6Z-6JG8P4e5AFQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 159',
-    name: 'Episode 159',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/cn7OjjoCoUHEyNHgigW5VsTNgLZjJfwGfphRx5rDCSncjKTa6IkOC0HkPjrr-rj1vgiVR9EBK96OBvdykt5LBDXfWLRjUJoZKG_Qw-2MvwD3gaLtRyOPljJuYRR-Hyxn3Wan-LJQCA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 160',
-    name: 'Episode 160',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/YEGZmMgbqACWskynEsawjCnAHC3s2STRlXej1zbOoRIokvvygeQD2-DjqgSOw5SClgn665nn9neom_IWGla64PfkoOKDC65TjKSjTVjC41u1LrAN7pf1QH5vjoRvUyQm5e_suDTr0Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 161',
-    name: 'Episode 161',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/aw0gFjprQR9pf8YDhIhDJMiu9pg4CUZHC_ChEvcEpqtEZFRe-xliFuZ7QEb4DURHH8_lMTnqHobSvvG1sVAoWElBuuQtvbNh-zfiUMxbBLon166df_0yW37mtFilbgNMHwvImtP9IQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 162',
-    name: 'Episode 162',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/J_lnmjK0IINgsGzMv1V4CUN6jr9xEekZgdzYaFsLkZ8VdId01KBYrNOOMbV41Wlaqjb10a-gcoBTvzyloxLVKRKTlfy_OytzotVVdXCVbcMpmzFwsQnVbo8XbdgegTKK_wJDI7sf-A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 163',
-    name: 'Episode 163',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/5W49pUedwBKI1hVeSEr-iXThUDhRZFEP2vLBreCnsqjLuzWVmELhIOzzfZTou3Nihj20724678o5cZoRDVXZuXlMAAms07cpN2nZHfI8svpelbkPf4KDQ4_fEPG_o6ahlgY2FuagsQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 164',
-    name: 'Episode 164',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/JKeoNF_9LAGNMn2ruyOgHp4ao7jhFq_p0THtRqWI3lrYCLYCErxmFxAn_wgb0uXLGnSB11ldghwiHpQMKJnHi9hn2dUuCtjmzrb7iiTKAietkLOwUwuiA87Zd4ZVGs9Qn_e03NOL0g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 165',
-    name: 'Episode 165',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/hMnGNh9Ix06Gvw-x_0q1eWMXvKxRLgign-qN3c0pBTZ3Gjb00PwYATrMfdah7tXiAl2iVCkkmnJl-kENfjzlhIbcfCCGM2neU3cvNzW9A19I4VL-i_wn7qALhdXqV4TYLW4w6vFr6Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 166',
-    name: 'Episode 166',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/oK3F-B_Xix-ZDtF96Utr07sC0VRiS0AGZ87PZbr2pjegw9lJpTVXVUvTzhks7FCbe_rKIn3zGIklm5Og1AjA8gA0mP_2ne6u2oJeughapHYFiPyYpmgAqwim_mQcbEBA2cgHHJfMAw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 167',
-    name: 'Episode 167',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ydPSkJSBn5hSd8X5KSAY9zTm1lqfo-ru0s1t9Knao87RNmDfDrAFaE7HaA_NzfFS6QVGyENFhQEwgwe4nOzI-MDfQhMR6YcAPnqiM5lIHq_lT3pZ9qmVf5p7R_BZprHIjVtxgSrxOw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 168',
-    name: 'Episode 168',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/FsTlaoxOH3XVpRIX1A7v_GW2YpfyqvkYKSwnlaSFW5ZTiZHfL9vpWoEF0_F-EuGgH0P2_1VtDwrWe1EtfiOpr3XL_Ic-s86wDrHGm8alszS-Xl8X-TU6x6Izd0EXa13BMlettEpULg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 169',
-    name: 'Episode 169',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/UuVJkvoeyJq0MAkJro5S1mV_bvzKUuoqO9eyv2MdlVb_UHsWVp6J356pyQ0DTlWXIIBE4TE2LTsc7IzbdfGY9R53qZHV8BZXkfX7BqxZI_ghIq6qziodp9kJkfz8Sp9c3e5LNGzmLQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 170',
-    name: 'Episode 170',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/0WccXS2S7ThK-X4Nk0LmSr1jsFIdeL0iFoVcSZdstJeT-6-pG82R-sP-ljHc7P4fdCNkoe1T4y0RA0Af74EuQiZeI6hDmJQnClUiCktIFcQ4f7vquKzHs7qLO7eNxD4ChY1UPN35Kg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 171',
-    name: 'Episode 171',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/LUSl1XE2Fat0YegqrJBZ8knNotFuDTXuaAfMB_NyfBxuBcCXxIF_SrFdF-JDtcLFcIpp90dOVcwiNy5oeSwV3qzYW00ayQue1euL2NeT2-jEmAhFS20ZygtNDNw_RIVxGE8Gs1A2nA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 172',
-    name: 'Episode 172',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/xuSjwGG2AMYEO2oeBHRl6EVA8XzUTP9KdQrFRdMS-g5ZJmpgWLhyIQVDh4FF5Q-b5k0vwoGEd1HFxFjT4ePbbB-y6ifG_hF9aLcMXCx4G6p3jq2l1qYNZlsnjRQbh5vRt1hNs35wXA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 173',
-    name: 'Episode 173',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/-2RgfjJaUAa0DH02oEYDyrDUKaAOkZ9dt8Ab_q3wb6qjpEQTrQH8YZKEhlOidUWwWEzIiKo7HG3Uh3IKiySus0wEoibR5Hgo3URTKIlIiGz0fK4eEKnztBzEgMfAUmEkEtwPz1svnA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 174',
-    name: 'Episode 174',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vx3zy-7a07MJwTuphZWzQDMNbIrXCYefwhTybFyv1ZbcdnD6-24vMPXz0LioOloAYlyubcOZa8jnexqDZjF9IsNMPIMNUgQvC_nR8lVyy7EVhJhGiLjAW5xCENNH63jfccor64Arbw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 175',
-    name: 'Episode 175',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/FSpyyUXuXmAUZs9lqL17yGr-V5vWnxLB7bqianxZnDAiUI0oIdEJBH4kHMVsdGMTq3W90T_ilWPs3xaP0BAiiMMBZtjZugtkezK6zH3z6-Dt4kLus3YW3srR0IeoouzgMLzakk6aeg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 176',
-    name: 'Episode 176',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/4cYC3nHvpa5_hSCa1TvvqHDElTYpiQYRumMhgv14-TKVXnY23GXfiNz8_XUpBvjWUwC6TABNy-KvHNzZaneDZfX95MmieRaJVmUU4CQtqLHJNjm9lUHYWzCLRzt59bn8T8nwY5Uanw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 177',
-    name: 'Episode 177',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/h-MGx2GI222p3mksSbx9w_d8ARa5d3ua5WryDHyOAf4qwF-Fq_jeX3eq99LAnxkZiNMiSnLzzuA_HB7lDAj0WRj-YuVdYBPkAGUiZwfmoMN4si5CmGmrtyexKzcUKjT1uKvYOg0wlw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 178',
-    name: 'Episode 178',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/-BsgIbubSxMghVcDFGCuDSBVOQkSVMcx8dDKse1S0n2HGD1OnRo98GhlECBkAcUyVHiCAksrA3fkpjZwNejenYaTDGamHaxwT53o1Y0WfYl457GG91jvk7VO3a2V3gqlBNxXa6ZDtg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 179',
-    name: 'Episode 179',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/zj-_fR5DrX6eYuVhJ9y1NoB0EcaEk8fhjiw2sZwQcdpWgYWfiZgfDImssNa-DCqyhgKMZ6JLHQWsYfJj3-eQCMSVUULOIRWrWPoxYRS8lrebwEbx_qgLxk7UVnQW8KtH3ZHHXnDh0Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 180',
-    name: 'Episode 180',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/BkoBzgGWenV4z9i4zPJxsEQSeZ8Hp43YKOchJ-QF38deGXPwY2TekpshU2d5Az_e3pVgRQNT2bd6MXNVfjrlDEz30jDOlSL9sPGKEl3GsVHcm-rHQdKfOV58waZYSQgGtu2RKtVAjw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 181',
-    name: 'Episode 181',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/v1w8waRv0ME7EAKGpkv8ECGa9R8jgZ7z4tPGJdScatc6HBQ3kg0gY0aWiVawh94LF-Gc2y-FEyTP4cLKoVPzhO0B97JV-epOJNmdjMa4SfjM5mpT-gje8-oghhP0tfy2zk2dq_9naA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 182',
-    name: 'Episode 182',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/l6axqCukmvEaPOnBuWRb7dHeiPjfkv3aag2H6XxDP8PNddYv-Kj5k-mFZv4ysj6OyAC_8PoFeNqKTyudBX3mpB7DvcZCp24orJb9T5TFO1YFZez69CV4Ni2FVgAd1u4qnLMeHduEOg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 183',
-    name: 'Episode 183',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/rCkrLItvwER1JJgKxVPLwEgFnjGnSFGfC-i0v6rNC7vnPlLRX5_E_H7DrMoLPRtP_eHDNBLlH6cSQPV8sjvfiNw8LxWwWl2nxvNgx22JWlmPGyQ-M0MaW97_GUDLlCzrM_m4UChZ1g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 184',
-    name: 'Episode 184',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/5t4787ttOPS08eQ6yPnQS3PWVinacoSdGblMyHFEifeoRypy9fjXJ6jvF_wD6hjSVDJtLF8QhR95GheI4C5y8wa_9C42zE8-Bwp_4V0XB7qPgTbzElBsNLeGw8TDQ_IZi94bPTj4uA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 185',
-    name: 'Episode 185',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/B1RCK0iTLBJnYDdtxslndN188oIzE-p0leJ2NC3LUCzqJ1_8b3M7uSnC5ElNVwhxX4BoxFv74DpZa6E_F8Eao8QbqaO3NIT8dkyNvcGALCssNnDJY3yBa-F2sDbCO3S3WVuYsxdUhA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 186',
-    name: 'Episode 186',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/sugoNE9hWJ-ThbMh0yt5L3raPftClKk9imvMRj_CmlFntBp7T9gr0fhj0qLolwDl_BoFCcB6eM2-sT3zrPCPua6DEgqLUab1d-vrrux-aqprdcV6RcSrlNfOly5AexI5WKD-jtBugA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 187',
-    name: 'Episode 187',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/wD-Kp22ZGekiw5ul5stElWVHxXojDQ9UruZKKVyK4ScvubZ3R0iM5D_4ho_qLNy-mepx0n4gTjmgtNPUr0fOXxjwBljItl-xEQiULv0-xmQMlCGDKaad2fbq3tl_nxMtTFO7TYfUKQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 188',
-    name: 'Episode 188',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/b1ZIwkBa5spN2fJ8mM4g1RWRpv7wKcQIQR9abZzNVgEvs4k237XEHs5I9CNhCrxiEiG4L9g5Vd5FLuojyOUwkJHuyaw9C5NZ509FLUC8eV24GAs2BKRa9rikdo90oKgxDB1CHRLkaw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 189',
-    name: 'Episode 189',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/nDX5-nhC4XOkN73s3psBaz8OeSzamVRb0pQT4PtFXTfoDGIH3cFA38ZYzsCS6AWG5mUkbUPT1zeTAGG2NzwW_BRpQxum8VVx0cZxPmtVV6PLyelZfeqN1zjf6kDLCT2mOpjRfWVFTg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 190',
-    name: 'Episode 190',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/cFeGo3zoF5imU7o2fuJjkoXxIH8bFGGkX949_Ac2dxVSAZKShGEzXff0bFhZoO1LUQl6iU87Hszzit2PUONa5gKWNa0Co-kiN7bRdC1SaEZutYevJlTcuDlm1t0u8XS_9l-Bvm9JjA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 191',
-    name: 'Episode 191',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/uip4ftO3jawd2xCLKmeuqlsUr9WJGgtqBN6YWbIsCVj1DvR6Y5HgkrShVAkXf5fahVjUBg_umtTuX_eUHuwnyVvAt6_QJn88X0FN_kPeTVZ0m8V_P5_JulvQEAE9HX--Re8zu4eZcQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 192',
-    name: 'Episode 192',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/HvQVBq5iDyTm4oxlcjMb8MH1rg00TPi0pINxYlKDXXQ34SUGVgBn7pxekpmnqbLRhgXKpExZdcoPiEKKA4UTMJopMc6x7mICWr3mOF7D1fj--_rCHHzAryyG_JwJjHGYvVZq2Wme3w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 193',
-    name: 'Episode 193',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/sPgq75ukGb84ksG6lYRoMloY7eKPHQBKeek8Mvj8273IXZVGe2Yr4aVuRMPlsqzpIX23rxuR-IQVJE4YWUpP_Srg68wUrszDFgivCtQnvFH0DrCuwFCOevY2p0SHPw9yMTV9Jlm-ig=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 194',
-    name: 'Episode 194',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Ix60diiUhTE9kzTMOder4BJAJIw2NDGElpPABXclkG5NPLHDKS_PVXEKxmkBMhBDAjTbYvpMySURj1xZofmPbq_QYEG_C0mHP-papafuLnEGsmH72MvSEVHduMTGfguB4kBPUWdW6A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 195',
-    name: 'Episode 195',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/W8UDHmwCKAPt9xbXWfeMns3yHp-kabjTdY9eId6G_4z6kZL6Xyjx64NmObW7-2HgSptLzEhw2QyAwB_IM-iOHFU6L_Jptd2rJt80hd1ykrKRhe9T7aVQYOOsRDWdh5BFktn23WWw8Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 196',
-    name: 'Episode 196',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pnNSCShmRzHRaao4-LuOTKjxl19528rW8ZlhufN4E8bfcYQJOvnrFGSduaA0IRgBk42-_RnKp-bVrinxYfPOrwshSg-yHstqIiuLZk8iGFsBqeIYt_JinIry6o3DGEBQK0DsS9SoFg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 197',
-    name: 'Episode 197',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/lyXGqCqI9nXUNCOSRV6B0b10OXtjYd7-lxK5nY7Qr7yiWrgk2EL5fzyDOSzL4EfEkKaauPfimU16Ry5LwubOOVdzpvqpX0nFy1TLHU13QSDv3foVPcQ47Sk346TzKfW_tuZqtOKYig=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 198',
-    name: 'Episode 198',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/HFNTd35FuEFXRJ7cvFl9YBBqn7TxRyl6X3NFRlvrCB6YWlwCT9ePZpfUYwbqgffoKyKqExtwVIfQeGxDGFf8rFcFXatQQy7xFW7Sa-djqlkqvBSes5KtD4Y7O_AV33kOhWBY1YUnjA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 199',
-    name: 'Episode 199',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/0m2qd6nAlPN6_zavHje9T_2XsQczIGWf8ZkQpLBDjFEnxno6k0AbhGujsCUNsX5h_A6WGwL53QXAzV-tO_RMdb6xzxu7ZYEW1-sODgF5VtqTZzN0nXhcXBYX3exQNo5i4uMDAnjKPg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 200',
-    name: 'Episode 200',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/UeMKqsgqXd2Un9lR9KuuAv5LwWiD-6xfISkriWlMT5dvcy4qRWohOOcbWo_fdwVqfydKcuOKKtV8VA-wsarUuClSVvTyX6Q6cEhqQHYy5wYFQH1fja3CBuO-E5r0F7VwZxcAZdwYsw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 201',
-    name: 'Episode 201',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/cimKMgsKrVGi1MivRf_-m5cAErCBi7-PlnvjT1X0W-7GjVkj30QAPumbufzECuNHtRsKMq7T5rvUxVk94ohzq1r11uj9Uup7NX-WkfaTY1tOS1emmqOuGn1K74MsTEtDSSKoTqjVrg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 202',
-    name: 'Episode 202',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/tUC0ZN9ertJ30Ycf5beG86avhZ6ecwYIWCGDggsL4mNidnVL_aQMMnXq9UV4hPtNl4WB9wsWn2FN2AH__-bNFRmiocot3m-rObkcTg_fiWGiyMZbdy98_DEEW_C9TCrOquQZ0J6_LA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 203',
-    name: 'Episode 203',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/cYbn_4TY6YnDr3dYbu7j60Wi-wfwa0oN8ZG_F746NBzcpBwkuV9LR_xkqZaSePdLO0YbR10cM5NFvpoWgebrXBqoA-PLKyTWaPVOl5PhgWevds9y1yw2BsU0s5TBWZzrh8mPVhbSQQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 204',
-    name: 'Episode 204',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/gtITehqrrciajDuDI_RocJ6yHTRqz7QSa3coR85xsLinGzLPqjXHKUCnzOd5tEcsAKK9oareLUbLpLZhkTz7JL_tqXRTr-FTTbWRd45NusTwDBWcbZpgbGFZVqgCygNQvILUvut2lg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 205',
-    name: 'Episode 205',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/olEtdKGJ-1aN6bJnzF7fADTpeX_4XhKxTjyPbcQoxiu7t9bcsERXAlQy-xrwLsdINklBP9tazFYHyYIXC6_w51s5ltmdr5NBmgXFBbDDi87GSXVK3FbNK0CoChjki2fWC5SGOagY9g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 206',
-    name: 'Episode 206',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/zAA4ngRL8NUNgFi4zsvPvwAtIyIwDKlh3tAuPL3o8T6Vx5I_evWxbDdW5QmtIiPzBp63gUTWIL4tt0EfA04yu_2XYEBnB72ulBj3iv9euZqBL161vnLMcoxGo6wUpJlM3FgF5-moig=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 207',
-    name: 'Episode 207',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/PeFLTCwRg54YtGSA6LyXIzv3CEGdzlSYY5BaTqXqKwlE6w_ewvls6Z1QtN-94h1gAqi9VqNsgbtdbDwh_fAW5bmXlCAVXzdZWLrg_0bB3XdMYbMVoOx04DWsiCPtELNmoJM0ed3WGQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 208',
-    name: 'Episode 208',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Pgq7ESg-n3voYgwOLXgL7CQJJqZ67LTmY7_knoa8q02Jd6Ly-K7_OZwQGJWMWOh8n5eipoLJoC46NwyY5DVIayfPtOsoPuVZTms59mVteSJ9JNiFjskWETHoPAx3DDlHEA05t4fF0Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 209',
-    name: 'Episode 209',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/VJok5G7z1wM0pIOvjZ2pObRRaVQfgJ2pjlsLJXh0XFcTm9A6EH2BG1qeRSEObxjkbQZ7Xsf7_gSt-a96zpeNWLfotwLPzIHl-z9iG-5FJwjfXXcFUKimMmmcHib1i0yiMQ65xBZw8Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 210',
-    name: 'Episode 210',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/qbINO04K41PmOsO8A7-r_qTKYRMH5yXYngmfYNNndSTCDgg0nBVS3appCmMPZjupwafPpdNlrs7zvDd7iTYXXBywaiOtMCJIjISPtpRJoys9oal-tCpaZLPKV9Juc3LMqoi62CLMLA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 211',
-    name: 'Episode 211',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2pcohxZrpRSbk5w7mLUmGo_J_9HgjWwDVslG2-NA3q2V0HhBGEQcnI52MjFXYPWT3NLEoxgNm5sWo87r3Lfydyf4wVrU92Q-PjnrZRPfMt8A7-xpJk1ayuLnGn4A805SaOQbxPFJGA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 212',
-    name: 'Episode 212',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Cf4OA81T5YZXhx3ANyAPnGvtq0gYuy4rQMbUBbxskB521i92ZzgoDqkoYQOXjVv_iTdBopPkqQUdvmpQH2ckXxXwrPj937tllcRkYe1wbBdPVqRH88idHrh1E0OFcede-WLjzGmuYg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 213',
-    name: 'Episode 213',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/CiBfiHokRwunXhwVFLS47y18TIFjdMXs6uwW-zTG498FEdN2kJx8e8sVj-bddC2qtmX-eNrb1rDXofqdABtCxL6qDwtrQdeBpI5Aq2neC3OTXglJo0Sz-OihjwvBi1uPW_nCc1qMYQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 214',
-    name: 'Episode 214',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/RL3-S64DysOKwfg4N1PSouQ-xTXIDW8ISrpwBPb58x9qHEKM3pneuoN9TBRnldG5tOa5dBogLxRuE1oVBYQmD_5Exr8XoK8eMknpIV2Hr0DSAu0HZkyY_ipKrFWvDMqAJcZE2REvQg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 215',
-    name: 'Episode 215',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/tYjLaO69XBHantLVVXvicEogy--b4gCLNiGEYOn78s7WyHCF7IJfV7UrN7GetFrmV8zUm1tk_FGmsfAszu05kyLPSuv98hb7w-eIcd4mHEOcT8bQkqjBuJ22vmN9el1aCeopnjSe7Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 216',
-    name: 'Episode 216',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/HC_3DVstET86AEq4yeLDGnm9FV0kMKzobJrUK54rDgzrvF7JIcoTxejDINXDL4p-ddNbYv6wEduvOulfVa63KPTa820mFRBRFDPcpq9p2jZ5PCy767r8wvkKOZJrRBu6UZvGEnIHgQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 217',
-    name: 'Episode 217',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/1sNNimHEQZr5JPEf7PyWemXq1MFO8grJ1tI6BcIXd-de7ciyFp1AW53qi_O-zArId2cyuSxW0neQ6Hw09LIYytsjml2CjwvRUBLBWXrzr2GXvAl1f63P6xW-w28PXrTWoOLIvoXhdw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 218',
-    name: 'Episode 218',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/MdSu0v42NCyCTznsVSMCL1mTbOQxmq4nYMcnvp2JvYjKoh1qn2PCYlchrNsnfr4urdcW36gBUkTr6I9-a-sR1BZ77q5ObklvK92c8sU63ZIrXPFeBSUKp6Er4P1J2NQT7aH33bfi-Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 219',
-    name: 'Episode 219',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/j8sWtt0fyycMKCEyC4emsHX5Wtc1M5O-FEGx3284hDrWx_icP-qjGlA2CkrfbEnoIVvAOGdixmXsJSvT5vqNxmUvI6kK6wLtc6huuGI1ewGJhKzW91QBxQS8OJYP81P0dNw0C-cWcg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 220',
-    name: 'Episode 220',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Xtb-piqWlFbAO_p2QPG0osfd_r7-HE1WeT3rvsKga14nMxgUcbX8pN6EtsJxTVCtEI-tYx1ZQMANlfQj9vs8RtF_sgcsVJ3ylYlWhBNjSl9zCr8u48zKjAcTmcGDrrZUy91xqjMVsw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 221',
-    name: 'Episode 221',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/cfSweAWmpvyhaSQrXjFZM-DLpkRn9XPyP2MCNbmui9ZK2dYkWHcoIBkRj6b1MTr9ad7aiRqh3wWT-0H72DuA4zUufPWdTXxajr0_lQM6bFkVOeFhvv4r-pA-8NUUu9FOm4vNcyqldQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 222',
-    name: 'Episode 222',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/sij5aNM3N9VmW3QlE-MTsCZVIaqUBYYFUgl32eYLxX4rRCXYL83tV_cBhXS4b-eSz6QZxglDjPJiP_RPivN5hhN8T5k4LV1hzmoQWqOz8uPhE_ui7CeDAW9oxb0434GkTeCcz5dqjA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 223',
-    name: 'Episode 223',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Tcx6_51bE657vtAIbBHZIMf7X0sIP2MCx3cFELvIaWkAEt85VhPypOp8RIVDB1nl-0HheG1tazjOHw2JrCulpGMAzzBLbWvQeYgwW0xHpCQ1t3pfKJac-mEdUnFYw0rTXnES3nXMHQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 224',
-    name: 'Episode 224',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/VUSzRKWgSxt0hWpm0mOdKTST3KoMLlT9G_ks6__VJdTGLm61mrQInGMkcTm5O0n_mrWVt_x94UYqiiv9pmvW5YCn99iA-Kr1OwbFW4XtBFIDPjN0bqYNgWlpav9c--cRRhQwgEYULQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 225',
-    name: 'Episode 225',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/YFUyIQ_lRG67whks_hMfkBmFeNdt5iYThf4MoRDzMy-kKLTKmGVP-PeTUdJwjVza4qJZS9KjeRAI5cEjGJAjFYRUnSjpSvF0sAJ6zl0hma2qjjem38i6aBCrPP7Y1L_EAz_C4zEfJw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 226',
-    name: 'Episode 226',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/M7Q6SrZKpCsfahVBahr-J4ALdePWn93KrJh7ZGdb2EisJvQg2vyBnWOyy5W53DIrZVwJF6FDqYoIh30LoiA1cXSffAdCbmndXJV94wr6YbGw0UCK_9T-MLtwWwrxMwAesycp87L1xg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 227',
-    name: 'Episode 227',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/PVfpbkQuJNUwtYMEE1psUuUm6Q-7CjGbep3s6zN_Lfg5uFnS01ywZ2OFfgfWIC02sjQ4RuD0ZBSAsziyupok0mqM7pe-P4J8N7gsr-if8MT_YpUKF61v3ACz_WZ8AErSc3jqYWX2PQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 228',
-    name: 'Episode 228',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ta33Ihxfq-wCmNhS3uS0Mx03X6D_l_MXjVIS0D_jKaSsUF6MRTjVUmv-1tPtlrKoDsZl8jiDb-NvkYOEYs9ujenHMUMNwEdATMrMlPSJusYy9sgETbv8wUXvHhgtczMqVsxAEYOoPQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 229',
-    name: 'Episode 229',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/_Hy0NbrlvD4HlJGzhn8Gls98QOQi3frWKqVsMtelIRUbV2PZ-iHygaF0HT-fwdBfecsECycYgqDfhG9WdllOK9-XKGNozIGJZDeoNlB9IgMbKCl4DXcuHspzNNSZbQbh2Zm8yPz1SA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 230',
-    name: 'Episode 230',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/UxTUZZB8mY7j0hCLduM6UcqAzkJOiZ-cS2S4VZFUNuPNZN6DL9b7u8U3QvIACvVpPIvKj3VU7x9rAGEewpepY7-Y74ndJ6TQjhJTtuzC4DmA_TekTxWR9WjHqtU6TujobdlPhlGgPA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 231',
-    name: 'Episode 231',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ImieqVGU9HXpJ1PDF11mPiOGyw-3GPqY32Mys4wLIfWcWrTWkLX0kOJUWkzB3LWC3XC6kyMRzsdk6hpKOC1EEAEvJzMIn0LPKgZwcH0ynpi7MWOKQWAZhCpOG9Q-jltXdYlH5j4aCQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 232',
-    name: 'Episode 232',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/uI2Al4BGcoCtfrCh0k82_MAlLdRUbYcDjbZYEeE04XLrx7Tv64FcGOiaf-ZY5_aAcjRZ43T3KM2K09IOVlW9OhoxH3ap89R7deiEFbOmIRwajGd7lMWJsOM5AzFB_4UbHuRtMqbMIg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 233',
-    name: 'Episode 233',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ypgeGX5n14pjDJmdsTKjtUsuBhwqWM4Cvrbddro5eI9PHb_i8l1iMlMUFwmifUQRZok4h4eadWEDNiO0CAbTD9WJNfRHiSeQLwrAymqcJKYQfz5UokVchkQYm7f796-vMVo0PLL4_A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 234',
-    name: 'Episode 234',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/A7sHwX03MbAkAnyq5SIIicQK_NxzlPoyI9Neva2B5qYKVoPmubtGt2erEhP8QtqS4jmuVX8Vtp-c8Zh_9KpnVBsbP3jUKVX9xJYJFo1Mv1AjDya0auIozUIEtHn4yrPqLv9hD9Qp9A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 235',
-    name: 'Episode 235',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/u9Ne7U1Rxm1N-FlIHS2cgDD0SyheVfRPKQD42tudXpi9p6L5mOQSC5dsGsimoHRQVXk-QgHhIYzXPqRGvDCYXDdO_gsQj7d6k0c6ELE7FB1MxfQgTWb5d65ifHo0h3h9eIu55UZ48g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 236',
-    name: 'Episode 236',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/PIeVPj5ojxGVM0lPeM0zO8xl54S8emILB6eHJ6gB49Uv3DZNRjX5Z7b2Dj1wGDAklP2OzIR4d_lRVEd9_9EVsbgUxfqS7JfxqIspkAVsKSylsB8hhSRTNpH02-aKzapAnnJfrZ0rZA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 237',
-    name: 'Episode 237',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/4yySxGS7PPJTX59oz0EZ95C0SS2qf5b79esDaYdr-dge9NkCiwhQ1vlfv2h4QDiaBygjuCkXoYJbAPBUhLXbooHGzD-L_w6Qruty65TP6NU_slXPYjVJ7jxZ3oO926AuFL6S5pK5vA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 238',
-    name: 'Episode 238',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/RZPPASjAQbhgDoopJm0-UIJgHCSMWucytzw_p8iyMvWApVDuJbB8Mqmj86qd_F4I8w3zNSwCGPHJXz1PM02ARnCUOfTGJhcT5CBFnR1cxk4_69Bnice9sSsMFs9CKxGAitzcl6Z7Cg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 239',
-    name: 'Episode 239',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/TK5XMGWpgnRkzrqSi-XlZvHH9pxIFtBAFDAQurBH-BBycHcCccSsFIdiFabsIrC-eYhMvnFlcR45NnHexszrj3nycR0KYTGd9moR2SgdAkkYRWDs6h4a7F8iAI7vBDF4V36jfofegg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 240',
-    name: 'Episode 240',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/XUHgWLfy5kZ4SDkKssKY2kOkwkqGvn_zWV9mIHj3F0w0uoMLauk6EHobZKYgnwyrKdUYbPJ9B9EcIKctgXTx4Kf6iB5UdrFhoLuApzg6O85WnpDddmFCnEiI0HxqUmyAzr_zYM4yfQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 241',
-    name: 'Episode 241',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/C-Bt47ZBSMlejHLh45oWbJqTXGPK_FJ0HNEUU_lIF0-seX9LIwgMr79bOCk3PkAIaNC9VVCnB7sPRD2hVVjycuT8NQBD2-q4QMjJ2xKt5-9LZhM78-o5rBvKyiEo-MFnLVlPb0Z1dA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 242',
-    name: 'Episode 242',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/oaxFBwyFaS3UE3VY61og7g2aRYjXHH1LFQ2P16K6kAXF2jgnzhLFECn2qr52I8gZ4_pyEWvD0unNoSIlqCaoYJ1-dC-5Uy30lXOKAz_HnA4OoT3hkf97pK0lO-pocpfp30mMjgLPDw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 243',
-    name: 'Episode 243',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/mE6J4fggoWpoVvx1VCH-DRm_hbmwiUzpCB7OEXkgE6a7AiiRY9Bk62ng1ZeFcQDD0wnJTXRtHlFQUpPMgqoX3nqFQAdiOc3cneSNwQOWVDdRaYwhArXKMNa3HShc1GdSZw7Bljybzw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 244',
-    name: 'Episode 244',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/aX2mgrhQAx_1M5YVsN4pJGY4gjKlLyVkbt8CK57XKeC-zZGt5Tf5m36zIKDRfvOtxKgtmwtX9R_DMMSMrymGk35UIa9x4kxkgNqEaaLOyc79gmB57KRPHItPhOnVigQAMeqAY9OU5Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 245',
-    name: 'Episode 245',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/IDP_AR_BEzxZWfyw4QDO1XVYS7kFG84LTTVTa2H_7cENIKDk1kFiRhkcwg4ryHXIaXe8v-1Hnk89CHnqVyCLEXK0IczLdY7UygfRn_q2FOWGfR8wY5U1YpE0HIpFRVI7ipxy4piopQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 246',
-    name: 'Episode 246',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Fx_HoSyGVWVI8w7x-nGk1XrRd-1CtqIQK5MBAV2DN9j1sqpMO48AwK1xo660YTtKzgd88mfKUorYikEjKicxgHiLUbeRpTcEDgISQYc3zfelX--IfE_NQnjFXyI9gqUPan8ElC7Yuw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 247',
-    name: 'Episode 247',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/QXQopI8Ui9ZBdWIsoahQZyKMhCGx79ZonImIK3v5q3WA6aAscPQND3v5MqQZXGPOnFghytl2f2KeBFDA8MOdFbaCPdnOhEF71W3_qDO9A5lDPhcA0_mlteerUPBpeYNeUGIx2JH8ow=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 248',
-    name: 'Episode 248',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/njhG8kOhmtWtmiQCr-0r40ooTNlh2w7RL_4iPsH7_pHpEvq8gbRp3rFkzumLHdOYo6ERuW7shcL7Ti--gIZaMCjcnOQTzzRIAPWHyvkwn_4yn1bHafkUrNIgFlQCtKVKKpBZcD9zXA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 249',
-    name: 'Episode 249',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/jS3ddZhLYOcIiLA1sCJm0J-CesPWLVKX-qalJ2eb3nNFvu2Ckvx39vLYpXAgmMWUxwFT_YBm_VbYgOq0fqLDrDZJ41Tk-nhHt9Mt_6chkzCpOvn5L7BVT7nJbklK6GFZVTc-n9S_MQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 250',
-    name: 'Episode 250',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/_QUmIsWxTS1u3OB-xJE8PRCfR-4V66UGXb4UQsFzrPc_ZmRk8BjNuHkqn94mBADiSTrFjBQnUxl_QdnqEVx1uEwfTwYI_JvHJWxPsawB2F2azSoUOJfVq3IOMFf_0r2fW7E4l3gSWg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 251',
-    name: 'Episode 251',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/VIt5K33tNYK4ng5we8ETjjWGNGxwN3AnJG-6hvRz1mlu6ImYqfAMOYwD-DJCbC73F3eVrUMof9w9tBIOW6fmTjVVixVduokjBPz6wxeTb-63_vhuCHEQBLVChI-8vZeNDvM_KizRXQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 252',
-    name: 'Episode 252',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/-HEll7fCC77m1olHIVb5LK3pCdyApDsKVPVTTVk-gtuyiV18vgGkm8LLjwjm9ew190z6d2_4WvOEMUPlerBQqOlnbqkjciPp1XO7RfeA9lXfzHwo06fEk85XL1-ok60oXu_uO0m-Xw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 253',
-    name: 'Episode 253',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/nSgRkeI1GxYiVdajybahIyrRWE-1WJmMWZKkdR5Zu0w7V3m3SLl2D62VbCDLAaONcHxW-M_nmcB85yULZs5SaskcP5pDDsjoTb-scJd_6KZasmPmyIzwAe95CKTJKvC4VZBtuPTfHA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 254',
-    name: 'Episode 254',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pB1AFxKKJokTVpyZ4rUEQ6cQJk0V4IbrD67Rtw-BQVP4zEGe8bieCwgsByh4sy60Q_9Bge_X7i3PyAztrbfNORAVBTRWl3-1NlcPcXnK1oIiR5tXGCWIf3AZmHTBwaPHmKIMPGoc4w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 255',
-    name: 'Episode 255',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/7ksHP_-gX4ZW5tNfdca78mThE5Pv_8PXI2_s4DQsbaT2jjKXCdHjCgRwSFQBr47D2DIz36rohejIgbTDJtloj25AzoY4RsaUb1Y3jW1T8EOdTjpS6d3WVaLFgFce4W4VbVdciricnA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 256',
-    name: 'Episode 256',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/oaVbSZg2kEY5IpvFJGBimfiCJF4FHXrXYIlFTBpsrGP1u5tUeA4WaDSMO7uuFsBA53jf4G-B-1JbaWWAASAcYHbUPtxpOzGKxeVT36QzqftomsWRgJevXazaHCYinI0TnaENyz2cVA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 257',
-    name: 'Episode 257',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/u_V3Z5Y4YhewSxkdYfVxwl3Q7Uy6pQFqXhoBoMEmAq8tFf7GiltKmSBoUqeJpAe2yB0GnYlW5nC7gXyaaxfMz2weKWRu8nQtkUYR9hyOC5gIfJgW1sk78SuipdxeX6DAuqdFdHhC8w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 258',
-    name: 'Episode 258',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/I5gGHxG2QJpkhcBm-16RoA_KkehnjGrEQ1cIFp4iqXv9ctIk2nWdhV4LmSgocPOK5Mo-aQfbFK3QfzQHKfn9iWY_9gZ94OgT0M6qB-VgGHham4Ckx784_HhAW7Ln1OzHtQxiblKOQQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 259',
-    name: 'Episode 259',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/q-oOPQ8xtMsPb5Fm_FSwEvu_yXZd_YTeMyL7goBDdaW7MN2rw4bkl4bEFEOQ3ew1alBVUpuB8GPDadeK2iAiHJGdU94k2fbnPe8_HeB_Q6NNRUif8Sc79mdyP9-QpSnKgLW4QVmXrw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 260',
-    name: 'Episode 260',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/l7NmGrlLB8QVmS9Y5pAj61iqw0RKtMPNLaIgoTS4-A67EHMfsKTRlPRQmftoj269mlV90e--fquRGYd0pDpYubKkntIIJPo9KGtE0HPO2vdqbK7cqsSc5diD7Grq3NXBCxSrJeK6jQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 261',
-    name: 'Episode 261',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/H4cI0ckB_JAFwzIF4AxTTJr-_-FywNpd9eVxKljrIJkT0pKTNeSD23rNLdeN8AMIi4VVgbIFXOTnWvQ7I5wK_akKqR7gxKy0huqNu0_6PZOjSJeDmTXiZjEnBpRCHXXhc6hZAYm5FA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 262',
-    name: 'Episode 262',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/LM-b_AGgW0j7x5kRoZiBvK3Brx9CW6EJw4I3XkuWQAs8r32QUR1NS05M0b23ve2vfTg_wOAhSC7IcX2DPGAfOCiLWiLolBxzrDf7QGWjwpq7ym1okGhsyQHpB_TNdHJxgNKHZoORZw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 263',
-    name: 'Episode 263',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/h0xd0V-CNaqlPY_9penYU2bOWjHQgMoo0uqc7P-IYqR9crNzEVrrdPHK3lFqDw5kGpILobPDOsdubu5HpKzfFIqY8EWOrorvKoCYavX0gWa0_LDvDDBc3nfCv-b0b4r6KdgBcG4b9Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 264',
-    name: 'Episode 264',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pzn3OU-MlQSwVrhd2KNje9dl2AH653Sh_wRjAhL3UmMKzRdriu0plLAUbEV5x97Y2K5320ySBOtbOtdOnoZ_RdYMuuBlk4bv6blEw1xhAqzl_TS1qFXzldyc5i-TvD4x_nZilY6LzQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 265',
-    name: 'Episode 265',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/DyiaX6pA6qwfOMba_HwD9p1BrmB9HPtRkhqjrY8eIyUavBAAeBI6TPYI8W4D0Aq-wse_eHJax9ABTNg4QBrjiNA2mOxzLwrPzG36Tij7bJwOdV7flFNMYhDQnOJ6NfgoayjzlobSBA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 266',
-    name: 'Episode 266',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/NFjM95Qi2u8Uo2lhYnw9IkpOYJ2QRtbTxiFthPLbBWiacbJBt3dCdHlKqffIDFqyePkleRGz3v77uAA2hwE887zFvhmFwEVNepRKEDfXjh0ua4fUMCUgD7mOpqMJvM-nHYKCTt-lkQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 267',
-    name: 'Episode 267',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/0-0DN2J26mJFQhLCrJJn7gzsxU77ZP-rNV6mLBeJPH1QS9RIc2902zbudyKRH6dPJk_iHNypxAaVWnB0kzuWNsEAMRaU_A3CwBygvJSPYAhPQPDGIhV6g3Epb4xGWwnGmKqEHpsfkA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 268',
-    name: 'Episode 268',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/YVBwWIq56mkLT3vMWoLkCHO9BNqFd4HP0ShqzmECszFI_NLG7ZWyKIkfuYZrkO1pvYhVgs77rMS_J2kHGaB9OYt9PFdh_WNB2OALfQmA6AMZz-1cQCskaxxrnvclvZ30I-u5evVyhQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 269',
-    name: 'Episode 269',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/X30obutSgUIija6OfgTGwhZ8EJzGKGYX61JnFG4m1-gE0Tu_M8mYx793uDNQWLy5060gVZ9byJlFR75Jq4BCa7A9krWswnspm8SFOkeEqzbQkbwKWDNX7tavnukkdHc0EJCLlpnWTg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 270',
-    name: 'Episode 270',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/F_AkG4kHLxzdzr6PeIVr_NscTWlN9M52_URdzcIVZWYWiE_j31GrKS1h7b5EC6Beelmx0NWSfG4AwwOiSpegOYhjJw-Q3M5HxEJFoVNYlre9OX03JzCnJngI6alJrOWXeK84qovIkQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 271',
-    name: 'Episode 271',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/hGvDxyOuxraRL8WorNMmn9Be7N3Xe8OcaA_uCNCvvLmoFfrJevkxOTWd93SgC6fmyFGtLr70iy_Jser7Ad1CApbDbY-PtAfDut-fA_bHyvWNwW_MpchpLxcLFZY3qgjBHSr3ILrlvA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 272',
-    name: 'Episode 272',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/y3FsbHBoPhjG041GMies_YbvQ4HEQN1Lpb4cNMyZ6DsdA-HyToKEhwjJZ9vawzSp-9tP2Arco4C_3XluM6j0MJ_zwn4K-Y_08VcQ9ItRrGmhJ3PtlTxzOJDgLs2QbZ_KvSrcscR7fA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 273',
-    name: 'Episode 273',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/UiHRqjqGovuwM6uMJd1v5o1Une0HNd66QmAjl57U0InLUF9qo2jW6FwZ1bm9VzkS0ThDFjrnmeLS7zZ4G1pItpnlPgmYzBo8GpKdMaxS2Xx_HWzSt_hsuB9pIvItnLISVby8vB3-jA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 274',
-    name: 'Episode 274',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/G6CNxS7vgN0ug5LPf1N3q1MByI4IBtSITHEN0v6Ekd2GGT0XBGeOblNVeeJe7GxS5-Cp4sj3o8IQV3MZGULEg-k2xI5pV0c4-tUmYbX_4QGWY1pazUd6QFBEP007fBCCWwaaQ659-Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 275',
-    name: 'Episode 275',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/yO5GDZEy25YabVgyLSNuzgxlZGeuNVTO9njOl0zZdtdcfa_krylBN8lsd8mgZOVEHUbmOrUtkztxv_LroodMDOHUx-SpJWJbkHcHQcT2EV7jHHvgzVzuBEpPhGxyStSL6CXsQ_kBZA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 276',
-    name: 'Episode 276',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/iWTVlBRsD7_-ZH_lduHM0wcitR407ZOUIao9WiMBn4Gu8qUGYKWOER0sSGEsPmcOQ1xT2ufAM2fAESO-oP-xf4QJO5BI7BTiBG4H7KNJbYY9yEEtYCDXm5NXUEeTXDm4RX1VEZHYRA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 277',
-    name: 'Episode 277',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/rAovqmAN6ZIlQrQTOiT8LL_2FgYsCSqBQiCsJHGXiD-2Mer2Nr_iKrzabUhD7I3Xml-mAGvR4Xna2zkVxCxh9oCCTmcn1B-5RwSZEdzTSmYTdlTcnrJN1GXwOvrx1a-0C0sSdYP9tQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 278',
-    name: 'Episode 278',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/JYwy9AR_eXHyt4Hef0nzbkqJH-GXqHxJIFXYL-kTF3VlzPBul1zrY-ZqI5lcSPAtnZ3xT8nQ61n_n7Xi5NwWKQgK-_PFjRxdnyOomP4CV2CQIEMhwC8xCjjVBeFYZXGvVw3IgD5fDQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 279',
-    name: 'Episode 279',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/AE4rMdMQrngkscBwfzsw29su1zAs5D7KeNKQWPIadSEgk8aC1MHx9aGaTR4Sz3ZxcQT5QGf5VcjoxdcfYs1VZVguQOhnqMNIloR9ou16XWg5xQ6Bofk-EeJFIOFlEi8lnAnUUAEHbw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 280',
-    name: 'Episode 280',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vI4woUDkdH8H-eeTbS2VqEQUhfyEsikmR2IaMDsV78MWc9Fjd9gv2pWImkiWJj5fr_fk9SCIFTTipS8Sw5f5rfikD6cLOBErIBk1GUQe03Cv_QmfOFviA3eJMW9kHpEii_1yP0qP7g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 281',
-    name: 'Episode 281',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pt2NyyPc-QRLlVy-WvaGfz2sVMB-nH42-pBQPCdPHoHQLiHk8GhU7Es0zfAauWikyvFhlEDPXKcMRqJSKS5KVKLJXaxryLR4LrgfWcK7i-_2jmcOqA7NTjIrEXUSXtR55IuDaZtoAQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 282',
-    name: 'Episode 282',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/9A7SfYm9H-WWVM1B8Am9gUmRQ9XSLcU7S6upC3igv0QoCgnOVJAK_IYc-pPP2vCNVnO-EMLDBzhLoWyYu3WITd7n5sXWfhmGvc6pDwN1EKdM45HTb7rZW5PS-Nw49Xmb1DKNK_8dzg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 283',
-    name: 'Episode 283',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/lQQGdu7NDAs3F9XOpxvyz4x5vORyLguH2v23WIW7BFXpVANwZtw2aZgCfi6Yaw730ynTdEOZ-sERfu35rRsISm5Og375wvldMMdGk9UZtfbBF2llXHTtpLU7Y4cqbsjqy3qhZ6nJJA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 284',
-    name: 'Episode 284',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/zXlQevQ-Wf2TVFGgypydIjQ3Io_8Vjb6L41ZKIE42O3rzSlPKfUoEPz42aueEdSG4VfZqO8ERRMqMwkzSJ_GOZrSHAwmGdii0v6Kd71U3AAS2Z8WMPrht_PwNHleDbZR343gHvsOFg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 285',
-    name: 'Episode 285',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/w_b4D3jmlurGBM5CV9vAsx_DhMeN5DHCimfI_qo-szg7QcGhQUyb3ldEiuZOzxj5dDiSvIoiYq0GXg27erSmfHiouT5LDb94JeDRMbGbzaumfM71BHfyNFz3sO_2yU5LbBnjGAGrNA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 286',
-    name: 'Episode 286',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/iqregW2Gpub_3fsaQSs6XsXNQUntUdVPoAtdRA94zEQpP5jwi4K2HqwXw0viM0rs9AnOOHtiakMWeuSDko1cssCSS1ea_tF3QVyba6Z5xiPp9_vqXx40xFXx-KfZbEauArXICTee6A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 287',
-    name: 'Episode 287',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6tyatADjqYn_xki2y3c7o9cIfq8nXEEt4yV_UcmUijkxAlpegnb_DAB8WJGIFr2eeGg96V8GN2LAJgHT5CaYfJUerXV10Ng8s16Iaaq0LXmc32CdKz_HrmOVNnUScxhiLZah_R2uNQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 288',
-    name: 'Episode 288',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/1J3h1WLYcSxfuW09pckg_53UkOkac2lIH8XTBIPhv3_NvVlwRCkH92pDoAY-O5ahhMpgQYWdw6QnkgBSpo2DWEaWFualu6ipqtU4SnfhH6tXJjTRwWYJNWnOx_Gb3PSBhnozi3ygYQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 289',
-    name: 'Episode 289',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/260uuccOysQXrYsKpkZv7dwSnAxp1-6b6tD8IDBZSHw4H2cHmZa6qSTuSV5_EYJ4DW1cYi7u4wpzswYRzZnN10zJ0mbIXU743QXFMaEgh-P1xMl-ZpY353nE0bvhdshREqGZksfbvw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 290',
-    name: 'Episode 290',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/_PERGmC9V_2HMzAoBTG7-ia95amw0qM72oBv7jfSi9HiXipmnX_hMN1OtBiZ1JlTdhUc4rhtFkqkVp-bbu3cxGtJfG22ckHM0dGFdN-vv3LrdAn8sgbaxMXF1VJcYtOr_-eGPYJkOw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 291',
-    name: 'Episode 291',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/dkt5S_qs1Bio_DsPfZiZoT6j06YQz5vwaOyh2Nom_P4o2XIUR-n1_M9QFI1sEw65QvUSomQHcaz7KpblIEcy3wSPpArBEVSULTwEK8R3OhvYHvLMN1rFrLXcQnUVyGrkeYTZ96Mw3A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 292',
-    name: 'Episode 292',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/SCI2pODZfBsXUXYnjBL-hMcxevTBYwdX9uMAwttjqqyN_2OHpGF6xR9nhrWb4-IiCBTrBXV3D4st7tTTbXvtvpN23hFNbTCBcbSFHp79drbLPw4avYZL9KyQn7rmyJErcN9DIaBizg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 293',
-    name: 'Episode 293',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/OFhzwFlFSJX6m3wjFFqyylgxCZU9kk4wxJ3QSNFWH29Jay_8p3tNTPiKrKxQLLzARacSaFz7RylDh1ag2JJdlSfzn1OPMuntot6g1Fiv5Oq-j3TsawOdBcwGQeCS0NCFPmyK7WDy_A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 294',
-    name: 'Episode 294',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Zkwt0KcFyXiI0TDZyNOAETst4CxQ1TMqbUKXptYizyeqaQZcLs4ZJU_H6yTi7pVXvvuJ3A5ns5W26VJprTxDZUu-p8saa87rt3Pw5rM-V2Cd5gOh31fPhjpvz8t16LaYhAUCJfoZVg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 295',
-    name: 'Episode 295',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/1lruIa1KtC7dzqQ6zWjL3lqZ0zFqwRNIX7kL9il8cPWKB8FgUURdyOTpq9od0wdPH5ynKUlYjyOsGNnFgw8eaa9WZl6EYhsG93FzqXply6RvkPs2Q_6dbv7LqXFAX3oXQiRFpOVp-w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 296',
-    name: 'Episode 296',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6GCTNfRKE3sDNKYRvUzhqd00XL3uPA8prLb56a86zV_2-yvJywhw-3pjMkFptFdaVv7dytxOmcjS4JZtHwltcXa9TEefDqbbn96bOygeBwCJIyGRecaN7mwybQRDgWOiw_0ffS1cqg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 297',
-    name: 'Episode 297',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/-6LgX9vqz23Y5mNfCOM4G_oWp68swzU1AF0Io19ZXAdBCpPDsBQu9az9qTAuoljjgbS0UphkYms1TwoTr8tPBwpJkePgb6nij7Elby2TNXmoOXpNh2AwMZrs-Da9KDlZi8GgGne4Cw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 298',
-    name: 'Episode 298',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/QxB0HGmGvZs3V8BamshlX3A0B5fJ3kRiR_EvsOa5qsPRdgpntcGsd4M4JkSTSX6zxBLMuxmaOqgd4QZdrnr7NSk1wWBm9mKR77DOCrnz6XpvOHXmzSsXTAtI5f1J-_zpdlY-HpKRgg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 299',
-    name: 'Episode 299',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/kKQ8MGD6_RPjerZSUU0Kyda8eOHWH3vwUBqCCeHmLSUT5lka_DHLjlib_ySh94fQblL9TpnYtY5oB_BcjhiT7eWcevP2emGsUf14_1bF5O6y2f8ceQLmNmUuv0Ie7nQdodna1tgCzA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 300',
-    name: 'Episode 300',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/PTyGqkQfv-G1iPPltdtS_T40GUZgAjhV47Z64_rtUm3xmUer-wWRuGqUdK1LhDlsZe5WxVItHBdBLVqvuie64xDcEps6p-pFPk7MOH6QO2bTzbq68ANdb-Lz5oGOhxC0gmMInKd7MQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 301',
-    name: 'Episode 301',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/4zVcTy8pIztSvJKXSc96PcGJolV5DPzngX5NuHPnZtlkULGRS-df7Lv0vV17Om_xVmIIciaBvHiTe5XDGEHiADA8y2Lf2vpvAmp5aW-6wTYHGraYljYvWOyT_6zYeJqdo4TR4Kekmw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 302',
-    name: 'Episode 302',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/zvAecLBatUWfacfw7N2TDVgou-naeLuRDsgPSxNye7KvYdkkN5beWIybG3SIF3ez5EnSpsfHDJ3_oYUfx6utuoAUi6yJ5f2q-DYALunUO4VNLKHaMGe_njo5KXSqAGo4GsQbdv05YA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 303',
-    name: 'Episode 303',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Zo-qFvDu6qtOQy_G2VM5cJN_nU_3WKyKa4l0CVftJJGLeiIT8z2e7IC5v4IJklbnZCWDoNfCJ78JTm8Tn12cdccXh5-WIg1igOxM-fJfBtcHVx83LrJJfzzOe6yiY2dhEOo234bDNQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 304',
-    name: 'Episode 304',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vg1IzRa5tptNHSY9Xq3bj_rDaU6nDu48ssupB6HyeJg_7h8FsbVSg1NRuv8i8-VWu8qFTBiOMMGKe94McgZgi73AWQ3iKruCQdZk-cD-RsJb6fxzn4diJ8I1R3I3tZxVG9uCJhYPxQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 305',
-    name: 'Episode 305',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ZVR9105tO8ful0FTWZd-9IpG0-zYTZaKRAAKrtj3GSv5FvtcQeAiK6PJFZ0m-x_wXSg-uD80MXZeKFbp7EvCYVC17Xm00rTWWLyvZyRFslPlwFUbHnL8sr1Q_QSDIvgLrJmUTLCX9w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 306',
-    name: 'Episode 306',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/WC7UxpgQPaWMgHC0N_Kwc-LIyV18sSKu0JF9yzHAB47nMp8b10q1Y7RdMVfMGYBJzRBagLDvskq3H_SaQ3c-F1U_30K_0YdeGFNN6UiCkYg0EL8C2GG63NKr7NsMZNpXSTgtl8esGA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 307',
-    name: 'Episode 307',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/IgnGmkrknU6Jdi-QybxDPnEF7ldJm1En8w0nH25dwnGM3SpGcqNXl1Bvpys3thNmC8ShMfWAFkJMMR9JYqJSQ4fTBMGmgOC6sZ6FeJKXF9Fn3vuIocDtROmnMihGsbr_e_KKucSRGQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 308',
-    name: 'Episode 308',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6N_J8_eUSNUCsKUupi2fKAwaG_aE7tfQjM1cJjnQ_epOfNW-YTAC2dFz_Ymz_9cwPEFjN1vMMZ7S_75z-r429jZrk_ddW7yHuDDCmEG48h9olrWfnaAajjV1HiioXQsZGzNQCzs6ew=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 309',
-    name: 'Episode 309',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/sw6LDTiBvUsOsGTt4GzTuwHkEwQmVq0I2jVmPVqJF0KMG6jBaChP7eMA9mCU-FoBx7VEx3VlYWqNKSi-6FIvpjGKojP4kWB3AnW82hfrfUL8dUAAHjb30j50l1auhqEO1AHRj7r13A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 310',
-    name: 'Episode 310',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/wlIFDElXc7eUAzED7tnGwehsg02ye35xzIJnqBJuf_AD6d-wuSDeKeaPT0jmtdMLM10KonDuQ0a-ivWZS4554gF08ABncyM7ctORLEumWUhv419lKPc1ygQAeIas8OrBpLt7Km1Enw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 311',
-    name: 'Episode 311',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/7EfYptgW57Rkix2-MUlIOob2N8RgTfUWoffzGcbWbcavc9DCFzr6UkSbcmaC5POQKX5u7_nfO0HOL-_c73J7sAe3iBJ-C8h1ea0_Uq9s_o0zpkXhqqaCm-sVqxSuvNQEGIZlmyBodA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 312',
-    name: 'Episode 312',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ShvdqmcA0QVONlP-xpkOchj-MV4Kt9Ku4CFxCwdpGg3LWbJYxM1TNv-09JqhAzrtQDqGY_50cs3gU1k4r8NL33tS1IyqAA0LQiKdxGryhymyY4QRK-DmwThPaiVetBxynty2lXj8yQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 313',
-    name: 'Episode 313',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/gCXBq3kMBbtxGnU7c30n3niwCcLuFny9u8-3cIPkjH6n81Gx8_DGGrWQ8RVlrvpGdNJurqs6_LhBF_pPi5mmSfd8C4ovJnvXksDHbq6Z3aNMftrjVnsyt8oQIhaVhv2xQmfUck_UmQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 314',
-    name: 'Episode 314',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/lIW8u9pH0HJixmjknKH0Zt2ftDDrc2d-nTBShFNU2ulShjER3zxWkZbEaO9MeDXVzqCb2Q0-oxNdztZT-EJyr70l1PQ3UbWQXpEvtucszsxtJVC4gEiObItSOsQZg9JgxmiVZVVobw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 315',
-    name: 'Episode 315',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/otWg5pb59HZyEw3BIYPTbsAGirlqhVXv3T72XTHh3EIYzoGUp3W-t_xpq9m-0nEjrtC-CyLNjQ1g74Kb3yVqYUd7af48_AhaJrTaq_0d7WeeMr-MoBHHQHgLH-4h72B3ZvNsWKwHUA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 316',
-    name: 'Episode 316',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/02_xAXsn1_HMDuQtwCLe7pNPOlfWMCJWPzE-Ds3QjCo6IpdXG3z_4OVXDkORht3ZI7lUdhwcXyxNRwttgxNYUzgGxBqG8NF5U5ntYIYS4FV2L4UC1kY7sPEc4TrMEOkMBPDoz5i0TQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 317',
-    name: 'Episode 317',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vv4oq37lgvvAUcA-mgIRdY3gBYO4cTt4oXwbu4X9qHRvH4-RWsEUVf_7GW6URX4pvwI_QAvDbc-CUTOJLt-KW6K7ksxIn5jFpnnNqZK34MXQcHWEgFZCy8fH4zCRTBklerqgaY1gkg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 318',
-    name: 'Episode 318',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/VPC8qkD99Hs98FXt3erx0NOM_86LwSne-EsdHb52VvXe7dTmqYYRyv_ol5xHyBWrsJgXhcfdHk1Op3F5EJxP2FO6n54v3NYTYC2YKQdSdthVj67cxouhg4nt4wmRVlm0jMZQN7S1Lg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 319',
-    name: 'Episode 319',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ggjauNWHWIC0uZr8ic-m2HyMt_KsPo2WYuF6m5D1iCZyWW5O1qc190dhvP0t2qMELxCXDdLDbrndNsbIbAAb6nHrrp-t5FblMFrNXWovfXsRVLIUMx6sGBeMEMhCoQuLqGUJpsxi0g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 320',
-    name: 'Episode 320',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/lLI0242IuYS5wSXKsZTLOEGBHySWbTG5ZcF-ABRyZj5tr-m4tM_B1rSqLjfC1Mvs0lhcHC0CDpsGBpggk0BbvOY2IGyYhAzJVAEVREJIGYcE4tzNo2OR22TOjn4WMEqauiF_bmOtoQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 321',
-    name: 'Episode 321',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/s0PEVUf5MuCZtBH3Jp8FXWG7L0BEvvViba-I1h7fGVZwKgGz61HAeB9y2EpMg6qZ__AcStHhczVVttIN7MGbqLSfQ4k9j0zlgZl53T1JpPCxvUNPLaB7KZwLz08Jzv_2CqwpU9yMiQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 322',
-    name: 'Episode 322',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/xFRiXG-BymA51XBM5VdzzR---1JYKF4wG0oboDgH3VPUSdA3J1lO5ccXUuMb0EsWGmlkWZaMKQWCCKCRHV8h0AgRzwVAat6ymuuGR1EY3gh7rdACKMCLJFq0esO7l8tuhfXM43qRFw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 323',
-    name: 'Episode 323',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/97zZAsWp6uLwRJotFglKqysYDO2l64NoYmPe4ERK9aaP_pEU4YViZuPz9IdXgjJq2SYisL6K8orkUKLR9IDS5nSjM6ZXr_BMri75v8SsT17EjejO62MO2uFS9rPK_vFDRlez1Dc4Jg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 324',
-    name: 'Episode 324',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vKcZ5SI6rMA2p4sA0ei1mGN-nCc8jAjkZP9keYG2FzNbu_B1E00G5STdML_HlpRwBJ9d1N4ZtzReMN5kLGbkCc1h_yhuBWiTPF33FYrbRzLJzPRnhjrocosJxDdnI_1XW0mEGSKglQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 325',
-    name: 'Episode 325',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/OIU5mzuhOd4Jk5_jXVx3ANXXsQ07H-4S3xe-3zG4YM8TZakHGa-eqNss9aRAGke9TV5svXUon4ZDfXZOi4pFhWZGuq_Zxo4_mQlq3awoTLqIcgaA_fsLebJXjTXU6HBXUmCt-eLMuQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 326',
-    name: 'Episode 326',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/B0krixySQZ3gtCSeSnZ5gE8JARoNHKK1siICKVzufU8TXvcp3ipm-_9eP5IKhkODOFoF877IonPeu1_I9ZalP4unugN4YceJ5J0sAfFfyZlUz_GuMhOOnT7rjcORZvsGHIpDuMrmBg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 327',
-    name: 'Episode 327',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/y7aY6ABgC8bKgrNPVb1yv4Mpu5QfXlWYYkfx-u5by9B7cLOaRCRmpxcK75Z13E-83tK7grqvKW0MIqvMyLrOi3P8FZ1WL70rmOdmI_ioQYCnae7gibGL3gPNy6nXkVxocXwSqW4NKw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 328',
-    name: 'Episode 328',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/aR1U5GZrzlRs7ygVgL58H9Of1s0BwmSVCrAMEhZ0ZVUOP3HbVGOn4ac3lpejJwPY1hEkB_QQgZ-L74wGbPFXjeOBnPivmve2kO0VO01TpyKW6SG_hxsZPAmznmllwXM7kYMsB-zCKg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 329',
-    name: 'Episode 329',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/htnqT-CI-GLQ1lcJIJa5VYguqv0vrcs3wPd9R8xehgYchkGpXzLuOEBaA3S2vxCodmRcMsbmWmGph_lRWAJyFzLKN1jne3XBdr5f-1XSJ79-OfP72Q3wtTVMq4r8K2NDzCO4Xrjr4g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 330',
-    name: 'Episode 330',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/FANgKCAu021Wd9GGinews68oawmKSpBKREj6xi64klIh4J6CrLqJB6zlkLU3j6xBGNAd4Oq12_ULciI-QqbOZtilKz9PTKiAqxitYXIyEV0-Sk5IcecTPxUdtMJ7m3PWrT_YwCB6IA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 331',
-    name: 'Episode 331',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/jys_7qQ28L9-Ggqq4ZIsrJ5E_4JJlQHtwczwONXOHhSIvrMulHN3WbR3joTehoosnnDJsKMNvh1Sfu1eSU8rX_uaiCUInuPwLkXhC5APqiTM3S2KzzKbPVp4Gzrxs4TtgVdJDBOjjw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 332',
-    name: 'Episode 332',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/oXGdCA0-Odh9m-jPtBIbG50S_hGt1Z7QNuoYFdzJp-lqtZUuQ9Q6Cs9ue6F3vKlLs6IqX5cnywqfv7797l6fl57SNt3Yr2i7oYHdRv5n-H-5FNLN4MOPsgHOP2A0vS74bFIlyCnWtg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 333',
-    name: 'Episode 333',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Oiz6ccC7rnysPinNPtvn2GRRNHVTMRvpCGsw9pcRq5u7JqlPX_JsEErDILSxqbWVoTr7Q_1X-ySTJCjmEXbkrul8QAnZri7NT5QM3zTOCcjMAtQuJl1zPu5vt3Ib3JhUaLNn6dixmg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 334',
-    name: 'Episode 334',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pt2z3G4i2DxrTyEQalifN9KjiocG3M3XW3gilUTqR3ZFm7y7iXbV9V0d4tVHEgQ62LvpP3J4vRBPff3JJvNc0ycrAs8OcOu1yq0IO3wgsV2Z54Xde3xhejomNyANPlTSsxU2GaEV8Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 335',
-    name: 'Episode 335',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ePBT6m7MaVXsiyO3oCArYFJicoGOM2ZIxyCz1PngIwSXoeFLwKOU9gVIUUHDkvrhYz1TUAWr3XZgIEaUVCwEuN5_dQAnSM38u1dVzRNqbGuPeecjk0ySVUYJYGAxpnDFvPusCOwQ4Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 336',
-    name: 'Episode 336',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/TliS2bHl4fi4QYIS1FqMjvUPvHHqr4RP3113_SY44p3SxCduOE8yomja63BBzFDZRev0ySLXYe5YP8uoNZKkiekDfDIN8TEyGSUyMLVoajr3dclkpQhn37gxhTo8W9xFsv8suzdikA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 337',
-    name: 'Episode 337',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/eC40GvWvInIpXmlEomuMTF3pt0F-26k-ms5_WfTMCiqUewlDxOqB5ZfgKABDL5JMhzIxrdEOq7hE1F1PEusCGjQFGIhYaoZdWOUV8esAS9J2iowRJ7W_m5nJa6Zo6KMaUTqtCGMm4w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 338',
-    name: 'Episode 338',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/KHpJe1OtxOnXXcrw97WGTz_2Oz1pdWlzy_ctbBdArnLtGCwyUIXM1vd198xJI8q7P92WMVTKxecCsUfm7glHrYqrzsBPCioauptYXDzqWDY38F3BzysuhBURf-pdWOb6QDRVStq0bQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 339',
-    name: 'Episode 339',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/dLumeHUWiH0RNXK7mVlHYDuqy-HyEVH01DdC1y1iB0TA8X7f9_TYFjvk_lILefc50Qs1ajXMuhwxCB6cNi4NEIthxyKUv9zE2kN3Vnf5KfAeChQXVuqqK2PX5m6t56TuUSovxQudBw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 340',
-    name: 'Episode 340',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/YLVElsbeqp95E9iAuymeSNJ0iQQhs2D_wSqqJy0oPW6Y_CALGxAzW2BRs1k4DBxftpb09TpsVTVF_HjeU_RsSC6wK-zo8FGcIJ5g3S2b0svsRbS_kTObCw0hpLQVQsmchDDGIKL_ng=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 341',
-    name: 'Episode 341',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2Hl1TBgEBsvP7lkMWHKmDQpi-PcYodNN6-GbWbTVaWks7SefwHd1sGOG98vsLWXefUYJn1vDZKkTocwCcAw4uWHU7PNffky_MA22xqI1gRmb6pbQFmdI1u22rysu2aBqtNuWKES6Xg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 342',
-    name: 'Episode 342',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/BaV0WLISuhwkJ332NMfYoAZM2hz9UQp-FjLtx6Od5LljtY17ygnGUKn2lmqqHAWGYxZ-IgFaBMDxpPb6XN3cUbmdLUoqGEW-oVXtYV8fCEgxZFvVyn4Q-mLRMhr_9rdeRgD3Gwn2Sg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 343',
-    name: 'Episode 343',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/7FtUbm2hgQrvXd7Omc6V8bw9AxScaWoOd2PGOOwbENyYvMAG78Jf5eo1FOUwEaatKGVPrRa2nsTd7fK04V8M_LWlyREssL_LsT5kBAM1rAYkk-H3yE4VTDGxX84m0nmasiNPo1yW1w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 344',
-    name: 'Episode 344',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/CfJHip7dH6jv022rv-cHZ28HzOCJuJEHImE0_zrceL87kadT5cNZGDEUE5l1gHhMemtZin7fLHzhltlPqN2Y_d7XLbor5bSxiwOVDPJCu_Aj6Iu4h3mgkw-UAqWy8R5GoHBkzpGKew=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 345',
-    name: 'Episode 345',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/H9QHj-I1aectUglz1_u40sAOxt8-ueoQFwCktQH09_npu661Ns3tGgZ65XRHFxXymWN6bBmxDab9HCqsNmQ_cKLKRdR3nlLfan8QwCuhYGkn90M2o5pkLnpF8GOlSvaruLyn6UP1YQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 346',
-    name: 'Episode 346',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pFJOrMq6AvqO4wHKuUgMYFpUg4WEojRUmV68fpJagdDDNg_Ork9VpL8VsOXFZUVetF8sFCJG50EvHrIOtgkmdtyT1I0uVpLiwzRpihiLeojUcLVpEpzqVycuJJD77kyOI_a_TjQQuA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 347',
-    name: 'Episode 347',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/DGyBKNi4OD_vEv1B2EhZ9wohFQbfflJSbJ7kHRrFPkMpBSt81vXjQ_Y_nImB5WyWaOmpvDs2JDbahXwarFfvW0VJ8llMpc-gcknR0tM4By9meT0WdhpJCBrfjdthzF09m0nu97DkWQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 348',
-    name: 'Episode 348',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/gkOLCnRXHUXFwmQcjtlM3B2nhrPYSc5jQq_jRU7X3Rztf8b9qf5DBQJaXSqPa5OsHUjQB1gNHEWgFTtl192AtUYIZlizPSbdGI_sPoCY7WpDB0VJqB3YODSNAAdyuVjYZFPbP1Twkg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 349',
-    name: 'Episode 349',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/qUszMfwPcCrutMFqHYOsEpaGmkrahD1l8SIe8l8nE73GaitFrxNVt5iCEeVURWzK6iQakHA6tzjv9A0YD8m4nFp55-d3EJU_PsNp6I5fvRfsIoukKWj4mEkSWprYtdPqYqS-moJkzA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 350',
-    name: 'Episode 350',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Z4sT76qp8ts97der693Ja9GRh1MutZ4J71rd4WAyp_AMRzOuGEUgz7wnCfKr2oPZELwOox0bx9JBNtWqJva7sCrn34-eaGu_fZvrZA5HFc4QmpYFi_3jlcBko7btObSQsPHsSe9sBw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 351',
-    name: 'Episode 351',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2br38nSaSbXWnjT24PN5A1Xln_msDMowJI03-9Wx_segPkSaXcGCXYVWE2vnlZ6FyALszfRB8yQBp6Bz6qdTB53b5pv97AYdmze62j6fswNFQeZxGO0_5pO0p97q5xoGIP0AnA7ELw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 352',
-    name: 'Episode 352',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/0YJP47XtUEVhxGpVFr-zfMBpyY5nAF9P3ZgSu4OniFxmaBuXAWrOT4uM2PomUjYE4oXqTXvtiDkOl_ggyiCem9LZu48OvpXokwpMok-Q7G9B96D6JBDwYxq1FNgXl9DWbRhOWw-8Jg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 353',
-    name: 'Episode 353',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/3fJjRhRkPw5xnx5XJgjFUKYPkrfCnKPfzxWoPtC9gaXf4WjrR9HGdU5V5X-HRndkvftRLqgplEakF6lpmFD6kmZfiZ27E7zKpLmGrOl6hBooXl_0r1iUJyYBEOaN2IgQzJttAWFbXQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 354',
-    name: 'Episode 354',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/UWtySpZs6sKVH1a6iuxpNWgTFV9Qcz72h0RUbT5skzK_Omezj31IXibEl30dZRZOcSjKu_i8v73GAJ4bgcI403zNp7QCWCH17L55Iet3zZvvAr-F63gaBg3_gsBthtwvFgtKtZg1uA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 355',
-    name: 'Episode 355',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/GrBChh6F29d_ajMlI2WCgL66VjoES9jvxclta7b_c6I8sbf6-bvFMJWDZb6fk6bpVy99Qk2wNFHsFJUhHfzqpYkeO8_Vecy-QT7rixIv5CM3K65TIDAYBYc7oyBzeehfzhFdIKIMcw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 356',
-    name: 'Episode 356',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/A3Z8Ejd0jTn9jOp7etFXRMfl6CH38puBM_hSYqbKqGuER741rvnnPVzwg-caYM37_PuGbeQzhIAoHAUxXEp0xOvY3nY2wprwoLBbCHq7xFdpjWH8PRPGKYxfVrEODNf39TK2BbsU4A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 357',
-    name: 'Episode 357',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/lo4DWlfCGwXJ18ijX4MroBQVNegmmEUS9aGSCa67pJV2Qd6GPdDI0_IKL8_yKz2u8-_QOqjHxgzymzXbaEucZ2UAH5vtuJYbMTkcX1BjZoSQfstWSLJsH3jzYzBTJhcjuE5tO4gtOA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 358',
-    name: 'Episode 358',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/kH1P-sfzk7E7ICzy63f8wLRZumYxnsAvavxAd_KYh00y9q-IorU0DSB2HKbopYwlXHv4DNxRIAaWphQ8jliKUm17n-KZwtATyczSCTFrY3BBO4aAl8Ze-SlreTOwVZSdYevn9xgnZw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 359',
-    name: 'Episode 359',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/9Ae2XfCWadpVGQxhPDbndeTwOShBbvkXoJm-27noaOs400B90Q4_ecwF0S0RtJ2F1ofM5YG6ngT4cmPCFogppyVxiAJKOe74iKusqJyFivhmJ_Y3RI-E1LsFTSIxQop3Zu0uBE2j7A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 360',
-    name: 'Episode 360',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2fbCfAgLd8YmPVh_o1hc6NoFao5-e0c0nZIxmHidHdMx1eGDp59uN7GqGiDZGTyIjatH0Pr4t_b_tOzyz92S08HhQDz0_JoXtkVJFLN4KBwfv6RPnYLakh37zvWIDv3zWV0N2bsUWQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 361',
-    name: 'Episode 361',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/XMC-lXmes13-_tuBK5_atKq0gXd21DgBBPhhacB2REFJSilv_2HJrz17LCGFT0viky5Zk95xePDz2cQSJWr7GvJfD5WXtsxK7pkjkMcogX4XtF78r0xgmwDCeYe3vmtHVL1kkmsU4g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 362',
-    name: 'Episode 362',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/I-eAslttKtQNdjJ4Wp2zAYsmNVJnww4EDOOK73LZCCuOxpt-q6HqlYRHcqVIMKyO4WvwPPUKA13I2vXqbww4kMLlmQAA1FD27HwlBkaFh4f-QXvGE-LcW7UoenVxZpf6oqbwGkKM5A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 363',
-    name: 'Episode 363',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/p1fNZ-JrddiM0gb14Ejb-cQkup8pMur3E8j7MgSg3F81IycKy5Ad6WGJ2VKbLBV4uUO7yJflqd69rI1sQgmbVLo3LDCjD1V6nlNUIskj3R_iBSs_FU_Ek7Igi2MHbcRA0mu7nkEjOQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 364',
-    name: 'Episode 364',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/k5ABHNH9YOS-7lv7U_rqf8044Yt7-MgNMJ8zhOkAFstz_-wzMifc49OUPU5G3z05-eNp6yKFx5MzElbj7T-enPrAerHd8wnD5h5cfe62hOfMlLjsPd1kWMI2fq_o_hU8ciMLJJOtDg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 365',
-    name: 'Episode 365',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/B3kVaCWRGFll-rrlpbxSwPVxachbR5Cm3ddXFZw2VaQc6GDzq4jWBYzr8XX2vmd4zrRVYIgfKDX7hIhYVUBz1pD97ENA4RBlyjbG5993xFRlJHAEn9iuuEQ0TaqY5l9u5kpwLps-gg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 366',
-    name: 'Episode 366',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/4YM23go_NAJOYsatUI2Yw6SOaT99rgE8765EpuJhY9X_KP5tWgshiwwmNBeA4i2d3G0bXx1YkYJiaAC7i8lQF47-i_gcQa3LLXUccTvvmf9XHDavUaTRpfMlM6drJ3BsxhkliNgk4g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 367',
-    name: 'Episode 367',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/TlkuepYijV57_fbt3q8Er6zxDDYQjF2TagTLGr5jD91Itmtfgg7oUNGYwa0wDsWelVT0tcvCo2qVt9j_Ebp-tuTf4urzjmlxc3GyfDvKk2ZZfeT5PswbJHznOYpSHyGJ-j6C6MT5Mw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 368',
-    name: 'Episode 368',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/EJhzcdMQG5J0dbxonlFtOyDdhMkuQYx3WVRbXKSFg2Wq1garByn352xISXM86duQEL1465XOUJALGHsbfUoinE6KG60YGJQcU_9UGSdU605ztm_giT63-NXc4SHCtgoKK6m-XPhBMg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 369',
-    name: 'Episode 369',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/bOnhaPLk07_9ZvCjBbE8yltbetCmYKnbh8Yxkh5kIZJZCVFUT4q4U9VQ1SlPBPf3oJoMuNXn_BFZn3OXp9JsQxvZSAYATCWSvYpAylCr60e_akQqjrmQnVDS81DfV54_2gYwC_B0Sg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 370',
-    name: 'Episode 370',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/E-z5SVMGyxN-BjE-mRhxwEXzaU_mw5G9-LTNq_cQBSlCZBeow88EVGSqt6qjsG7r67fWezQUYeOpRniEObcwT0nkG5xGaF4p0vtTaWhanIYAP_am34V6RFaqHFcgDWkAdhF7Nq03Zg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 371',
-    name: 'Episode 371',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/X6wIiNDdyTlWpAkWuzbj-6kxGsxKCNi_YRaUv-Sctr1Ry5Bah926teUAGrKdmnJbtQJDGu8Nda7NV1mzRcn77MlPh9_pAeahbtm7v97QydNtbqsQonOQYu_-xBs62gmgfARMQFSK-w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 372',
-    name: 'Episode 372',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/_a6kG2X6J-UzIFrEm1A1x4Tqk-QuEv55hYXuOsNtohw2naetTdxd5Us6GUU5fBw9h2KdUp2tOQ5zlZf-z1mXHeVlKQ2HIgKRB4_jzOZX3dduB0XeeT6iyGGHxzYon814TP14GmDLHQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 373',
-    name: 'Episode 373',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/kZVNtKd_HTY8w26vHk1h3vWq3Jnvk5co5gMd0am6cRsHPfsVXrHRzmlMdCukoRdeUNj0-cCOjynIJjk69mdMqUgM6H5uF5nRcKxg0Rysojrleq-HxBdnogU5H9eG7LB5y-moPxaMlQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 374',
-    name: 'Episode 374',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/c1DCZoAkMjEMGj3HaGNeFfrA3L3TwPNi-CuGEfzWSQbqsno0aFlSC9--HnSbdbR5HNBuefqtmeAj3zsZ88Cd93A6JNp6r2m9OM3YkoiHtRHwV-VwaY1GlnoDzGZgbl0rsEEd-dbicA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 375',
-    name: 'Episode 375',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/fV1PStgT80Z5YvHh9pZ6gzJxvQwd2YDGGd07Rth-i4gPz0jJnpanwvo9jO5l1gKu3VE0bxErfuSGOnygGY3pHXjSOnic94GrGAYq-tiqJUkhr0PdlP7RZ5kv9daxIAjzt8Vm1a2y8g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 376',
-    name: 'Episode 376',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ak8j_vAq4pgK7zZVnDo4i3GVBrJybPNCadabxsw7ATNbMJxxINqxbVaLb3CJvCfRjO40R6k5XUSgZ53ow6UY31AmKW0cQCtSLiHDhwtW8yrt3TN19FbkMzs9NOEMiAX4DWk4Li8fQw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 377',
-    name: 'Episode 377',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/CzjaTmecmrH5rGlJXKhWgBJQhsUN-8MJsXudNdOXQ-aS0tYyVHWhF98Upy6uG-axzG42Z4i5FvBFNZautP__vgMvvRCMAItQciTFTLM1HcKK8HToNrqPxMbNpkn__9vKXwqXRzEHcQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 378',
-    name: 'Episode 378',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ACV9bfxaz-96iiUAqR5xZwKC5zCHRSMNuJGFFWLIysC--RXOwGYJTK_jlznlAMaFQCI2hJpUMJ4MC4H0lDci2mFk_hgT4XsAgP5QOSs_uhknOiyOHbZyvJZf1N7A5eywHCVTSnuNcA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 379',
-    name: 'Episode 379',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/AQPTaiIwmc02QUcGscJiKT3VIThUUBIOI2WRf1Bsi3iEiPY4AgDeLo-LqjAEiZKeQUQXSEZOFos0iQ6_5rXKdM7SdDKD6b3zkjS-OmtSi8IU-0c0lFWyFhk_MmM8KX_bDROUc8oiGA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 380',
-    name: 'Episode 380',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/YFel0gjwPWkNQnLMzsE6hkwUrHBnQR0CzBZt-iPG0ujZWYjmxpSuHR_PS-d-7Z2aHZqFkji69f7APkulu5-J8jUHiGjKY8DAqB91Q7GRhzt3imbTmF7xwGtdDIh-w1cdqbYDe8qHBA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 381',
-    name: 'Episode 381',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/hDCHb1QetZUhtLUVdkGq2LPWzDWH2LMTbE0tiXBPnULdYM6PMzaRHg3q81RgMGYWATcYLvPJrFM9UKr6IuKLoKUbLIOyuz4sO-j78O2j-5C4r-MpAy0U0fb2w3ql-5bN_Azu-0dd8Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 382',
-    name: 'Episode 382',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/HZLalWWdsifRm6uGmkdfSNIvKTvW4SGvX5iP04sKa1_7FTbXbeWBe0Dmjrs-0yOnYjL7B1P8kiJeQ7V1s4KNg2J6mW99nSSTCkqO9dOSItypntKEDj9asin7yQg-nuqBrJFZqlau7Q=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 383',
-    name: 'Episode 383',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/CwhJUXcjRgE528rlSrCw7pswQGysaJ9KXnAsxhI1Z6acZ_dCLRPumnAFg430zk0wFkDS7TwGLo4bHKazhoMAYgh4VSzofjG65Bnkw3DQ5-pbzgny2A7u3VPQYeP4i1EVZ6SLpvONfw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 384',
-    name: 'Episode 384',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Q932mJf3l1WKvIeGJxkwxVAEqZfSd4-ueAXd4fqWNWrokWz5Uic0pM2LNXyu-yBv0G1hSzhca7b3ZxX-r9yor9pW9qiRhsCUTnU56AXcs8CICMEQw9Zq2ld2h-ZWCTuIdr2yC_oouA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 385',
-    name: 'Episode 385',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pQs6JBSzCu9HAu5rNV93RXTaR_uH4BmbmBtEMGY-Gp5cnLoBMEbWlSrEDc6p22PRHA5wZmDQ93BKNUGaezpAPU-u0eoetPyKgsTOE1iGsoiKa9fMrYnqqNuEg1EsNO_GhdR61JbP1g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 386',
-    name: 'Episode 386',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/ObkSMSztomHYPyFfTCOUgf28vmU9iaPet_T55zhV6LdQKVxaEuh0q13_u1AlSvhq9lRBs2__GKYaL4Q2muxV0whTR2vx04EfdNgXnduQ2m4WFPus3Q-ZkVGOQjmrH3Q27SGuJDcobQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 387',
-    name: 'Episode 387',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/klVKIx6DzQHA3S6Q19UWqwSNtOPMTWO2Vs-iHffpes5jfs1uyY7towOQ4yF7_K-NYD1uPvSrzjfbPBI60-SvFmRrexw9vanfKsQMLSfh17Dq0x_Gk-krIClZogZsRwzLWqzKVdG06g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
+      src: 'https://lh3.googleusercontent.com/U07bzSoSDkOrv34tbrY5EKE7u6BHSDiAAEyYaR1eFWSm9r1mlRIbmPCa5HPQsFpmFa1TknaBUSMPjamoMBebKu2JbhONWGWaGEz-nZUNySS3IzIUDhUURHMjVS_zodjhNV-I25ZEc8I=m18',
+      type: 'video/mp4',
+      label: '480p',
+      selected: 'true'
+    }],
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
+  },
+  { judul: '* Naruto: Shippuuden',
+  episode: '* Episode 166',
+  name: 'Episode 166',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/nJZfaG3pi9vVhK9eMbau2Wr2Iykcmmsyd5GZq4zz2Dfmj6HRhh11cxyXVeJ2Y0pErf7YciyrKTUDBhp7HvHZ_8fS21Xb297AnUZTGCNjG642ptmtGfHNrrMG3WUOlHDionWOp1JSxDE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/nJZfaG3pi9vVhK9eMbau2Wr2Iykcmmsyd5GZq4zz2Dfmj6HRhh11cxyXVeJ2Y0pErf7YciyrKTUDBhp7HvHZ_8fS21Xb297AnUZTGCNjG642ptmtGfHNrrMG3WUOlHDionWOp1JSxDE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 167',
+  name: 'Episode 167',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/MhNgowxsYhwQD8aqijW_9NNUB7dquwxct4CWlYD-7CeeDApmQ4Hiszc-kFnzlbdoffaoPZ4wJSbl-kwOKER9B63g7jsWjg9yUfbKPCswgLfKiyJPyNdvrsjXnGD8fFRJM2uEfj8tSGo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/MhNgowxsYhwQD8aqijW_9NNUB7dquwxct4CWlYD-7CeeDApmQ4Hiszc-kFnzlbdoffaoPZ4wJSbl-kwOKER9B63g7jsWjg9yUfbKPCswgLfKiyJPyNdvrsjXnGD8fFRJM2uEfj8tSGo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 168',
+  name: 'Episode 168',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/lala1xKJs6nBGzLi8-V9U96f5HU_v-y-qQwoHuVAcLl6Sc3l8_Quc909NL9x_Kv9MCabzRzc3iRkcF6WtBZE9ObKnZtQV60e7rv4_Us0bXOsrSj7tdAh-NGRyUBPWUnYe1MdD7aBviM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/lala1xKJs6nBGzLi8-V9U96f5HU_v-y-qQwoHuVAcLl6Sc3l8_Quc909NL9x_Kv9MCabzRzc3iRkcF6WtBZE9ObKnZtQV60e7rv4_Us0bXOsrSj7tdAh-NGRyUBPWUnYe1MdD7aBviM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 169',
+  name: 'Episode 169',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/z8QJjpf1RvQ4TE2svf7Ie0jEsHm13sR4vMOmqFqtRTP6H3ucmZEZ1ETbEeUVM2OvlKcd3hVZ03bKLvy_7pKku2CirqIJsfl8t-4PMLroB0sK8ghyo3ho07fmnQtEtSHadc4IfdVPngA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/z8QJjpf1RvQ4TE2svf7Ie0jEsHm13sR4vMOmqFqtRTP6H3ucmZEZ1ETbEeUVM2OvlKcd3hVZ03bKLvy_7pKku2CirqIJsfl8t-4PMLroB0sK8ghyo3ho07fmnQtEtSHadc4IfdVPngA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 170',
+  name: 'Episode 170',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/seOKcJL9qo5MekrmDRwMSqlatqIeMCsoEHgwZ7sNtUFAftsLAbSMoYe80xfE0dqhRNcRMa-vR6OCyFewUdYLZR9V3IMPe47ZugE3gbpIJ5Jk7TunlizIyfrOp6HJRtjodvdiv-fkZeQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/seOKcJL9qo5MekrmDRwMSqlatqIeMCsoEHgwZ7sNtUFAftsLAbSMoYe80xfE0dqhRNcRMa-vR6OCyFewUdYLZR9V3IMPe47ZugE3gbpIJ5Jk7TunlizIyfrOp6HJRtjodvdiv-fkZeQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 171',
+  name: 'Episode 171',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Rs-XDm75lgeZhRA4VPYPR9zniDI0dcG6uOBGCT0Dv7VL4LcbNpSV5Vok-VPGvUxsPhRRXWXnYkvROcec5n9PTvg2EmPIQaDOAHyDzjOy7jntjUZhL2ITTTFZXLi-TGPZXZ_QH-qL7vM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Rs-XDm75lgeZhRA4VPYPR9zniDI0dcG6uOBGCT0Dv7VL4LcbNpSV5Vok-VPGvUxsPhRRXWXnYkvROcec5n9PTvg2EmPIQaDOAHyDzjOy7jntjUZhL2ITTTFZXLi-TGPZXZ_QH-qL7vM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 172',
+  name: 'Episode 172',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/tjhK18rSFML9COjytOOfTLdRFA4ZMQmCtSTrrbQnpo0qYSEM2sXfCO8INPEpSuEKyh_fNoOTxuC6fDoFBrVDjIp9wymCljMxvNlmQ6fccULYqsrUhCr_T12b8oDudOzlPJesduA-FEI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/tjhK18rSFML9COjytOOfTLdRFA4ZMQmCtSTrrbQnpo0qYSEM2sXfCO8INPEpSuEKyh_fNoOTxuC6fDoFBrVDjIp9wymCljMxvNlmQ6fccULYqsrUhCr_T12b8oDudOzlPJesduA-FEI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 173',
+  name: 'Episode 173',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/6Lmy-be38YrWBgkA80CuVMcWQfq3fFgU9l2wjuyyrRM0THASpQWHh-awIZVvIGK8Y6CuRpsG6I1FvsnRMYtxWpDM67ATtM3mR7yf5WjFkpFsbq1Mfp3OaSJWVpsl2E1eWvBTNhilHAg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/6Lmy-be38YrWBgkA80CuVMcWQfq3fFgU9l2wjuyyrRM0THASpQWHh-awIZVvIGK8Y6CuRpsG6I1FvsnRMYtxWpDM67ATtM3mR7yf5WjFkpFsbq1Mfp3OaSJWVpsl2E1eWvBTNhilHAg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 174',
+  name: 'Episode 174',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Ltiwve_YHODglWWHySJHFhxhitOfO_q0Fohh04_Td8nNgq7xB96T74wfrkJJW7ycO55b0rcTiQ7X-PtuOSXPMqvTM0jJpL2pxHU3Pl9KR6UfYsuv6XKeSEOaiKTMq5dAVbxSMMVUtJE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Ltiwve_YHODglWWHySJHFhxhitOfO_q0Fohh04_Td8nNgq7xB96T74wfrkJJW7ycO55b0rcTiQ7X-PtuOSXPMqvTM0jJpL2pxHU3Pl9KR6UfYsuv6XKeSEOaiKTMq5dAVbxSMMVUtJE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 175',
+  name: 'Episode 175',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/IUDpL0T1WR79Z-c9jlr8PMgXnuPqb-IP4TGEXEU4Opg0sAKxVoJ4WBNrfHfgvQoeWyxOfLIqCCQovz5sVesLLSY785Iu5VfAgcofAJMAsZGlZlB3iXP0vTwWWYrtqz-sKD3hlq55tV4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/IUDpL0T1WR79Z-c9jlr8PMgXnuPqb-IP4TGEXEU4Opg0sAKxVoJ4WBNrfHfgvQoeWyxOfLIqCCQovz5sVesLLSY785Iu5VfAgcofAJMAsZGlZlB3iXP0vTwWWYrtqz-sKD3hlq55tV4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 176',
+  name: 'Episode 176',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ATGJQp0G7OU9PjTXWYkoV3RmY_UMF4dHjjWmacnV0JVs8izzMdf-rtVl26EAeRNv3vrMhTY5afvx39PAyV6UH_CuGxnZA97bkE4AJH9D6oC86HTIIo17bK0TxIuQt7_gmjZvhJ405U4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ATGJQp0G7OU9PjTXWYkoV3RmY_UMF4dHjjWmacnV0JVs8izzMdf-rtVl26EAeRNv3vrMhTY5afvx39PAyV6UH_CuGxnZA97bkE4AJH9D6oC86HTIIo17bK0TxIuQt7_gmjZvhJ405U4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 177',
+  name: 'Episode 177',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ww-xqKyWmKBjsNjNGrw_aAHt1KE_uDqsJ9M98efbRT6RydKi-zH3dv1tdwlY2RzDXMh5208JRKF7Oc6t0EzFVv176nEDit-ScI7S5QfXEGb-QLaDim6R_v7ama8JxQw_1-aM8Db_tSo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ww-xqKyWmKBjsNjNGrw_aAHt1KE_uDqsJ9M98efbRT6RydKi-zH3dv1tdwlY2RzDXMh5208JRKF7Oc6t0EzFVv176nEDit-ScI7S5QfXEGb-QLaDim6R_v7ama8JxQw_1-aM8Db_tSo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 178',
+  name: 'Episode 178',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fosNmqCt0HxGyVxMoWGBs20zjMEFmJQhQfNiofA1WLD3kmDSS6c5ZOIa0BQThiXBrcDuuEzjavxZm1tgclJiV_I1LXfjDSv2m-uEC0Lgsqa8qjqlwEmGr1u-HftdXx4SbKiIGps3--Y=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fosNmqCt0HxGyVxMoWGBs20zjMEFmJQhQfNiofA1WLD3kmDSS6c5ZOIa0BQThiXBrcDuuEzjavxZm1tgclJiV_I1LXfjDSv2m-uEC0Lgsqa8qjqlwEmGr1u-HftdXx4SbKiIGps3--Y=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 179',
+  name: 'Episode 179',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/MchQyNs7rCjftc1l7brc-d-d6tc2vJRXKz-a8Z-UVKg7k23iGTZD6Jm7pcRFz9XXpkWkZ6vkgNEHYnj-QCzCX-LdQLpkNQZTjZYQ_h9IVaknJbPrNDvfAocz95P_J5zZErAfx9jtPRA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/MchQyNs7rCjftc1l7brc-d-d6tc2vJRXKz-a8Z-UVKg7k23iGTZD6Jm7pcRFz9XXpkWkZ6vkgNEHYnj-QCzCX-LdQLpkNQZTjZYQ_h9IVaknJbPrNDvfAocz95P_J5zZErAfx9jtPRA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 180',
+  name: 'Episode 180',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/965blQdkdhfBd-jtwe7ldKTI2rcCKDuuC88B971NMZMwUq53HRC_N08oLnsCwiyMoyDG9uU7glUT5HVOX-nWssavod1syOuB6NRSrubVswPSKpOtRW6QCnWzHYG08Y11dTJW6Cajt1A=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/965blQdkdhfBd-jtwe7ldKTI2rcCKDuuC88B971NMZMwUq53HRC_N08oLnsCwiyMoyDG9uU7glUT5HVOX-nWssavod1syOuB6NRSrubVswPSKpOtRW6QCnWzHYG08Y11dTJW6Cajt1A=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 181',
+  name: 'Episode 181',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/FWhqa6Sevf7_F0J14nUDRtOrsXdseQY9o_mWAkkzMvwNAtA4DniOA8ec-hRPtSYBJ1s3j2HztRoWi8KvzfdDgb8a2zrFysJFv3wMGwbgFYIKGG_O1jimuCQebEmLH86Cso7uCLkC3FM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/FWhqa6Sevf7_F0J14nUDRtOrsXdseQY9o_mWAkkzMvwNAtA4DniOA8ec-hRPtSYBJ1s3j2HztRoWi8KvzfdDgb8a2zrFysJFv3wMGwbgFYIKGG_O1jimuCQebEmLH86Cso7uCLkC3FM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 182',
+  name: 'Episode 182',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ZQKFiHPXrwNZBb1FNOq9TP4KwQQZj_AE9dulAhV0-OzsR-wDCvWjBnyJxsEF-vOcqbVwq5wtEAET8N8do7him9KHZ3c8x_Y3j4SeDuAdFc-9ujNtejZZb18rhKtCzuOa2QVjx7l05NY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ZQKFiHPXrwNZBb1FNOq9TP4KwQQZj_AE9dulAhV0-OzsR-wDCvWjBnyJxsEF-vOcqbVwq5wtEAET8N8do7him9KHZ3c8x_Y3j4SeDuAdFc-9ujNtejZZb18rhKtCzuOa2QVjx7l05NY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 183',
+  name: 'Episode 183',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ghLJN9a7gwId5oeSSOcB27MPEIixW74ZeWVI0HUQG1JHJEybvRDnT1dEe4TOxmyfoONSnwW-3IBIsymjgoL1Qd8qg9oKLZXGZAPzsl7DobK8M4J1XKya4oJnW8fyJmj854o2xyzVOkM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ghLJN9a7gwId5oeSSOcB27MPEIixW74ZeWVI0HUQG1JHJEybvRDnT1dEe4TOxmyfoONSnwW-3IBIsymjgoL1Qd8qg9oKLZXGZAPzsl7DobK8M4J1XKya4oJnW8fyJmj854o2xyzVOkM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 184',
+  name: 'Episode 184',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/uexqlG3SnBJMmUVP43wp3rE23svZ-kGb8Bq8f76qbRdSugX08bML-Dr22z-9DWUwcXCADVmUspnt289noXpGBLjm7FTVcBbs6hs4JfW2ZBF6XHUoVZ1Atji4H0as_-RweetiTXWG9MY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/uexqlG3SnBJMmUVP43wp3rE23svZ-kGb8Bq8f76qbRdSugX08bML-Dr22z-9DWUwcXCADVmUspnt289noXpGBLjm7FTVcBbs6hs4JfW2ZBF6XHUoVZ1Atji4H0as_-RweetiTXWG9MY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 185',
+  name: 'Episode 185',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/mpVIqxJ8YT6KdyXTslwEPu84_L9meJ1ypCbzkOzOoe-O7bs4ZrFYEO9oIxB5W5HkRW0S8O3hkK7sGLI_klxAR6fXTWFm0P1Tfy2PgBC2u9y9v9Wcy77TyKAuZCcuV9pgyA07XUEuZKc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/mpVIqxJ8YT6KdyXTslwEPu84_L9meJ1ypCbzkOzOoe-O7bs4ZrFYEO9oIxB5W5HkRW0S8O3hkK7sGLI_klxAR6fXTWFm0P1Tfy2PgBC2u9y9v9Wcy77TyKAuZCcuV9pgyA07XUEuZKc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 186',
+  name: 'Episode 186',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/6cXWdArRIgQRVmkQJpXdirfRnNdXlJv5tuKZMcyInm7oMn5Rdul8YowZs6K5STb14DjuElhTbs-VPLX6H7AGsFNHe8DJTFWZsGKsXulSCV34xpMA695wYTBTNIUO6Pe5lbNTJpnvkLI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/6cXWdArRIgQRVmkQJpXdirfRnNdXlJv5tuKZMcyInm7oMn5Rdul8YowZs6K5STb14DjuElhTbs-VPLX6H7AGsFNHe8DJTFWZsGKsXulSCV34xpMA695wYTBTNIUO6Pe5lbNTJpnvkLI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 187',
+  name: 'Episode 187',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/l_SinBWZy9R7bo-Bcwq6cmMc4P1ZpX3Va0KQzCewPR-QLb_UAJREAv8uY3_s9GmXZxJQp_ev3aqsuElog79-ljuTHE_QioeRfIgXlDtpZeVA_y8LJ6rZT7HhgHOI-xEbkx3v0O9cHFM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/l_SinBWZy9R7bo-Bcwq6cmMc4P1ZpX3Va0KQzCewPR-QLb_UAJREAv8uY3_s9GmXZxJQp_ev3aqsuElog79-ljuTHE_QioeRfIgXlDtpZeVA_y8LJ6rZT7HhgHOI-xEbkx3v0O9cHFM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 188',
+  name: 'Episode 188',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/_jB4I-Hfw6fGAcgsAvSgc5HJuGq9yqjQ7z7aIYAq7kzOHPoCpCLAZ9BeJ1uuESgBKcZVJ3QO39YFwOiwrdeTrepX-b4jq8u02TBShd6uE0f-ltsgBrgQoFqEZrFRB3zIu4I6nC9iEN4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/_jB4I-Hfw6fGAcgsAvSgc5HJuGq9yqjQ7z7aIYAq7kzOHPoCpCLAZ9BeJ1uuESgBKcZVJ3QO39YFwOiwrdeTrepX-b4jq8u02TBShd6uE0f-ltsgBrgQoFqEZrFRB3zIu4I6nC9iEN4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 189',
+  name: 'Episode 189',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/OI8ueKIOnFgjtVJfGZAkFlbhUVbr2rteJ_qQtNCOPV8iKNNrAMuytwMaLDvgJpU7NyCEXQjKNyE3PHyPlav06n29s5f9eq98mzLkdMGwnAUuFS4ib6ceU3hb9Gw0PznvK908p6ou9Xg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/OI8ueKIOnFgjtVJfGZAkFlbhUVbr2rteJ_qQtNCOPV8iKNNrAMuytwMaLDvgJpU7NyCEXQjKNyE3PHyPlav06n29s5f9eq98mzLkdMGwnAUuFS4ib6ceU3hb9Gw0PznvK908p6ou9Xg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 190',
+  name: 'Episode 190',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/FqVWCBVNZT0RCv1fx7nfhwa-OycasOVpJgYukh-zjzWgKeqjVAKrLjm3aCA8qUw1n7MaQs-JnK8jYrCh7qCYipwza_g4Buoj8I3uq3RB51enPCGlKca0cDIzmr4SOIWrv_cP-7URHSE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/FqVWCBVNZT0RCv1fx7nfhwa-OycasOVpJgYukh-zjzWgKeqjVAKrLjm3aCA8qUw1n7MaQs-JnK8jYrCh7qCYipwza_g4Buoj8I3uq3RB51enPCGlKca0cDIzmr4SOIWrv_cP-7URHSE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 191',
+  name: 'Episode 191',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/BvFDudPo1sBPWa76RuEcKZkNUbPFnHsKiSQQdFP-hnMLXtKuCUpWROfnCnr7f8oUqAva_2YQlWFH9vUVE6cDopgPUPAWAj-ZAOpkxMG407a6BlwbfqfqCGwPgRBi5u8oovxZal3TrSs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/BvFDudPo1sBPWa76RuEcKZkNUbPFnHsKiSQQdFP-hnMLXtKuCUpWROfnCnr7f8oUqAva_2YQlWFH9vUVE6cDopgPUPAWAj-ZAOpkxMG407a6BlwbfqfqCGwPgRBi5u8oovxZal3TrSs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 192',
+  name: 'Episode 192',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/i2o1WTij66lnODlut96xfIjxbMXDU0pv5uUY2J5OBf3OBdZjIubG-wOrVZLwPNt7mQ8jH56nMax8VTmLCzwY22YQ1JIQC_TosuIkILP0FoVn4EK5xKanUdclZtoq57yhSz2OOO2SC-E=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/i2o1WTij66lnODlut96xfIjxbMXDU0pv5uUY2J5OBf3OBdZjIubG-wOrVZLwPNt7mQ8jH56nMax8VTmLCzwY22YQ1JIQC_TosuIkILP0FoVn4EK5xKanUdclZtoq57yhSz2OOO2SC-E=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 193',
+  name: 'Episode 193',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/86O_DvTwjpxjeljcbqzGNlJ-XXEDK6CG5__SXqFVzN-CO0L8rzYnMA_4a8S-02LSY7RndEwo_70bJS66uBrMBZI44Y3nv9WYb34j6GrJeYiz5HF3yfvETa9ovfYqTy83PEeeMrpoP4s=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/86O_DvTwjpxjeljcbqzGNlJ-XXEDK6CG5__SXqFVzN-CO0L8rzYnMA_4a8S-02LSY7RndEwo_70bJS66uBrMBZI44Y3nv9WYb34j6GrJeYiz5HF3yfvETa9ovfYqTy83PEeeMrpoP4s=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 194',
+  name: 'Episode 194',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/YQfBFtdX1j5O6K7-ah-3uRrBEn1P2ufz41anuSBqMozSY_5N3Qn2G6WRp5AlUck2GB3czjQbYuRFqTpNu0AHV1sQ3rfH7oVBykDBAy-V065nr2A1EKEBoZtE1FAGKWBD4stlIZZtyj8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/YQfBFtdX1j5O6K7-ah-3uRrBEn1P2ufz41anuSBqMozSY_5N3Qn2G6WRp5AlUck2GB3czjQbYuRFqTpNu0AHV1sQ3rfH7oVBykDBAy-V065nr2A1EKEBoZtE1FAGKWBD4stlIZZtyj8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 195',
+  name: 'Episode 195',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/3VRXaOYyVGkrgxz_4-QWioNcfDhCjQTuxdZzq_IMu768KX69VxkQs8d4DTAE8JqdKUrGOH0LjZzAa6mE_2hSDSFyhY7Ea6pvMkpDPHEvnliJlLLTv2ljddfTnd31ipwP9RNi-Vn4cv8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/3VRXaOYyVGkrgxz_4-QWioNcfDhCjQTuxdZzq_IMu768KX69VxkQs8d4DTAE8JqdKUrGOH0LjZzAa6mE_2hSDSFyhY7Ea6pvMkpDPHEvnliJlLLTv2ljddfTnd31ipwP9RNi-Vn4cv8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 196',
+  name: 'Episode 196',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/v8JA0f0Wla24BCd_uvzfRppQYiU-RqRoD-orldnoLHfLWc1PzMTyttJ4w9IsMBQTu84DYv083QCPzl4pxoIBBFjX-Vs12jvl0BWovfnpYoXVgkADQzRBIdvcPEtbA4lhk03cmdKQ0rU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/v8JA0f0Wla24BCd_uvzfRppQYiU-RqRoD-orldnoLHfLWc1PzMTyttJ4w9IsMBQTu84DYv083QCPzl4pxoIBBFjX-Vs12jvl0BWovfnpYoXVgkADQzRBIdvcPEtbA4lhk03cmdKQ0rU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 197',
+  name: 'Episode 197',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/UOuLCrs2uZ-5GQ9q6ZqZZwJDTejv8kqicWKqx-kMeSuNS9a3pz3Ow4YM3TWZv35Y-FQ_i7BPZND9IPU0pIIAdWKEyDct3H8sUnyyWIoUAfsfTQoF9qHRVK6qQs3vQYsQziB4R7AqX5s=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/UOuLCrs2uZ-5GQ9q6ZqZZwJDTejv8kqicWKqx-kMeSuNS9a3pz3Ow4YM3TWZv35Y-FQ_i7BPZND9IPU0pIIAdWKEyDct3H8sUnyyWIoUAfsfTQoF9qHRVK6qQs3vQYsQziB4R7AqX5s=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 198',
+  name: 'Episode 198',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/yt-SJdeJz-HmIJFqQs4fEqH4VjCdEfUfu5dXxYue_zh7OoxqX8nPDIVZMLUi6sC6EbV2rR77n9_qWaQTebO5s_razLl9MijfY6U8yjCzQ5LFuTVqQpJFmE55D8vzKWnkT9oKmCpUxQc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/yt-SJdeJz-HmIJFqQs4fEqH4VjCdEfUfu5dXxYue_zh7OoxqX8nPDIVZMLUi6sC6EbV2rR77n9_qWaQTebO5s_razLl9MijfY6U8yjCzQ5LFuTVqQpJFmE55D8vzKWnkT9oKmCpUxQc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 199',
+  name: 'Episode 199',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/XfbXbJudPKV20l3m7fTKAgHvCDXwM1MWeKmmZHbeCoq3lvdQkLu0jltbjJaDS7CjEj_rYuaitviADbaGEdl4-UJLhSj-pvjTC0bE4BO5g5cQ_Uhrzg92Mz0caL2Glb5m-NSPDNRZILM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/XfbXbJudPKV20l3m7fTKAgHvCDXwM1MWeKmmZHbeCoq3lvdQkLu0jltbjJaDS7CjEj_rYuaitviADbaGEdl4-UJLhSj-pvjTC0bE4BO5g5cQ_Uhrzg92Mz0caL2Glb5m-NSPDNRZILM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 200',
+  name: 'Episode 200',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/35vcORGsT0qYGb2QiXwByyTu0vd9pMa9DVQ2BOHNZ6loU4aQ80wDnsTznIRziWf3CcXVI5qVOuo3aIvmiI5kj9h6M3Q_mx3N4tZMqyb76wsMWEikIDAG7g9BmrdX3nEG4hENAdvdGwU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/35vcORGsT0qYGb2QiXwByyTu0vd9pMa9DVQ2BOHNZ6loU4aQ80wDnsTznIRziWf3CcXVI5qVOuo3aIvmiI5kj9h6M3Q_mx3N4tZMqyb76wsMWEikIDAG7g9BmrdX3nEG4hENAdvdGwU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 201',
+  name: 'Episode 201',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/rGbvttPSI-fmi6kXsgDq1nyMUiVeOEviGih-WnJPmZUmCnIFdASh_Vk_-rhOjXztffWSt3WH9x7Vpbkzt3fiYQmpKiEOm6XPrkreD8zNbPZrG4sft5WyZl6HFhpJeTEo17Cz4TUtUko=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/rGbvttPSI-fmi6kXsgDq1nyMUiVeOEviGih-WnJPmZUmCnIFdASh_Vk_-rhOjXztffWSt3WH9x7Vpbkzt3fiYQmpKiEOm6XPrkreD8zNbPZrG4sft5WyZl6HFhpJeTEo17Cz4TUtUko=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 202',
+  name: 'Episode 202',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fJ5Ybrau5ehKIK_FzbyD2wFav_ZNSOQ-RqWLwY7LJ2YaZzgbJX8PcDFRsdjXzjBOecqDJ5A63gcZRtx4ZNJgUGmLYpA71RJ9UBj9IS9uYV4Y1hfR3N4UNRBfzJz_2L3JQeIAK-60wYY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fJ5Ybrau5ehKIK_FzbyD2wFav_ZNSOQ-RqWLwY7LJ2YaZzgbJX8PcDFRsdjXzjBOecqDJ5A63gcZRtx4ZNJgUGmLYpA71RJ9UBj9IS9uYV4Y1hfR3N4UNRBfzJz_2L3JQeIAK-60wYY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 203',
+  name: 'Episode 203',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/6vwYc5nhmR2fQnajokHypybjynHsv7wnQuhyqHhtiOwRM-lYy8sY1yRCIYuSevjvvDK3YROzW57twNUjeoRTECFXyBhaWN6pKVNnM_i1Q-6k5Esd60dEIXYEhBMTL9mjj_qJ8QNX52s=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/6vwYc5nhmR2fQnajokHypybjynHsv7wnQuhyqHhtiOwRM-lYy8sY1yRCIYuSevjvvDK3YROzW57twNUjeoRTECFXyBhaWN6pKVNnM_i1Q-6k5Esd60dEIXYEhBMTL9mjj_qJ8QNX52s=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 204',
+  name: 'Episode 204',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/TEYPZMRUnqb9LEu4Jq1RBAmW5vyB7-CUNUhXPKj2O4WKkj04Ft4139S_aIrhgkP1z9M_ECdCMH5woN0oz5Vz7EonAuGPChoSfQxqhVZr9EkbAvavPXOhEo5pE-ojCt-4XRShcxUxGa8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/TEYPZMRUnqb9LEu4Jq1RBAmW5vyB7-CUNUhXPKj2O4WKkj04Ft4139S_aIrhgkP1z9M_ECdCMH5woN0oz5Vz7EonAuGPChoSfQxqhVZr9EkbAvavPXOhEo5pE-ojCt-4XRShcxUxGa8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 205',
+  name: 'Episode 205',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/3DFbAdZ8uFMqLmJyXPv3escFoCLRb4Gp9yBakUl6e8Zw70Ufu9vfNxeCuAVpunK2zudeScKJa7fzEODp5AZu_KHTCknyFrDzvr_1JXDGQorTT1_uviuGoJJWJTFFagW8kp8uwRXu_7E=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/3DFbAdZ8uFMqLmJyXPv3escFoCLRb4Gp9yBakUl6e8Zw70Ufu9vfNxeCuAVpunK2zudeScKJa7fzEODp5AZu_KHTCknyFrDzvr_1JXDGQorTT1_uviuGoJJWJTFFagW8kp8uwRXu_7E=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 206',
+  name: 'Episode 206',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/hWhAJgbQEDCYOdK61Cr4BczxxJLdwXJTX6T6zBnIcpEw6eKxSguXTQHhFYtI62PIcNh8zFU66X0AglydCo3-NnSINejC6osmG6naDJpfHepF9m4t7mjDhSXpRzHdhs2NvPCNlYOutLI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/hWhAJgbQEDCYOdK61Cr4BczxxJLdwXJTX6T6zBnIcpEw6eKxSguXTQHhFYtI62PIcNh8zFU66X0AglydCo3-NnSINejC6osmG6naDJpfHepF9m4t7mjDhSXpRzHdhs2NvPCNlYOutLI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 207',
+  name: 'Episode 207',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/9lruaFGy_SEARYCJXrFUOLgGH-uN4DYM8DYHOomrVnfVswqvigKHPFllzFSKLUUTqz-h2iKvY-kcPv4BWBQvwjvz0qYwKJMARYITMuVlqXzyxv413LECHvXEpXINuqEv3SUa78J31tM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/9lruaFGy_SEARYCJXrFUOLgGH-uN4DYM8DYHOomrVnfVswqvigKHPFllzFSKLUUTqz-h2iKvY-kcPv4BWBQvwjvz0qYwKJMARYITMuVlqXzyxv413LECHvXEpXINuqEv3SUa78J31tM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 208',
+  name: 'Episode 208',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/zhfX4jEqpmJ-E7Ttze9FNddZobrj-RBtl0bi9OalU0EnoKiIwUig8S0AeaU_deK8I35Y-E4-FgESuzHYk-A0gMZ4FkKJmSvsDkLKFcY8bqPVJTqrzKhSCC7R1cSBI9cap17PbakF4G8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/zhfX4jEqpmJ-E7Ttze9FNddZobrj-RBtl0bi9OalU0EnoKiIwUig8S0AeaU_deK8I35Y-E4-FgESuzHYk-A0gMZ4FkKJmSvsDkLKFcY8bqPVJTqrzKhSCC7R1cSBI9cap17PbakF4G8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 209',
+  name: 'Episode 209',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Ar6uOj-lIyQef9LopJ2JbQpaELLMa8gvjlVzYIlfy53qm8Hmidg4orrMi83iDQj8B2B10ctV_ZbU1Y9rE5k8cdzlAqq8A4Dhz6r7P3kAca948KN04RNQG76ZjEMrhtLP-KjTd07lMDA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Ar6uOj-lIyQef9LopJ2JbQpaELLMa8gvjlVzYIlfy53qm8Hmidg4orrMi83iDQj8B2B10ctV_ZbU1Y9rE5k8cdzlAqq8A4Dhz6r7P3kAca948KN04RNQG76ZjEMrhtLP-KjTd07lMDA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 210',
+  name: 'Episode 210',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/PmC-TkL_uenLuh3WZCsq2AzsO_1yxZP8mGIOrl3yq4aoKZQ8MipBiTu_68O6Skn_crYwt6_BtjUP3hBi1sspdhKGyHNw8LKcSSlD--8N6dmLWtfkI1s9S6FHzNOiCIL2nYZROZCqoLU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/PmC-TkL_uenLuh3WZCsq2AzsO_1yxZP8mGIOrl3yq4aoKZQ8MipBiTu_68O6Skn_crYwt6_BtjUP3hBi1sspdhKGyHNw8LKcSSlD--8N6dmLWtfkI1s9S6FHzNOiCIL2nYZROZCqoLU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 211',
+  name: 'Episode 211',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/nHTx6iEohhu84bQfA1R9eODpd7FoPU-MaeTDK7FnTJrGBB1v2sJlvNcGmKTXtjxqTcrlk1MhpOSqMfw09-DVtV7mZzkaTkbodPizwp5UNu7ETaW7wcg74NNuADFYf485gQ_QEOxh17o=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/nHTx6iEohhu84bQfA1R9eODpd7FoPU-MaeTDK7FnTJrGBB1v2sJlvNcGmKTXtjxqTcrlk1MhpOSqMfw09-DVtV7mZzkaTkbodPizwp5UNu7ETaW7wcg74NNuADFYf485gQ_QEOxh17o=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 212',
+  name: 'Episode 212',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/4kvsw088gl6XX5r3iosC0yBXukPAmw6SrhYxAdiaMtTYJdBiaFCPB-7iHDbToitDE6E7INP2XPYu34xaAeFRPue1-0o0BD896i2nNhz1et7xMZ_bOUuIzxAKT9sEUdi-ru4RvZl7yV0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/4kvsw088gl6XX5r3iosC0yBXukPAmw6SrhYxAdiaMtTYJdBiaFCPB-7iHDbToitDE6E7INP2XPYu34xaAeFRPue1-0o0BD896i2nNhz1et7xMZ_bOUuIzxAKT9sEUdi-ru4RvZl7yV0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 213',
+  name: 'Episode 213',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/RE68uW8IHXKldW_8RbraNXKtfkBxxp153gIBUe49DKd-kdCby7qYkgiqeCkRVFFHu3kvuLc1ma69YvNEUSkOBxfi_9axAD4MS61yVloXDYRDis5fRcNZUuJ7MJ1FBFa-OQxX838Qm-U=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/RE68uW8IHXKldW_8RbraNXKtfkBxxp153gIBUe49DKd-kdCby7qYkgiqeCkRVFFHu3kvuLc1ma69YvNEUSkOBxfi_9axAD4MS61yVloXDYRDis5fRcNZUuJ7MJ1FBFa-OQxX838Qm-U=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 214',
+  name: 'Episode 214',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/FcoCqGD_OkWJl3H5-vgIjJYgN96F47pyMP_6UJ2XsOYO0Bqu5QRDaea_K6Qbpm59dwU63KXn7lDDIq1IermZm-vuS5modRCskcnVDYcU8rFXxoj2qBnX5xVmWIq8HcTbEUkKr4N8pOY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/FcoCqGD_OkWJl3H5-vgIjJYgN96F47pyMP_6UJ2XsOYO0Bqu5QRDaea_K6Qbpm59dwU63KXn7lDDIq1IermZm-vuS5modRCskcnVDYcU8rFXxoj2qBnX5xVmWIq8HcTbEUkKr4N8pOY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 215',
+  name: 'Episode 215',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fKWM0BgiZwUVtCEK5dcuwMC40UqmClbt4qed_FGiEoBixePtIYUJkHwam17kOZe9YaSOs0D4GrzHSi3t0BIEYm_hgPsUavIUQjJApZApn4l_YGXAHqY6nFdL9_jkG12iqmh4Gu-k7UA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fKWM0BgiZwUVtCEK5dcuwMC40UqmClbt4qed_FGiEoBixePtIYUJkHwam17kOZe9YaSOs0D4GrzHSi3t0BIEYm_hgPsUavIUQjJApZApn4l_YGXAHqY6nFdL9_jkG12iqmh4Gu-k7UA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 216',
+  name: 'Episode 216',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/KeHZmx2l8gb-kPoLyBzKXnY22QeB6XRBDOBT5qNsJBNYWk03VskM5UZUFh-k8HxxUTgTVZ8Vvs68m-4aW1hf-DpgKdaydsmwFLn4eslyEvL1Gd-S2x1-tygqfnLmlt0gfwclkOAdX0o=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/KeHZmx2l8gb-kPoLyBzKXnY22QeB6XRBDOBT5qNsJBNYWk03VskM5UZUFh-k8HxxUTgTVZ8Vvs68m-4aW1hf-DpgKdaydsmwFLn4eslyEvL1Gd-S2x1-tygqfnLmlt0gfwclkOAdX0o=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 217',
+  name: 'Episode 217',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/pbVEFWkZVU5iy9c2XwfU6maTb9C838nYGZTHzYF-Hmbi2yKhYbnLWlseOG13-Lc-r02BtNJfbVwHBtdN7PGiAh5QercrRwm_l8-pDDzzyxtFO8zmg4xnItI6fXDfsPeF2vyvhndzln8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/pbVEFWkZVU5iy9c2XwfU6maTb9C838nYGZTHzYF-Hmbi2yKhYbnLWlseOG13-Lc-r02BtNJfbVwHBtdN7PGiAh5QercrRwm_l8-pDDzzyxtFO8zmg4xnItI6fXDfsPeF2vyvhndzln8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 218',
+  name: 'Episode 218',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Pdicw2i20YD73ra4zIK0Oeb0kp0bfrMBJnFhdOWhJAuFj6SwEa_9ffPEiwSGKOAQdN5esXfjsxaezh48BTLeZaNj5da41h6u4BW9saatWhqqVK-gOb__jtlGjoWcYKPgkvHTPmUG1Ng=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Pdicw2i20YD73ra4zIK0Oeb0kp0bfrMBJnFhdOWhJAuFj6SwEa_9ffPEiwSGKOAQdN5esXfjsxaezh48BTLeZaNj5da41h6u4BW9saatWhqqVK-gOb__jtlGjoWcYKPgkvHTPmUG1Ng=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 219',
+  name: 'Episode 219',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/6HYk5kBwDTd6DKNMy-Hrw8uQH-R-WfZ2cpJ7Q7ugBcoK_ZIcdYWCpHYhHypRAhBa9vTx1DGngIspi35cJiWjKj2to4PvBK4HrF4bT3FQuASK7-nA8UVRA0DcLId3xhzMe36MIvUD8Ws=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/6HYk5kBwDTd6DKNMy-Hrw8uQH-R-WfZ2cpJ7Q7ugBcoK_ZIcdYWCpHYhHypRAhBa9vTx1DGngIspi35cJiWjKj2to4PvBK4HrF4bT3FQuASK7-nA8UVRA0DcLId3xhzMe36MIvUD8Ws=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 220',
+  name: 'Episode 220',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/NV_EHl0JYNZEEDLA6sZd24qIdLiuDhzfphQzrDMiYtV7gNO7ZD9uYXCgQpwk4pvotowjFO1WxMRE5zZnbV7UgWoUlb5UfFCEvMCk9ifjgpWe8Wq_bFM7i1RMv3hWvGslj6SW5sQqFjY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/NV_EHl0JYNZEEDLA6sZd24qIdLiuDhzfphQzrDMiYtV7gNO7ZD9uYXCgQpwk4pvotowjFO1WxMRE5zZnbV7UgWoUlb5UfFCEvMCk9ifjgpWe8Wq_bFM7i1RMv3hWvGslj6SW5sQqFjY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 221',
+  name: 'Episode 221',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/oD998YYIJbyoCCS5-qB9jY69PZdyZMTSGbEQDIqmGiIaft5DFoLPpJgjKDDpY3jx8oVOkoq_3RpXWn80D8fIwCnNZqdspipIB20Dn0I313rZcFn-8M8-v6HKXn9PELmGhJZepwi3gBA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/oD998YYIJbyoCCS5-qB9jY69PZdyZMTSGbEQDIqmGiIaft5DFoLPpJgjKDDpY3jx8oVOkoq_3RpXWn80D8fIwCnNZqdspipIB20Dn0I313rZcFn-8M8-v6HKXn9PELmGhJZepwi3gBA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 222',
+  name: 'Episode 222',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Y6lNXjAG7iQrKZVDnMR3SumI9wpz16sQo_Lt_iADwUU-wwT6LkuCXG65XsSTJseNqRHFedIcCsulggpKEz61x3rOceLtmUvWcDU19N3dlja4sk2aH66fbO5fPnA3apHauH5BeUYAe2c=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Y6lNXjAG7iQrKZVDnMR3SumI9wpz16sQo_Lt_iADwUU-wwT6LkuCXG65XsSTJseNqRHFedIcCsulggpKEz61x3rOceLtmUvWcDU19N3dlja4sk2aH66fbO5fPnA3apHauH5BeUYAe2c=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 223',
+  name: 'Episode 223',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/E_k5eKNwpSB6SLQ13LfNhC7pUKs0z8mXpxRFoofXQ0vDH6jhPrTq0oBXzfg4Si988wg-GDYS7dHuuR_reukICj1vlqeAMxeEj4ykl1niQZc1hAbY_8A4OxaVyl7o_DeZis3To9bIOag=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/E_k5eKNwpSB6SLQ13LfNhC7pUKs0z8mXpxRFoofXQ0vDH6jhPrTq0oBXzfg4Si988wg-GDYS7dHuuR_reukICj1vlqeAMxeEj4ykl1niQZc1hAbY_8A4OxaVyl7o_DeZis3To9bIOag=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 224',
+  name: 'Episode 224',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/YveWVyfNbfrRoHDPolkJ0aoxgAIXWe5tUm_Pnr4G7fZ-zg1x3bDd0FnfpzJpktCVQbhd2kxrhhgYcS0IYq3iArMAd7WPJcpYZusmNkQwXQwPm9Is1NGg7eQxvWXa1XDGWuJYiWGS4i4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/YveWVyfNbfrRoHDPolkJ0aoxgAIXWe5tUm_Pnr4G7fZ-zg1x3bDd0FnfpzJpktCVQbhd2kxrhhgYcS0IYq3iArMAd7WPJcpYZusmNkQwXQwPm9Is1NGg7eQxvWXa1XDGWuJYiWGS4i4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 225',
+  name: 'Episode 225',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/aJE36KZFVgGE1RHzlX0m1QQ9TF7ix-18TTiphJieLrMfyp1s5pNlvB0KJ5ocmCgLpvoXZR19eCVdgZHtMsgBMKQY-C6ueaojKdxFfeM4uz3OtmX5sSy5PFwYt1CZlALW7m3YKMVhHCs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/aJE36KZFVgGE1RHzlX0m1QQ9TF7ix-18TTiphJieLrMfyp1s5pNlvB0KJ5ocmCgLpvoXZR19eCVdgZHtMsgBMKQY-C6ueaojKdxFfeM4uz3OtmX5sSy5PFwYt1CZlALW7m3YKMVhHCs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 226',
+  name: 'Episode 226',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/tYvhaf9xU24CKGH4GI1RryWvfNcq6CthE8HcSRC3N1Gi98kEA3Oc4dyPsUpml7a4sliUVfN2HzQZ1wcKEF1uUlRQSc1VpcdzhXMiiPzeiBjxa5aQTePE6zMF4bq2ScwXVRCpwnc15eU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/tYvhaf9xU24CKGH4GI1RryWvfNcq6CthE8HcSRC3N1Gi98kEA3Oc4dyPsUpml7a4sliUVfN2HzQZ1wcKEF1uUlRQSc1VpcdzhXMiiPzeiBjxa5aQTePE6zMF4bq2ScwXVRCpwnc15eU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 227',
+  name: 'Episode 227',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/IAUOWOwSEvPmZf66RqhoReCylmtJslbLDMkTA7aYCo4rMmC2_w3MiN2H9IGok0t9CmIRFB_GipZT4vljUDnlqUnXxt6JX02qE7XgsDjlUdT2LqUttvZZjDPh3Gsb6LZQ61Qrv2kgl20=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/IAUOWOwSEvPmZf66RqhoReCylmtJslbLDMkTA7aYCo4rMmC2_w3MiN2H9IGok0t9CmIRFB_GipZT4vljUDnlqUnXxt6JX02qE7XgsDjlUdT2LqUttvZZjDPh3Gsb6LZQ61Qrv2kgl20=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 228',
+  name: 'Episode 228',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/U98FH6iz6Sd4p9gZvaUdsu0vCm1pFhpcsOF34YHXAnCXk7qXKZs0L6Xr07YVZAOV-nqg-mCL_k8lkzzV3fItBG8ghqDoH8oXZ4mg0zzPIBjyO--Y3IV4bdem43jf8EYqcTyURfDV-wY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/U98FH6iz6Sd4p9gZvaUdsu0vCm1pFhpcsOF34YHXAnCXk7qXKZs0L6Xr07YVZAOV-nqg-mCL_k8lkzzV3fItBG8ghqDoH8oXZ4mg0zzPIBjyO--Y3IV4bdem43jf8EYqcTyURfDV-wY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 229',
+  name: 'Episode 229',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/SQSiDx3riTYgHcV7VHibjoNWKZTbpPWQB6BpYUjHmKfl13319_ayvy6wMIf2A8enf0zVCNg2brHyp7kC-mIjs9QvSSzmZ5A1p2bXjg7papcGUCFMumHd4FWQqRsHBpQjmQOiiZW5VsY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/SQSiDx3riTYgHcV7VHibjoNWKZTbpPWQB6BpYUjHmKfl13319_ayvy6wMIf2A8enf0zVCNg2brHyp7kC-mIjs9QvSSzmZ5A1p2bXjg7papcGUCFMumHd4FWQqRsHBpQjmQOiiZW5VsY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 230',
+  name: 'Episode 230',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/D-rv53i5OXiCx9cfuX89anJA6KYbr46-p2Q_nkfSH8BBQ8KDYV0KhG-Mw6rBMFqvXCczqTurQvH4vLkXKBTfvynfSx2A4jnr4u2K34jU4_qnwRSCN232PYqgOwRehWCD9MlD3PoenP8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/D-rv53i5OXiCx9cfuX89anJA6KYbr46-p2Q_nkfSH8BBQ8KDYV0KhG-Mw6rBMFqvXCczqTurQvH4vLkXKBTfvynfSx2A4jnr4u2K34jU4_qnwRSCN232PYqgOwRehWCD9MlD3PoenP8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 231',
+  name: 'Episode 231',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/pWzvgZMVUnFqoGNn6und-D06H_Rd4-HwSyipDUqp1z-J-axgJrkEKld8FmKtbPNpXINWPjY4SCFfafxOaSoxtLSTtzpOl5odoIQIL-1w6LDNbik1R1AYsG6s3FJolgGfI4Haoc4J5y4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/pWzvgZMVUnFqoGNn6und-D06H_Rd4-HwSyipDUqp1z-J-axgJrkEKld8FmKtbPNpXINWPjY4SCFfafxOaSoxtLSTtzpOl5odoIQIL-1w6LDNbik1R1AYsG6s3FJolgGfI4Haoc4J5y4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 232',
+  name: 'Episode 232',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/J50CgbcBY1ZNbJSMVyT_uz1WMPGwiCM9EFJZct9-vZRtfxTuCEqviwOVAk-cPMBRh-I2nLaOGJqH88kE8YfSUvjqwZUWJ4c_gVufHvcbq32yb0rzdUACWpDJpXha0Sm3OSKVnQ4K8YQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/J50CgbcBY1ZNbJSMVyT_uz1WMPGwiCM9EFJZct9-vZRtfxTuCEqviwOVAk-cPMBRh-I2nLaOGJqH88kE8YfSUvjqwZUWJ4c_gVufHvcbq32yb0rzdUACWpDJpXha0Sm3OSKVnQ4K8YQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 233',
+  name: 'Episode 233',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/r46EOEKaoZw3AI09N_0eYofj3Nc8WlQy-LthWSgFb68KWTCcgHV_hqgwoHZMQwKSWUX95SfKktwhaZdsX1_w8uonYAmq-pSTyqbifnCjaSmops_6fz-cuEJkmxGjuWUXXiqvo5UIjJ8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/r46EOEKaoZw3AI09N_0eYofj3Nc8WlQy-LthWSgFb68KWTCcgHV_hqgwoHZMQwKSWUX95SfKktwhaZdsX1_w8uonYAmq-pSTyqbifnCjaSmops_6fz-cuEJkmxGjuWUXXiqvo5UIjJ8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 234',
+  name: 'Episode 234',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/R5xpio_sPTlBZtHzQRMFFkf6xdF3o7U3lB1ghWeuvzd5MUjmk0LMoJ0xZtugCFdsw2opirKNePK-f_Re4-kQ0iyR2OJ8RCQnSnjVMdR63YI2JFMmxpWTGEgSIeXVUzF4EEMGDqqfM0k=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/R5xpio_sPTlBZtHzQRMFFkf6xdF3o7U3lB1ghWeuvzd5MUjmk0LMoJ0xZtugCFdsw2opirKNePK-f_Re4-kQ0iyR2OJ8RCQnSnjVMdR63YI2JFMmxpWTGEgSIeXVUzF4EEMGDqqfM0k=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 235',
+  name: 'Episode 235',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/aPWG3VoquCsfLyRe2Lnz5wL74hc-znngIGRqV2RgLX4eADCAYAlPebxdIZgdXibgoes3Rl_3tIfdLxKxRgNERz_x4osZyjqywg05CV5zxwO9k2g48OLVXBprsTTrDSvMXJXKZ2G0MUc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/aPWG3VoquCsfLyRe2Lnz5wL74hc-znngIGRqV2RgLX4eADCAYAlPebxdIZgdXibgoes3Rl_3tIfdLxKxRgNERz_x4osZyjqywg05CV5zxwO9k2g48OLVXBprsTTrDSvMXJXKZ2G0MUc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 236',
+  name: 'Episode 236',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/N23lHH7Dbio0YHmv9_fOgnpDYOM2a2nZuvEI9s7n-C8Ssq5JYmH0csDT4P_S8QObl_8U10WsQigcoVPRoWx22HcHNaDZSFx7988FkOED3I0VJeOUWmk0WqWmpW2wmk9rMtWuoz13aMk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/N23lHH7Dbio0YHmv9_fOgnpDYOM2a2nZuvEI9s7n-C8Ssq5JYmH0csDT4P_S8QObl_8U10WsQigcoVPRoWx22HcHNaDZSFx7988FkOED3I0VJeOUWmk0WqWmpW2wmk9rMtWuoz13aMk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 237',
+  name: 'Episode 237',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/nu9LDG90JbZnm-2NQ6Dh_jBTfMu1eVYG9R_4046WY2ftUmGqdCE4GTWqgxupprd2Skl7DBwo0ANhzFvQMtmp7qu9rg1XXQrmBJPSfhOCJTZyRZBu7N-KlSBj2GKX4KBJiOvYFwZmYAo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/nu9LDG90JbZnm-2NQ6Dh_jBTfMu1eVYG9R_4046WY2ftUmGqdCE4GTWqgxupprd2Skl7DBwo0ANhzFvQMtmp7qu9rg1XXQrmBJPSfhOCJTZyRZBu7N-KlSBj2GKX4KBJiOvYFwZmYAo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 238',
+  name: 'Episode 238',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/gayeaje2NU9hpCIEBbau9FjnMpHWhiYizfNs7-5hoc_uZ07zluwAKZI2p_9ZUJ6YGJUlGnPMdM42JTkXer8F-q7V9WoLgXDxq4LgWkoPyI7__P88yAITnQZ0IYhpJ66BPP5xLpdFt3I=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/gayeaje2NU9hpCIEBbau9FjnMpHWhiYizfNs7-5hoc_uZ07zluwAKZI2p_9ZUJ6YGJUlGnPMdM42JTkXer8F-q7V9WoLgXDxq4LgWkoPyI7__P88yAITnQZ0IYhpJ66BPP5xLpdFt3I=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 239',
+  name: 'Episode 239',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/9CRE05UusymShs8KNiYU6sv_e0JHLMUCOHAB8hTb_MPPiimbvJ8dl8KQZvQLb3tIsK7J7Dn4DJIWAKVR6ZxAVFaXxz1mcWTP1HKWXLi-5gXa9adaym_xcxUAwZkOVNJa9dsJeG6yzpw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/9CRE05UusymShs8KNiYU6sv_e0JHLMUCOHAB8hTb_MPPiimbvJ8dl8KQZvQLb3tIsK7J7Dn4DJIWAKVR6ZxAVFaXxz1mcWTP1HKWXLi-5gXa9adaym_xcxUAwZkOVNJa9dsJeG6yzpw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 240',
+  name: 'Episode 240',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/3KHD4Vw9sExJTfmDZ7aw35skZ9lOqQGPDfleMTq9p4Zl4z1TinNdfBhMqkyEC7ee64xK1tUv78rYm_XQ90AydmsKAlA4HbW_pkA1pwG-Hu6dh7YYCXSDyjHo4vL7KSiL8uB_cYUokHo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/3KHD4Vw9sExJTfmDZ7aw35skZ9lOqQGPDfleMTq9p4Zl4z1TinNdfBhMqkyEC7ee64xK1tUv78rYm_XQ90AydmsKAlA4HbW_pkA1pwG-Hu6dh7YYCXSDyjHo4vL7KSiL8uB_cYUokHo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 241',
+  name: 'Episode 241',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/OkKmHQ8kpZUhhut_iqHHoCzolBoWwyIEvKJGIWb2FK_nzK7eCstl7EfU8EA9ygYB8KwhVbCnRw_f8RtYYdGHNODM71kwCv3rXpcU8THMyL4TbQ_19aEfqhbUArLvzogEfVyT7JYE6E0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/OkKmHQ8kpZUhhut_iqHHoCzolBoWwyIEvKJGIWb2FK_nzK7eCstl7EfU8EA9ygYB8KwhVbCnRw_f8RtYYdGHNODM71kwCv3rXpcU8THMyL4TbQ_19aEfqhbUArLvzogEfVyT7JYE6E0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 242',
+  name: 'Episode 242',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/sWv6WBX-klg4ljdB3JAtQxstYmSsJkGRPCx7hHLkj15wtmZ3PRZ9uwE2Cz9aryCAF5sdiDrKFYreJ1sy6bze_iUpzCBbKPvvKgWFP3s1LTyl6yjXk8bM60gonX3pyjPCrs-IgbZxav8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/sWv6WBX-klg4ljdB3JAtQxstYmSsJkGRPCx7hHLkj15wtmZ3PRZ9uwE2Cz9aryCAF5sdiDrKFYreJ1sy6bze_iUpzCBbKPvvKgWFP3s1LTyl6yjXk8bM60gonX3pyjPCrs-IgbZxav8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 243',
+  name: 'Episode 243',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/PQFiOcRoW457Ja-5NrS8bdM7mK5z_jxOkpw4ptj5QQrQFv3xevb6RP85DW0qVdxbmGcpaczng7_faqiUGUU2s3ePKqCsyH7TD_-vtsw2DKUKMl_nYicSl85cflJ20BbHAZ9ooKxDCJ8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/PQFiOcRoW457Ja-5NrS8bdM7mK5z_jxOkpw4ptj5QQrQFv3xevb6RP85DW0qVdxbmGcpaczng7_faqiUGUU2s3ePKqCsyH7TD_-vtsw2DKUKMl_nYicSl85cflJ20BbHAZ9ooKxDCJ8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 244',
+  name: 'Episode 244',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/wcbt85YLuaaQg3RXXik_i49yCsYs8T4xujs2jvsCblvGAnGerr6VKYjr93jRySZ7-VahXuQv-E2uxbT1u9zNWvMoFhmSMPbR13Y49YG8XAk4GbSSZygb2J58boyqlO6I_IAVgMEU-nA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/wcbt85YLuaaQg3RXXik_i49yCsYs8T4xujs2jvsCblvGAnGerr6VKYjr93jRySZ7-VahXuQv-E2uxbT1u9zNWvMoFhmSMPbR13Y49YG8XAk4GbSSZygb2J58boyqlO6I_IAVgMEU-nA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 245',
+  name: 'Episode 245',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/411rgJoklqLAywW6Jz0PVmdxbjG5edNf9PIrXJV0RSCvQXnBXAO3bXX078d7W8AmYcqIWNSJnT4oMjN1eirQ-djfq7_2Owa5xZyb0STG6CfMiQeRUqjOCM5Wc3vVzLXeFhi7xeIKAAk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/411rgJoklqLAywW6Jz0PVmdxbjG5edNf9PIrXJV0RSCvQXnBXAO3bXX078d7W8AmYcqIWNSJnT4oMjN1eirQ-djfq7_2Owa5xZyb0STG6CfMiQeRUqjOCM5Wc3vVzLXeFhi7xeIKAAk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 246',
+  name: 'Episode 246',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/a5-9at2bVMQMm7mt_52edERl0O9G2DveeHKb01ZEEjQFI00PxsnTdwXnllyNy2r8IqVkrpRcn3Xh_K0b-XkO9LbB6Y0emYRwpNLDDhOtb9dfiWljj-TICNy5ENOwRszwkwNAyYaO2Xc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/a5-9at2bVMQMm7mt_52edERl0O9G2DveeHKb01ZEEjQFI00PxsnTdwXnllyNy2r8IqVkrpRcn3Xh_K0b-XkO9LbB6Y0emYRwpNLDDhOtb9dfiWljj-TICNy5ENOwRszwkwNAyYaO2Xc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 247',
+  name: 'Episode 247',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/oz9jrA5h0iT-NzyxUhSmkQrd0ke2QwEVy1FsDtd8ja8ketUF1DVzYjPCXmKizOLLZvGf3HMl38hu3O7a5j5xO1loyK_Fe_mWJ2nV6ABtF35qVBSo-mQzq0LtfOLc5F77zk-dGCHWd_4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/oz9jrA5h0iT-NzyxUhSmkQrd0ke2QwEVy1FsDtd8ja8ketUF1DVzYjPCXmKizOLLZvGf3HMl38hu3O7a5j5xO1loyK_Fe_mWJ2nV6ABtF35qVBSo-mQzq0LtfOLc5F77zk-dGCHWd_4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 248',
+  name: 'Episode 248',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Vt2oGl3RqmEOFsA0S_3-yl7Tq7pHktvo8VgGJoMdbGrSCAIRDTNChDbpqcFuKzq-VPuE46EZlcQuOwueplNMxUmiHyZmcBcC4L-d8HG403Zfu70VJ2tq0pg9m0R_rTpBen_XHWmsU38=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Vt2oGl3RqmEOFsA0S_3-yl7Tq7pHktvo8VgGJoMdbGrSCAIRDTNChDbpqcFuKzq-VPuE46EZlcQuOwueplNMxUmiHyZmcBcC4L-d8HG403Zfu70VJ2tq0pg9m0R_rTpBen_XHWmsU38=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 249',
+  name: 'Episode 249',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Mh4MlIXfJMg2jByNZi3RH_eAs_53zz3upkYG15f3phsUf33PSXSS8WFXJarGZ3xZ3rEl-GpygFQRfCB7r4KlNGbkTiTV9xkdA4qRhiyHXYDMXCmrnRR93umDNsRIp5w02d98VNsmyNg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Mh4MlIXfJMg2jByNZi3RH_eAs_53zz3upkYG15f3phsUf33PSXSS8WFXJarGZ3xZ3rEl-GpygFQRfCB7r4KlNGbkTiTV9xkdA4qRhiyHXYDMXCmrnRR93umDNsRIp5w02d98VNsmyNg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 250',
+  name: 'Episode 250',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Z3Xhapiny7fqk6O8m3gVH4zv3L7uWFXLD4l0cF11IhuzK2DQxpEUuTiflxrS08zS9dKwYoXAqeYpecONsG4hI2v2Fj8RpvofXqV_cQ2BAX7cYd_sYHk6nKS6MhRPXGvyIyRsUPPUKrE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Z3Xhapiny7fqk6O8m3gVH4zv3L7uWFXLD4l0cF11IhuzK2DQxpEUuTiflxrS08zS9dKwYoXAqeYpecONsG4hI2v2Fj8RpvofXqV_cQ2BAX7cYd_sYHk6nKS6MhRPXGvyIyRsUPPUKrE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 251',
+  name: 'Episode 251',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/N-vi4rguSzY87Y7hjTlBbkM7yliO8uowfhx21cJUCMh7OLj1ZPYagy7KtNVnJAT4_thmiUzQO5TXs4aV7QQaZjvoc4TBP17m4BSjCoHJ7yMktW3w7mn2qIVDrUq8M3lwV81uJqWLc_4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/N-vi4rguSzY87Y7hjTlBbkM7yliO8uowfhx21cJUCMh7OLj1ZPYagy7KtNVnJAT4_thmiUzQO5TXs4aV7QQaZjvoc4TBP17m4BSjCoHJ7yMktW3w7mn2qIVDrUq8M3lwV81uJqWLc_4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 252',
+  name: 'Episode 252',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/7YqTru-cDH1NJGIcIblIn00Mwbud8Y6rFuqsiFxUHSSiRZkx91QCb4k-h4M8SzGY2Rgr-gYBBbInGR8amYwAn7pGxU4mTMtHBD-NfsXWvjWY7JbbRFRrKtDCGsAMG1HpBihmaCyEW_s=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/7YqTru-cDH1NJGIcIblIn00Mwbud8Y6rFuqsiFxUHSSiRZkx91QCb4k-h4M8SzGY2Rgr-gYBBbInGR8amYwAn7pGxU4mTMtHBD-NfsXWvjWY7JbbRFRrKtDCGsAMG1HpBihmaCyEW_s=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 253',
+  name: 'Episode 253',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/07GVaFALQEl-6J1iVq47p6QaUoerwrD8ZqqvG9ON9m0R_dCErothWBlkm4qFrySgKTtAR2jQek-zcnRruC3alsRS2LRO9ynkQZgyfdhcEwPcvFD2VB1ghoDP4WoU1W1P9Wrm4BU6csg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/07GVaFALQEl-6J1iVq47p6QaUoerwrD8ZqqvG9ON9m0R_dCErothWBlkm4qFrySgKTtAR2jQek-zcnRruC3alsRS2LRO9ynkQZgyfdhcEwPcvFD2VB1ghoDP4WoU1W1P9Wrm4BU6csg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 254',
+  name: 'Episode 254',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Vj25sBUmghKMWOZNKQQbRvGDAuFCAL7Kggd0N8uW1vpirklbOiwrJIgDaBfZXsbydjntMMS5Rh09tblgKXSQbw9vYqa2LBtR-615oM1yZSpZmw-iHoVptNPTV6HgGJXx93hUDs-7-hM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Vj25sBUmghKMWOZNKQQbRvGDAuFCAL7Kggd0N8uW1vpirklbOiwrJIgDaBfZXsbydjntMMS5Rh09tblgKXSQbw9vYqa2LBtR-615oM1yZSpZmw-iHoVptNPTV6HgGJXx93hUDs-7-hM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 255',
+  name: 'Episode 255',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/8HICyRv9oTVLA9FZ7d11htouvO9O_JlF5KzHmJP8ICWe5ZcXKLxeSqCvqbQjHzhtn61iLlz3lu5A_ToVggDwbv_pxvQnNn8oSK5bW6J5INi_H9fXfuln9HkuYIxW99uRmDuCj_5nCvQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/8HICyRv9oTVLA9FZ7d11htouvO9O_JlF5KzHmJP8ICWe5ZcXKLxeSqCvqbQjHzhtn61iLlz3lu5A_ToVggDwbv_pxvQnNn8oSK5bW6J5INi_H9fXfuln9HkuYIxW99uRmDuCj_5nCvQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 256',
+  name: 'Episode 256',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/r6INy1K5mhlHx_0UrLXN-Ku0KSk1thq_tiCXn5WhFYXb0SHsDqVS-kwnj5QiK3zy-E981L9rbfRyfRuYhyyMAAr8TWga1r2LyLECnW8v4GVv7-MjAkUjv_LbTkbEoJ95KndLBU5674Q=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/r6INy1K5mhlHx_0UrLXN-Ku0KSk1thq_tiCXn5WhFYXb0SHsDqVS-kwnj5QiK3zy-E981L9rbfRyfRuYhyyMAAr8TWga1r2LyLECnW8v4GVv7-MjAkUjv_LbTkbEoJ95KndLBU5674Q=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 257',
+  name: 'Episode 257',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ymXKGTzsWUcbybU6gwVsn64850lAsT1Ttx4SiKWvlBam7TZSF3mpSsIwkiXpWSE2Sz0qfaotUH6fktDw1xLImniI2bLrTsV1X5219oS-U_ZbR8ZB21DpdLp6WSlx58BMbYSGC5UPcRs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ymXKGTzsWUcbybU6gwVsn64850lAsT1Ttx4SiKWvlBam7TZSF3mpSsIwkiXpWSE2Sz0qfaotUH6fktDw1xLImniI2bLrTsV1X5219oS-U_ZbR8ZB21DpdLp6WSlx58BMbYSGC5UPcRs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 258',
+  name: 'Episode 258',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/z5bCVaCOAhLfDeC5vXgSTRLPJcRmzp6JDQ1W-GF2FHcK9-r-UyewPHza-oDpm_8BFa81hvHIn4gBlw1h0TBNLEi92_q0j-siDYbYuzscmHvdKVOhjHCO1RSnCsEm2pEKVtbLH4Ddx4U=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/z5bCVaCOAhLfDeC5vXgSTRLPJcRmzp6JDQ1W-GF2FHcK9-r-UyewPHza-oDpm_8BFa81hvHIn4gBlw1h0TBNLEi92_q0j-siDYbYuzscmHvdKVOhjHCO1RSnCsEm2pEKVtbLH4Ddx4U=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 259',
+  name: 'Episode 259',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/n0TO4FusEiokwW_dXsYwaXniZNIm0cqgz2sTvYb-oeY0rxBbBcjsxtAoDRmJs0cpVCNeB-xZpF7z47dqCXyJ6rr9jL9NNB6b-HrKb0ayEnRmkoDjVs26F0Gz-mJ1m2OswUrJv6JURu0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/n0TO4FusEiokwW_dXsYwaXniZNIm0cqgz2sTvYb-oeY0rxBbBcjsxtAoDRmJs0cpVCNeB-xZpF7z47dqCXyJ6rr9jL9NNB6b-HrKb0ayEnRmkoDjVs26F0Gz-mJ1m2OswUrJv6JURu0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 260',
+  name: 'Episode 260',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/EQVyn1i86IqcYqcjGqRooRancbEq2w3QMqnFJLUxTgnw4z6E6lihZqKVYGWpKpUiyS9S7hHl-RAIIYvfmv-v7RMGMHy8calzcC1FE9EDZ_WbcsW4D8SPswMoUCzv2ehu95xyZYvKZKE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/EQVyn1i86IqcYqcjGqRooRancbEq2w3QMqnFJLUxTgnw4z6E6lihZqKVYGWpKpUiyS9S7hHl-RAIIYvfmv-v7RMGMHy8calzcC1FE9EDZ_WbcsW4D8SPswMoUCzv2ehu95xyZYvKZKE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 261',
+  name: 'Episode 261',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Sm4QKG5Gl1mXYscsnOrFAoi1O45ctB2z7R7DW_OgO3753Wh8_UGfqyz6CyDN4zohgGXWl9EIxyLwri326U-e4BKpP78_u-9j0jw3VLYY-mth9bfghjelLk_TESX08rJzKmTry5sormE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Sm4QKG5Gl1mXYscsnOrFAoi1O45ctB2z7R7DW_OgO3753Wh8_UGfqyz6CyDN4zohgGXWl9EIxyLwri326U-e4BKpP78_u-9j0jw3VLYY-mth9bfghjelLk_TESX08rJzKmTry5sormE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 262',
+  name: 'Episode 262',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/hTu0j5uoDBlt8mstlqM77wvmnWL-fLH4wgA76h3TKZJPaMxDUfGEyFJWRVnDi_S1GIwNGEJX7wCsanaVfEKyfQQqZCFxK5jFsOAaNYf3d2DPK19uXsZHyV-d5GiFpzOlnGipZrlDe_o=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/hTu0j5uoDBlt8mstlqM77wvmnWL-fLH4wgA76h3TKZJPaMxDUfGEyFJWRVnDi_S1GIwNGEJX7wCsanaVfEKyfQQqZCFxK5jFsOAaNYf3d2DPK19uXsZHyV-d5GiFpzOlnGipZrlDe_o=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 263',
+  name: 'Episode 263',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/c2ORij8S_cxFFbFJEiCwmwZJzLWb-J3U8d7naZ36l8A7L-z4N9Zpk0QWwPbF7tNfMIXd6HSPDPs_xY6iKP3kk45QcrX3fOOYyKi1nUHjwPM4lArg6wKxsIJOgdEYw-qqQOQmHWip5A8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/c2ORij8S_cxFFbFJEiCwmwZJzLWb-J3U8d7naZ36l8A7L-z4N9Zpk0QWwPbF7tNfMIXd6HSPDPs_xY6iKP3kk45QcrX3fOOYyKi1nUHjwPM4lArg6wKxsIJOgdEYw-qqQOQmHWip5A8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 264',
+  name: 'Episode 264',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Ze8nUT01yvbp9stj0uNN0bLr98TNW0ETB5kUxgdhKMIsYiHkB2ACXVh5YzPaxKNWAMUtEOzrjrtWyCT_uUO_kSWptxx_C58RSSqi_PjHGJjkMItgN7T0wwY-VYbsiRz2qjEiUyU2BAI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Ze8nUT01yvbp9stj0uNN0bLr98TNW0ETB5kUxgdhKMIsYiHkB2ACXVh5YzPaxKNWAMUtEOzrjrtWyCT_uUO_kSWptxx_C58RSSqi_PjHGJjkMItgN7T0wwY-VYbsiRz2qjEiUyU2BAI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 265',
+  name: 'Episode 265',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/3SwZVwWNRk2raCPg-6DHMe6CUYAWL_faAsWVzpR8upBvoqYBGEVP_Y0SfgdjcEhCuOQpkBiPBWJ_qxjwLiNfTPby2WgS4pUxoEa04sRxfeE9IYhM3pGQkdNqFkADJMjc1ar5Vropp4A=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/3SwZVwWNRk2raCPg-6DHMe6CUYAWL_faAsWVzpR8upBvoqYBGEVP_Y0SfgdjcEhCuOQpkBiPBWJ_qxjwLiNfTPby2WgS4pUxoEa04sRxfeE9IYhM3pGQkdNqFkADJMjc1ar5Vropp4A=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 266',
+  name: 'Episode 266',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/qusZckRGvufkoqGGHeBTqc6KUVc0jnkjfWG6zjtjx2ttBlVIgAsFDF450DxfrXRqm7WLPSsJnrtclX8Uoau-ueJWciKa9iVcig4oCQ7fHLQgc4FISyNyoany6dc11l_JzTqtnZ5bZsA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/qusZckRGvufkoqGGHeBTqc6KUVc0jnkjfWG6zjtjx2ttBlVIgAsFDF450DxfrXRqm7WLPSsJnrtclX8Uoau-ueJWciKa9iVcig4oCQ7fHLQgc4FISyNyoany6dc11l_JzTqtnZ5bZsA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 267',
+  name: 'Episode 267',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/uRaXTExnYj1cxMhI22Zxhi2LnVABI7WhqFjk5ODS7RuS2ESjHcnXw_vPLXZLRKZHQC4JOIhWq22_L63ieXLXoyfyoE_2896hMRCdZPahdFaJ7d2TlF-rVpBFstjyl2Pv0bZa8Stum7c=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/uRaXTExnYj1cxMhI22Zxhi2LnVABI7WhqFjk5ODS7RuS2ESjHcnXw_vPLXZLRKZHQC4JOIhWq22_L63ieXLXoyfyoE_2896hMRCdZPahdFaJ7d2TlF-rVpBFstjyl2Pv0bZa8Stum7c=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 268',
+  name: 'Episode 268',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/52Rwetg4mYHVwUpbqTEFnSDYMu7xlbN3ogmKwGtamO-uRCyim9mkaHbThS5cam1PdMTIsXRle93P3P37emZ9ISiNMuA90Njg77CWfxsLbwtARUM9aZr3JeXBQDZheBoydRknjo9u7HE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/52Rwetg4mYHVwUpbqTEFnSDYMu7xlbN3ogmKwGtamO-uRCyim9mkaHbThS5cam1PdMTIsXRle93P3P37emZ9ISiNMuA90Njg77CWfxsLbwtARUM9aZr3JeXBQDZheBoydRknjo9u7HE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 269',
+  name: 'Episode 269',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/SdwkU_cDPHA-cZRHslOHDL1u1aLSlqyX1pq_ZDqxC9cB1OjkIJAGw5lL0YUTugwmEge_jR0mAWaCzMEqspVci6MSfTpXpNhmNCLG8T7eJfbWLRteAAf0IBen_78NS-zPndWBRXiBI9A=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/SdwkU_cDPHA-cZRHslOHDL1u1aLSlqyX1pq_ZDqxC9cB1OjkIJAGw5lL0YUTugwmEge_jR0mAWaCzMEqspVci6MSfTpXpNhmNCLG8T7eJfbWLRteAAf0IBen_78NS-zPndWBRXiBI9A=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 270',
+  name: 'Episode 270',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/oMXbphJ-R-PiVcgxodxe6ZaQlk-ZfISAtEl7LHg2eB1QXFZWK72mffmcjNWxoQyv7-NyKLm2mFc8Usj-SCnL6TXpMKpU1BXQlEGX-Y5bgnT_9bUuOSRVWvMIZp9tbbYE9X7I1QhiFGo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/oMXbphJ-R-PiVcgxodxe6ZaQlk-ZfISAtEl7LHg2eB1QXFZWK72mffmcjNWxoQyv7-NyKLm2mFc8Usj-SCnL6TXpMKpU1BXQlEGX-Y5bgnT_9bUuOSRVWvMIZp9tbbYE9X7I1QhiFGo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 271',
+  name: 'Episode 271',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/5Ox1rOQydGk0dcOtDKDsbxDt9VHlyBBfcrLBThiF-tz9Zbail92ZwHDjl5GUTAsYjMfI2aOkuPe0wj24HdAU_lQOIYF8RyUJgyoZwmK87fd0UAZwZA0CnYMmWQQ4n7IatCc0qG_8WC4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/5Ox1rOQydGk0dcOtDKDsbxDt9VHlyBBfcrLBThiF-tz9Zbail92ZwHDjl5GUTAsYjMfI2aOkuPe0wj24HdAU_lQOIYF8RyUJgyoZwmK87fd0UAZwZA0CnYMmWQQ4n7IatCc0qG_8WC4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 272',
+  name: 'Episode 272',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/zSIztyANE5K6nuYurZ3ti6VbvOv7c5FghJr3kkZK3yMVLaYdqAiN3OOs-9d6mIxSF2857CUlCpMDXStVpLmdeVEwdgFYzKU9bW3cFzsFUsRD6RD9yZ8vpKryNEaULcqgXmJGZGAK3hs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/zSIztyANE5K6nuYurZ3ti6VbvOv7c5FghJr3kkZK3yMVLaYdqAiN3OOs-9d6mIxSF2857CUlCpMDXStVpLmdeVEwdgFYzKU9bW3cFzsFUsRD6RD9yZ8vpKryNEaULcqgXmJGZGAK3hs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 273',
+  name: 'Episode 273',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/q9xkC-hhZIFk3TTUJOdktBXbsk3AMGT2NetD3GzmI3iqAWYA3EvMHGZR84fI2TFaRYVzclJLuDTG2osjnVPymtEm2wr3uMgKz0oZ2lAry3pnHlDUfM5TkdH0cjeioKQQLcrVXFkUjqc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/q9xkC-hhZIFk3TTUJOdktBXbsk3AMGT2NetD3GzmI3iqAWYA3EvMHGZR84fI2TFaRYVzclJLuDTG2osjnVPymtEm2wr3uMgKz0oZ2lAry3pnHlDUfM5TkdH0cjeioKQQLcrVXFkUjqc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 274',
+  name: 'Episode 274',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/hPE6yRtA929LdUCP9mDvJDBu3MaCPfrC5n6AWWgnEz-SIIbFqemRE103VuDpP6gGxqQB80dYInP46Z1YwOjm5F9XzqkhdFhZzyRu04AOQ5NAvYdZz-7Fh3Hc5S2W720-hIaXH8KRuBo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/hPE6yRtA929LdUCP9mDvJDBu3MaCPfrC5n6AWWgnEz-SIIbFqemRE103VuDpP6gGxqQB80dYInP46Z1YwOjm5F9XzqkhdFhZzyRu04AOQ5NAvYdZz-7Fh3Hc5S2W720-hIaXH8KRuBo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 275',
+  name: 'Episode 275',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Svg87VDOG-GjA1_EgwCU_sSqA_uATkknGlOUzrk3D0wRbjkumy5ASuz15S9PqmCRuE87XC77a9q6cLPuAYKOWrr5dFRM4Zu8cPD1LDb4wpeR71qm0vDa0PjWQoPVohwIJeH_rbI_siM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Svg87VDOG-GjA1_EgwCU_sSqA_uATkknGlOUzrk3D0wRbjkumy5ASuz15S9PqmCRuE87XC77a9q6cLPuAYKOWrr5dFRM4Zu8cPD1LDb4wpeR71qm0vDa0PjWQoPVohwIJeH_rbI_siM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 276',
+  name: 'Episode 276',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/48UczgGnLDvaSkAtkZddc6SEoAv2I8fJLlpqUsj8ZQEzqgD8qvJOz8vQeCrr3Trx13j1FnsunbR8YcBnGluR7S6aTk33nszppVOmqWq1HyODd3cqdUqmwHscn-fzDbz18GzicsYwQcU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/48UczgGnLDvaSkAtkZddc6SEoAv2I8fJLlpqUsj8ZQEzqgD8qvJOz8vQeCrr3Trx13j1FnsunbR8YcBnGluR7S6aTk33nszppVOmqWq1HyODd3cqdUqmwHscn-fzDbz18GzicsYwQcU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 277',
+  name: 'Episode 277',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/MzgHFWx7yKpn3xmhILPH6tPjWnIWm0W_zfSoQ1nKfEeu_VD9SKub7jzesjnm_IGo8uOaIYIy-1LGVlIbhsY4MITcOd2A4T12McyZuiWq66pA1ZdE4dbe_Fh_PHIPxAXHKukJmV0HQOQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/MzgHFWx7yKpn3xmhILPH6tPjWnIWm0W_zfSoQ1nKfEeu_VD9SKub7jzesjnm_IGo8uOaIYIy-1LGVlIbhsY4MITcOd2A4T12McyZuiWq66pA1ZdE4dbe_Fh_PHIPxAXHKukJmV0HQOQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 278',
+  name: 'Episode 278',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/q4YriMi799TD1Od_fXY2_lPVioPRd6DPssVVMcrQ_IDMG4GmZErD_Lh-EgKlL3PLADbc8WfuCBxAPVn50dn05ipezCGXvyxjt5DNAYQXGOk8ILGOAdFxpreyRu7Qt0MOGbAzllEfXT4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/q4YriMi799TD1Od_fXY2_lPVioPRd6DPssVVMcrQ_IDMG4GmZErD_Lh-EgKlL3PLADbc8WfuCBxAPVn50dn05ipezCGXvyxjt5DNAYQXGOk8ILGOAdFxpreyRu7Qt0MOGbAzllEfXT4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 279',
+  name: 'Episode 279',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/aK7dIe-puOAGY-hGqdRxKevG0PxZJUShj5yQ7egpb0kZk9zHbGuvfLwy3_5PIyF2z3ULANtEqV_JVli5rj3E1SdPDwS6dB9UnBiZw4yahIbQKiacHXaYJVcp1PEeGMEDo5PvgCL1Mc8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/aK7dIe-puOAGY-hGqdRxKevG0PxZJUShj5yQ7egpb0kZk9zHbGuvfLwy3_5PIyF2z3ULANtEqV_JVli5rj3E1SdPDwS6dB9UnBiZw4yahIbQKiacHXaYJVcp1PEeGMEDo5PvgCL1Mc8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 280',
+  name: 'Episode 280',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/2Rhf8nUybvMevM9FeBuoUAHKM-7BaeMny0FKXeYySLjcw7VcCJyudFpfbONFucsQBlMxt0RpXoOdfgAWradvyPULusCkhIV8Gt0t3fOWeUNZ6WNaM7Sgvxc1xUli_z14NSeT9VOw4lg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/2Rhf8nUybvMevM9FeBuoUAHKM-7BaeMny0FKXeYySLjcw7VcCJyudFpfbONFucsQBlMxt0RpXoOdfgAWradvyPULusCkhIV8Gt0t3fOWeUNZ6WNaM7Sgvxc1xUli_z14NSeT9VOw4lg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 281',
+  name: 'Episode 281',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/9hK2hQ5fqH4NKxD_M62-JvWDJoTN0D-LenzwPhLkd4_Wum67LN9SxEoVhaMTmQlXf9DLab3JRrS0tjgzAYbd31nU15sdQijNMdx0tfI_WszWYCwQvMNbXe4NjUFQ3T4YpM432WiohZM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/9hK2hQ5fqH4NKxD_M62-JvWDJoTN0D-LenzwPhLkd4_Wum67LN9SxEoVhaMTmQlXf9DLab3JRrS0tjgzAYbd31nU15sdQijNMdx0tfI_WszWYCwQvMNbXe4NjUFQ3T4YpM432WiohZM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 282',
+  name: 'Episode 282',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/clLgaz_NoeskHDk4XMpkfmRS2oWlR_plONk73DXJpqJ0Ztf5eqCrZxH4P-tUPX2Ntq6Q7lvuinDOkUXbhxuBQJJ_AhXcZ1xvL9SlrDfo_vpQ9XSwMzyl7OfXUePy_-SULExXmLy_J0Y=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/clLgaz_NoeskHDk4XMpkfmRS2oWlR_plONk73DXJpqJ0Ztf5eqCrZxH4P-tUPX2Ntq6Q7lvuinDOkUXbhxuBQJJ_AhXcZ1xvL9SlrDfo_vpQ9XSwMzyl7OfXUePy_-SULExXmLy_J0Y=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 283',
+  name: 'Episode 283',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/DSSPb6240Oa56rnuDeOTJN1NWLGD86KiD1Ro0AH2OPpGq4bdAFJC1Ysa6_rIv2q92lDY2Lr0gDAjxh_NZfL5aLhMiWlADvll906Vtep0sVgE5ZD2QgAy3Cdmx2tNHC5hNTrSDc4rxao=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/DSSPb6240Oa56rnuDeOTJN1NWLGD86KiD1Ro0AH2OPpGq4bdAFJC1Ysa6_rIv2q92lDY2Lr0gDAjxh_NZfL5aLhMiWlADvll906Vtep0sVgE5ZD2QgAy3Cdmx2tNHC5hNTrSDc4rxao=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 284',
+  name: 'Episode 284',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/P-BOYjK3iJxCV6rEsM2tJ4yhoBvt27m91PfyQtU4WyfLmwFf83VH4qe87tUpTxev7z4nAkYhlwpZBsZAVu-ZoAjI8sK65_hjwFtzD6qQCFnDnIlKsfo8ci9yf74OWVbBbw7TWGqAhF0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/P-BOYjK3iJxCV6rEsM2tJ4yhoBvt27m91PfyQtU4WyfLmwFf83VH4qe87tUpTxev7z4nAkYhlwpZBsZAVu-ZoAjI8sK65_hjwFtzD6qQCFnDnIlKsfo8ci9yf74OWVbBbw7TWGqAhF0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 285',
+  name: 'Episode 285',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/LYQJ4DK00limSlOnC22Ry0u0JqptUGbuuc2InQG7erdenoLL1n1xdT1mhWwC5o4eKI5i0HR18BDkgI46kIkCg2g6w84--wOP7HV9F2XougDinYHpdhvB5Y6rtlRF32JX2aXr4iltIxw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/LYQJ4DK00limSlOnC22Ry0u0JqptUGbuuc2InQG7erdenoLL1n1xdT1mhWwC5o4eKI5i0HR18BDkgI46kIkCg2g6w84--wOP7HV9F2XougDinYHpdhvB5Y6rtlRF32JX2aXr4iltIxw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 286',
+  name: 'Episode 286',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/2wy-gZwJ9d6sI2sAtWGbJi9DDNrmHR-14ZefLwQF2YEexijA4OxfjVS-wJ6SV76H2weKG3GNpYLMD2-9EbSf270S7Hw-xXnizH9Gu5ZCanoprcZFjhI4saILEUlaOZcA6GFbPzfwbLk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/2wy-gZwJ9d6sI2sAtWGbJi9DDNrmHR-14ZefLwQF2YEexijA4OxfjVS-wJ6SV76H2weKG3GNpYLMD2-9EbSf270S7Hw-xXnizH9Gu5ZCanoprcZFjhI4saILEUlaOZcA6GFbPzfwbLk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 287',
+  name: 'Episode 287',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/wiB_I_siqNXjn0-41iGqLKgdieP9RVFpHdF1JDvIHSTeVTp6AupYTmNdNf5DLe22ETsxcnyZ6alY8FGVX2c1OxReTt2zoJT9orlVJU8rlplrjIUrrQsANASOz1GrWwyelNEw1V66UNQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/wiB_I_siqNXjn0-41iGqLKgdieP9RVFpHdF1JDvIHSTeVTp6AupYTmNdNf5DLe22ETsxcnyZ6alY8FGVX2c1OxReTt2zoJT9orlVJU8rlplrjIUrrQsANASOz1GrWwyelNEw1V66UNQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 288',
+  name: 'Episode 288',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/3hMN41A144yOxngB4Qvo7mVk4NB4zwn5_1lRxDHWdznKGvZ_ZbGmhceaDSFSI1L65aOvqSK121Pq0jHEU-oUvE_F8jBk1oNEACTg6IkMEV8ACkcKRGjMghpERRGDZXPWsMa7_wxcOsM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/3hMN41A144yOxngB4Qvo7mVk4NB4zwn5_1lRxDHWdznKGvZ_ZbGmhceaDSFSI1L65aOvqSK121Pq0jHEU-oUvE_F8jBk1oNEACTg6IkMEV8ACkcKRGjMghpERRGDZXPWsMa7_wxcOsM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 289',
+  name: 'Episode 289',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/RODnW9u9xNVvBlErr-_44BLEq4-B9_conigxUASVMwcA9k8i1mngpdhh55o-8h7acfGK2zycTwubH02OfamBWgUREsqGGryD5_9J9vn9F4io3Yj_erIDy6BV5zX-34OpR2C57dD-MYc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/RODnW9u9xNVvBlErr-_44BLEq4-B9_conigxUASVMwcA9k8i1mngpdhh55o-8h7acfGK2zycTwubH02OfamBWgUREsqGGryD5_9J9vn9F4io3Yj_erIDy6BV5zX-34OpR2C57dD-MYc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 290',
+  name: 'Episode 290',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Fjh6yl-pqi4cAggEzItrCvCCmIvGJWc4xM_Qo1Cc2-gxhQ80ZMEDEMOK9L0Ip7A0IqTsDBb9cHEm4aSYvLTsRhIu3sXsdKxc6OeLGHB16DyjiWFykZwxacHwzCuTQsKUnR4R3oZrqWw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Fjh6yl-pqi4cAggEzItrCvCCmIvGJWc4xM_Qo1Cc2-gxhQ80ZMEDEMOK9L0Ip7A0IqTsDBb9cHEm4aSYvLTsRhIu3sXsdKxc6OeLGHB16DyjiWFykZwxacHwzCuTQsKUnR4R3oZrqWw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 291',
+  name: 'Episode 291',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/cOGrhFP_PcTgilv9knI_VskyF76lus2lu-uTq7GAtFMY0JBtIKKi03ZEDIjGjKvhHZpbx0dEVS5OUCNVltAR0Ldjqh6qCA3lJaJ78dn60FBctissg42udCCnQGrUm2uqdRfCpJ5mWF0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/cOGrhFP_PcTgilv9knI_VskyF76lus2lu-uTq7GAtFMY0JBtIKKi03ZEDIjGjKvhHZpbx0dEVS5OUCNVltAR0Ldjqh6qCA3lJaJ78dn60FBctissg42udCCnQGrUm2uqdRfCpJ5mWF0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 292',
+  name: 'Episode 292',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/BivBTr3LErKGYzcy9vuRUyAbNQ_hfpKWFw5AZKXM2dyw36Y5dqm9mStIpr2tro_kCTxyeAhaRkI9o_r0GKyLalqbv-lAlOWxlH14m8CukraFX7z8ZByaLA8kOpp5jumropFqlu4TQ2U=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/BivBTr3LErKGYzcy9vuRUyAbNQ_hfpKWFw5AZKXM2dyw36Y5dqm9mStIpr2tro_kCTxyeAhaRkI9o_r0GKyLalqbv-lAlOWxlH14m8CukraFX7z8ZByaLA8kOpp5jumropFqlu4TQ2U=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 293',
+  name: 'Episode 293',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/xZDE7JYtAkOBTSI9AbimcjM_uRDgh7UCxOCgRpTkpSfMktuc60za8XaaKhXBuyhDdJnTTmHPEwHqEnpCM0tF0aDiRQZrwLhfZ7XMDiEc_XUuB3qzjKmNreyQ869X01QYzls31cWfZxU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/xZDE7JYtAkOBTSI9AbimcjM_uRDgh7UCxOCgRpTkpSfMktuc60za8XaaKhXBuyhDdJnTTmHPEwHqEnpCM0tF0aDiRQZrwLhfZ7XMDiEc_XUuB3qzjKmNreyQ869X01QYzls31cWfZxU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 294',
+  name: 'Episode 294',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/0fO52KeEIiLSGTL6e2UT4cPxIeoQcYQyZSjBrZu1EDKiwWFUMTeouuq4qpuWm4h8N7FdRLzlgp-qdvNc4vUdSm80FUJJgbdJVn6_XUPC1CCw_VJOoVcRF_BsNAEzkAZHWhIrt6B0cr8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/0fO52KeEIiLSGTL6e2UT4cPxIeoQcYQyZSjBrZu1EDKiwWFUMTeouuq4qpuWm4h8N7FdRLzlgp-qdvNc4vUdSm80FUJJgbdJVn6_XUPC1CCw_VJOoVcRF_BsNAEzkAZHWhIrt6B0cr8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 295',
+  name: 'Episode 295',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/IGmwna0TGQlKtYAufA7yvHg-gpI9-edQO39bRLiIQdqVAxQebEienSq41XAKxlC3lKh3k3rpAAgAIGtVEniWzmHSFA0A870OjKADvrvMDTQ6INIzkV29gUmuHBdY-0BE0NU0XE6T6Dw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/IGmwna0TGQlKtYAufA7yvHg-gpI9-edQO39bRLiIQdqVAxQebEienSq41XAKxlC3lKh3k3rpAAgAIGtVEniWzmHSFA0A870OjKADvrvMDTQ6INIzkV29gUmuHBdY-0BE0NU0XE6T6Dw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 296',
+  name: 'Episode 296',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/8up3O92bG5CrBMCV2N1m3IBKGwDDVuVw6oXbRPAXqNLeP-5K21pEJGlkYvomLM_8Z_RPuAESclEB14DWwmWCHgVIPrvdVF6Awfg9us7ZVEIld371OArxcXk9U-XK1PJcrqV9SY26hYg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/8up3O92bG5CrBMCV2N1m3IBKGwDDVuVw6oXbRPAXqNLeP-5K21pEJGlkYvomLM_8Z_RPuAESclEB14DWwmWCHgVIPrvdVF6Awfg9us7ZVEIld371OArxcXk9U-XK1PJcrqV9SY26hYg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 297',
+  name: 'Episode 297',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/EEjYM-CFuDIc6L24kuVPdpZak5qYSiiXUQwYYyk3_2Zc0XN9q3IxVWrvPUYXutFhTGHYeWDNjnWHyU0aaP_-w1s6jCxAWP0rE2ZVbN5rHr8-6CP8Hf8YL7lqUmKEXqeLhIesCC4GJe8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/EEjYM-CFuDIc6L24kuVPdpZak5qYSiiXUQwYYyk3_2Zc0XN9q3IxVWrvPUYXutFhTGHYeWDNjnWHyU0aaP_-w1s6jCxAWP0rE2ZVbN5rHr8-6CP8Hf8YL7lqUmKEXqeLhIesCC4GJe8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 298',
+  name: 'Episode 298',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/vVI29eoiY5y3INi3TkbxJ5UjBbcA-QCtM3eQuB2dBGARNQmdph6nsKSP8HMOWuNMbX-g3GpWHQG9CMXusroqK9KW1WW58mRxXvx5K4wvrmbrIifcLV2iudLblswpdzbIzgCMnwIvkCc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/vVI29eoiY5y3INi3TkbxJ5UjBbcA-QCtM3eQuB2dBGARNQmdph6nsKSP8HMOWuNMbX-g3GpWHQG9CMXusroqK9KW1WW58mRxXvx5K4wvrmbrIifcLV2iudLblswpdzbIzgCMnwIvkCc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 299',
+  name: 'Episode 299',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/4P73GTyMBkaSLhKErAmXcj2ZJIO0NEtkm5Pzxi6BM85YWAc7177fEpnq0SscT-dq4_HHF6djVE6mXFgo-SKGfo1uY4mRVlpJENN2kh-dVba6E2CVRNuEA5dieWX96rhwXC2L7L-N2Zg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/4P73GTyMBkaSLhKErAmXcj2ZJIO0NEtkm5Pzxi6BM85YWAc7177fEpnq0SscT-dq4_HHF6djVE6mXFgo-SKGfo1uY4mRVlpJENN2kh-dVba6E2CVRNuEA5dieWX96rhwXC2L7L-N2Zg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 300',
+  name: 'Episode 300',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/q_DboRFCVRnOBAj9YLJi2bIqZsL-uGkKAaLqac_jKFFhaPu0iB2E6l3F3cEeIsTGEfj8dmkz4k630ETu9XDxWeRbxslyKd9BLpwWYr6SRBT8SKFWCgd-sh7kUNtRM5fQpGlMGtQBi94=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/q_DboRFCVRnOBAj9YLJi2bIqZsL-uGkKAaLqac_jKFFhaPu0iB2E6l3F3cEeIsTGEfj8dmkz4k630ETu9XDxWeRbxslyKd9BLpwWYr6SRBT8SKFWCgd-sh7kUNtRM5fQpGlMGtQBi94=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 301',
+  name: 'Episode 301',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/x1Cpq0ZiAF1lU34q7STIz7kOcYybDg8nub7jvhA_gP5tTfNMJKY6g2B8ssc5i2Ydr8dBPXChIrI8X3O6g5Ygt1XLjeDtKXFcvBVAxvI6omRTehfY50inFowDVbtz6Rji02aNggJdARs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/x1Cpq0ZiAF1lU34q7STIz7kOcYybDg8nub7jvhA_gP5tTfNMJKY6g2B8ssc5i2Ydr8dBPXChIrI8X3O6g5Ygt1XLjeDtKXFcvBVAxvI6omRTehfY50inFowDVbtz6Rji02aNggJdARs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 302',
+  name: 'Episode 302',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/hWRPe2r_uzVbkIsKmxYSebLDvQSdrC8vIVSjUVfrObHFA9qU01fDaoOWx3l0dBiOABpm_TM_OSh-nLh4AvrnswDEooQFtvvMJHzBmVIwEzOkvs-Lc5bjb1JwPjfZF8rnMStpDKH9QOs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/hWRPe2r_uzVbkIsKmxYSebLDvQSdrC8vIVSjUVfrObHFA9qU01fDaoOWx3l0dBiOABpm_TM_OSh-nLh4AvrnswDEooQFtvvMJHzBmVIwEzOkvs-Lc5bjb1JwPjfZF8rnMStpDKH9QOs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 303',
+  name: 'Episode 303',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/vJN-L7-vUj2Hl4k0TJQPEy2i41Ibuugzfp39XxZrc5DPr5VkwtoA77tNmP9dPHkOmMLpWJeuo_boAKTMqqnhPlwrGnmEp9iENszW50gH2NwCWYHXWrjmAtVu52vkF1GJs-MAbEJGBKw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/vJN-L7-vUj2Hl4k0TJQPEy2i41Ibuugzfp39XxZrc5DPr5VkwtoA77tNmP9dPHkOmMLpWJeuo_boAKTMqqnhPlwrGnmEp9iENszW50gH2NwCWYHXWrjmAtVu52vkF1GJs-MAbEJGBKw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 304',
+  name: 'Episode 304',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/cg0E2GMtsxS00T-YyTQk7wHn40m9tU_gYG5TI9PudFr8kZuAVq7qSD7PpGqgA-MeJQigdiBj9NptCQbwywIAdleKYh8duPhb6uzxbIxliCzmriQTpzEyvXDm5l_t_UUli0c4cPAUksc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/cg0E2GMtsxS00T-YyTQk7wHn40m9tU_gYG5TI9PudFr8kZuAVq7qSD7PpGqgA-MeJQigdiBj9NptCQbwywIAdleKYh8duPhb6uzxbIxliCzmriQTpzEyvXDm5l_t_UUli0c4cPAUksc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 305',
+  name: 'Episode 305',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/CiXBNZ8S2bG1aU0QBxYgp6THxVPsdG8V0KdyDJdvQI8Ehkao0SrN2ws4PlD_gr2uVKhM0VdZPVnTsEncH4IbsyUBeZ5WsmxVxVSPZ-9XjFAOAe9pVyxIqQUs6eghLW2GdDdodwIlkhQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/CiXBNZ8S2bG1aU0QBxYgp6THxVPsdG8V0KdyDJdvQI8Ehkao0SrN2ws4PlD_gr2uVKhM0VdZPVnTsEncH4IbsyUBeZ5WsmxVxVSPZ-9XjFAOAe9pVyxIqQUs6eghLW2GdDdodwIlkhQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 306',
+  name: 'Episode 306',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/XH6Zj3bp0BSc76wD7RH_OuC33OXt3YUrEz9QyaYefG6KUlvlyAT2yVVtMBEZk1WVlEDZcphnQP1XBFwYLkFKbN-VYCYr2t7hy_z3ddkNnakC63pARrdooc6Bt5BOesXCDgReujVaRlE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/XH6Zj3bp0BSc76wD7RH_OuC33OXt3YUrEz9QyaYefG6KUlvlyAT2yVVtMBEZk1WVlEDZcphnQP1XBFwYLkFKbN-VYCYr2t7hy_z3ddkNnakC63pARrdooc6Bt5BOesXCDgReujVaRlE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 307',
+  name: 'Episode 307',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/e8tDSurHlxiK7NhOX-LgVyIxmyymo3MFDJEx2pC-qM5-IFe3l5JwHSJsEP4RoiQej_A-BxB_H67-P_vY4Y-DZ-W9CTcZsVEmafgRkLqj7Zwr1iHupZSPoSFC1Kewkuy8R5wIZpCbPL8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/e8tDSurHlxiK7NhOX-LgVyIxmyymo3MFDJEx2pC-qM5-IFe3l5JwHSJsEP4RoiQej_A-BxB_H67-P_vY4Y-DZ-W9CTcZsVEmafgRkLqj7Zwr1iHupZSPoSFC1Kewkuy8R5wIZpCbPL8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 308',
+  name: 'Episode 308',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/8uu4neSQfRUvf8xBHz-RwRZNWQfwdoLhMDBLO98xWI4icihNDahHY764g5wvnbPJZ3z4L19Jrb3SsqRgSzJseFyK5slJT59Yjdahs2UV-XmAIttXu66dfVi0VEvxaMxzS0-F6vdR2-Q=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/8uu4neSQfRUvf8xBHz-RwRZNWQfwdoLhMDBLO98xWI4icihNDahHY764g5wvnbPJZ3z4L19Jrb3SsqRgSzJseFyK5slJT59Yjdahs2UV-XmAIttXu66dfVi0VEvxaMxzS0-F6vdR2-Q=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 309',
+  name: 'Episode 309',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/9ny5F37-a2aUpUfJT-SjTHmj35ofBbK8Nj2nLLmMAd_1isWeynUSd8B9LEkWnfoFjAd-UiA0s5g9eXlIwiqzD3f_YNHLd1UGznFQe2H4-O7kkSdg0-C_NAiKwWGyERTOvCBhc-cto9U=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/9ny5F37-a2aUpUfJT-SjTHmj35ofBbK8Nj2nLLmMAd_1isWeynUSd8B9LEkWnfoFjAd-UiA0s5g9eXlIwiqzD3f_YNHLd1UGznFQe2H4-O7kkSdg0-C_NAiKwWGyERTOvCBhc-cto9U=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 310',
+  name: 'Episode 310',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/09qipzf_dETjjgcJoV-JKyjR2ey8qZHubWwRrOvvM9ltlNiZKINzaD1Po_ZjhAnHLyxZ7ujnKEXZ5LrqDfDjBVc3cb23MUuvCiHdpaweBPRoL_i5etUnJ3nAS-LTtildRUQv9f8dKYs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/09qipzf_dETjjgcJoV-JKyjR2ey8qZHubWwRrOvvM9ltlNiZKINzaD1Po_ZjhAnHLyxZ7ujnKEXZ5LrqDfDjBVc3cb23MUuvCiHdpaweBPRoL_i5etUnJ3nAS-LTtildRUQv9f8dKYs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 311',
+  name: 'Episode 311',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/1M36VXbGD-BwQxnZPzMCnrD1BMCa-Bkw0J0cw7JSSXRf74cQltjRYdVXPt2vzN63QGwMZOqcp10ViGxOR-MU2tN_k54czclcqr4sQVgx5f_88Iqso99GSgzcIhgBsG_g8Lkkzn4FZvU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/1M36VXbGD-BwQxnZPzMCnrD1BMCa-Bkw0J0cw7JSSXRf74cQltjRYdVXPt2vzN63QGwMZOqcp10ViGxOR-MU2tN_k54czclcqr4sQVgx5f_88Iqso99GSgzcIhgBsG_g8Lkkzn4FZvU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 312',
+  name: 'Episode 312',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ntQ2658UQCAGuP71a2yD5_7xFCe9oYvR0HaxKbx8VInr-TaAqzWB8QQG4z1Nug283LeLt5HCa-2JXh45iylx4PXxutwZMCwUcoTKgjFgbNqJK4g59VcWwYNo1kf4Z2sMbhJSBZ8yV8g=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ntQ2658UQCAGuP71a2yD5_7xFCe9oYvR0HaxKbx8VInr-TaAqzWB8QQG4z1Nug283LeLt5HCa-2JXh45iylx4PXxutwZMCwUcoTKgjFgbNqJK4g59VcWwYNo1kf4Z2sMbhJSBZ8yV8g=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 313',
+  name: 'Episode 313',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/NP5ahDEgdyHoBkbK4ZTyAnkP3uXvvu9LXzr4ylpZ3sbfrSv8ww_3OalX7_4-Vig66s_UDMM-Gu5l7nb6japbLSPlA51eBNm1-ep54yu-IfTpyjQl0HzCOyrtcajvY_C_5VJ-y1u1YT8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/NP5ahDEgdyHoBkbK4ZTyAnkP3uXvvu9LXzr4ylpZ3sbfrSv8ww_3OalX7_4-Vig66s_UDMM-Gu5l7nb6japbLSPlA51eBNm1-ep54yu-IfTpyjQl0HzCOyrtcajvY_C_5VJ-y1u1YT8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 314',
+  name: 'Episode 314',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/RA3XcloVV4I_UZCfaBGyydAXsXkGvVq2imkdRmLlfTOcGbqi_SEWNv1YuxGDchfXgTj2E5k9-a7CRd0BoUZklMSdu4Puftt9a9APOwTWIjm7qoJ_t6rPue2ehhAArpjnrXS09AklNOo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/RA3XcloVV4I_UZCfaBGyydAXsXkGvVq2imkdRmLlfTOcGbqi_SEWNv1YuxGDchfXgTj2E5k9-a7CRd0BoUZklMSdu4Puftt9a9APOwTWIjm7qoJ_t6rPue2ehhAArpjnrXS09AklNOo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 315',
+  name: 'Episode 315',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/3srWmBKIqbwC_6eHV2Sm1gAPLtO-mXIvVmtwrhwGNVokZ7TB4zD3LN4xu8dlY6AY5NwG751YDWpYWLCz_GSgWPO4GeoJxONVMfqm1tj1bQT1XOyPO7rwL7YgKR2QtvaKw0pXwOG895Q=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/3srWmBKIqbwC_6eHV2Sm1gAPLtO-mXIvVmtwrhwGNVokZ7TB4zD3LN4xu8dlY6AY5NwG751YDWpYWLCz_GSgWPO4GeoJxONVMfqm1tj1bQT1XOyPO7rwL7YgKR2QtvaKw0pXwOG895Q=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 316',
+  name: 'Episode 316',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/t_a1QlbWoI8tPYunqmT7dYF1scJu3SmYrYxeHtznBR6I1OsN90pvVaNtpe9XCgA9HgxtbUuZ63878gBqVXd1Rvj_hgHaqqT0nCZWunx_GjZ76mEHA5Aw3i7obFbYRdTXyiq4cwaAjY8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/t_a1QlbWoI8tPYunqmT7dYF1scJu3SmYrYxeHtznBR6I1OsN90pvVaNtpe9XCgA9HgxtbUuZ63878gBqVXd1Rvj_hgHaqqT0nCZWunx_GjZ76mEHA5Aw3i7obFbYRdTXyiq4cwaAjY8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 317',
+  name: 'Episode 317',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/uGEkHaEJ9y9C1-WIVcSa4XBgxFI6V2lTMf4KwZgOVMnETJwec0HHTA6WobllWFrZZqWvjiEEpSrAFd5klkWu7Gp2yBdo5VVvFdurTQ_LJH2QFbX1VqISvN548jIepoUcSXqRR7zqCCM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/uGEkHaEJ9y9C1-WIVcSa4XBgxFI6V2lTMf4KwZgOVMnETJwec0HHTA6WobllWFrZZqWvjiEEpSrAFd5klkWu7Gp2yBdo5VVvFdurTQ_LJH2QFbX1VqISvN548jIepoUcSXqRR7zqCCM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 318',
+  name: 'Episode 318',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/FdQhdZ2T9bqVz57I2a8pO_ZeDwwHAL23LFPeqKRDsl6hDMiFSvHBqVZkYQIrYr2hvarhgqFDXpLIAD0Fwu2q8AMZCEkZl5-bNaB6p4M9TYobzofz_eMZBNTcWlEAHdDvRlj3Qg2As34=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/FdQhdZ2T9bqVz57I2a8pO_ZeDwwHAL23LFPeqKRDsl6hDMiFSvHBqVZkYQIrYr2hvarhgqFDXpLIAD0Fwu2q8AMZCEkZl5-bNaB6p4M9TYobzofz_eMZBNTcWlEAHdDvRlj3Qg2As34=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 319',
+  name: 'Episode 319',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/jikQMvQ026dQdOmnUYAoMUVEJR93WTCv-d-eWYuSciHxhM97ek3EqDZtiYqzMQjquaRXjGq8QxG3LpFjtokpBwlizpLGSV9nTtlgR4Yt2RtptbOldbLkcKdwQEC_0ij29TTBmPXHeJc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/jikQMvQ026dQdOmnUYAoMUVEJR93WTCv-d-eWYuSciHxhM97ek3EqDZtiYqzMQjquaRXjGq8QxG3LpFjtokpBwlizpLGSV9nTtlgR4Yt2RtptbOldbLkcKdwQEC_0ij29TTBmPXHeJc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 320',
+  name: 'Episode 320',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/7C79qVsVaoI44Q2sHKkibvNZrg2OXlqjiWXpSNNZHNaCqZ14PI2aukHY5cCvdJy20578P81Z_H9fMIiK28_MVNoiQRQLeMSGclz0Gx9MHqPglr9cUE2HCDP1U7b_pOnHdcGscGYGjLw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/7C79qVsVaoI44Q2sHKkibvNZrg2OXlqjiWXpSNNZHNaCqZ14PI2aukHY5cCvdJy20578P81Z_H9fMIiK28_MVNoiQRQLeMSGclz0Gx9MHqPglr9cUE2HCDP1U7b_pOnHdcGscGYGjLw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 321',
+  name: 'Episode 321',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/b3lMs9SnLgmjMbcMu-jYfr99OSrkB8K3K3cv0DWdfeeYCIJYAX1wUT-6FY0JA-vTjhxPlqPXk6Acv0MxRxPu5iQ7wRJXZL8-cSjEBxB4YRkyjpJZGivY4-XETjscUJ9-Wf_bvTzPInU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/b3lMs9SnLgmjMbcMu-jYfr99OSrkB8K3K3cv0DWdfeeYCIJYAX1wUT-6FY0JA-vTjhxPlqPXk6Acv0MxRxPu5iQ7wRJXZL8-cSjEBxB4YRkyjpJZGivY4-XETjscUJ9-Wf_bvTzPInU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 322',
+  name: 'Episode 322',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/8FlRaNYRcrhSkN9h4RyN5figh_8Bh0-gnDsbaAKgIwtbNi2eCweLtMfiG-SIVGRwvp0MU1QrOxa2FA0EEOI-lehNhWjZXoJWhMMemv2g4o_W02Kwdf6YDTqB5Utz6tlSfkPh9ZMsIcc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/8FlRaNYRcrhSkN9h4RyN5figh_8Bh0-gnDsbaAKgIwtbNi2eCweLtMfiG-SIVGRwvp0MU1QrOxa2FA0EEOI-lehNhWjZXoJWhMMemv2g4o_W02Kwdf6YDTqB5Utz6tlSfkPh9ZMsIcc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 323',
+  name: 'Episode 323',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/docTon7qZBdEsdaf4WEgK78hEwW0W-Td8dPbofcSPS4b1HybZ38krl_nXjG2PuuLQtei8Ue3nSVUVrLyMQmq3_8He-IS6cx2zZvLllUAXR7lxEx5W75PL-VPJBnfVvoi4V7VKJOazz4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/docTon7qZBdEsdaf4WEgK78hEwW0W-Td8dPbofcSPS4b1HybZ38krl_nXjG2PuuLQtei8Ue3nSVUVrLyMQmq3_8He-IS6cx2zZvLllUAXR7lxEx5W75PL-VPJBnfVvoi4V7VKJOazz4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 324',
+  name: 'Episode 324',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/771J4VbayJITEv--0tdTAREyv9uJMpFtNyRnDwegiEoe9bbSSvQVRxPQeraJL2UYQMrG9P2eZPpo7n7h_Yu70P-zf6_Vm0_M_s7GPKbU-Sl3tqzvZJOPYm5BcSl9VijsbPdULiwswKY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/771J4VbayJITEv--0tdTAREyv9uJMpFtNyRnDwegiEoe9bbSSvQVRxPQeraJL2UYQMrG9P2eZPpo7n7h_Yu70P-zf6_Vm0_M_s7GPKbU-Sl3tqzvZJOPYm5BcSl9VijsbPdULiwswKY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 325',
+  name: 'Episode 325',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/-y6pibz0cS-nFwAN1BzJCUXGV1bzHRk6oDefg5RstPdTLisTkDzC-BZNQNFCOG_rcrM9rMmshtuySftPfo7eLLvm_tuoN0RGAT86wJ5G-hJ1AyH-KTfPAnj8FbrszvMutIlSvr5bFnM=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/-y6pibz0cS-nFwAN1BzJCUXGV1bzHRk6oDefg5RstPdTLisTkDzC-BZNQNFCOG_rcrM9rMmshtuySftPfo7eLLvm_tuoN0RGAT86wJ5G-hJ1AyH-KTfPAnj8FbrszvMutIlSvr5bFnM=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 326',
+  name: 'Episode 326',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/jGV6QPL2C4QPdWIIeKFhDjLZbl00otJimhOYZdfhUhlJbZKo_5pXmeEgWr03Y4ZpLVktCIkAhOtcnY0RAfejOMYOl7Uy2NuS9slsCzDSWkP5erYOlgf76M73rDLOuxZdrB_858Xu1xI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/jGV6QPL2C4QPdWIIeKFhDjLZbl00otJimhOYZdfhUhlJbZKo_5pXmeEgWr03Y4ZpLVktCIkAhOtcnY0RAfejOMYOl7Uy2NuS9slsCzDSWkP5erYOlgf76M73rDLOuxZdrB_858Xu1xI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 327',
+  name: 'Episode 327',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Ay0LMLP3CCn3Q4lPhx1dIOx6L81aPv-4eFNNbescnFBJdG1-EoVcoDs88fRS1L_LGavgF2pkjxu8B1hS486tV5wI3cVZya-FtRngEBLM5StsF1XaDkqNFgpStHSzGsjQloj2qzshU-Y=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Ay0LMLP3CCn3Q4lPhx1dIOx6L81aPv-4eFNNbescnFBJdG1-EoVcoDs88fRS1L_LGavgF2pkjxu8B1hS486tV5wI3cVZya-FtRngEBLM5StsF1XaDkqNFgpStHSzGsjQloj2qzshU-Y=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 328',
+  name: 'Episode 328',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/e717lV3pfNMv7HbVwPDGo2t6q_GfqHJgcPoj7-zAwH3JbKwqQm6yTQqxrJR6bLgBsZ2_wykQ4jF5dKGTvoEJbhKtqym7ch36rbQW6EsTxviHPkxTq5FKJeozjWjZNE_fgXXpZAbzO2A=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/e717lV3pfNMv7HbVwPDGo2t6q_GfqHJgcPoj7-zAwH3JbKwqQm6yTQqxrJR6bLgBsZ2_wykQ4jF5dKGTvoEJbhKtqym7ch36rbQW6EsTxviHPkxTq5FKJeozjWjZNE_fgXXpZAbzO2A=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 329',
+  name: 'Episode 329',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/VYXAV6Q9-HXlA9ZdZQrQpNbdIxUvPGzsehE-wm01cPa9SMpg999gffS93mK3eMVrx_CreKUe6JQ9Omd7MEk5KEZz70hPnnlzrBCqVmeGS9wGdfEmHt2NvaYrjpgY1h-Q8weWIVOcAsQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/VYXAV6Q9-HXlA9ZdZQrQpNbdIxUvPGzsehE-wm01cPa9SMpg999gffS93mK3eMVrx_CreKUe6JQ9Omd7MEk5KEZz70hPnnlzrBCqVmeGS9wGdfEmHt2NvaYrjpgY1h-Q8weWIVOcAsQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 330',
+  name: 'Episode 330',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/5xHhmzzicnFl6ewfiuD1BHduD3VDkTnXSaLLLt_LBaR8boNGxv0_gZ0BataTGL7xRMfkA1oZDltddPf8Y0Y0EQMkqbrY18RcGOMhBPlRu9tXNEYNPTZgDC74PI-mZ-IOweBFHOCoLCY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/5xHhmzzicnFl6ewfiuD1BHduD3VDkTnXSaLLLt_LBaR8boNGxv0_gZ0BataTGL7xRMfkA1oZDltddPf8Y0Y0EQMkqbrY18RcGOMhBPlRu9tXNEYNPTZgDC74PI-mZ-IOweBFHOCoLCY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 331',
+  name: 'Episode 331',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/AtOUMmBdG33lIy61DdxObs1tClDPMZJtIa5rppnSVHGn03HlSIpGscRbfVR-lyyB69gUDrOoJFR3nGksEkn6NOQs8R4d4IQ0Vcp9i-ehIl2exgfiRb7p_6RjohNmAsTYSf2hiHeqST0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/AtOUMmBdG33lIy61DdxObs1tClDPMZJtIa5rppnSVHGn03HlSIpGscRbfVR-lyyB69gUDrOoJFR3nGksEkn6NOQs8R4d4IQ0Vcp9i-ehIl2exgfiRb7p_6RjohNmAsTYSf2hiHeqST0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 332',
+  name: 'Episode 332',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/tt8hwZd1D9_tY05JvfBGqmrcOrELFM6PaES5k8w5KVelcTf5Ph0__rx808_5P2NfiIztNdEKWgb_3mamUWI7Z_7WryENq3N_ynmmtOo1im8PanIgy8kvfuTnaYm_EehfT4KSdd26ueU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/tt8hwZd1D9_tY05JvfBGqmrcOrELFM6PaES5k8w5KVelcTf5Ph0__rx808_5P2NfiIztNdEKWgb_3mamUWI7Z_7WryENq3N_ynmmtOo1im8PanIgy8kvfuTnaYm_EehfT4KSdd26ueU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 333',
+  name: 'Episode 333',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/C5o7kUgJeWnGjPCym3wsW4OYinxwoCyJWFTqzyYgOpPAd24iVnvKxgZg4T49y-o5T2UoB_HAZz0V-xnHn4IdqKKwOhGJTmUhQmgB0_dvt6SmA13QfZnNClDRs_ETwVwc7gKjbtis4Vs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/C5o7kUgJeWnGjPCym3wsW4OYinxwoCyJWFTqzyYgOpPAd24iVnvKxgZg4T49y-o5T2UoB_HAZz0V-xnHn4IdqKKwOhGJTmUhQmgB0_dvt6SmA13QfZnNClDRs_ETwVwc7gKjbtis4Vs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 334',
+  name: 'Episode 334',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/FZ32_MGicF1tJbilXsmaKplWs7zG_piV1Q9wr_P6iK9qWFWbJaxWg9WGvafoThvXCiCPk5da58CTk1o9tAXQ94MAwc1xVSURiarqz9Rk-8wYDx-K7rwrPiC4VPvaOQm8AeoW3P2DvPw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/FZ32_MGicF1tJbilXsmaKplWs7zG_piV1Q9wr_P6iK9qWFWbJaxWg9WGvafoThvXCiCPk5da58CTk1o9tAXQ94MAwc1xVSURiarqz9Rk-8wYDx-K7rwrPiC4VPvaOQm8AeoW3P2DvPw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 335',
+  name: 'Episode 335',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/OnIeBw6ZzMZlm9ygM-dyRlckQF8y2OHwzmUzaGi9sVeEEOm9O0Zu-pivgV4jO6YSI70tGGCPYIevO2hdcVc2_nLh73pNITZW8bAoC1eeM6mVEWbSsGV19iZIE5s4ATwldGubkbvNyek=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/OnIeBw6ZzMZlm9ygM-dyRlckQF8y2OHwzmUzaGi9sVeEEOm9O0Zu-pivgV4jO6YSI70tGGCPYIevO2hdcVc2_nLh73pNITZW8bAoC1eeM6mVEWbSsGV19iZIE5s4ATwldGubkbvNyek=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 336',
+  name: 'Episode 336',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/RwtrRHpnGaa5eMvvphMQfDamG5FtKyV8sT0PtHsQMmFMppRn8t-sPUhq3jSJ-na27J2KFDHKIQykjiQJCTi5MkUg2vk-_NqyEWI_cqkWy5eGEcQJcqtdxH6QAe2rEMto3CiJ7bYV4Q0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/RwtrRHpnGaa5eMvvphMQfDamG5FtKyV8sT0PtHsQMmFMppRn8t-sPUhq3jSJ-na27J2KFDHKIQykjiQJCTi5MkUg2vk-_NqyEWI_cqkWy5eGEcQJcqtdxH6QAe2rEMto3CiJ7bYV4Q0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 337',
+  name: 'Episode 337',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/me98_NxLI500-SE95ovkmboNKhajeMxhj02OwTXm_HpwMybwp2J878KBWqmWniPUSzD1AVY4fXtu2YiGPx6ME84dZs3tDib_Js3-NMlgU9GwJPtExnyh0CB6xhWPqRfnAs9LQA6mSMw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/me98_NxLI500-SE95ovkmboNKhajeMxhj02OwTXm_HpwMybwp2J878KBWqmWniPUSzD1AVY4fXtu2YiGPx6ME84dZs3tDib_Js3-NMlgU9GwJPtExnyh0CB6xhWPqRfnAs9LQA6mSMw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 338',
+  name: 'Episode 338',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/xJ7kG_XAJE_80Qtw65p_fzGJFzZ4Wc83BaPg1a0KE7ktiGVRH6PlExQE9OX2mfzQVjy-wfYeF4AgZ-S3pI1vD0sRUIM4DpuVeFoaJzoyOrcsXt5RYnADb_WoQtJ2EqRe3vyikGM2lVQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/xJ7kG_XAJE_80Qtw65p_fzGJFzZ4Wc83BaPg1a0KE7ktiGVRH6PlExQE9OX2mfzQVjy-wfYeF4AgZ-S3pI1vD0sRUIM4DpuVeFoaJzoyOrcsXt5RYnADb_WoQtJ2EqRe3vyikGM2lVQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 339',
+  name: 'Episode 339',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/u69zlhtY4X0RpQNt_AgGmNqmi_yU5h1f1VG9askSO-m9O45VpW8cGFNfLRaeFDZol39utEnLlzdGXzKgwvrv9fGM4ybl60bc-ryHoRgy4pfA9u3DF687zZyoetEml2chepBsvFHZrwc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/u69zlhtY4X0RpQNt_AgGmNqmi_yU5h1f1VG9askSO-m9O45VpW8cGFNfLRaeFDZol39utEnLlzdGXzKgwvrv9fGM4ybl60bc-ryHoRgy4pfA9u3DF687zZyoetEml2chepBsvFHZrwc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 340',
+  name: 'Episode 340',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/8CvCH_21Xr5xPNntc9DVvpmGrwhQeWgZS54Rjyp7AW1f9FIkTzZqIjUfV3TX_5o426i6RKQBGvFqbak6WuUxwtVKwwVtADiWAJNDQ00bnO0CSBUTMjwuepLExI9uzehV4_F0uIOpDfw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/8CvCH_21Xr5xPNntc9DVvpmGrwhQeWgZS54Rjyp7AW1f9FIkTzZqIjUfV3TX_5o426i6RKQBGvFqbak6WuUxwtVKwwVtADiWAJNDQ00bnO0CSBUTMjwuepLExI9uzehV4_F0uIOpDfw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 341',
+  name: 'Episode 341',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/0L2lf-1H_khQcCWT5n1daK_YVF3Wnno1CqfzRpZNZDhIe0zqbrUdKRT7Ra_K7Z2ZaCGqpPesrInSF-26CnhST_pYeKwmrS3S8edFeQA8qqOHjKDI-WPitefdaThKJeqFO2Zexygqmqs=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/0L2lf-1H_khQcCWT5n1daK_YVF3Wnno1CqfzRpZNZDhIe0zqbrUdKRT7Ra_K7Z2ZaCGqpPesrInSF-26CnhST_pYeKwmrS3S8edFeQA8qqOHjKDI-WPitefdaThKJeqFO2Zexygqmqs=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 342',
+  name: 'Episode 342',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/yWPFpTtjbpeXcEeg4xCj6jP8zXk7C41gAYXrb5lmDPDpLLaGcu-O2hm3ST0__fNnIbaW07POwlGOmNWV5erhkVwLEF2jvGZcm3Fl5zEsCD04NB3X9NJBW68ggSI4Fv2Q1pGiI4DBgec=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/yWPFpTtjbpeXcEeg4xCj6jP8zXk7C41gAYXrb5lmDPDpLLaGcu-O2hm3ST0__fNnIbaW07POwlGOmNWV5erhkVwLEF2jvGZcm3Fl5zEsCD04NB3X9NJBW68ggSI4Fv2Q1pGiI4DBgec=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 343',
+  name: 'Episode 343',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/2EruQni0_XXaLHgLP4e0g9RRJ0DtRq6tYUiQ94EfEjRTEtj4Y5mlcisH87vErDiNRqG0qi503qn8WCaKzvep2ZlZHzCNy3JSk1hIGVUNZencFAO1x_OyByL3wksgLlitwepnwpic-i0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/2EruQni0_XXaLHgLP4e0g9RRJ0DtRq6tYUiQ94EfEjRTEtj4Y5mlcisH87vErDiNRqG0qi503qn8WCaKzvep2ZlZHzCNy3JSk1hIGVUNZencFAO1x_OyByL3wksgLlitwepnwpic-i0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 344',
+  name: 'Episode 344',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/4US_U_UrbHleH5X3zZqpdAtWGUjXjmjbvJog4x-mXRGuXIsphQF2-N1PnQ1xLHfMN2dJs_8FMrVhZ6RcbMDVEv4CGqmOjDMplAsXirdvUNJflQYTeO9x3ilkX4aogdkVeei9V3rSHBA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/4US_U_UrbHleH5X3zZqpdAtWGUjXjmjbvJog4x-mXRGuXIsphQF2-N1PnQ1xLHfMN2dJs_8FMrVhZ6RcbMDVEv4CGqmOjDMplAsXirdvUNJflQYTeO9x3ilkX4aogdkVeei9V3rSHBA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 345',
+  name: 'Episode 345',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/VhYDSVzOP0VVtwdhb2WvH6ZqJclZZpQSpuits-lwsaPf17Z-lBSPmO6pu7NMN90a3zJVpd5V8C1hC1JWG0gKmN96MSEroQoH91H2gEM2wLTQZ4nP18y_5VKgcDXPl7Otd1QusToaIYw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/VhYDSVzOP0VVtwdhb2WvH6ZqJclZZpQSpuits-lwsaPf17Z-lBSPmO6pu7NMN90a3zJVpd5V8C1hC1JWG0gKmN96MSEroQoH91H2gEM2wLTQZ4nP18y_5VKgcDXPl7Otd1QusToaIYw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 346',
+  name: 'Episode 346',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/OjOnTVxAwrWlDdGgMHLiwJFF2lgYo50GgQtoYRLpj_VOgsya8b3u1-tsCEaFlqxnJN6luJ7hLw35f-smmcx60_WnGJU4hnNwpXGKDbMAZK4A7Q3fnLVou0Aep1b0Mp_qWJtDqRqaQ64=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/OjOnTVxAwrWlDdGgMHLiwJFF2lgYo50GgQtoYRLpj_VOgsya8b3u1-tsCEaFlqxnJN6luJ7hLw35f-smmcx60_WnGJU4hnNwpXGKDbMAZK4A7Q3fnLVou0Aep1b0Mp_qWJtDqRqaQ64=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 347',
+  name: 'Episode 347',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/vh70OCuca-zeGR4oOQEdNl-urSfUMQjF5UeJl_XtPPdJARSgxOwUXc8uFQ2hren3YnQKhNJbDevykiryYLR22PUtZapNNSl4JeiXM2YI4UBQMXPGpsksZd9Z7Nj7hpVawyIxNBHS0Yc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/vh70OCuca-zeGR4oOQEdNl-urSfUMQjF5UeJl_XtPPdJARSgxOwUXc8uFQ2hren3YnQKhNJbDevykiryYLR22PUtZapNNSl4JeiXM2YI4UBQMXPGpsksZd9Z7Nj7hpVawyIxNBHS0Yc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 348',
+  name: 'Episode 348',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/qiOXDK6xpTPWQT456IEUr8zaW4BwzveVrwfoMaLcjNkBpkRkB_k_3IFiV7jompfDxxFcZAKy3fdU67oo8ErIN4vwQuNtv4obueJAT68cPKRaojCSy51qiNUE-46XFLMO2617MaiHJ9E=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/qiOXDK6xpTPWQT456IEUr8zaW4BwzveVrwfoMaLcjNkBpkRkB_k_3IFiV7jompfDxxFcZAKy3fdU67oo8ErIN4vwQuNtv4obueJAT68cPKRaojCSy51qiNUE-46XFLMO2617MaiHJ9E=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 349',
+  name: 'Episode 349',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/zLQZ4pgoffREAihpRHvbsk-YIif5AvOwB9bREbWKq0VO8ej7IjHsjgLKnWDS4Wa2GsrLDET6vswi4I03SgU6FmStz1i7SeHHleCZ-NuBKDH8WkMZ0PhA1oOMA3GWxGZxQGXskouKynA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/zLQZ4pgoffREAihpRHvbsk-YIif5AvOwB9bREbWKq0VO8ej7IjHsjgLKnWDS4Wa2GsrLDET6vswi4I03SgU6FmStz1i7SeHHleCZ-NuBKDH8WkMZ0PhA1oOMA3GWxGZxQGXskouKynA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 350',
+  name: 'Episode 350',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fgI_r88fxFV4u5efH-tHURjNEbDBrCPHOxJRxFg8-tGWJpG0fbtPfooKMDRj8xGKC0iDG-f9Wy3kMRiIKwwu5TIPTzR3bnDd92Z-sJjpM4qj2ohqtbpCd_TbTRW2ctCe6wqpOkV7zGo=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fgI_r88fxFV4u5efH-tHURjNEbDBrCPHOxJRxFg8-tGWJpG0fbtPfooKMDRj8xGKC0iDG-f9Wy3kMRiIKwwu5TIPTzR3bnDd92Z-sJjpM4qj2ohqtbpCd_TbTRW2ctCe6wqpOkV7zGo=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 351',
+  name: 'Episode 351',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/fZJJc8ov-tHU9uzAarR-XDrK2W1U32mTQtXiRscV85nxKA2xQoGzYz6nJLA1kGrUoGFo_VMjnyB1WnkRLDfMWqxzn5XDKRkWe-Gf21Rt9Quc9q5tTZ4AxDnfRoA0o89-gRM3psykNBY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/fZJJc8ov-tHU9uzAarR-XDrK2W1U32mTQtXiRscV85nxKA2xQoGzYz6nJLA1kGrUoGFo_VMjnyB1WnkRLDfMWqxzn5XDKRkWe-Gf21Rt9Quc9q5tTZ4AxDnfRoA0o89-gRM3psykNBY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 352',
+  name: 'Episode 352',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/p6pgkATo6RlNL3Yozp2d7heTJM4fly3D3zEEAijLW9y2fdPzGV7T5H-_lIa9EoGNftqfoNf1_jwGSrqk5BduDJ7-_GmoZv-nk1RzjhR7-IhNNg8AFaIPB6MMIAa_4A9EuiRY84ULWyg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/p6pgkATo6RlNL3Yozp2d7heTJM4fly3D3zEEAijLW9y2fdPzGV7T5H-_lIa9EoGNftqfoNf1_jwGSrqk5BduDJ7-_GmoZv-nk1RzjhR7-IhNNg8AFaIPB6MMIAa_4A9EuiRY84ULWyg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 353',
+  name: 'Episode 353',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/PSTIQCfcSuIfEgNP_z_lgFswaRTbuJpT_ydfOBVvJKBVhwAxJ6ZAOhJv1O4DgWeA1bpolf97426Wjxrnfqun9g1t0d5OV3-3HMc3p3QDJdn9LLTVAuHq3tgCkOD4_n70udCUDg-_aws=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/PSTIQCfcSuIfEgNP_z_lgFswaRTbuJpT_ydfOBVvJKBVhwAxJ6ZAOhJv1O4DgWeA1bpolf97426Wjxrnfqun9g1t0d5OV3-3HMc3p3QDJdn9LLTVAuHq3tgCkOD4_n70udCUDg-_aws=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 354',
+  name: 'Episode 354',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/oL2S6LtJrBZCw4W-NyRkSrXWn5dkv4FFeGSzyJPsfKw9XTRNOCQmFSZLj0CV1a1bOQYqc00kO0mHlsj4_ibOUaK8Zs_fxrp3C_bwTanGqlVr0HjTC8ZDTAD6JJpR0nBbX0bpu6eK-Zk=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/oL2S6LtJrBZCw4W-NyRkSrXWn5dkv4FFeGSzyJPsfKw9XTRNOCQmFSZLj0CV1a1bOQYqc00kO0mHlsj4_ibOUaK8Zs_fxrp3C_bwTanGqlVr0HjTC8ZDTAD6JJpR0nBbX0bpu6eK-Zk=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 355',
+  name: 'Episode 355',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/cRh-g0YlcBVV2kwcZVt2B5OIu2dzsi-W76OR-h5gVPccqb94_y23e07LsXWtQaum6Q7G5MgSc-4dz9fuf-_jxgHnGYzeXpg0SUOP30umiRxCzA05LLuqYCQ8g0_BaveBVANGQlYKbyI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/cRh-g0YlcBVV2kwcZVt2B5OIu2dzsi-W76OR-h5gVPccqb94_y23e07LsXWtQaum6Q7G5MgSc-4dz9fuf-_jxgHnGYzeXpg0SUOP30umiRxCzA05LLuqYCQ8g0_BaveBVANGQlYKbyI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 356',
+  name: 'Episode 356',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/S-5msIMWTzzlbTodf7Zw0VvEj7K1-PVOsDVpYOSPxYAYIkz7Nn_SQbI1NiXyXtb4yEsfWHfo4t9MC4hcYZLl_wPkvxSo-8nCITZFSDqoJWAD7Hpqv7WwUJfULtcRAW50gyY6SAhPOO0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/S-5msIMWTzzlbTodf7Zw0VvEj7K1-PVOsDVpYOSPxYAYIkz7Nn_SQbI1NiXyXtb4yEsfWHfo4t9MC4hcYZLl_wPkvxSo-8nCITZFSDqoJWAD7Hpqv7WwUJfULtcRAW50gyY6SAhPOO0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 357',
+  name: 'Episode 357',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Bsi0e5M3QFMH4Atk_J6BzbwZHicRpNLo21pNMa3zrOBj_Wf-AwbHeWxx2PjGG-e-hWuMe7MEJpqctzdJhY9-af4YdoFK_nOvcqCdL9Bi6fngsDeN3VBxsAAcrzv37bBGXekittLcjVc=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Bsi0e5M3QFMH4Atk_J6BzbwZHicRpNLo21pNMa3zrOBj_Wf-AwbHeWxx2PjGG-e-hWuMe7MEJpqctzdJhY9-af4YdoFK_nOvcqCdL9Bi6fngsDeN3VBxsAAcrzv37bBGXekittLcjVc=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 358',
+  name: 'Episode 358',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/F2rNGPbghN1boaNTsqE-UPIPSuXFGjL1qIDRL5-Et4L1ToJEdoXqMpGHt7kOMdxHRpEef1W_Q8atKp1luaVM8aFrIexs4ko6yIZodJSwiaJsobhnyUztZWqxaA_cEP3J4sMuAb2k56k=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/F2rNGPbghN1boaNTsqE-UPIPSuXFGjL1qIDRL5-Et4L1ToJEdoXqMpGHt7kOMdxHRpEef1W_Q8atKp1luaVM8aFrIexs4ko6yIZodJSwiaJsobhnyUztZWqxaA_cEP3J4sMuAb2k56k=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 359',
+  name: 'Episode 359',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/yRYM-C7FtAD_JfAPneuk7ny6tyF0P0KsOR72JCvU-SQQ-8oPX3cqEp-0azmmBtaQgzuPHuL_xISZnxF2yOEtr11Jc1a3Ad03kq8IRF5t9HgZuCVn1pZZK-QnMiPXJHb83Q0se_bsXSg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/yRYM-C7FtAD_JfAPneuk7ny6tyF0P0KsOR72JCvU-SQQ-8oPX3cqEp-0azmmBtaQgzuPHuL_xISZnxF2yOEtr11Jc1a3Ad03kq8IRF5t9HgZuCVn1pZZK-QnMiPXJHb83Q0se_bsXSg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 360',
+  name: 'Episode 360',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Frt88fo4OaoRhHuPzqmreO7ro9PD4e5qtdtRcjrGzQM0ax9Ho6Ea7nwl1pw-4YxKUWoJEAkZDW7i2dFhYqbdbqRQdQnffYqEl1zFikU1JJAvokNHCA4GhPFcUYgDzLgZ28vHMIV1ALI=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Frt88fo4OaoRhHuPzqmreO7ro9PD4e5qtdtRcjrGzQM0ax9Ho6Ea7nwl1pw-4YxKUWoJEAkZDW7i2dFhYqbdbqRQdQnffYqEl1zFikU1JJAvokNHCA4GhPFcUYgDzLgZ28vHMIV1ALI=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 361',
+  name: 'Episode 361',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/HeS-AuJrqtySMm3fPK-_UMqaIRY7Vp3KOzKQwsPoBh26KJX8soc2YXPIeej8LK8f-V1D9yjtF88UmYyq_pazZwK9ZHPz-iLadZNvYUK7se9vVXgYyA-_MNaHwDeDj4uJwejVpQ4_zWg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/HeS-AuJrqtySMm3fPK-_UMqaIRY7Vp3KOzKQwsPoBh26KJX8soc2YXPIeej8LK8f-V1D9yjtF88UmYyq_pazZwK9ZHPz-iLadZNvYUK7se9vVXgYyA-_MNaHwDeDj4uJwejVpQ4_zWg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 362',
+  name: 'Episode 362',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/VLx-lmkv-lWY9pBkO8tTI9oRbHL6dghjOpZOSBo2h2HjfmlSINoDLsDoLu2U1dHlN5TjSlmScphNSm1HyIxWdtv5yQgpvcfac5vhq5iUbnfOmjcqgBWJe_V_kNHbz7nmh5j3jJ4BI7I=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/VLx-lmkv-lWY9pBkO8tTI9oRbHL6dghjOpZOSBo2h2HjfmlSINoDLsDoLu2U1dHlN5TjSlmScphNSm1HyIxWdtv5yQgpvcfac5vhq5iUbnfOmjcqgBWJe_V_kNHbz7nmh5j3jJ4BI7I=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 363',
+  name: 'Episode 363',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/AyQpWZJRh04HBCYRYbkEtJsCA9rKpQEEpU0vgtzZRVyoGt1Lulzvd7Dcc9IRlSgNQ3LgLiqKNIci9BGBEYwaMwCUfkUokG3zFnTLPzEQ-doYtDOge8drTVCnnN2COjqClT9s4SJ-eCE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/AyQpWZJRh04HBCYRYbkEtJsCA9rKpQEEpU0vgtzZRVyoGt1Lulzvd7Dcc9IRlSgNQ3LgLiqKNIci9BGBEYwaMwCUfkUokG3zFnTLPzEQ-doYtDOge8drTVCnnN2COjqClT9s4SJ-eCE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 364',
+  name: 'Episode 364',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/a37UfpfY48LyP5jEz5mi6LXfWV6ji_NYw1HGM5brw6hXZ-mdBSaOvOAxoM2462SJfJXRiKgLcpVQlujwU6xVPDAOt-WP3JJ8qiyQnqbf7w-eTcYKHWVkSx2VgYcTLR0byoUhRObJWpQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/a37UfpfY48LyP5jEz5mi6LXfWV6ji_NYw1HGM5brw6hXZ-mdBSaOvOAxoM2462SJfJXRiKgLcpVQlujwU6xVPDAOt-WP3JJ8qiyQnqbf7w-eTcYKHWVkSx2VgYcTLR0byoUhRObJWpQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 365',
+  name: 'Episode 365',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/sMR-X189SkbGgLyAN4mlCqbQeNyytU7MI42w7aCUrE9cvNn-k6OgmSsM611ZCnF3R0VhBcb8QRbGE830dprrvMlEhxyevZn2XpJoBslwhI93D7ZBGxWKuAgQUofQNw9ij6Hu46rs0mA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/sMR-X189SkbGgLyAN4mlCqbQeNyytU7MI42w7aCUrE9cvNn-k6OgmSsM611ZCnF3R0VhBcb8QRbGE830dprrvMlEhxyevZn2XpJoBslwhI93D7ZBGxWKuAgQUofQNw9ij6Hu46rs0mA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 366',
+  name: 'Episode 366',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Ns_xGZxho8RQ2jP_PN4PfqxWAVVpToMXly0sUcGVah0392CjsPYKUMU_KOwe9zlKkXtE08lDosSfAK7HV0L0yaglJIeun0Lumt_LoW382tsinf19gI6ySboCSUzdDXbaxYEdLRfxnis=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Ns_xGZxho8RQ2jP_PN4PfqxWAVVpToMXly0sUcGVah0392CjsPYKUMU_KOwe9zlKkXtE08lDosSfAK7HV0L0yaglJIeun0Lumt_LoW382tsinf19gI6ySboCSUzdDXbaxYEdLRfxnis=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 367',
+  name: 'Episode 367',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/JKEp9936qJJhfE9-r-M-N2B1h-eEY-kl24SiCbZxV0meBpdos2ZIvZ-NuJ5AHUvIgy5BqmBC1MaqhsI1JT6sxyIUpGadWxbSmthjSbsfa5b0FCN_i6iI7okPKYQis6TVFYpqd0EopmQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/JKEp9936qJJhfE9-r-M-N2B1h-eEY-kl24SiCbZxV0meBpdos2ZIvZ-NuJ5AHUvIgy5BqmBC1MaqhsI1JT6sxyIUpGadWxbSmthjSbsfa5b0FCN_i6iI7okPKYQis6TVFYpqd0EopmQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 368',
+  name: 'Episode 368',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/e99AicbJhY7w1e450Z3qD7Bok924xAeQsN7SvGs54FmPzh_z5fzFwdw8wbrjuWpToFuyluz_OjoN-y_Hj2nlMt8cqF2jEVJl085qBmrEbqcxCA5rhnahduUEO2wvXDPEYsQxYh5qrgg=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/e99AicbJhY7w1e450Z3qD7Bok924xAeQsN7SvGs54FmPzh_z5fzFwdw8wbrjuWpToFuyluz_OjoN-y_Hj2nlMt8cqF2jEVJl085qBmrEbqcxCA5rhnahduUEO2wvXDPEYsQxYh5qrgg=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 369',
+  name: 'Episode 369',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/I_KJSlw1mDRWOGhA-bInNyJseKrUxXjKooXjZ8sgVzEEnQo9t9DAcx0YW8zTdi-UnISiDBplx4-6zNL_KqjBag1mMJeptGWj36iI_ClpqF7pbhKQ1wufOOwcKNzySZVN4kx28HbjGF4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/I_KJSlw1mDRWOGhA-bInNyJseKrUxXjKooXjZ8sgVzEEnQo9t9DAcx0YW8zTdi-UnISiDBplx4-6zNL_KqjBag1mMJeptGWj36iI_ClpqF7pbhKQ1wufOOwcKNzySZVN4kx28HbjGF4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 370',
+  name: 'Episode 370',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/gs62N2dsUOY0QFhhD7P3lIFhOvFfnaX6DPewYOMfSYbbcH6b0TstO-5iJ_yMvas_f7JXK_ua31_LSroRnEeRbRb7T24kV-9rd1sDREkuKSLUytjzfO9d4jC3ju2qghgD7s5ENoAO3BE=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/gs62N2dsUOY0QFhhD7P3lIFhOvFfnaX6DPewYOMfSYbbcH6b0TstO-5iJ_yMvas_f7JXK_ua31_LSroRnEeRbRb7T24kV-9rd1sDREkuKSLUytjzfO9d4jC3ju2qghgD7s5ENoAO3BE=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 371',
+  name: 'Episode 371',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/UDP4Ld2het1k5Te3PUNQYklqIImVW2RNJRv7gMjtx1fPzhi3eVHUfaEopSraOZQzu_JCuAEh6ACkTG8fOh5b8mwA_i1baBn9xWIcGVNHYlDaNLQN-HeywI2WGU7kLBkHnDPpskIABBY=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/UDP4Ld2het1k5Te3PUNQYklqIImVW2RNJRv7gMjtx1fPzhi3eVHUfaEopSraOZQzu_JCuAEh6ACkTG8fOh5b8mwA_i1baBn9xWIcGVNHYlDaNLQN-HeywI2WGU7kLBkHnDPpskIABBY=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 372',
+  name: 'Episode 372',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/qf-Wcz0Y36G3r690IMm51PUcy8j0gXKjM1eSSnY16wXjBSrjkUcMi1wD0FYlAIRsKh97MisKEkZNUOgSc4DtEBTf06_XM1yg2xeSg_NdOu1DN5ingDXKhMWeMBdDhIXI2NumWPxPH8g=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/qf-Wcz0Y36G3r690IMm51PUcy8j0gXKjM1eSSnY16wXjBSrjkUcMi1wD0FYlAIRsKh97MisKEkZNUOgSc4DtEBTf06_XM1yg2xeSg_NdOu1DN5ingDXKhMWeMBdDhIXI2NumWPxPH8g=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 373',
+  name: 'Episode 373',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/GvwvPfSJLhY9sVRBKojfRnkQ_JTc_y7wwRASUjZfgcvfX0E41C-L9a3hQoMqZJ496d5rE7mRHPSfeokXaQB-rfMurH4iIbe8bAyJHFevfD5cI4NXzo_yNnNaUryU3oKoRNpObntB1k0=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/GvwvPfSJLhY9sVRBKojfRnkQ_JTc_y7wwRASUjZfgcvfX0E41C-L9a3hQoMqZJ496d5rE7mRHPSfeokXaQB-rfMurH4iIbe8bAyJHFevfD5cI4NXzo_yNnNaUryU3oKoRNpObntB1k0=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 374',
+  name: 'Episode 374',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/P7atvJL--1ZeGx81nVWiATI0mngiRg9gUXynI7EeRAtUHj38LRByN3Iyr1MkU9VI_y9xvXmmJCkC47VWDp3sSx_7xNsl1mM7W955OYO2ptJp0TQlfbFPrYH8pib82Fs5EvlXNwVaGp4=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/P7atvJL--1ZeGx81nVWiATI0mngiRg9gUXynI7EeRAtUHj38LRByN3Iyr1MkU9VI_y9xvXmmJCkC47VWDp3sSx_7xNsl1mM7W955OYO2ptJp0TQlfbFPrYH8pib82Fs5EvlXNwVaGp4=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 375',
+  name: 'Episode 375',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/X9YGmFEWBiHMfcyKiJuHkm2YnxjsO37Fvz0SNQjJXpuq5nBwbIMQ9Nol27UGFTQeWM75vNg1XinQYBl9bQQrG_AVNG1H_XTdip3k1ylZ-IRjj77hRS4hiOR9ijfwnwbP1HfGlWvOh5Y=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/X9YGmFEWBiHMfcyKiJuHkm2YnxjsO37Fvz0SNQjJXpuq5nBwbIMQ9Nol27UGFTQeWM75vNg1XinQYBl9bQQrG_AVNG1H_XTdip3k1ylZ-IRjj77hRS4hiOR9ijfwnwbP1HfGlWvOh5Y=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 376',
+  name: 'Episode 376',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/jyWqxnwztYguLf960lqzTLWAG5WpzCt0LA7mvvYAMlEFEnQo98jFQ1jrsA6mQaTy4AOoLy3IfBHMOEcqTaxOlT3uGsYIB6OYoqoWMJPUnvnqhmAHjT2Bnr_Z9sDfd2zP_9HxXRef35k=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/jyWqxnwztYguLf960lqzTLWAG5WpzCt0LA7mvvYAMlEFEnQo98jFQ1jrsA6mQaTy4AOoLy3IfBHMOEcqTaxOlT3uGsYIB6OYoqoWMJPUnvnqhmAHjT2Bnr_Z9sDfd2zP_9HxXRef35k=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 377',
+  name: 'Episode 377',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/023CPgzPjrbt9OWRakLtn2buKjYv9wM9TXEDdcfFqN785UV1FO-P8uStMRvo27mAhv3_bJMFur3kSgjjtBzJpPqvc7_Y8BIq37K5RtMr2QbcWRQ9PW9WDNLWZcU3aG1SgcVjMx4O4iQ=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/023CPgzPjrbt9OWRakLtn2buKjYv9wM9TXEDdcfFqN785UV1FO-P8uStMRvo27mAhv3_bJMFur3kSgjjtBzJpPqvc7_Y8BIq37K5RtMr2QbcWRQ9PW9WDNLWZcU3aG1SgcVjMx4O4iQ=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 378',
+  name: 'Episode 378',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/ZqAIAv7PXZjx4aCXKz6wwEJLM2DIn4m_RtSWi2E2QjAVm-qR3EtCJyx6YK08ww6mrgIdliCTS-Mc1HnGQwjvmWjdnsNQO6Rt7pY99pmiaLOX-m59iGTZn9GJR0Lnd7PPopHsGR2YzQw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/ZqAIAv7PXZjx4aCXKz6wwEJLM2DIn4m_RtSWi2E2QjAVm-qR3EtCJyx6YK08ww6mrgIdliCTS-Mc1HnGQwjvmWjdnsNQO6Rt7pY99pmiaLOX-m59iGTZn9GJR0Lnd7PPopHsGR2YzQw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 379',
+  name: 'Episode 379',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/10BWl9a7Rz84DwcYWozNDb7fG1jfDEW8hmORzrETMHfHSopsmB3OBG7wW_K2pg_Xo0DAUJ1bQKseHDP4seL1RKXnxv886M8S0xHrtBRTHD52Vn5H4vBCupI-kdIcdJe468RQ-PHUZ0A=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/10BWl9a7Rz84DwcYWozNDb7fG1jfDEW8hmORzrETMHfHSopsmB3OBG7wW_K2pg_Xo0DAUJ1bQKseHDP4seL1RKXnxv886M8S0xHrtBRTHD52Vn5H4vBCupI-kdIcdJe468RQ-PHUZ0A=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 380',
+  name: 'Episode 380',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Y83MJbPvz2QlOaIUl963OQ1FOwytC0P1Luro8BpnXXCWvIJdbD8a2hy5Ww-Oy10X8KaQAy9zk_tPmv3I484F-B-30ZVZVoJn0w2pdZdNP1cDpFOMt-lAIh2h5rd8QYJKq-1UUTGIhog=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Y83MJbPvz2QlOaIUl963OQ1FOwytC0P1Luro8BpnXXCWvIJdbD8a2hy5Ww-Oy10X8KaQAy9zk_tPmv3I484F-B-30ZVZVoJn0w2pdZdNP1cDpFOMt-lAIh2h5rd8QYJKq-1UUTGIhog=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 381',
+  name: 'Episode 381',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Udso7RSBb-1RtN5WKYR2sPK1zL2xkS26UeCdmcjJol0HFWUdbnxX_rNSDu3iMTJ4YjgMHwjgGBfpe-bY906DbNNmLkWdd8PSW_YLhimwYW8qoOFBPl9hs_NHc64IgUP7TQih_l5WPKA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Udso7RSBb-1RtN5WKYR2sPK1zL2xkS26UeCdmcjJol0HFWUdbnxX_rNSDu3iMTJ4YjgMHwjgGBfpe-bY906DbNNmLkWdd8PSW_YLhimwYW8qoOFBPl9hs_NHc64IgUP7TQih_l5WPKA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 382',
+  name: 'Episode 382',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Tlquj623a-ndaKHrz3Jybm-BtX00MU3d1lWfWGZYKXYAFdrZ8IIEIU_T0njOwTUcDlkNKzxdgXS0d6_00TD-2L08iYFvYjXkkWtcJ81A6ymdmWror6LEGY6oP6IGRY2eAdcryHApRTU=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Tlquj623a-ndaKHrz3Jybm-BtX00MU3d1lWfWGZYKXYAFdrZ8IIEIU_T0njOwTUcDlkNKzxdgXS0d6_00TD-2L08iYFvYjXkkWtcJ81A6ymdmWror6LEGY6oP6IGRY2eAdcryHApRTU=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 383',
+  name: 'Episode 383',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/3sloXIzmCgFlibi99G6kawEO7-Wa6SeXrUFaiFtxMPa16vBWRqiO9I7lnAKr28_T5bUtJkuls-7XP3aob3ybf4coPotPStwsmsQbnbq3K9Zgzfwwp85WFmVOGQsO7ephroUXBj8jIIw=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/3sloXIzmCgFlibi99G6kawEO7-Wa6SeXrUFaiFtxMPa16vBWRqiO9I7lnAKr28_T5bUtJkuls-7XP3aob3ybf4coPotPStwsmsQbnbq3K9Zgzfwwp85WFmVOGQsO7ephroUXBj8jIIw=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 384',
+  name: 'Episode 384',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/0olAlSuftCwH-JQDYyI6Sn9Kv0CCCmDWlGJNgbYNCPwCrpohn5xfuY2qjnAPp5DFnoJylmF_VG8dJa3dlpfcx-YOX0dSitW-ZyAELBD0UCi-8g2xsoNx1REnILTLrriPpYr7QiYjWT8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/0olAlSuftCwH-JQDYyI6Sn9Kv0CCCmDWlGJNgbYNCPwCrpohn5xfuY2qjnAPp5DFnoJylmF_VG8dJa3dlpfcx-YOX0dSitW-ZyAELBD0UCi-8g2xsoNx1REnILTLrriPpYr7QiYjWT8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 385',
+  name: 'Episode 385',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/Pw-1KNy0AdHaXeU-ULnWgY0mUicBjoAXcek3Q-mtDlZcud48VZM5krtJ8iI6Uq26qJINpP9tSc0EV-R2i2uUHdhRyGQn8QpDzzZQmTPWUbRW1Sa1XLm4YfjvLWUBVCHlcETr98cclRA=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/Pw-1KNy0AdHaXeU-ULnWgY0mUicBjoAXcek3Q-mtDlZcud48VZM5krtJ8iI6Uq26qJINpP9tSc0EV-R2i2uUHdhRyGQn8QpDzzZQmTPWUbRW1Sa1XLm4YfjvLWUBVCHlcETr98cclRA=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 386',
+  name: 'Episode 386',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/viVvYeAXiT_eef9OQCBxWKsVtNonbUvQToGAzHuRLAIM6xEPXmeIH0AYJinuRJ4mWBAm-e7j4S2KMDO9trYq0Do31hqKgd2lmj0Bjoq2VmgbVxB4HKXCIAeJbq9aMBWeiTMAngLBwso=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/viVvYeAXiT_eef9OQCBxWKsVtNonbUvQToGAzHuRLAIM6xEPXmeIH0AYJinuRJ4mWBAm-e7j4S2KMDO9trYq0Do31hqKgd2lmj0Bjoq2VmgbVxB4HKXCIAeJbq9aMBWeiTMAngLBwso=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{ judul: '* Naruto: Shippuuden',
+  episode: '* Episode 387',
+  name: 'Episode 387',
+  deskrip1 : '* Rating : 8.20',
+  sources: [  
+  {
+    src: 'https://lh3.googleusercontent.com/8_orn3oQgIqk54YfYkTbjDsiwTqmdQlsetL6gHAmeKrPXvmpMT8vt_cjedy1mp5Nlc4qOKLf5vMnUSeSbxJXgSrjG2t8EuPE-k1mbJkMo_FRt8nnq1FvgklCD8u1lnsmdP0odLJNJF8=m22',
+    type: 'video/mp4',
+    label: '720p',
+    selected: 'false'
+  },
+  {
+    src: 'https://lh3.googleusercontent.com/8_orn3oQgIqk54YfYkTbjDsiwTqmdQlsetL6gHAmeKrPXvmpMT8vt_cjedy1mp5Nlc4qOKLf5vMnUSeSbxJXgSrjG2t8EuPE-k1mbJkMo_FRt8nnq1FvgklCD8u1lnsmdP0odLJNJF8=m18',
+    type: 'video/mp4',
+    label: '480p',
+    selected: 'true'
+  }],
+thumbnail: [
+        {
+          srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+          type: 'image/jpeg',
+          media: '(min-width: 400px;)'
+        },
+        {
+          src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+        }
+      ]
+},
+{
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 388_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 388',
     name: 'Episode 388',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/XliEV5zE2wwf1jtizWBpJ6056hCh7tC8ore6RZMqdhwglUBC0M_F4-brKvwtF1r5A4JN1YxWXU1Z48Uiw83f4_BIwC1LfRqlm0BFx8mHbThy2heTVDbyN94p8N5djn5pDdW4sUzEjQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/qrOLfJemVJFZeAcAT50oypx5kQYRJreCfPZTxecmKZVohvg8os5wQ2l0Op8Dj4Rab-2vDyNb_tPwQPVOcgtL267G4ENlNAtH-8c5G4mI76WS9G4-mqtJCfNpwt0Co99OE3qwfUDYSS4=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/qrOLfJemVJFZeAcAT50oypx5kQYRJreCfPZTxecmKZVohvg8os5wQ2l0Op8Dj4Rab-2vDyNb_tPwQPVOcgtL267G4ENlNAtH-8c5G4mI76WS9G4-mqtJCfNpwt0Co99OE3qwfUDYSS4=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 389_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 389',
     name: 'Episode 389',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/5KJSP-o-I4aOKhQ-z8mN4umWy-OsCFeNT7z8N1SG84hl3xo71U6zgFVxld68lPjNCvzaHFjnoLpyWqqSlWOUknkNZcipyNV_xC6ap6GadnUxuU7EUNpgmEidW16sVPw7DUmDDKNgBQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/NzNXeyC6JbxkBpEBG5wlkIB-6MH9-K9PWZgYoq9IJgY71jQvpqhqkef-G5TViF6pIQWPrq0mOKp88FdD0AusEni4oA28_Rb7oiHSFx6dBsHVdst68jWvUH_2MsSA6v3_XEaFhWuCNQM=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/NzNXeyC6JbxkBpEBG5wlkIB-6MH9-K9PWZgYoq9IJgY71jQvpqhqkef-G5TViF6pIQWPrq0mOKp88FdD0AusEni4oA28_Rb7oiHSFx6dBsHVdst68jWvUH_2MsSA6v3_XEaFhWuCNQM=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 390_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 390',
     name: 'Episode 390',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/XeB8cEQGSnbJspMRXrWY9kRPY_hqptOV4ENmWg5xasxjAOaGqi39HNhP08rwqkfVx6Ora92nyKTYzYOL8Y-PIkp3exERldYP5auah-wieSyyU4hdL-Lrrwpa6XPbf8of2-c48qBkDg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/-lY3qqpmKj0nqbGb2ODOnwzFh_OTD7E5c5eO4pyNPj_L9qBkQrnPbZSbdOFCJcmSZu0Hbh9jsKbOsxNVMYER8piK8xLw0XNyweuDRt4DqgjkW4anLmQOWSeXHJbT7dgfntKCGPJVrdI=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/-lY3qqpmKj0nqbGb2ODOnwzFh_OTD7E5c5eO4pyNPj_L9qBkQrnPbZSbdOFCJcmSZu0Hbh9jsKbOsxNVMYER8piK8xLw0XNyweuDRt4DqgjkW4anLmQOWSeXHJbT7dgfntKCGPJVrdI=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 391_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 391',
     name: 'Episode 391',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6xwY-k-hdzn4HfAYpG5mcJLfPdKVLPDypnvXSXHzIA_f42lhDXbRfBmdDeXKOi497wcYX0ZMOF-Lv-5VyRsx3lnJYqyic3QtQclyOijYT5ftgrLA9THqu_o7tA2iqmKAHp_qrxU_qA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/gnnWFMgY152Xsvr22vxfmhyH7CJGc3JJxvitki5cLYN-laOUwMnUj43XFG_UYb_IkA4DG1jIdn9-Bh2SW6FvB23A_G_-SzQAP1bzlJZGqwzJf8Hy65eMvtiKAXMMQXhOnYV1hLfbdQU=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/gnnWFMgY152Xsvr22vxfmhyH7CJGc3JJxvitki5cLYN-laOUwMnUj43XFG_UYb_IkA4DG1jIdn9-Bh2SW6FvB23A_G_-SzQAP1bzlJZGqwzJf8Hy65eMvtiKAXMMQXhOnYV1hLfbdQU=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 392_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 392',
     name: 'Episode 392',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/djr_qwiVNQCCvRZumG20EQUNQ_EekDXP-rV2XEDQPvI_YFGmPpqbLfJmJdekfJPOpGziFbokC2jd5NImhyuj_i6Rg2dWz6sferg_kZVD1ynHTX7RLD9Ovsaf6t-UrhMN9m3v7nlBjg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/4HR8g2lA2V7yp6EHjAXDhTk7B06nHRcsg0ksRmC21rVdrEn6jh5ZQ56lFm3OuB9E9RMt40PIlKcITIw9es7Q-81IhcZIpOHNg1ZSGKAukZpnYEfzCiOvGv0DWXYSs0H_1KsYnp7WeWI=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/4HR8g2lA2V7yp6EHjAXDhTk7B06nHRcsg0ksRmC21rVdrEn6jh5ZQ56lFm3OuB9E9RMt40PIlKcITIw9es7Q-81IhcZIpOHNg1ZSGKAukZpnYEfzCiOvGv0DWXYSs0H_1KsYnp7WeWI=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 393_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 393',
     name: 'Episode 393',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/5aCxWYw_1zwXpQDN7Xlwte_kq9czaVyaiWvhXDsSVZ-GNHgynLsGDNTDZ_6INV_fr0MYgL9qyj417t9OHa2orv2xMeG2fdMOGyZNMAj-X5p9hHpO3WklibkevXeIS4d9x7UMs0dIQg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/nZsV1emEq2UJyV4svHwASmnt5FtcbPIMQib7e24hlPuCkK2O3jXyk2FfAiJe7iP2jD1VYCsREUjoBIPIpO1k7x4MBFr39lgFLtfpW2AcH7MafTFN5ZrvlZTe3QETNBNOiFF43FYWWyU=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/nZsV1emEq2UJyV4svHwASmnt5FtcbPIMQib7e24hlPuCkK2O3jXyk2FfAiJe7iP2jD1VYCsREUjoBIPIpO1k7x4MBFr39lgFLtfpW2AcH7MafTFN5ZrvlZTe3QETNBNOiFF43FYWWyU=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 394_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 394',
     name: 'Episode 394',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pJfxighe4F8ngsgvN078rg5Asg8T04XeiwP_iSjsdzIFItGU5UgRn9ChUV0VdBtvGJb6DtposgoNlo8g1DAoOYWr0xskwE2laNG0WxYePiVa6FBkMyDX1ClrmiJySe_yoAixSFXkoA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/NmnVWLbFe-gCgV3hH5w5MbfvGiif8eAw2eC9dqDztfIH-h9x70uOh8YyF1wXdmWtEAOOnrej_0rQqtM5h01PydeAHni_IZprMgkrlbjzgDdIlgQgHXlONZ3hM57vdAeYApcugERpZrs=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/NmnVWLbFe-gCgV3hH5w5MbfvGiif8eAw2eC9dqDztfIH-h9x70uOh8YyF1wXdmWtEAOOnrej_0rQqtM5h01PydeAHni_IZprMgkrlbjzgDdIlgQgHXlONZ3hM57vdAeYApcugERpZrs=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 395_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 395',
     name: 'Episode 395',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/CBt2RZ0ITm4GGfuF-Y7q1jx37XtFOzXJvusOO8jNi-JMHsbBsvvkm42mY-9Mi1zoLeun-BHWtsJP15VWu_M3dDfqx6ULKs1e8XyN84Sulaqi_KkRetBFvw0H48xpUDzK6M2xyPZ6ew=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/uerwwrsCPKW4NTRt1RBcsqRmoNIX8zZxVbovzDhxM9JkCBrm_3pauODrK3bIobJ9YYdbSyKRAEwWDQf1Ik1L3ccbM8QcigoFzhHy87TPPnE0NuP5P4AR5w3_APHRAA94HT0kpud5BmI=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/uerwwrsCPKW4NTRt1RBcsqRmoNIX8zZxVbovzDhxM9JkCBrm_3pauODrK3bIobJ9YYdbSyKRAEwWDQf1Ik1L3ccbM8QcigoFzhHy87TPPnE0NuP5P4AR5w3_APHRAA94HT0kpud5BmI=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 396_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 396',
     name: 'Episode 396',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6hVCP8rIkRDpy7AL4d55t4PxRbMaBxoMG1fQCbBAQbwgt-Ko3ixfuNtC4dYXAysbIRRHIhqm8hsASfmCQR8NfNtn6YxNW6GRz_Vq2s0mjXTXXUSRK_sxOizTBzYQqFqurVINbjKkig=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/ya1H2pJhZMooW65rNdnSa7_pBcgsUiOLhboKW24bUZJcxUqSg0fMPVF5Ob5zJv6V4igcfp_0g_JlEYW51Ve5WGrUYc1GDbijNBeVpdhsYbkGrc97O2GF_ar-Ex1YOE0aRlRCNayF_gI=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/ya1H2pJhZMooW65rNdnSa7_pBcgsUiOLhboKW24bUZJcxUqSg0fMPVF5Ob5zJv6V4igcfp_0g_JlEYW51Ve5WGrUYc1GDbijNBeVpdhsYbkGrc97O2GF_ar-Ex1YOE0aRlRCNayF_gI=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 397_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 397',
     name: 'Episode 397',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2Kx9SQ1uxtSE7e3qPUTIoOCyMRH3dfe7Or67ZY855iXE8VWN2nxyKokHYtJFsdauQnlp36bHp4m1PYHgQjcs63-4ybMZQcOnZODKp-WErqvc-TuAuzRKDSUdCLmlxmSiM4O3cpqI7Q=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/qwQ055kLNyYpHN0qD-dAyS-6tcj4Uk-6-CILNEkre-HyrkxP9KGdEh5HWuw1NSHuhC1Q5bPNAM-92jxb7AMEhHHty_ZoyEkvo3Th2JSV-ZjW1STupAzi4yWIfi5A4cxaCF9H6-3QfBM=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/qwQ055kLNyYpHN0qD-dAyS-6tcj4Uk-6-CILNEkre-HyrkxP9KGdEh5HWuw1NSHuhC1Q5bPNAM-92jxb7AMEhHHty_ZoyEkvo3Th2JSV-ZjW1STupAzi4yWIfi5A4cxaCF9H6-3QfBM=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 398_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 398',
     name: 'Episode 398',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/kQkOW7vK0IWbLIKkU1PhCGr75B6asj2aA-06OlyqNVlr4XzONDtRTTHAzmLjkDz2cYzYwa3z3sG-3VZ7nX3M1YlLovTPuzaZimIWN_2pP3tnDHx19YDNDtqFdLsOzUDzJu8bEZi2-Q=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/YUNntZNpKhStdQl4zkJeoQhaKt0OWRTAh3RqzagUQ7N7L_6l5VvTOu-B9N6MH-XeNGTRQL3cka0XG85zbPgrQOsfR2mGG3aBcjTLnIkKQ1J4G5lpsHZv5nRVLUsKYuoZuxyZ9t5m7-s=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/YUNntZNpKhStdQl4zkJeoQhaKt0OWRTAh3RqzagUQ7N7L_6l5VvTOu-B9N6MH-XeNGTRQL3cka0XG85zbPgrQOsfR2mGG3aBcjTLnIkKQ1J4G5lpsHZv5nRVLUsKYuoZuxyZ9t5m7-s=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 399_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 399',
     name: 'Episode 399',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/_W-TqvT5PaC-1ELsrf5Da8AWc_BGpWDPlH4IDy2RD2juj4lSD9O-uKPVyIN-WqJP6ot4La8df5EBMtk6Ayy_IxoNdzilZH2weyWOFwWQ9Mm497QmuQ6pZBXtBFjlnxUqrlw8bq_1DQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/6MtFU2tHOnUn1Ig2TIjYJN9eT54fiBhKDHR1t9qzYBPxdczSuJADda2QuPz3poZKnPnnwKeP5BHKN06JWV3aX0m3-FehVP9yJexqnZ9WNY96SQ4DeCWxJLzQoCZ1p6vDkdLOtZSWBhg=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/6MtFU2tHOnUn1Ig2TIjYJN9eT54fiBhKDHR1t9qzYBPxdczSuJADda2QuPz3poZKnPnnwKeP5BHKN06JWV3aX0m3-FehVP9yJexqnZ9WNY96SQ4DeCWxJLzQoCZ1p6vDkdLOtZSWBhg=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 400_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 400',
     name: 'Episode 400',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/rc4x-04KXltNOrUrVvUBGTNVSUjFkK1lD0pGMpFuJOPPDZTjbGM1dWNFuJtdGAZjUfuoQFhPRYZrpCDTtoQJuzdYohbWF-E5QAVp0bbsFV9iyQNXD-Dtu9uHScIHOzx0aZDNXpKO5Q=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/j0GOX_Yv-3IbtOqqZPLFhwoy4ZX7NQll7IlApfBVrehpgVXz8LoW5cT0wu-sACnf_7GS4bg9k2Cx-BV7huVgIWMQVUP6C8vMR6DTt59n1HSkUBy27UaqZExDevSOgmkEVbAWsIX2vGQ=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/j0GOX_Yv-3IbtOqqZPLFhwoy4ZX7NQll7IlApfBVrehpgVXz8LoW5cT0wu-sACnf_7GS4bg9k2Cx-BV7huVgIWMQVUP6C8vMR6DTt59n1HSkUBy27UaqZExDevSOgmkEVbAWsIX2vGQ=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 401_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 401',
     name: 'Episode 401',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/nmbGi82oDb_LTmbf37IlDLWhp4tZZm2MghcUskZT3Bnk9EQqynmjFte16JBYOKV9XMqefqy0eCGuPuQyR7Rcz0UJqtKQR8rvTEPaWAqLdQqkHyrecX3guFlMmayva9Vr-imo9eAsCQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/gRqsXMaXXueL0x0R7vu9qnQMqqjW9I6LI_ecSgq1ZNmtc8tgnquU5PY3QUnzw9FTZu1weL5zkpfjf8hklMBl8c8EbJykFLJuChplR7nI8XB-BRv6VCW0dD44A28OZiTybRzD21W94nY=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/gRqsXMaXXueL0x0R7vu9qnQMqqjW9I6LI_ecSgq1ZNmtc8tgnquU5PY3QUnzw9FTZu1weL5zkpfjf8hklMBl8c8EbJykFLJuChplR7nI8XB-BRv6VCW0dD44A28OZiTybRzD21W94nY=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 402_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 402',
     name: 'Episode 402',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/-uZORvdsad6ixHY2btPLhTycSaNJOjY0cQStr27MTUJ6et3nTvB9O2VmzalQE8O2OUYDck9FTHUrGW3lL_cb3GXpyTM5rGf8S4uwhaIxGmzZkIV8PkWtiBbOlfBwVGw-lR0o5E0Jfg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/7C0FLIkJLmItSx5torud62qvT-Yu94ci1PyZFG08PqPCFKdwZFzVoloD61l8HAGD3pzwpZgDcKmuwnnaeMgvCCbcDcTjCbVw5EcK_tphSTyDHuAVXi3aNvQuWT42KaiLtyFUa2Jd-D8=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/7C0FLIkJLmItSx5torud62qvT-Yu94ci1PyZFG08PqPCFKdwZFzVoloD61l8HAGD3pzwpZgDcKmuwnnaeMgvCCbcDcTjCbVw5EcK_tphSTyDHuAVXi3aNvQuWT42KaiLtyFUa2Jd-D8=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 403_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 403',
     name: 'Episode 403',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pvwLKGKg6r05R_OP39QEY48LmMd_BO-HW_-ywWFph_j6FrBDR80lCkqJ_n5kqCLK0xN3HDdG0jV8Vn38WYbbVh84m0IenosdqQViWY0FbHPWWN__hulIwX3NCUyjle8l3sKnET70UQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/QXgWskZy43EFvlJv66cQVv4JEGEKtd7vF7VgIN9rMGCG7OG_8pgyhsHjk9RL1sWtPSoTjxjgqLqVOxkoHovEh_QwYKAh5VXdOP9Z4pnexecQVKWlHPOg80q70xWOD_Vt_wMOiwT3ggM=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/QXgWskZy43EFvlJv66cQVv4JEGEKtd7vF7VgIN9rMGCG7OG_8pgyhsHjk9RL1sWtPSoTjxjgqLqVOxkoHovEh_QwYKAh5VXdOP9Z4pnexecQVKWlHPOg80q70xWOD_Vt_wMOiwT3ggM=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 404_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 404',
     name: 'Episode 404',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/fa586peuUjHY064wTNm0NYKIAURVnF6aSEhuOdFT1_EYxmuIk0QZHgfEQ3rIZMCHh_tnzQogHSUpmUQkpCwsdaAVzjWMO-DvxQJAIr12CdH8IplUG3vc2gbzw_3LkueaLRv_LiQJcg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/Lx83rOt6JYtbk_q5xN5oKZ2UtLEc076ujv92KsDrmG9Mwybus90h1S2dfgyckT-_5fjCphHlGe6mxmBHeGKyZkB1FNnJpfa0QZXWOFz1nRy3aoLBeI808W7JK4lm08S-w1dDsyOK2ng=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/Lx83rOt6JYtbk_q5xN5oKZ2UtLEc076ujv92KsDrmG9Mwybus90h1S2dfgyckT-_5fjCphHlGe6mxmBHeGKyZkB1FNnJpfa0QZXWOFz1nRy3aoLBeI808W7JK4lm08S-w1dDsyOK2ng=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 405_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 405',
     name: 'Episode 405',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/usSkASLqn4VFeh7dmiKdI8kbdO6iCCCtmHRSTxUbD36JSUViConX_tIY2bhuasyDVoJddHnmiogxVZU-addgohmy48TOi36uLiAtVKDVUpNCXY0r3PdjTDIpbMjFCH1HaxAflM78Ew=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/-7hNs0LgaIYBogbhx8CSuceny59AEclkh8PXJrwm0aR8g7w6p_5gQIRP29cYDT7l1y8z2Pg_cbyzftcqXM10c6lRJ9UajUKztKjGzEiNG_NPKUlKS0KgOq9Y5K46obRVu0YvEMwG89M=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/-7hNs0LgaIYBogbhx8CSuceny59AEclkh8PXJrwm0aR8g7w6p_5gQIRP29cYDT7l1y8z2Pg_cbyzftcqXM10c6lRJ9UajUKztKjGzEiNG_NPKUlKS0KgOq9Y5K46obRVu0YvEMwG89M=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 406_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 406',
     name: 'Episode 406',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/zS9N4eXl4n1_O8XKG-LuqFNaCEJHR9VeMQMafKYagSfX3klNZGn89p-uqD9XbZ3nK0N2oOxPwZcYTl5f0QoTuRua3rEDOVirmT1vfV7n4q4Yd8G-FYBnVEgPfbUM0G_es2qDUsN_Qw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/G_4lrS-BgSQ6xjTFJwWdd1yMVAQy7uQ2x88M4jvX0CDO7eTJS5KdtaNFZz5q9rzv1S5_TEwmp07rzTIIKKIZCOZitiYSZxt3UcjIKE07iKn1NPNMNiAD52MeVeopVlqSl0xqVe34Bwc=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/G_4lrS-BgSQ6xjTFJwWdd1yMVAQy7uQ2x88M4jvX0CDO7eTJS5KdtaNFZz5q9rzv1S5_TEwmp07rzTIIKKIZCOZitiYSZxt3UcjIKE07iKn1NPNMNiAD52MeVeopVlqSl0xqVe34Bwc=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 407_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 407',
     name: 'Episode 407',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/diJwm5q8wb2jWzehpp1PNo3A-T5eRCPCIAkjN-D51Og1b0k2TADI26UNuZR3K0XXpyfYRdSzrNJxc-NCxxIM5Oo6O0goNyXBq_8U7cvOiQROo1GTvvY8S-n7C-HK7kCP23sSTdtvzw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/30PbkpkJbAA4JttMcNfcAcxau3lsQbGVdm-XWx42LTFU94RniGc_dcHSLPA-OCMZEoZDWe7e1YOurlckIJlXMxgLnErjjMH7V7Wj1WH-c8dD171R6A3L-We-wlc0gvxfbKiahghoRB0=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/30PbkpkJbAA4JttMcNfcAcxau3lsQbGVdm-XWx42LTFU94RniGc_dcHSLPA-OCMZEoZDWe7e1YOurlckIJlXMxgLnErjjMH7V7Wj1WH-c8dD171R6A3L-We-wlc0gvxfbKiahghoRB0=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 408_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 408',
     name: 'Episode 408',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/7arHyI7ozdugOKg9QeVblNwTODcMfuDlNNM50rmmyfNTHJx14eDOq6EUgNje-rS6shqFm00yJq02E2kVheqgr_zUdTJCxYIx7wSVqC0pacDMzypOs-DxrrI3lWqp3vJewzUQ1DyryA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/WZ83m6VLUQ2zR5zB87KIA6P9Y2XR62lFFyodNAkA0Gc7I5rDMf3L7rWewsnS2RmOZaRi4rGFTDf5JFBXqKzgRpIulHScDOLrGpZaP186rfEGaArcdFsgEqWrE2mTAXh4EwpiPRmXlVs=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/WZ83m6VLUQ2zR5zB87KIA6P9Y2XR62lFFyodNAkA0Gc7I5rDMf3L7rWewsnS2RmOZaRi4rGFTDf5JFBXqKzgRpIulHScDOLrGpZaP186rfEGaArcdFsgEqWrE2mTAXh4EwpiPRmXlVs=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 409_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 409',
     name: 'Episode 409',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/I3DOKOhJZ68kqKFXnF0poBZumGeFSJC43_Go1wKVCuw3dcPXmrz-GkRZM4iX5j4mntb41YOB5UFAYs9oMDdx6z1eDG8yZhr_OprSO0FwauCxVqK6GqM7q1IIV3aQ5Ip1SKHdxLsKvQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/8FXD3YMWs9zNfCYDWZPlC_r70nA054dgfSXAmjAMXjPXMFrXqBn17PMDw0NkZdN7CASdQWxQXx2AmZLvFof4-dfU3Sh82wh5Hj0-NOWpy9d_IFIDAK3J_zvG7dbkG7U88nJU6qv6Xmg=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/8FXD3YMWs9zNfCYDWZPlC_r70nA054dgfSXAmjAMXjPXMFrXqBn17PMDw0NkZdN7CASdQWxQXx2AmZLvFof4-dfU3Sh82wh5Hj0-NOWpy9d_IFIDAK3J_zvG7dbkG7U88nJU6qv6Xmg=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 410_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 410',
     name: 'Episode 410',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/rE7HqhJMDKVqSZGfYfIJphg00qy6gM4Wc6h9Z8MuinJYUkdumaBBxMVkJxZ0ntUOSjqV4wrUBM4eIj1crCeVXvOcKZO4ug23P0C0CInYlw-s_qGtkNUsCo-zSm1LW9u3Mzuq6fFkrw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/5DU8VuEYxDWPVDCJMtFj0dj6Rvv80tkCGJsKWoPM9_Qa3ymZfoG1WFW-mOP-7LpzEYBIvmvrxnK-9Ozt9GVGk2gz2WvObCiAse7GbVE7gSxBW5zSkuumtHmv_f-2WdP69NV8rNyWGuA=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/5DU8VuEYxDWPVDCJMtFj0dj6Rvv80tkCGJsKWoPM9_Qa3ymZfoG1WFW-mOP-7LpzEYBIvmvrxnK-9Ozt9GVGk2gz2WvObCiAse7GbVE7gSxBW5zSkuumtHmv_f-2WdP69NV8rNyWGuA=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 411_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 411',
     name: 'Episode 411',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/90yaAxHCFS2z8Ohin32bDkipCu1y1exCG3Q3wWA-zFs5AAIifoVxgLZcjKImoXU62ZxxJ-kQhP3_ZxeXbFzDkDWBv0G_0VLuFfEsTy1ZWYjJjKWF5_pcGk4l2FfdcUNbjsikAdB3yw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/ZHfbI-rNSEitcnRzAQdZuK86bmPIPCWzz6i7V1ro8fjBcYOGM3-jZwo-SvpfzZ6D1xr2piFaRWfm5tMDhkEnCi2EeCLjm2vj4XXwc_9DSxFrSTLA7cUCYl_uc8Iv0e_wh8fdrWw-taU=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/ZHfbI-rNSEitcnRzAQdZuK86bmPIPCWzz6i7V1ro8fjBcYOGM3-jZwo-SvpfzZ6D1xr2piFaRWfm5tMDhkEnCi2EeCLjm2vj4XXwc_9DSxFrSTLA7cUCYl_uc8Iv0e_wh8fdrWw-taU=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 412_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 412',
     name: 'Episode 412',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/9GvBqPdlcWdj8AlmIz2gxwodmqSdsbXP5tl4JbLtoJ_WdKEdGFOoW1odkJKiKQNVViOdhSkjI3OmkjPHdsM7QbA0NVxIVRkqZ2tmYb3LJN0d_LAYolnCnv-B4I5vu1_U896x_lghFA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/wXv0rpPkbwGXOQDTkySV4fIqK5zXym-Twlpqc1OQmwcTKsTf2W3YA5PHBQOyJ4rYo_9qmOt04441GE30-fi1wAvIsZHxmOH0DIYFQ1j72tBMImQdrUnv2DswtVhOO1dSr1lFyZGldbM=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/wXv0rpPkbwGXOQDTkySV4fIqK5zXym-Twlpqc1OQmwcTKsTf2W3YA5PHBQOyJ4rYo_9qmOt04441GE30-fi1wAvIsZHxmOH0DIYFQ1j72tBMImQdrUnv2DswtVhOO1dSr1lFyZGldbM=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 413_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 413',
     name: 'Episode 413',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/qTsjTkKDxWgT-GfbiAcbN97mfK6xMsEjK8fke75NqJLL5Sf9MKOeafn7B0JQlqDz8Vsu3OARTknHVn2iautJl4RNuLRSPkrFfLXqH8MHLTReffwkX-oggRN4dR_E_XnqF37Zk2sGaQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/LgNw0b8lJ7s0Ye19MdBB7-vxZ9qgAL9DV9jfwTC9liP_HnQEKb0GSf_ubUstmQNlDJlmMiKMKH4nYjnKJRsWQn_Ds0_XbyzdAbEUSmAh2G2toR8x4Ij0owLspaUkPAdPtktI2Rqy1Js=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/LgNw0b8lJ7s0Ye19MdBB7-vxZ9qgAL9DV9jfwTC9liP_HnQEKb0GSf_ubUstmQNlDJlmMiKMKH4nYjnKJRsWQn_Ds0_XbyzdAbEUSmAh2G2toR8x4Ij0owLspaUkPAdPtktI2Rqy1Js=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 414_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 414',
     name: 'Episode 414',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/XymXhV_8xaf3gNjHLxlHlcIJUpQdgSPh4xYEpHx1J4Gj2Jk6yu1_W_PVS8Xrzg--fuUYgwR3YionzolhrfSOf8C4wjv1Iym93jFbAvSGhojFlUuowf_6t1cotUg_zOPbH7l8e6Jtjw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/3l0UySALdmY2FLungedbBewwVrqTatriNVYnITqPwjrZtoN-xpAOI14_6Y0TzwYZY2M87plpkS9bbXvWzvVDvphPpa03B18ToCAZxllky5LFtMkUfhxWEwxLQayi6FSK_GOCtoxhpmo=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/3l0UySALdmY2FLungedbBewwVrqTatriNVYnITqPwjrZtoN-xpAOI14_6Y0TzwYZY2M87plpkS9bbXvWzvVDvphPpa03B18ToCAZxllky5LFtMkUfhxWEwxLQayi6FSK_GOCtoxhpmo=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 415_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 415',
     name: 'Episode 415',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/cBj-VkmccroXWOzRyYyPMf4roYYJRwvUr5LKp0BRdEXq3DaXzstUNmeHC-c_YXSuYM1Gy1ZCMj4xbPkbF478nIurhejAWQWGhIHaqPG78z09JrDiIBqcKZ8R87M2CB6kJ00afGWX_Q=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/Jw59C1zWVppdkh_F8pvtxz-lCWGGJl1sfllJrTxd8ONX5gXqMApR0cpEm52MTHgsHTAR6M86k7rT3IUvSZKNJiCbNxrH5NVnIHVRhccrSNuNB1f3YYR17QIjrhYscp0twcMXRgn6q3w=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/Jw59C1zWVppdkh_F8pvtxz-lCWGGJl1sfllJrTxd8ONX5gXqMApR0cpEm52MTHgsHTAR6M86k7rT3IUvSZKNJiCbNxrH5NVnIHVRhccrSNuNB1f3YYR17QIjrhYscp0twcMXRgn6q3w=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 416_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 416',
     name: 'Episode 416',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/nZ1Sen9GBcsypJzp68oeQJZ7nAqG0kh0ma9UCG583iFNcmAM-RWBFyNO29SKQE3ldSwFegOAZ0Dieel4F-WjCq0gXUMJHumupNw_U1ncLi8ZgsVihk730rhh-BoojjSnUUoOSZrhgw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/3Sl2v_pVgdNUKkiLeEUzbvgQwSbHNZihmJLnsy4yl2npgBuOqvN19PlKMGSUTAhIAeUzVCla_nE5Ui5jXctb2luEF0AOO3dKY8J_jPTS_MT6qJ5HzqUjk1UktYNLVdXPMgVbouvZGCw=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/3Sl2v_pVgdNUKkiLeEUzbvgQwSbHNZihmJLnsy4yl2npgBuOqvN19PlKMGSUTAhIAeUzVCla_nE5Ui5jXctb2luEF0AOO3dKY8J_jPTS_MT6qJ5HzqUjk1UktYNLVdXPMgVbouvZGCw=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 417_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 417',
     name: 'Episode 417',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2bk76kQYu1ZbQDWV2LzwcW-IDBfk8VEN3sHtMO3vdoy3f-Xr6VbIgwvQSNHD1opNAs6vRML5y7WZzxde410dMDU4wCkpjeRA6on3y9-kU1nfQEVj80s1HKpAU-YEcja1uAuHZtsj3Q=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/G_vouAZUqgvoyQVd3i63yQ4ZJWSouCEhcD9f29oC-H3Tw4cu5qaXEkOMWK1KSzT9jl_y_jTb9bEKIdR-WsoICa5KT3m4savOAvpIOTG6CJwPoAQue7UgCxHaHAJOnu_DiPLhj0OqiWk=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/G_vouAZUqgvoyQVd3i63yQ4ZJWSouCEhcD9f29oC-H3Tw4cu5qaXEkOMWK1KSzT9jl_y_jTb9bEKIdR-WsoICa5KT3m4savOAvpIOTG6CJwPoAQue7UgCxHaHAJOnu_DiPLhj0OqiWk=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 418_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 418',
     name: 'Episode 418',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Y4aXsVGkTntNX4sD5O7KHfShdG2_xI8bdSj4Id28bv0WHzEf1Eq7DM-MQtg8-9ixKy9y2jdYOhD33tr4cathJOEhHRlEetaI5dz9kghAnl3G7KCfi0A9owkPWuncKaNektNJ5xJj5Q=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/tSfRTeItF9f6yhv2QQQDdV2NyoFTRbPrk0Cby7X9_w6sU_zEqWPTWk4ieEf-xxPYlpU_4KudwAhloFXbmrC6KOnkQLxRnLxeGJuOALdEy2ZcZIvKpAB9ZSqfcV8awR_H7UsMNApD5PQ=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/tSfRTeItF9f6yhv2QQQDdV2NyoFTRbPrk0Cby7X9_w6sU_zEqWPTWk4ieEf-xxPYlpU_4KudwAhloFXbmrC6KOnkQLxRnLxeGJuOALdEy2ZcZIvKpAB9ZSqfcV8awR_H7UsMNApD5PQ=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 419_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 419',
     name: 'Episode 419',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/pPFR-zK-gxc8Lk9rEy6Yy4rOIkZ-TmXJS5mRpsRPzrBsoiKaSNeDuJWjQm658i4w0REuCEssnUPudGLTzeP6r8Mh8x1OZRK02eRspj_ExyTtj5HxEuO_Nn6axhLoJPwVovoZTrS1Pw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/295gXiBZhd5jMqADpdUphsTG0U_Knk_ikJQ8LNduGo23MADuFTAI9O7Ab2LJZpH-73htLruDpSA9Ik8M5BKXL-8j8rSWaRX_SeiGxQOrXgcMDhaB8b5Gio8aH8JqsGORJv6HI9VECis=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/295gXiBZhd5jMqADpdUphsTG0U_Knk_ikJQ8LNduGo23MADuFTAI9O7Ab2LJZpH-73htLruDpSA9Ik8M5BKXL-8j8rSWaRX_SeiGxQOrXgcMDhaB8b5Gio8aH8JqsGORJv6HI9VECis=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 420_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 420',
     name: 'Episode 420',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/_BZv9ZlTiShr91C17knLPp8zAC726EnCwCRd7pda9hjKbt3Cpf2QdAyadF1gQShJB7zOTo5rOr-sjSPAcgQrtg0gZFuB4vX7vy8E5SBsFcCPjrhMxR9XS9YW_hGWQSFb4XWvd-JrZA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/gleTxo0Cd1SJ00CRBT6J0HTMCD5aVRT8gw9jEitRdsT0d6XhC7lbksrdm6z8TVoe3wm9dxIUnxPhWdnV2I4HpG9vTaZ9JqX5cEIn7htCT5-vYJoc7JNPdKcphckDc1WGo1nu-m7L6X4=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/gleTxo0Cd1SJ00CRBT6J0HTMCD5aVRT8gw9jEitRdsT0d6XhC7lbksrdm6z8TVoe3wm9dxIUnxPhWdnV2I4HpG9vTaZ9JqX5cEIn7htCT5-vYJoc7JNPdKcphckDc1WGo1nu-m7L6X4=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 421_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 421',
     name: 'Episode 421',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/mV_Kmgl0FuNE69lHNgh1VlDxJQxDyWnC9U4S8UNpr07y_MA46HiL1-TB4eyGdywWaRPTbfiUbzFnrDB9szJuiruR_WmUMLqwraR3TYwV-KFy9zFwFKTg6OX9fFDoVY2KrlNlTStNaQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/HGQhGldcmqOsxJT8uzVBrP_TUtrNdTh8ZwcU2jJUw5LKtS4z9FD6BoYAbREcSNKT3gKnjRZPqSGPPApKxr2g6SH5unFpyDaZChONPcKUX_M8TilzmmcxwkqA8NCZpWVfAS7CQCpkvdM=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/HGQhGldcmqOsxJT8uzVBrP_TUtrNdTh8ZwcU2jJUw5LKtS4z9FD6BoYAbREcSNKT3gKnjRZPqSGPPApKxr2g6SH5unFpyDaZChONPcKUX_M8TilzmmcxwkqA8NCZpWVfAS7CQCpkvdM=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 422_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 422',
     name: 'Episode 422',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/0katULV0Ikh2FytztfLj3bee2MzNt6b3GshaXDgVxfGmCK6MPjujVt2jQDS6B3GLpMLiuPP4Pii_6lkmR_Ug8Dv0JthVhh3pPapOi6dYROHNSEHTyd8N0UF0aeFa8GCndxp34w5XjQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/tyEhbNMPW-RIBkKyYZ23LvmmMmGnJMZ_bhuMEiG-6UJwlt0jVykyQnQEV_JR-J8i-xHpXhTZaziDQ9UAeC7AoQZ9e0DpHy01HCmqXj9EgUJMEeC-81i_52AQhmigJTkjgcRYjds95ik=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/tyEhbNMPW-RIBkKyYZ23LvmmMmGnJMZ_bhuMEiG-6UJwlt0jVykyQnQEV_JR-J8i-xHpXhTZaziDQ9UAeC7AoQZ9e0DpHy01HCmqXj9EgUJMEeC-81i_52AQhmigJTkjgcRYjds95ik=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 423_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 423',
     name: 'Episode 423',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/wcMAIb2Li_VotiPIilhgeAKWz2yJ9-KlW--kv3Eob_nEWLtjSxnXLWpbwO9f6598NbbMTpHBhVcL9QMy2dWrU7NCS3ZDgU8uvOl0V84YM4A1pz1YEk0ydrOaZ5kLQ-pI38LtPFCb3g=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/rIZNyNOmsIfzVPPMQ7k-ChTmZOoybHl2LRmVXeK18AlE592IZnPkyE5AZf7n6nMGUy3y6jerYY-UGa2l1hgHSDtRkPYd5fpBNqaIfxBTRWyC3RgTtwvC7f6RoqznR4ZkCq4Kr8MMCFI=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/rIZNyNOmsIfzVPPMQ7k-ChTmZOoybHl2LRmVXeK18AlE592IZnPkyE5AZf7n6nMGUy3y6jerYY-UGa2l1hgHSDtRkPYd5fpBNqaIfxBTRWyC3RgTtwvC7f6RoqznR4ZkCq4Kr8MMCFI=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 424_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 424',
     name: 'Episode 424',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/JdsRw39LIbN6G0Nb4exRzxdjAeoHGoO8J9lbuGXrc5N9pG1xN70ojM6dhqc6jxyCseG96S-t2cngTsoRCrH7SOlZApBacVjfhYNvks2QAEs4eKhcfuFEZPHkn-v3VfEC-cmfJieluA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/pPsnjeYmX9Ew8O17Qcjq3X0LlTnKPKlb8i94mlYJKLz7dQxRbooeo53W-QAssVaMLni6-isQEmBTZH05VpbnC5_KdqMtpwOLFi26njy69r3axi39D2QimPffi5Wtj6ITjvt3UvTT-Z8=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/pPsnjeYmX9Ew8O17Qcjq3X0LlTnKPKlb8i94mlYJKLz7dQxRbooeo53W-QAssVaMLni6-isQEmBTZH05VpbnC5_KdqMtpwOLFi26njy69r3axi39D2QimPffi5Wtj6ITjvt3UvTT-Z8=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 425_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 425',
     name: 'Episode 425',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/8b8AC3tMNvVDkRNMRfYZA67pwj9AzcqaKpliNqWXhUJbjJA6-Yoj9ypSgSpt9_Rdc58tLH9W7_2G93Y1hIQBbKrw2MHosyZCAAXb6Hbo3mcolXr174r7Hm-D9OslT3aFOtEsA60SNA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/65q7mvVenh926tSRNcJn4GrCiE1ZiPxXifQCLFlROAujQcGtzitSC0vMMebybLt8BZdVsNg-DJIfrqy7dTZsSYYzjNLm4oIr7PmF7KCRo8qImZYkvJn2lphky-k8iyO3984LMN2YN-A=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/65q7mvVenh926tSRNcJn4GrCiE1ZiPxXifQCLFlROAujQcGtzitSC0vMMebybLt8BZdVsNg-DJIfrqy7dTZsSYYzjNLm4oIr7PmF7KCRo8qImZYkvJn2lphky-k8iyO3984LMN2YN-A=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 426_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 426',
     name: 'Episode 426',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/HRjlxMqOv41hP9YOCPfJRz26E67TKW2m0ht9nKr8zxwtgrbjy1VA47icvBLJUafQ93XasMAYLlhqlkPcnzNAGfH6wRpbxy4Q3uNtA2cye-tvNCeHwQFww2r-7-62elafwm78cLGvQg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/5CxIbUk6pI5PxoLXe4ibfwGUehPtxMgC3ic2oIYy-VQ3CZIU8sG3nvBaH0zE5uUxprunRZ6rEo35UWbVO4iufbZphpBZY3BdgZvXssySF0QN_bEnEy6lmR41QaYwbqZOn61JyIf8XZw=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/5CxIbUk6pI5PxoLXe4ibfwGUehPtxMgC3ic2oIYy-VQ3CZIU8sG3nvBaH0zE5uUxprunRZ6rEo35UWbVO4iufbZphpBZY3BdgZvXssySF0QN_bEnEy6lmR41QaYwbqZOn61JyIf8XZw=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 427_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 427',
     name: 'Episode 427',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/3gEaVqM-lTxoh0VofcUYFdzylRZMs6LBk5duv1Lcx7nO5wujwXeGW-LRvY_AytoY7NQotO8Qg-ucLC8Jz4uh4ppwklh9IVVfL-NLCDNigWvYBfUPQkWZ-yhSrkde7iZdqZRGlXun1A=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/GxfrJvqZuC2_rDbFKdJf9oqEzle2vtiqLOcKCWgaPyZcVFKDn2vSh2SbWC9W0Nm4j2dR2Ai5haTWGrLCId7Xbcs53c3tQVL9ehIGEWRPYH9CSrXSeubawXzoQuBPZ880BnFuDdLYQiM=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/GxfrJvqZuC2_rDbFKdJf9oqEzle2vtiqLOcKCWgaPyZcVFKDn2vSh2SbWC9W0Nm4j2dR2Ai5haTWGrLCId7Xbcs53c3tQVL9ehIGEWRPYH9CSrXSeubawXzoQuBPZ880BnFuDdLYQiM=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 428_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 428',
     name: 'Episode 428',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/jH7vXCYCr8OBgUbln4PLWnHszz82u2hqOi4fcceV4nWCVAYUmo1vnNTynwOy_Me7AgBQlJEwL76ZgEycjpperlhjSKUYvyuwLXIKUxOZnb7vPrgI-YoVeOw3wEfmxnjm5kiafR2Rwg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/PET1NitgYMGR2ZjOir4GRVKcxV7qFIJU1c9Nhyw3diBiydJUZiZ3svCAZAhBCQSTAPpXC6sIOCNyB8c7l2nNJDYyOraAWcBO2qfzks7IitID6Q9iSYoRAP19wkaKC5F9wyPHryCNNtg=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/PET1NitgYMGR2ZjOir4GRVKcxV7qFIJU1c9Nhyw3diBiydJUZiZ3svCAZAhBCQSTAPpXC6sIOCNyB8c7l2nNJDYyOraAWcBO2qfzks7IitID6Q9iSYoRAP19wkaKC5F9wyPHryCNNtg=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 429_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 429',
     name: 'Episode 429',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/BTYuITBeO6mnf3XWj9EX899cmkbXtmmtJra0cR7_sy6JIgKKxRpPU022hnWF8bxPAeJzDiQdJkTwLdtp7kRdGHQvFZvZMjr_RrXTiw4Zkc_NFlpWiLBpaEM5cIOp4YWbhZaWuf1krw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/HHS5PvMTawR2hX9w0d9zKOkf3haiZf5i29hdNOgjgMMbmhhAy23Ozu2FVYjW27W33wkc-xynYi7_eoVyvxTdKqvorK4cEPYiQ3mxVB3YUmMu8SjLNwYV4ll-TA3Ihk0OKsSy1zMQ-bc=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/HHS5PvMTawR2hX9w0d9zKOkf3haiZf5i29hdNOgjgMMbmhhAy23Ozu2FVYjW27W33wkc-xynYi7_eoVyvxTdKqvorK4cEPYiQ3mxVB3YUmMu8SjLNwYV4ll-TA3Ihk0OKsSy1zMQ-bc=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 430_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 430',
     name: 'Episode 430',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/k05QbsbIgSnvCqDtE4wIgEP5gntVv4Wy8v_uAuBljo1TWRKwoB73mbuz7TW2Nr5Q17oPSIO3ymaigOU_Z2a5uOR7mRjrj4wk11hbmaYEQmS1qslcppw7cshAtOCFwVv1r9G7roO3nA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/8pyHeCcV1B_-PU7pF64eqeZuZLMeuXzsEcJg7RmigR1cdOjuXxl3NRrm9b_yObQ0ZsvcxNr5UVDxgWXoQt6tcz_qCC1IJTBk38oUoa-6lo65rZkAmDsBgkyVlZ2YrqY2LclvcARnkyo=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/8pyHeCcV1B_-PU7pF64eqeZuZLMeuXzsEcJg7RmigR1cdOjuXxl3NRrm9b_yObQ0ZsvcxNr5UVDxgWXoQt6tcz_qCC1IJTBk38oUoa-6lo65rZkAmDsBgkyVlZ2YrqY2LclvcARnkyo=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 431_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 431',
     name: 'Episode 431',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/raynSGpdYjW-u280g6ffWQzsRmxUjpxZB9sZpyIovCaWKrLaecBNpbnOJriZqXMw72PdX-oYJL2NIR67fuqkvKFbMoFo7hd6BtD3r47biM8LTclnQzgpgm3L6A8G3Fj1iZadNmk_zg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/-yCwedKTkq3MvD-uyEs41pQ0fq5_KzQTZyhyy0MbJGDH5DIR3GkOLNYxhRoDG-jq3T_6a9CHdA2HpQMxoHQnQ3rDT1ZiGkXQjH2WWcT85okJIA1lU_lr4bQapjqt4KdYvgsvy5O2VQ8=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/-yCwedKTkq3MvD-uyEs41pQ0fq5_KzQTZyhyy0MbJGDH5DIR3GkOLNYxhRoDG-jq3T_6a9CHdA2HpQMxoHQnQ3rDT1ZiGkXQjH2WWcT85okJIA1lU_lr4bQapjqt4KdYvgsvy5O2VQ8=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 432_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 432',
     name: 'Episode 432',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/42Jsx0sv-fWjrlNEdHt3y612VMPKsplckIZY2z4CgWGMqrVGGQ4yEwdVonsNH0iqYtc6o_NYB7-h1mlaFb0RlnN6rrgvifoz1qR2n2-Kd4mSfcoEEJrw6jp2G0K9Ro2aWY_Lw1gJmA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/im6MT-X50WOKfp2KW0jw-h9qF9z-pPsAiQW2vrax79byPAFpsYyvmdqhVpb1FoQstIHX3oohZ-e2UCkZ-VTDKJu597A346f0DeNoX2uRf6VDcyTtgB27deLiN0TgWApJhLIUfATjYXE=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/im6MT-X50WOKfp2KW0jw-h9qF9z-pPsAiQW2vrax79byPAFpsYyvmdqhVpb1FoQstIHX3oohZ-e2UCkZ-VTDKJu597A346f0DeNoX2uRf6VDcyTtgB27deLiN0TgWApJhLIUfATjYXE=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 433_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 433',
     name: 'Episode 433',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/q09f58ZWh711fX6DllAddnk_RElNChCiNhJ1O7ra94PeBGMDPBWq6Ski51-9qn3_vc50EfelI6VabyhNAyb8yWzLxQxeLG6jLyT1-AjkhZN9JZl8vjSolj_ySrnGmyyQnzZhT0lXbw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/V0qPYAG18rjSuUtzxKU6i912BoKtevPK6CokN3g_ArroIJCVKhyjgpy3RF9E8oVR4Ohawzru-d_Ky4uafrIQrwnWv5tPlwxbuhOw4unOOnZnss-yTRALi1Rzbdoo2mD_A3QRX1_aGg8=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/V0qPYAG18rjSuUtzxKU6i912BoKtevPK6CokN3g_ArroIJCVKhyjgpy3RF9E8oVR4Ohawzru-d_Ky4uafrIQrwnWv5tPlwxbuhOw4unOOnZnss-yTRALi1Rzbdoo2mD_A3QRX1_aGg8=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 434_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 434',
     name: 'Episode 434',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/98zxGP1vZ0zSr53dPrh3hMtLZmwaIeXSbJXK_ZyVERhVvFWsgi2E8NK3GPoLSymJ8S7k_nx5ba5gXOTAy1Q-QncBtxdOFGgLTqOYN4I7DFdrPjC0_Fer6E3LDyrmmYXsO2nHrqjdxw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/owNI8y98oHhw3g_k_0QLG5Hxv7ViiS80ilN24B2iYv66bAHIpjB7TitOWQWdpeM9dj61KGStgj8secZrpI6nSsi2_LbRvsxwYXHDipqaYhvPPer_sVqW6ZsQBrrREZaEOKxYPVnNrIc=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/owNI8y98oHhw3g_k_0QLG5Hxv7ViiS80ilN24B2iYv66bAHIpjB7TitOWQWdpeM9dj61KGStgj8secZrpI6nSsi2_LbRvsxwYXHDipqaYhvPPer_sVqW6ZsQBrrREZaEOKxYPVnNrIc=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 435_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 435',
     name: 'Episode 435',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/JRj8vvi6Z8Srk95-dcJHBHJs-WT51MB08VPBgtpNylWiJ3P7U6-gvDLYo30XSm7cqz07sExE9EnJv2O5DyMklISKSR1P8_S97fKrZ8nawwHwx9wwStwf3aOLN0GxlSZ8Lh6THoYahQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/R30VHEz4rQKmfUjsjR5FY9b4gGXspq_VIVWYWkIEf9ruvfIdbmIeTSn2kLCyQuq9tQJdskScmcJA6pT2S8DYNBLliBRYQe09nm3PVBHC6gOp3ZUzGSwecPGE8oASKuKi2ozwlk5oyn4=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/R30VHEz4rQKmfUjsjR5FY9b4gGXspq_VIVWYWkIEf9ruvfIdbmIeTSn2kLCyQuq9tQJdskScmcJA6pT2S8DYNBLliBRYQe09nm3PVBHC6gOp3ZUzGSwecPGE8oASKuKi2ozwlk5oyn4=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 436_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 436',
     name: 'Episode 436',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/FXuKV7TJ8_sNaboGpPprJmzs9EUulFAdBl3vyDmNWaCIHP7J_-jZLyqkQD1ixgaxrk-mFCJ4cMZmcG-oITRCWYdyxucCnAfq8vu27YnbJZC0YwT8w7ug-E4iEVc7vcc6wKI3tmfSdA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/Q4gz6HIQQXwHNY51BzTJrteWHrpStcv70wxYvnccsY8UQbf002uMMjDQGhGYTzAfaDkyJIeJzGPpO43lon7p8GplroUyVdpFpEIqMN_PVm-w8UZmxZQfnZB_Cq2BEOUHcAVJuN-jD04=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/Q4gz6HIQQXwHNY51BzTJrteWHrpStcv70wxYvnccsY8UQbf002uMMjDQGhGYTzAfaDkyJIeJzGPpO43lon7p8GplroUyVdpFpEIqMN_PVm-w8UZmxZQfnZB_Cq2BEOUHcAVJuN-jD04=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 437_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 437',
     name: 'Episode 437',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/yi96bnRhHlIV_CAAAjCYSlpSNIpUKGIBEoKQ028x2pgZ5gTJ7kNcepnBIydFGSyotus7a2W0zlU2FU6a6D1KgteWbSnGOjo98zDiWrv3TremXfrS_431LjN0hL9rLT7fFuYFez5G4g=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/Q4snC8Whw6AhYEli4ewtcCSvw4rSng5kv5hiwa7Bm8bMpDcrmJ-lF7G9GiYB5ThceiUADvRJMcQBnP95mLMIxpWruCk90mljh9ZQlQf5WyFq0P5fMa_84f7eTMlEVR2jYOjyVTZBAYM=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/Q4snC8Whw6AhYEli4ewtcCSvw4rSng5kv5hiwa7Bm8bMpDcrmJ-lF7G9GiYB5ThceiUADvRJMcQBnP95mLMIxpWruCk90mljh9ZQlQf5WyFq0P5fMa_84f7eTMlEVR2jYOjyVTZBAYM=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 438_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 438',
     name: 'Episode 438',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2LcmW2PxBcR6kSa7UMPLWFUuP9HEQWHPKpfsCuFkPdfAaywS-NssgzMoPUl1QR-xV7P8yNt2O7-hKqSrr7pxYgxMOBOlt7G5k7nnhuMka2Vz2UsIgvBuAvgOh6NKSDYai2YjFvBjdQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/VNzocUFn3C2wp0V1NlUcqlKB_WAX0mzbmYa60YkHeZ7BPX_VAmXAy5LiwVRAxccM32xOWeSIqWPmvxSYCpDewVMQZtvAbUQPLAvhP6tj-5eapfs7GkGBk1_hwo6vMwqfFuS-2gHFbc4=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/VNzocUFn3C2wp0V1NlUcqlKB_WAX0mzbmYa60YkHeZ7BPX_VAmXAy5LiwVRAxccM32xOWeSIqWPmvxSYCpDewVMQZtvAbUQPLAvhP6tj-5eapfs7GkGBk1_hwo6vMwqfFuS-2gHFbc4=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 439_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 439',
     name: 'Episode 439',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/dK2uGnllJs-1nbB-ImIb9VWtBElXkHfUKUCix4Vl3CgHZ1lL7t-DjkWfNpcA4qGXOtF3F8ZQwU8HrAj8tvqY9oujAshvzw0QJXLlTR9A7bhJzK71yOu7mJ8dpXro_U0D420PgBIXnQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/XXIAiOBVbVvwybivGtKjfFNjSjdc40cwUsvGhX-YRAsjIyMQ6qxWuLC4iPQ2kVdZ2VC2pAwdmiY26JPcAIoqWRAGszCnnx9SdeJqqH28yA6AEB6aZLKl5i8wXHfLluvzKVR4zloCRGQ=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/XXIAiOBVbVvwybivGtKjfFNjSjdc40cwUsvGhX-YRAsjIyMQ6qxWuLC4iPQ2kVdZ2VC2pAwdmiY26JPcAIoqWRAGszCnnx9SdeJqqH28yA6AEB6aZLKl5i8wXHfLluvzKVR4zloCRGQ=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 440_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 440',
     name: 'Episode 440',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/MJV0w4HWnW-91TV-Vcicjm2DrZ546lGXlTUZHDuW8IglsZFJW3_0J6RbozME3Mpl6iaRuTHxtStinrUI7jDmDuaXAw-QgHaUPuubmQyz9FEG3uwUrCEOwxGYGO05wDVJ9QJ3sINbpA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/aPmJvSfje2V-uhOI0R4nF6ZwKew86fYbCtFy4DOhwHgH4da4CsvH33992Xcw0XPpc86NuQCXrR19YdRRR7jd8ReeM_rTH19-7nLG4VJUT_OTDAqoB-H8EFX9_tVG3pVEdFi_Y3ejBpo=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/aPmJvSfje2V-uhOI0R4nF6ZwKew86fYbCtFy4DOhwHgH4da4CsvH33992Xcw0XPpc86NuQCXrR19YdRRR7jd8ReeM_rTH19-7nLG4VJUT_OTDAqoB-H8EFX9_tVG3pVEdFi_Y3ejBpo=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 441_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 441',
     name: 'Episode 441',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/XgvOcvxgizxHYgaOC7P3rwZ7ZyYp2SI4k2UkY3rxKJJT0cqBnJLmz1sS3J3vMaMcGDqSD22y9DSBpRP5gatUECzYoq25-9JRuv65yxFkLb7r_eqAgvwGc_JdC6h8rptGuO8ADLxW9Q=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/VbpDcRPTXwKujs8A3m13S3SWR3cMMnxfX9vo3m1KxwRDM1QYd01sUvBHIBgNWBiSiowKAS-W0qjw9IYTd9zdch2fu3VMVERsGfXL63bRf8fc0cLzHOPetcNx7pLpeepUkquFj0TUWy4=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/VbpDcRPTXwKujs8A3m13S3SWR3cMMnxfX9vo3m1KxwRDM1QYd01sUvBHIBgNWBiSiowKAS-W0qjw9IYTd9zdch2fu3VMVERsGfXL63bRf8fc0cLzHOPetcNx7pLpeepUkquFj0TUWy4=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 442_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 442',
     name: 'Episode 442',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/qaO13knPfz6o2McjhSzHLxZFQjN1bewI3Rwiw3QtgSdH752wJXv-Fyx2k8ww0tljvCPYYWltYbnk78z1jEGMV998y1BGwWADFkSkWx9lLqsrE1-vFuxF2_RHVkCh6hwX7PuHmYGAIA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/ou4pSPq44AgQ1EjnjGwZgc14b6Z1YwFngpqt_ARZ6tWkKSdRYT87IfU3lEw-ZblyoL192L5isZpYb-Q9DOZhlWS6aONYeaz4V2BdwX8MLoXPnC7RzGUNl0gaLe9a2_LxO5wk4Uj49O8=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/ou4pSPq44AgQ1EjnjGwZgc14b6Z1YwFngpqt_ARZ6tWkKSdRYT87IfU3lEw-ZblyoL192L5isZpYb-Q9DOZhlWS6aONYeaz4V2BdwX8MLoXPnC7RzGUNl0gaLe9a2_LxO5wk4Uj49O8=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 443_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 443',
     name: 'Episode 443',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/kvT4jxz1KHb6T1mjx1iGcUsgv8wwsSDrEhPa64Om9GKO0J_Z_4h5lraYQERC6hqWxf_XNymA_qXBaAGVPKfuda0oNf_fWyCQ3_Dh2Ro-r4DJrkDLt0APm1fAFsWRbu4Nudnrl37mng=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/ujLG5XybsVmr6TwvK9tPDH8P5X0KMLFbbaPlYHdUiXtOUm7tyjhZ7KTDbOokYVslRfjw1H4uA_KRTwm_KuhqW3WlrzON2z0cV8LZtbSgcZ-Xet3KscX3uKOc690wPcu8MmvKS9hsawQ=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/ujLG5XybsVmr6TwvK9tPDH8P5X0KMLFbbaPlYHdUiXtOUm7tyjhZ7KTDbOokYVslRfjw1H4uA_KRTwm_KuhqW3WlrzON2z0cV8LZtbSgcZ-Xet3KscX3uKOc690wPcu8MmvKS9hsawQ=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 444_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 444',
     name: 'Episode 444',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/SOV1eBzd4XGO_fg6MkZnsdzyJm4HnkYgJvm2zt0908SO7XHOloeqHKPPy8DGNWIYV320V5s0eqcaYX_J9Tye1-cUQNPvJcYoWA2oPV6yy4fMqOsBeDeNT-DbD29gespxUT-MIyo7ag=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/IAtQCdzm-TwMx8Ow3oi43b9eIeMPIOg4Sh5UzUYfEQRWn_-gElqbEGFh2rIcrI872ZCJelX_303JGCyKNQqgiKexiYDsmnxUxb3APkmpsBSMLIubvrJLxV2NKnVPzVns1KhoQIcuzVM=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/IAtQCdzm-TwMx8Ow3oi43b9eIeMPIOg4Sh5UzUYfEQRWn_-gElqbEGFh2rIcrI872ZCJelX_303JGCyKNQqgiKexiYDsmnxUxb3APkmpsBSMLIubvrJLxV2NKnVPzVns1KhoQIcuzVM=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 445_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 445',
     name: 'Episode 445',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/LVI9GSF0riQj6r-aBOr0NVhck_EWv7WFn-xv3rN46QVkK0cfvge5x6Pto6rK637j__dVb5Wn1sFDlXsLNu0B3xRVoTlg96WKY9aNTv-_PakfYf-I0hv11y9aSAxpgteeOI4kP8fUKA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/_qMKYnxHDJ6GGpmnaNI93Wo1329pMMIRHG4pLpI6zx63PkPZRKI60DCr6T6tehOgTptyg_4sxQOrF9ZavBPJd5zLUs6D42By-ascIu7vPBgdE7NVDw100INzLFFUrhGH656qBVgbM8s=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/_qMKYnxHDJ6GGpmnaNI93Wo1329pMMIRHG4pLpI6zx63PkPZRKI60DCr6T6tehOgTptyg_4sxQOrF9ZavBPJd5zLUs6D42By-ascIu7vPBgdE7NVDw100INzLFFUrhGH656qBVgbM8s=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 446_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 446',
     name: 'Episode 446',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vkyOH-SXW6vbj0rcRA5IkccXd-G6NvUBmECFwMmPxLC7QCpbaywCSb80ySf5VHjSd4KUvyQ1KD6fnmXKSyMq01-b0XDfYIT6l0yTBLyRVcKgejHLXQ-zIt2hhYEkIW92E_jrRBs5yA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/io7U-fOkq0tkFwvQWsUB_twSg6xsPkG3T6uF_q8YmBCfBUuYdVKFTGRzNEg-t8RzombVQw8gXe6L-wBw_ojjX_apsBPvu5yb-XHoeaqtoaA_5MwjPxt7_g7LLCDHBRNghRpTNVmmjR4=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/io7U-fOkq0tkFwvQWsUB_twSg6xsPkG3T6uF_q8YmBCfBUuYdVKFTGRzNEg-t8RzombVQw8gXe6L-wBw_ojjX_apsBPvu5yb-XHoeaqtoaA_5MwjPxt7_g7LLCDHBRNghRpTNVmmjR4=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 447_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 447',
     name: 'Episode 447',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Us_3QIJpPYQbRt0A7nY8ApH3_TSNeNgDHqcnkrYg4KbSJmsJwhI7Gg9JQ97Au9G6G32M4mdAysQm0x3b5vjnHQbBZgnLWDHO2KHptHovu1w2_rYsnqgz5uO2czWpaJ1BUmmWjg8UUw=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/VOKSi33Tj3MyjvyLuPd5YH7Sy6-_j763YRo_FvAaUAPhl-VZCxPZ5SMUozBxhVkLuO7yCrBzckl78sZYyiKVZWdRCxsh7gfwSZaCK1CrR-bg76iAGB9h5mSr899fpJkZaTNUwWmKFIw=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/VOKSi33Tj3MyjvyLuPd5YH7Sy6-_j763YRo_FvAaUAPhl-VZCxPZ5SMUozBxhVkLuO7yCrBzckl78sZYyiKVZWdRCxsh7gfwSZaCK1CrR-bg76iAGB9h5mSr899fpJkZaTNUwWmKFIw=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 448_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 448',
     name: 'Episode 448',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/PtzsCklBW3UKU7HzMkHJIQAyRc8qGxDmA7MANyR2q2iyQNq54GMzBM4UJlerRJRfpHb1P8HpjKz4XVnH3YP8fAbGWeP9cTswjs5deM1zZq-o-FWdg8MtDWvc5vgzSHx2VvhqTij6zg=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/7UFZNPu5gunaUh4iomMhtjO_Lfn6KebEf3E6WcOpSR3C3_67Nzs6nZdPFg1kRYWn0esPpGJ7ZZLKt2nIV2bRXQzoH9uFQxtqJflhZaX0htiQ_sDe5Hz55NyRtlUs0LT7JWLu9dWMva4=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/7UFZNPu5gunaUh4iomMhtjO_Lfn6KebEf3E6WcOpSR3C3_67Nzs6nZdPFg1kRYWn0esPpGJ7ZZLKt2nIV2bRXQzoH9uFQxtqJflhZaX0htiQ_sDe5Hz55NyRtlUs0LT7JWLu9dWMva4=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 449_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 449',
     name: 'Episode 449',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/gZoVXTWzPQ1ZT84c1Cyg6eio05yo89MceY70f-LnOaIkEkv1WvGPsBcEuuF2X23XlwW1gUfDcLH7nqtCeRzWV8-79mIg2-qMUywzu5sQ8-wsbhMfmFhs-hZHd7ushqo-8nA5VDzsbA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/mc9hu89Iq2-Cpfzb45jP4-2JBeCcziKEZkHkWi0WiX7YnVrzcIapA7MB0MAt8dppNnckv5VzoSrVJQekriqOoYMxHKMwTG7ydADCTQR-vqsmjgYfXZRZlGrSch2HsxDj3l6vsauv_Vs=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/mc9hu89Iq2-Cpfzb45jP4-2JBeCcziKEZkHkWi0WiX7YnVrzcIapA7MB0MAt8dppNnckv5VzoSrVJQekriqOoYMxHKMwTG7ydADCTQR-vqsmjgYfXZRZlGrSch2HsxDj3l6vsauv_Vs=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
+  textTracks:[
+    {
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 450_Track03.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+   judul: '* Naruto: Shippuuden',
     episode: '* Episode 450',
     name: 'Episode 450',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/QSFxiLH0sD9DU89YinSHYEJD761VpTPeVw7uL71HjBNjswCCO2Cgy86sY3Nw9eOQmRhnPxLd7--DAgmaDpIZ4BwzaKEke0rqn_HIXpQZEQtahMgqv0DB8U-8H_waE3t_ugbYS25Eug=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/81djUHp5OihZcRn07u8UCXfS3mkbw55ICSjvuKh4OkOT64FZ04EjOvc_evAXx4zRbPONR2kLi5OOSqkHLwtTx8ojn3ZKODUltq2E0s9ycBs3fWp571alYHi0BUZn1uzLfR2emI2FY9M=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/81djUHp5OihZcRn07u8UCXfS3mkbw55ICSjvuKh4OkOT64FZ04EjOvc_evAXx4zRbPONR2kLi5OOSqkHLwtTx8ojn3ZKODUltq2E0s9ycBs3fWp571alYHi0BUZn1uzLfR2emI2FY9M=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 451',
-    name: 'Episode 451',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/xCKTMZejespIybw7wO5Db9h0rV3-RGy28Eb43GRkXuPiRIFJAXgyFXRAQNLBDIeYs9_37TdsjDNOzi2fqU_I6OoMnqmI6_RhZyByjG53-16sskq1WjVinV6iWgndceTTNOn6gPS4qg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 451_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 451',
+      name: 'Episode 451',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/sRNvRR6G-LfFYblVEhLQzGvXM9uGUsFL2NUbI750kckZUL9q_hMz6RtM1Vhb1zQgZecfTrmcN3IQddi9FNMiZ7-qjUfa_0PwUeY9DKdepsAhAlGQPJ27M0l5dkNFPL2o9uMANfBxNb4=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 452',
-    name: 'Episode 452',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/CXrXDnYZi83ekUBgQP3MOZz-fPaDnT1QPC8vWv-QvtP1HuRz8I5xZrfcfQTJ8BmzZVhlzSTTAG0xetIOH3m8d0u_j9asB5yf-aDgkNWlrCQSDVfpbEE3UKsWiKFEYz5wcwPPy9P6gA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/sRNvRR6G-LfFYblVEhLQzGvXM9uGUsFL2NUbI750kckZUL9q_hMz6RtM1Vhb1zQgZecfTrmcN3IQddi9FNMiZ7-qjUfa_0PwUeY9DKdepsAhAlGQPJ27M0l5dkNFPL2o9uMANfBxNb4=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 452_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 452',
+      name: 'Episode 452',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/Na0q4lgUGJCm7OBhuM-NTcJJhOmIdAyjrFkne8GVI-PSMmFdc75t5QlL3Bmb9lQSvTKcngObZoNs6zjHEZOeHgC7mXJbpMkuSxflbd4CkAopfRfzOQlnqFCAcwRn6to9DfNSec1AHUg=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
+        src: 'https://lh3.googleusercontent.com/Na0q4lgUGJCm7OBhuM-NTcJJhOmIdAyjrFkne8GVI-PSMmFdc75t5QlL3Bmb9lQSvTKcngObZoNs6zjHEZOeHgC7mXJbpMkuSxflbd4CkAopfRfzOQlnqFCAcwRn6to9DfNSec1AHUg=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    { judul: '* Naruto: Shippuuden',
     episode: '* Episode 453',
     name: 'Episode 453',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/os6yNXca463e_2TP5C6WjHHL3h0IfrlHso5rhHRVIbC2QHXgcrjBtSYxrXeZbkle95NNPbXT5pDBE_PM4nkpMQDR92oSuUK7zlb25kbpm8Q2nm3BDBxThj0mN3walbtOukqhjSmhPQ=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/T3WH3elYvYB-6F-DFdYMuISVSeFm2loL-nacK93-tSHjZwu5wL2S2HeZpcjTd2JYWNtCn8qb_rDD4yrE-FJUguHhtd5vm6SkwJwRwaH9AXCA0DhwwcEV0kUoMoaPYSYCm1xugydlJQU=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/T3WH3elYvYB-6F-DFdYMuISVSeFm2loL-nacK93-tSHjZwu5wL2S2HeZpcjTd2JYWNtCn8qb_rDD4yrE-FJUguHhtd5vm6SkwJwRwaH9AXCA0DhwwcEV0kUoMoaPYSYCm1xugydlJQU=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 454',
-    name: 'Episode 454',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6IcsS3CPz5GWmxiEa2u7-1wTp0jjoMcDD4zt9Wy-LJLV09BxtHbtuxXxAfUTbiR2RS--ge2HrNpzS0xQ-GWxmWEoWqDelyyV5Yx3LssRK44F3afDNwn-Um02cq6n4BtD1wPY49glgA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 454_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 454',
+      name: 'Episode 454',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/brLkbmDBu_iPOTN4XecYCkygvaSXWt8KB6q_AAt80fOzZXcpGlf24MmqzjRULOh7mw-lVrzPr4gZFofOxlu_mpH1ZNeIxX7IdtJe2InNy-47sC9OQBcPFQdmYkxRWNRwdawe2zV6dMA=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 455',
-    name: 'Episode 455',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2lblakuEymFSTgj_zK1cZ-yQBeBD2zXldREbvnJV2_7IE6YxcML1Z2gTbByzSETPOeVeM88LWFb8uYCStNYy0-0nz9mGtf6tTqjEcZa7s7ZOk73Di5lwlyRi2PBgMQdVwSD8uc6nDQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/brLkbmDBu_iPOTN4XecYCkygvaSXWt8KB6q_AAt80fOzZXcpGlf24MmqzjRULOh7mw-lVrzPr4gZFofOxlu_mpH1ZNeIxX7IdtJe2InNy-47sC9OQBcPFQdmYkxRWNRwdawe2zV6dMA=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 455_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 455',
+      name: 'Episode 455',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/7OEvKv3Py4FMos8HCySkMf3JoSoQua3Vk4iw0cKLldvFwpX-5RSFwNNVMFTt_lVKah-0qxiqI07xAKLwT4wqCuyNsBdWasuX02twtVaUeFtkOj50XgvtOKBiMzrSR0dGQ67wqSJxb4M=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 456',
-    name: 'Episode 456',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/0snPCR84h6wXvSw4ouhWcUtBpx1uMb3vuelQNhgcK17zEvAtE0H2VDPYRp3AWL-Ge1bkk-qKUZw9QYu6ItPbCnHXxDHta8ZglRsxT0t93Gam_Sgetcrb4zfU_CmuQAkSRy1Yo8JEiA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/7OEvKv3Py4FMos8HCySkMf3JoSoQua3Vk4iw0cKLldvFwpX-5RSFwNNVMFTt_lVKah-0qxiqI07xAKLwT4wqCuyNsBdWasuX02twtVaUeFtkOj50XgvtOKBiMzrSR0dGQ67wqSJxb4M=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 456_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 456',
+      name: 'Episode 456',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/EZx3m_Yk0p-s8YNo6RChGenlt-RDkFAd1SuGSOAwN-wZpnTNmpWT4L0GCasZNjZ7ZA3PERRldztNU8geD0wZta9FHRDLMcZx-S8czG55NBbXdKC7KfC9NgnM_e1vQp-Z5PYIkRhVWi8=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 457',
-    name: 'Episode 457',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/x8oRgfj1-X7-Ed8i1S3ky40sbsO1_mjQc2C-yLk8oF-W-yJTCp7CqZuRbGf7JEm-O_D4Fs_svN4EZTmKNz6HteoaK-FQyUAAFXdSaBMlSGUz19Z-3XAcGxwAutTbpWFpy0fuxLj7zQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/EZx3m_Yk0p-s8YNo6RChGenlt-RDkFAd1SuGSOAwN-wZpnTNmpWT4L0GCasZNjZ7ZA3PERRldztNU8geD0wZta9FHRDLMcZx-S8czG55NBbXdKC7KfC9NgnM_e1vQp-Z5PYIkRhVWi8=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 457_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 457',
+      name: 'Episode 457',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/Vrblk0QASCmeS-M8dqefOfl2S7bSo_Up5u2IOT09iMbq3_IoMMNLYW-W2nJ9LZTF1s0hhX11bB7WWjjW5SePg1yzoN7hmlvQtlGgVKgcJmX6xdWjcE_t1SyUIdLW_ET2GQCMMUP_xKA=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 458',
-    name: 'Episode 458',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/INOVCVaUrkJa8mfUb5ZpCqhttxLOVuRWAO9Clyql9tNbAhVk-hmnrvMclGbfhyHmkCIs7h8Bm8df5nlh0wmmdNWRWN9qyyt2Q9-GLuQAt7cvgyEKkUZgK3pbbt528-y6UrKJwzPzFw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/Vrblk0QASCmeS-M8dqefOfl2S7bSo_Up5u2IOT09iMbq3_IoMMNLYW-W2nJ9LZTF1s0hhX11bB7WWjjW5SePg1yzoN7hmlvQtlGgVKgcJmX6xdWjcE_t1SyUIdLW_ET2GQCMMUP_xKA=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 458_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 458',
+      name: 'Episode 458',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/du2-0lekVb4U3t4a7qA25tBJVgucSz2arUFRWdn2lbFK_g_emktX0haHWxKhOsAVCJg9a9IN2c6hC0I5lvj_WoHmbaKvRz4vZcG7s85ndx3fIG0M2fesPOLWgsyRU-r5-0LV4pHgigQ=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 459',
-    name: 'Episode 459',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/zbFgVhK3rHyXPrDKyjfNwC1RLhZd9UPTkOXH3PDXpfQubyjVc9vLABnDfOiIbqGbT9CQyXR6m1SbHTI2OXe_bL_lJxD0L5yAxNgI-nqaItbRlCHkDRznNVRA06Ag2VfLeA2CKQL45g=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/du2-0lekVb4U3t4a7qA25tBJVgucSz2arUFRWdn2lbFK_g_emktX0haHWxKhOsAVCJg9a9IN2c6hC0I5lvj_WoHmbaKvRz4vZcG7s85ndx3fIG0M2fesPOLWgsyRU-r5-0LV4pHgigQ=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 459_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 459',
+      name: 'Episode 459',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/Yx0kacPMNCiySKCHNrCEVHatE3naoOO1oucdcgg2kneqTR2K9h45RF2SSIRBpJY8HuiN8mDpJtzGcJTuJkA3f7Dp4TorS5fRz_9VfFfvF2eha1UUzXuMjcW9FPJPswf-tt63Ozhb3jc=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 460',
-    name: 'Episode 460',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/rRy1m_RnADFVnmkFX5CQrSN_1d4ggDjYrGzh6-KxNxW35kwwaICWxH56a4VMqKLRnlpGAA4C2_yz3Dwq8QtCZTGB1CulOrVmzF-MJGOszVJMEI8eWed393gcwx7s5Pp6E5bERN3dKg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/Yx0kacPMNCiySKCHNrCEVHatE3naoOO1oucdcgg2kneqTR2K9h45RF2SSIRBpJY8HuiN8mDpJtzGcJTuJkA3f7Dp4TorS5fRz_9VfFfvF2eha1UUzXuMjcW9FPJPswf-tt63Ozhb3jc=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 460_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 460',
+      name: 'Episode 460',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/xettbdwDiD2QHGdBCP-O-Q7lcLnrHabkvr8ZRamHw3NgXJjbfDDaTmZMUnPerc5KkUMohtI8BCrbr1HghBgIFN0l09Rt-uDA1KtFI0G_dbXEuB43wY-HQCRfFItI2fU8l4qjeK-HCWU=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 461',
-    name: 'Episode 461',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/clQD3iGo3_jLq8DGTXvu2khZBgW0TE5smYHYQIh6KYnHMABysYhOQ4KGyXs5NWYlZBxtXKAouc2R8LlAZgD0_g_sfYRG8UFei9ib9HsNoo79emQgYkG1e6otF41sE81m_1wEYLmkGA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/xettbdwDiD2QHGdBCP-O-Q7lcLnrHabkvr8ZRamHw3NgXJjbfDDaTmZMUnPerc5KkUMohtI8BCrbr1HghBgIFN0l09Rt-uDA1KtFI0G_dbXEuB43wY-HQCRfFItI2fU8l4qjeK-HCWU=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 461_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 461',
+      name: 'Episode 461',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/oqpCjqrzWJtQEa8QJuzhP1-SUN7rXvt2AIyUDsXtnecnVWz-Bgrxc2byrDNnVPxlgnAjwCmRAEga2GJHJx32OVxYPfG9_xH_yHn1GCIoaO9F7HQX1pXSYzXyPY231C-NiMh7wiqBEX8=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 462',
-    name: 'Episode 462',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/8ygc376jheDZ-tjyrMBRWUoZ1oF1mxIPqvE-sGaAjNtRmFlfzEuwNa_qf574gTgLUzbf5drUb2FGblr-xZTIJIGckZxMQBC0aoX6-lutMmADl0SK_R5mcLPfc6Ss3bKGkB8FP1tt8w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/oqpCjqrzWJtQEa8QJuzhP1-SUN7rXvt2AIyUDsXtnecnVWz-Bgrxc2byrDNnVPxlgnAjwCmRAEga2GJHJx32OVxYPfG9_xH_yHn1GCIoaO9F7HQX1pXSYzXyPY231C-NiMh7wiqBEX8=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 462_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 462',
+      name: 'Episode 462',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/lP2TAQAPpWURSkLGorWQdZ_pqs0pdXQD6qTH28LUKEY3aTeFsuIt24LEuE48DtdT8jK0oeoazwDdK7GYWg79W5F_rATct9jO6-flQkcDzqwoWS29aRQVTekpBB8G_v7HE82fB-8OYU4=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 463',
-    name: 'Episode 463',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/W_kf5r71U9c87d7w3-Z19zL8T5Nqorac3TZARwYkaZfVoOkTqnPvWHliLCIDBilEqDcJdebhVIoWHHDQNU3Hqjf2V7v-UbzfA0u7bp9n0PTBUZmh6Hbsm0eEOE8EpTCWH1HNxMu_Dg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/lP2TAQAPpWURSkLGorWQdZ_pqs0pdXQD6qTH28LUKEY3aTeFsuIt24LEuE48DtdT8jK0oeoazwDdK7GYWg79W5F_rATct9jO6-flQkcDzqwoWS29aRQVTekpBB8G_v7HE82fB-8OYU4=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 463_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 463',
+      name: 'Episode 463',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/DDh2RbsLXBs8UPt4Ac14MVsJAwUlMN0aa4aKVQccKFi0MjkAZXMjGrscCWHPZ-qkf3PoExC6bHESWh6fzQHpnNy_YIwxhTpzrwP0WKG34jKCaNsIoVfzqDRUIi6mdQyU7VeyjdjOL7s=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 464',
-    name: 'Episode 464',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/5RliBRHpiFNvT2ANCB9jjLtJ6LLc1Gy8O0YCXz8xee8YPy-XB5kyHQKWAgn26MGXmk6BhIE0NnTQ2skH-U56vLEkCoRbE-bYEUZIqo6QVIgfl3H7s9xFP98XIoJbMRVPuSAU7PpGDw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/DDh2RbsLXBs8UPt4Ac14MVsJAwUlMN0aa4aKVQccKFi0MjkAZXMjGrscCWHPZ-qkf3PoExC6bHESWh6fzQHpnNy_YIwxhTpzrwP0WKG34jKCaNsIoVfzqDRUIi6mdQyU7VeyjdjOL7s=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 464_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 464',
+      name: 'Episode 464',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/1_yqHWXuR6q_5WFzH0YAhWKDP2o8eX49riNDOuKHqL_oq0upiGJiKhTpH1PtKn_sAbFYpPzG_t9rRrSp4wdhY9A6P_P5uJb3hivOXL1aYAYztK3T7Ia7OX7-pOZ3xjvhWU8i4u7IjGk=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 465',
-    name: 'Episode 465',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Qpwm6KATfD_i14GHCoA80YRIiCJsUaf_s2nEPqeU9zjhRYn-FDoZ-URPuAZjTJ9zGfzG9PHNQfz69bw249UqtYZaKOUBbHO4DW8fyPSm5mlRROcVXjQ2IU_PA0nHvUEgo9HuAQOPOA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/1_yqHWXuR6q_5WFzH0YAhWKDP2o8eX49riNDOuKHqL_oq0upiGJiKhTpH1PtKn_sAbFYpPzG_t9rRrSp4wdhY9A6P_P5uJb3hivOXL1aYAYztK3T7Ia7OX7-pOZ3xjvhWU8i4u7IjGk=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 465_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 465',
+      name: 'Episode 465',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/JKT6I9vAviKPfwZXc8HTWOSsKI39rbykfBa7JrC-zNQ-rb2fMsdifF9TEOLb2NcAoPEXZktJCUWugMldWbwmEWhBfyeezuwzxsCJ7a8mAu_uLGUgChMpw-EkGEiVLlUssdGrYo_EYrw=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 466',
-    name: 'Episode 466',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/qOfDN9On5HhpNG9pZCW26dTelUXcfQSuiKXI0NNiiXPK_jSy8dttXFYlsPkXjYn2c2cWpmZqLBx_zOvEH3WUywBL5fiJ8ChWarvW3sAif2uLw4r14g5dpz5Owdyv_QqIbyxCK_pUtg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/JKT6I9vAviKPfwZXc8HTWOSsKI39rbykfBa7JrC-zNQ-rb2fMsdifF9TEOLb2NcAoPEXZktJCUWugMldWbwmEWhBfyeezuwzxsCJ7a8mAu_uLGUgChMpw-EkGEiVLlUssdGrYo_EYrw=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 466_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 466',
+      name: 'Episode 466',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/_nFS3UG9Agb93EMmaC489436buWnfpuvlzywHgaaxkI3299NTtpJTT-6cW8Be7LyTahETBRu6yZGvjmSsps-Fb8PUdIt6gHBrYvrNNCBOT8qxPJ-L4AbXkVJKLF-V7HmEEcrIS3YGRA=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 467',
-    name: 'Episode 467',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Sj9cppSXlidefhghlgO9JkE3zOhRUDo5vHlV7xXPwUmCrlqtoXpUXf_z28nP_vvq_IhV5DiSjfiiWVJsDtAjVKlovqCEml0Gft9jbo1SjgnMOn9-n5zyPf-HBfHfNrQm4yvYoA8CPA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/_nFS3UG9Agb93EMmaC489436buWnfpuvlzywHgaaxkI3299NTtpJTT-6cW8Be7LyTahETBRu6yZGvjmSsps-Fb8PUdIt6gHBrYvrNNCBOT8qxPJ-L4AbXkVJKLF-V7HmEEcrIS3YGRA=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 467_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 467',
+      name: 'Episode 467',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/mpo5MF89LrhE46rT7A5Qiumk7KoolewTHeDTec0kX5kVViVmqb-5dggWpSyb_ubHYOa3k8GQyuVBiOs8ljdXE33l8VWTrbkutlO_QKj0V9dqGTGkvn6cwpp22yo403q3JbL4QhdvfPU=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 468',
-    name: 'Episode 468',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/yxI5MgIHfeGJlDwlT2dHBucVxqyYsyCZqktbqOpofPHetRXpfHyIqUxTWWSbbEWgEjTyQ1XfT_BppJdsytE5D0S2QAHyVxmhCGVj42CrqORaJXlgSFuKNbrXY8tlwyID2OAmBC1dZg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/mpo5MF89LrhE46rT7A5Qiumk7KoolewTHeDTec0kX5kVViVmqb-5dggWpSyb_ubHYOa3k8GQyuVBiOs8ljdXE33l8VWTrbkutlO_QKj0V9dqGTGkvn6cwpp22yo403q3JbL4QhdvfPU=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 468_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 468',
+      name: 'Episode 468',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/awf_eRS1M5a5BLbSdS0h4Y84f-oGXiIRyBY55Jbwklon8GYXLAiccfpSlfHUqZ5WC4aq_dLVUqrOnI7vnyywGxy-OFKoCJJMpJc9yoMoejLrpwwrFI5gtW1axr66vQYrxA_WyKJ5s9Y=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 469',
-    name: 'Episode 469',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/b2ilWhDZLrZWCSjlE2av39NuBdqAmB-GdxGtNWrOLU9L4WhorA3TgBzapz414356hquNP2eYCL5RjqQRNWpD_IAcHJN3Yq24bkhKDk6SWdq0SwlFve2-YI7Ah5YCHdCWRr1M1x1VPg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/awf_eRS1M5a5BLbSdS0h4Y84f-oGXiIRyBY55Jbwklon8GYXLAiccfpSlfHUqZ5WC4aq_dLVUqrOnI7vnyywGxy-OFKoCJJMpJc9yoMoejLrpwwrFI5gtW1axr66vQYrxA_WyKJ5s9Y=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 469_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 469',
+      name: 'Episode 469',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/b8pPatairsbB8z2JxyHEMn-Tx8Qs5xInoQrABCCrYuVhDFgKfahCfjrvSyhPaaDI0RK1U7GrmAQhXNBTKU7STKgVxCiluSr2yeJr6sa_WL4d2nNPexomgXEMq73YfmNfI07WQWcgVOs=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 470',
-    name: 'Episode 470',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/vLiG7ieLGGtKyMl9v1fbU_eoN8JcsSYyNvqfxE6J0WZ5SZy75rYE1t7H7D-kqJJZI4Qj8EVse3PJThNAQQiDTPqp95iW6UtfCdbTdwF6YHeub79tCE_AsIPwjPXHRQdVzbz87h8D_w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/b8pPatairsbB8z2JxyHEMn-Tx8Qs5xInoQrABCCrYuVhDFgKfahCfjrvSyhPaaDI0RK1U7GrmAQhXNBTKU7STKgVxCiluSr2yeJr6sa_WL4d2nNPexomgXEMq73YfmNfI07WQWcgVOs=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 470_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 470',
+      name: 'Episode 470',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/Tk4Kiu73JRgxt6wEdojYMH0Wxdl6QjhyDlbotH0mbQV33N8yCyEDv_Ct6BZt8BuPl0lCFrkRSSpM17RIttSHXWFNCYnddHsmPIyVntLTPFVw-Si5dJYxUEsIJ_X5j7-ohm-0qzr6Now=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 471',
-    name: 'Episode 471',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/UbvLPL68NmtKjw0zAZyZm2oNCWhkCCoSdVOtjpjC4TAkgzwFTOxLFZCBRGv6WoMLgDSUKTOB1FZej3Gzw76besNlX_MWdKn_qkq9-7sFvAWs9sLiwCCyPmNtiOcqhcnGvC9EJrzoWw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/Tk4Kiu73JRgxt6wEdojYMH0Wxdl6QjhyDlbotH0mbQV33N8yCyEDv_Ct6BZt8BuPl0lCFrkRSSpM17RIttSHXWFNCYnddHsmPIyVntLTPFVw-Si5dJYxUEsIJ_X5j7-ohm-0qzr6Now=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 471_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 471',
+      name: 'Episode 471',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/6vLGIr9ftr2exj0hhAPXVCnsJUU9pF5bXVL0ic6CSgL_ffnKQFIX5MJqmWcd260jS8E9UCkenQE7QtmxUValZtBAWjTy0Y5zmlc9kljrpr5SbaLU6o6KNcTEtQ0NspGJ6j8pV25o1pY=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 472',
-    name: 'Episode 472',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/6Td76tUtEiljD4iRQUbIrkU-G4rkJ5TiPJ1FM8tXJzufftiIESifcCMDDHe5Pb1pkIWAwxWMonnAU-KYZJcY7-JSPOS003m5yZqSdRlAZ1esu19_zL_JiFHy4W_ukMdeUnL05QWp-A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/6vLGIr9ftr2exj0hhAPXVCnsJUU9pF5bXVL0ic6CSgL_ffnKQFIX5MJqmWcd260jS8E9UCkenQE7QtmxUValZtBAWjTy0Y5zmlc9kljrpr5SbaLU6o6KNcTEtQ0NspGJ6j8pV25o1pY=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 472_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 472',
+      name: 'Episode 472',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/Y7LWXeygdFpEBdD5ujh2cfo-dIjbGj15KH4AVsAJFBrLU7a_6g45LbXOhOFSBfgFg_qJKKuuqeXbrAHJt9KXydS_dzDFFYMVOqZ41w-DDf-iV9uZSR20psUwYamumBMizMaA01krPoE=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 473',
-    name: 'Episode 473',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/CBfjHgC6ico-szAUZ-sDnTLtwCN4RanMbqxWhb4Ux4BbPxuq7SgaXtgICDFriZGrQn0xSe_KhcDUE4-VMg1CPPqnCqv172TrsCh76u2QY4o1ADiu7pUyOd0vtvRbTt8AXyfgCj6ikQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/Y7LWXeygdFpEBdD5ujh2cfo-dIjbGj15KH4AVsAJFBrLU7a_6g45LbXOhOFSBfgFg_qJKKuuqeXbrAHJt9KXydS_dzDFFYMVOqZ41w-DDf-iV9uZSR20psUwYamumBMizMaA01krPoE=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 473_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 473',
+      name: 'Episode 473',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/sbgbFbJgRKeaFx-ubPhOpxxyS27ic0k7qyGL1xT5bBxEjc6-fRC_vrFY9ZtDRYYCSuSqNCW3JSMFtEJK8g7-edYqs8vZ6Xl-hGgOVR1YFaCQrhntuWcbwLlDjAKvK0UXvxAKznNH_8w=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 474',
-    name: 'Episode 474',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/OGAJFHJiR6NEhSLEMn2xL-KoESm3gt3O83Q9tGUO35PaKSy_X4HawFDbxYmw7YaG8uviBBuM6gx6AlfHQBTzR_y2Kx5HBH230sMJa85jfOLj0hfDjqvWMp1bMS12jTDWAK0LmrQgUA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/sbgbFbJgRKeaFx-ubPhOpxxyS27ic0k7qyGL1xT5bBxEjc6-fRC_vrFY9ZtDRYYCSuSqNCW3JSMFtEJK8g7-edYqs8vZ6Xl-hGgOVR1YFaCQrhntuWcbwLlDjAKvK0UXvxAKznNH_8w=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 474_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 474',
+      name: 'Episode 474',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/kbmg_lCquxQv-ulVTrzQprPvlRDQ4cWHaF1lOS14ewfhwx4CTy2FkOn8ZNGfLIujGdfoET2GokUCro5M4y6ttfLPXzJUhQ9ErSmUT9i141TI2onNGXlm267nxtEHbfHv03sHI4m0R3U=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 475',
-    name: 'Episode 475',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/9Afmxq23w98-7XsHp6PjNQYrYjwJU6kKeFJaLoOJXxdq3CId3BHlzLFXI5WQJ0ORsGYIhIco23zNna8mVHz0O_ZYs-O-YuZP0A-MNfPeN92E6pQuFPmJwm7rhGAkc0e81Zk2HjPf3w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/kbmg_lCquxQv-ulVTrzQprPvlRDQ4cWHaF1lOS14ewfhwx4CTy2FkOn8ZNGfLIujGdfoET2GokUCro5M4y6ttfLPXzJUhQ9ErSmUT9i141TI2onNGXlm267nxtEHbfHv03sHI4m0R3U=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 475_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 475',
+      name: 'Episode 475',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/0DUGvV0GJbxkHKW4YlA6ZS-59SJ3LIee1Cgu-U2F6qTK9_Dht9O_truqqtXYeRMoKUJGq6MRk-M_EXEr6cLjXh2nYq2fyA4eDEX6hK-2oMTskAHUr2b4XhuiHX0fATYqdWQCdxHM_Jw=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 476',
-    name: 'Episode 476',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/HVglzEhyhJhgCDzeBDBSZiLESil64RW29aTQHyzB9MYIjU4XiPakGDNfwCnYzwDqkE1Cq39PXMi-XlXAREwjjlQ-iTjjba6N1kGr4L6nPbpquhx-t5sZ1ySt8ioBtjCGqZXt3ggHMg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/0DUGvV0GJbxkHKW4YlA6ZS-59SJ3LIee1Cgu-U2F6qTK9_Dht9O_truqqtXYeRMoKUJGq6MRk-M_EXEr6cLjXh2nYq2fyA4eDEX6hK-2oMTskAHUr2b4XhuiHX0fATYqdWQCdxHM_Jw=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 476_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 476',
+      name: 'Episode 476',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/8sOtN__NGb9CUJKe76-1E3rCcaF-v5Be5JgdTmYf9uC8TkTRGrXHkVW75zHg47jX16uIbiU4pGrPKIkQh718qAp-_n6iXK2YwEnoi3Z5wKxQYMFVF8GoZt93OW68Y-8FZwaPqYPLhpw=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 477',
-    name: 'Episode 477',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/MyHnnmcJXnrjq7swrC_vokn7CBx1o2sBcJQ_4OJ7b1-uiuth74X046FFsE2KGtCSsw2Aag01r49l3B6Q74XFP-q8mJ25teEal3o51g-8If0m6h2FPs8q80OUGGcUEgBoe85iSqR5ZQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/8sOtN__NGb9CUJKe76-1E3rCcaF-v5Be5JgdTmYf9uC8TkTRGrXHkVW75zHg47jX16uIbiU4pGrPKIkQh718qAp-_n6iXK2YwEnoi3Z5wKxQYMFVF8GoZt93OW68Y-8FZwaPqYPLhpw=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 477_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 477',
+      name: 'Episode 477',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/dYZYNW60gs4dhwQU3gnVhdSeRvmxRyyAj01VXosz__bXVazszuo-wtXQgNXFPzPt57pqO93s_GUmxGRaK-Mbvj0VcfW69FCZXr8KW3sKhnXtQpuds1sezTuxwfK-x8uyZZBiCw-tWoM=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 478',
-    name: 'Episode 478',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/NsurxcPEfMSzG3PSBqZsA_ysTwBSu3oysDksnXepCs-QZpMiSuOw7DsPRrFI-xQjX9zRorzVdWueME19PZ7xVlVjX7tNKMDLwBnLqPtga4-v6A8EF_ixslcjbqiniX3ET0rQLr2pGw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/dYZYNW60gs4dhwQU3gnVhdSeRvmxRyyAj01VXosz__bXVazszuo-wtXQgNXFPzPt57pqO93s_GUmxGRaK-Mbvj0VcfW69FCZXr8KW3sKhnXtQpuds1sezTuxwfK-x8uyZZBiCw-tWoM=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 478_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 478',
+      name: 'Episode 478',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/kZVWKIOONl3r4WJ5Zhu6o__xBMvvWnT4cqhCYoL1ihJeo1AyfU5YhLc0ju2DOaaPJOIJb9IBD1Ld_BBOL4y8NZs_3MO_mREoFm_O3iXMiWixGuOBPZrSLoAkVPVqMG145rAG8Kw4uhI=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 479',
-    name: 'Episode 479',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/qQWABKQ10iIU97CmhlB_Foy6_xJorEjdcc4vDatVIn9JnlDLwIPMHtPNU1SPlkEgIL08fgRps03c5bREjlitzB4pcTPO_n8bWkNCt06myGM-tycD-cMy8ome18QWvWoPCkU3aznXHA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/kZVWKIOONl3r4WJ5Zhu6o__xBMvvWnT4cqhCYoL1ihJeo1AyfU5YhLc0ju2DOaaPJOIJb9IBD1Ld_BBOL4y8NZs_3MO_mREoFm_O3iXMiWixGuOBPZrSLoAkVPVqMG145rAG8Kw4uhI=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 479_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 479',
+      name: 'Episode 479',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/EAvCotWHnfn80-fuXm55jlOp3wdYzDM7pZiO3TXIsjPPM25y8dp3sN54qaYcyiqZK4bKWU1DWaEJ1mOZz8bxE_8k0Hlf2cThfj5RUaMNkDE_oUxVp8lW2ETRvjgprBLjTP6c3dUovXY=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 480',
-    name: 'Episode 480',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/GAXxicwFVc0J8r2BasuwGHR9QRT3wcHw1dccTR2-f4mpdTreGODxZrxeeQXrkmIRIITyu7HJC0YqgsJVJBNcrE29chmQt0Yf_ZJWjzsr4NysKA3G_Bo898N_Io70C08OtK-Cf6Ee7A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/EAvCotWHnfn80-fuXm55jlOp3wdYzDM7pZiO3TXIsjPPM25y8dp3sN54qaYcyiqZK4bKWU1DWaEJ1mOZz8bxE_8k0Hlf2cThfj5RUaMNkDE_oUxVp8lW2ETRvjgprBLjTP6c3dUovXY=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 480_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 480',
+      name: 'Episode 480',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/GvxRRduvHwYR5yZ-6p56jQjLHSP3Shz8uIMGZjSKZQo_oHAL3wHTPXjbine05xKiFc6_DhmgD3beLST7mLjGK1fZ1kqtg_RAQkXiNXTmJ9vDJvi9piyJ7vYVwQZYsl6AG_c2VEQPve4=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 481',
-    name: 'Episode 481',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/wGUcelbx88R5xpFwaEg5Rz5zUs74-p2gzHsNQ5fwpssM5PURhKWRUv36FGf_GzVBS30e_j3eee-oLgkmzpxCzV80S0oq6x8KVuyeZGQbGQMbbgyQd6XSS3_j0FtfUdhpEsksDuxoPA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/GvxRRduvHwYR5yZ-6p56jQjLHSP3Shz8uIMGZjSKZQo_oHAL3wHTPXjbine05xKiFc6_DhmgD3beLST7mLjGK1fZ1kqtg_RAQkXiNXTmJ9vDJvi9piyJ7vYVwQZYsl6AG_c2VEQPve4=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 481_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 481',
+      name: 'Episode 481',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/C-4uf1mcwy1OYuaebABFnHCpgQwQzuzVBEpFMqhYb0L74V89a2jOmLqLEfnMpzD0OY0g79wnnFd4Dt-ujWmpF028UVphPy6DCxTl9XdsShj60gACHv46AJXYOGZ_TV5cWUEl4vF_j0M=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 482',
-    name: 'Episode 482',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/hW7vDE6PDy__-KQUskZ1BRxJlcLAAQMkCiSYfUQ3UTtEJPjfmKWfhSCw5yj2NN4VR_2l4GCjYvtSgthZaVDeP108oDvwhZZeMLLWx982V6AKuhMlaSguesAeNIKrkV_BsYxhQ5tdPw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/C-4uf1mcwy1OYuaebABFnHCpgQwQzuzVBEpFMqhYb0L74V89a2jOmLqLEfnMpzD0OY0g79wnnFd4Dt-ujWmpF028UVphPy6DCxTl9XdsShj60gACHv46AJXYOGZ_TV5cWUEl4vF_j0M=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 482_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 482',
+      name: 'Episode 482',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/x7lVpPil2WqfwA_f8hX8qDWD4KNOjt6G9UHGyyvUFWOw8n5l117x9Bb3jUVFc6W2p7lKpPKofNGwhMtNG7YW31kuL9o_i0N3PcZGhxxyHyOFZ-DnZlbYFfz80AleHdyBqnx4tLQEzeQ=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 483',
-    name: 'Episode 483',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/3U9nn0dcZWJJ4UAahOIC816CeTOjypdKhuR-9wbNbTYa9NmDxPvoe1_vF4R2IZB8HniDcD0S5yZkyLiYrq0UZmGtuEpBe7Q7ftaqNMuypgF6-yoL5MXIVKKBwi9VKJ7f7JfRP2E1hQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/x7lVpPil2WqfwA_f8hX8qDWD4KNOjt6G9UHGyyvUFWOw8n5l117x9Bb3jUVFc6W2p7lKpPKofNGwhMtNG7YW31kuL9o_i0N3PcZGhxxyHyOFZ-DnZlbYFfz80AleHdyBqnx4tLQEzeQ=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 483_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 483',
+      name: 'Episode 483',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/RYy80toiVAs-q9IjXP0iHYau8x4bJCyzMx0wnQhtpInF0CkJz44q9D4yrnw0ckJBUUhQpEMRuqt9vXoMw5Ip5Xmyul3jU2UT7nYQ0tzGWBlx8REqtIaYyaatXNVQLGAeSWxgsYhkexU=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 484',
-    name: 'Episode 484',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/J3DyxEQJetFSapF7XOJAhc7KakYoDEaJg7cDX9hsCGfqRUfAUDLX91HwYgI6V4gtyx4o4hzjtbtk5GepCn1t0ihv21OZmJTtXGbqaQAqZg3rhT0FFzGnEtN4FvD9RqGmt8pL9Qrdyg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/RYy80toiVAs-q9IjXP0iHYau8x4bJCyzMx0wnQhtpInF0CkJz44q9D4yrnw0ckJBUUhQpEMRuqt9vXoMw5Ip5Xmyul3jU2UT7nYQ0tzGWBlx8REqtIaYyaatXNVQLGAeSWxgsYhkexU=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 484_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 484',
+      name: 'Episode 484',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/VnlaDdkrK32swjgRtl8dYAf7bTRrcjTlteyeK2QlhkoXkBSGhxDn0hnzv3BOIoqfwhBH-UxgUe9ImI3t95OluC8AWiWJ_E34zW-YLb_8ZSSzhyp511cxtWtV2r4JQe9KfPn-LxWLPW4=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 485',
-    name: 'Episode 485',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/YDcFFxPxduf7RaqopUQ5ekMLgaslosTFNIFgHLK2_yCz0IAyZy0dyPtN-8aUFd4vl0Zx2n1yiA-gMsx0ekqw3zF-r_7Vo5R5FW6Y9ZmVRI9g-eAKqreFzDCdolRm9Un68WKtq68AmQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/VnlaDdkrK32swjgRtl8dYAf7bTRrcjTlteyeK2QlhkoXkBSGhxDn0hnzv3BOIoqfwhBH-UxgUe9ImI3t95OluC8AWiWJ_E34zW-YLb_8ZSSzhyp511cxtWtV2r4JQe9KfPn-LxWLPW4=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 485_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 485',
+      name: 'Episode 485',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/fcOMH_AEm47Vm-t_8FKv-H3LXxkffpbxlLWiX-azhI604IABdtum6FOyDWBC3K4aPxtBRu1iierrh5K3MuQ4TISz48U_j3kjBc0E7n5gqyC1-RImip9Z2SYYdC6JmDKfeB98ihbkGkM=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 486',
-    name: 'Episode 486',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/jRqFO5ktQpCypGnGvMdZvBYM0lkSgmjEQlNv22Nx9ecf8UnO4lzj6iLWVcILR4rNh1MS7Ul3HkUyrBv2rDJb4S60Kt0COK614Be6mqPlIldZVF6TmwIiZgTzGG3sfWPyt71iL42OIQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/fcOMH_AEm47Vm-t_8FKv-H3LXxkffpbxlLWiX-azhI604IABdtum6FOyDWBC3K4aPxtBRu1iierrh5K3MuQ4TISz48U_j3kjBc0E7n5gqyC1-RImip9Z2SYYdC6JmDKfeB98ihbkGkM=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 486_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 486',
+      name: 'Episode 486',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/hXLDUHujzRgC9-F45D5aqid6UopD7LmGkE1_6ZLfRUc1717SSqTIZirDfqhU21mL0xkuGJej7XdrPkpLGpD8b1aojl3mF6GI-p1wIrr9n5ZHLjMfP7cERb_9lOMsZm9-OH1nWTq9Vio=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
+        src: 'https://lh3.googleusercontent.com/hXLDUHujzRgC9-F45D5aqid6UopD7LmGkE1_6ZLfRUc1717SSqTIZirDfqhU21mL0xkuGJej7XdrPkpLGpD8b1aojl3mF6GI-p1wIrr9n5ZHLjMfP7cERb_9lOMsZm9-OH1nWTq9Vio=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    { judul: '* Naruto: Shippuuden',
     episode: '* Episode 487',
     name: 'Episode 487',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/w7f48gx5XzjLG3PNbqzuKvee7d9pg5EGlq-IPqMzrDfF36z55VT7xWyMu_mje1NDkSTfsJp2dgFbxJF2NUAFz67CrdENQaNAC2jpF2S2LZyNSiWO4lQyI8HiY_hryRJCTaS9eS8DSA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/UUmp12f9-6-0E5DScWRYEXiwTr-GlNt6t0FiU4bR_MCXZzNxhX7286JTALUvQp2rrxIUc15GrcdlrGfVPDuJ3CxZCrx7P8bHfoAuvgF1lStGXgwCc51bk6AlXfHvvQEi6fluN9quzyY=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/UUmp12f9-6-0E5DScWRYEXiwTr-GlNt6t0FiU4bR_MCXZzNxhX7286JTALUvQp2rrxIUc15GrcdlrGfVPDuJ3CxZCrx7P8bHfoAuvgF1lStGXgwCc51bk6AlXfHvvQEi6fluN9quzyY=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 488',
-    name: 'Episode 488',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/UE7MAsFKwlnlVQTeV4Gv5uORzIwklPLw8cud81rCNkEJPYQRp2U6BDq2JStdozP4JbAXElFvyx7iTlEnm2TZO1S-DGXLNGXzhZ5JaeXHdBejHY22Oler684bJrhjgrCbwYJzB-Sd1w=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 488_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 488',
+      name: 'Episode 488',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/sr_Ax1yLpEVuj1lDmBvStxWPEfS45wNGa8EPOVerNx4qRUCrtvp1XgjDqsnQDVEHCNWlrizzDz19qoDRe6G0DVIO-QoamHn9zZmmvK794VzR8GfQ91lIGI6PscMe5_t2ooU2M9Q7IlQ=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 489',
-    name: 'Episode 489',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/Rye84LtPJpMUmOOxQgo36ZDJcMaWHDLNTqQyl8zEQ-jPJ6sWcuBJmwLzJ0fRM03A4ZY_sobep5U0JUWLDhgrIpVGD59pc96PimqC5L-H_6hOzxcUWHuOqG26Nw_81hpfbb7w-rJcHg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/sr_Ax1yLpEVuj1lDmBvStxWPEfS45wNGa8EPOVerNx4qRUCrtvp1XgjDqsnQDVEHCNWlrizzDz19qoDRe6G0DVIO-QoamHn9zZmmvK794VzR8GfQ91lIGI6PscMe5_t2ooU2M9Q7IlQ=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 489_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 489',
+      name: 'Episode 489',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/xoKgDS9mpDKVt97ZVdvh6AWtuGt_lLTlCgXLO47-jIj4dRcU4wI2ZAZ6KlrkJMLNY2YPJL9sgEMtoQyyD82AvoUluBJCKY9DhvJ9her_m-AW39ba_tWrorFXWHpvm30deC4EBL5mwfQ=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 490',
-    name: 'Episode 490',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/3TWvsWC-lBhBUfYIMMzjkDy_dDsoXLIY6gawoFtDomjPabGn6GC4PM26OYCN03tT0e4sWbPUbv2ApsRird1K1vnYugG5sA5yv3ZcHcfQ4DJXn5fCAPUK5FJAFRoIKJQMHm92NP9XUQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/xoKgDS9mpDKVt97ZVdvh6AWtuGt_lLTlCgXLO47-jIj4dRcU4wI2ZAZ6KlrkJMLNY2YPJL9sgEMtoQyyD82AvoUluBJCKY9DhvJ9her_m-AW39ba_tWrorFXWHpvm30deC4EBL5mwfQ=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 490_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 490',
+      name: 'Episode 490',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/1keUsJKIAomLkPhDVUlbIukWThsWT5j6D1WfFPhzeM1MTdIjbXV78Mt-gwzzzkeU7pRcLU5Y3G9Mb2iwEVOGnyKI39CZ9f3KPhtMhIG3JeUJCL1QXyHj2X_I4dLguq-gQajPRKS6anE=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
+        src: 'https://lh3.googleusercontent.com/1keUsJKIAomLkPhDVUlbIukWThsWT5j6D1WfFPhzeM1MTdIjbXV78Mt-gwzzzkeU7pRcLU5Y3G9Mb2iwEVOGnyKI39CZ9f3KPhtMhIG3JeUJCL1QXyHj2X_I4dLguq-gQajPRKS6anE=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    { judul: '* Naruto: Shippuuden',
     episode: '* Episode 491',
     name: 'Episode 491',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/E21BTBVPU7G_dP27om01ev2AdpO7XwTFr3IDWWwwcILG0yknjJGTibhYnU_yrETH7H7f86ExweB4V6P-4pxggAYYdYpbNIQmB8K-ZPPxq-zS2ke2VeCxcXbZzajyppVG1VVC0nb8kA=m18',
+    deskrip1 : '* Rating : 8.20',
+    sources: [  
+    {
+      src: 'https://lh3.googleusercontent.com/Ku8tyz6ccqFkznfjKoqbQAmSFKD3QhmwIz_1SxPM6fYrfGrLOS5aYUsMS639j_eHbyD2i1n2oNlZ4afEXih-BY5A8BfvrIOcNqdcqsJjHpOZ8fxSXO-Xiucrw5FhC65WFiB-19dUXwc=m22',
+      type: 'video/mp4',
+      label: '720p',
+      selected: 'false'
+    },
+    {
+      src: 'https://lh3.googleusercontent.com/Ku8tyz6ccqFkznfjKoqbQAmSFKD3QhmwIz_1SxPM6fYrfGrLOS5aYUsMS639j_eHbyD2i1n2oNlZ4afEXih-BY5A8BfvrIOcNqdcqsJjHpOZ8fxSXO-Xiucrw5FhC65WFiB-19dUXwc=m18',
       type: 'video/mp4',
       label: '480p',
       selected: 'true'
     }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
-      },
-      {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
+  thumbnail: [
+          {
+            srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+            type: 'image/jpeg',
+            media: '(min-width: 400px;)'
+          },
+          {
+            src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+          }
+        ]
   },
   {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 492',
-    name: 'Episode 492',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/MA_4lWmvPa2OEbnccjaMNKxhV2nBaGNVRh7exNOGwPZ7AoB72iSzS9ScwvMm-hW6KUMaeVsC7Q7OPsubYVSMJRSxmJY8W4Gw1Q3_GO9UmHSfsxV25hCR9Cz7qziH649iY_VOcb-Uew=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 492_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 492',
+      name: 'Episode 492',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/iR_PE29iVT-7pNwLru5C6A_h0uPEjlFQrZRsr7RxKY0uOtQTlo3Kikog9ex0Le1SiUbEvdE8xLO6o6NhW-CrL6wRXYylMCINs1icjhkFRGeP1RI96-11ZnjiH5ljHvSPFfQ0TIr1TnE=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 493',
-    name: 'Episode 493',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/4lUPspcbZ73TGdcnrLIYo0kRAFsVo7xwQ55xjyMs6tyWyxlufcpITPOqO_DMCMGhRIfAWUStiXNyPRXdL0xyx4aNGImKwMa9ksih8PwdCnxIUokzOmzI4RSj42EvtwfZhxbaG1aplA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/iR_PE29iVT-7pNwLru5C6A_h0uPEjlFQrZRsr7RxKY0uOtQTlo3Kikog9ex0Le1SiUbEvdE8xLO6o6NhW-CrL6wRXYylMCINs1icjhkFRGeP1RI96-11ZnjiH5ljHvSPFfQ0TIr1TnE=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 493_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 493',
+      name: 'Episode 493',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/UXa7l7JMykUPg6U9u_QB2wL0gqJD66rxNXc-8ZGZ5_ElQl2DSZWD5gz1ZxGopjUFBUoat1iOmMRatGnaCCdSXsPRBmkAszTFRXMUZ6VxHtjzdlu9AQYoq-Uz0PWy5Fm8fkLpO151rw8=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 494',
-    name: 'Episode 494',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2uAtFcOZ4YlXbloRmAC24lTxpTSov-Dw1nkf0UbgJDn-O1cjiRGO7gfhAKnZUOyMwa9ZHXIjxSS-zPOFIxFl-Cpo_8HarbyrAXPRGqlGlTRG8eGleR-OxzBByIPkSDtOTnAALCXn7A=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/UXa7l7JMykUPg6U9u_QB2wL0gqJD66rxNXc-8ZGZ5_ElQl2DSZWD5gz1ZxGopjUFBUoat1iOmMRatGnaCCdSXsPRBmkAszTFRXMUZ6VxHtjzdlu9AQYoq-Uz0PWy5Fm8fkLpO151rw8=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 494_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 494',
+      name: 'Episode 494',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/qAEq6NWfgASTM_QVvn9eB4uh-uEOjezu3ivfGm30LGdpG7hhFWM-iPLZDvKKAK3KxFxRzgteTnGOIAkavw82KlPvINJt5FSSBtThq7ictoR6HZvA1LjxfT6LcV44PT09Dp2BbaQqTz0=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 495',
-    name: 'Episode 495',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/fNEd71ajqakMBNr4upPIoD7ESsoTA7IGdW_C4g1VHlXI04ZrG4aK8CyZAT4TXvCJr1QvN53X0-vM9y2_FCVLy7nNWPWo3-PCqsKvrwqSFwVhOzaDXeY22n4RbqcilLudSjwz29GQAw=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/qAEq6NWfgASTM_QVvn9eB4uh-uEOjezu3ivfGm30LGdpG7hhFWM-iPLZDvKKAK3KxFxRzgteTnGOIAkavw82KlPvINJt5FSSBtThq7ictoR6HZvA1LjxfT6LcV44PT09Dp2BbaQqTz0=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 495_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 495',
+      name: 'Episode 495',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/Wy6APr8y8f7lQNekJenkBzmoUN0xNJdcHbJzHOs6w-r4BV_E2oO7BbYSFA1v0TUVnFeaiWdGixeGDiFVPAGxanGtFTK_TCm3yOsZZaCvWBi74-8TL0ImQR4fBwDfGbqYNymH38zcsb8=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 496',
-    name: 'Episode 496',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/nvc6QGY71WzRT5YO0G5SUUmv4RbZu0pvg7UmBE8u4M95SDXfoftT-Ts2u0FzHa1fNRdfXJv-DPtgidIrrWdhfknWRjcB4EAHopi12jH5V-F7nvNXQh7km5mxVnDtAt3yvOZOG5ORqQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/Wy6APr8y8f7lQNekJenkBzmoUN0xNJdcHbJzHOs6w-r4BV_E2oO7BbYSFA1v0TUVnFeaiWdGixeGDiFVPAGxanGtFTK_TCm3yOsZZaCvWBi74-8TL0ImQR4fBwDfGbqYNymH38zcsb8=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 496_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 496',
+      name: 'Episode 496',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/31Rr5YE49UETWNAFzx4rbcj2hGs1rvtfZd6Pzls2ZqjG1KgTfDBA0T-VodexkkmAuc6ndTj8aOgEykpF7eN-kEt94JdFsa9E70bDpgc372eWoMOi51Jmyec2DohkH0a1IH0JF-sy8LQ=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 497',
-    name: 'Episode 497',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/atE-0N9N8wm5uQIrNz6hlnhe1AzZzl5faMce9wmOspUw70_ZADcPVZuiY7yeAwbxR8-pGXDEcHXtenMixm6k12pdTDQmIp-JmQYseOLhKAONuCIlY1tdDlfVsLiJaaqRGkgtdnliNg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/31Rr5YE49UETWNAFzx4rbcj2hGs1rvtfZd6Pzls2ZqjG1KgTfDBA0T-VodexkkmAuc6ndTj8aOgEykpF7eN-kEt94JdFsa9E70bDpgc372eWoMOi51Jmyec2DohkH0a1IH0JF-sy8LQ=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 497_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 497',
+      name: 'Episode 497',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/AX1TIsv7KryfD1guQmD6Ru8TsJ3N1hctqRG6cIv6iuDvTasu1ENXf75BWgTUWiR9GJovFHNUfQXu1USgx3EATcwSJxJsykGm2fEWmCXcRjCQUNnb01b_Ywm4GK1dXx9UV4XfI9A-KPc=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 498',
-    name: 'Episode 498',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/MG6PjcNVSytE0li-j_-jXq0Col5yrA_f9qGq4K1Rv7Wn9efb70xU-q7eBHm5Z8t8auGYYy9zXkkGatk9FJ3OUrFxrdt11BFAQQV8dDuqCMlVw7Laalk5Yt3bK_AvRfIZqEBbmJegBA=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/AX1TIsv7KryfD1guQmD6Ru8TsJ3N1hctqRG6cIv6iuDvTasu1ENXf75BWgTUWiR9GJovFHNUfQXu1USgx3EATcwSJxJsykGm2fEWmCXcRjCQUNnb01b_Ywm4GK1dXx9UV4XfI9A-KPc=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 498_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 498',
+      name: 'Episode 498',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/I8V6Stlx_Lgkz-6dIbBMZPSw3EzxA2bW8PVhp8cjMC70sCYBMkksEGld3VsX0nu-EBp8hocwL26o2SkB8Nhvdq1FbDV0A0DaSQ8Blp06vEUa8Uqii3RgOVxEk6ym0XwY_1vFELOeqF8=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 499',
-    name: 'Episode 499',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/2JFNNb0e8z7JIXuQU22o7LRPvpcgjTP3m7Arnl_T23Hxb5jEuIQaXQ20XuoTR86eyKTG4n75o3Cq2Uz9IrDXSPF5wlWAAKOaz_DklW_Xai_1fr9d4yQrZ3aAfPK4XEpF7HsmmgpknQ=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/I8V6Stlx_Lgkz-6dIbBMZPSw3EzxA2bW8PVhp8cjMC70sCYBMkksEGld3VsX0nu-EBp8hocwL26o2SkB8Nhvdq1FbDV0A0DaSQ8Blp06vEUa8Uqii3RgOVxEk6ym0XwY_1vFELOeqF8=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 499_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 499',
+      name: 'Episode 499',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/SyVuM6RVQ1-xTMdPqe9SCtAlwUY8B-bB6jIiJQ-E_rsla-xAyZafe2el9JPZwD_M_j40c-RYRF_5hlT1NCZQx5yaiNLMJ8YGPnvi-55-tHy1TabOlWNiOZALwOXE07g_zKhVuEKfAPw=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  },
-  {
-    judul: '* Naruto: Shippuuden',
-    episode: '* Episode 500',
-    name: 'Episode 500',
-    deskrip1: '* Rating : 8.20',
-    sources: [{
-      src: 'https://lh3.googleusercontent.com/KAhfo30zZcw7zSKqUQs3sAUpFz4y7fy26yCSW9WZgQIVWAGo46m1gtfFUp3W03-_fuT5sChVQeXwHgjnSDvsGb1E-KPQrdx5eZ4mV2IKO037ZQjW-ly5nigxY3EOczsDkgXoHY5Msg=m18',
-      type: 'video/mp4',
-      label: '480p',
-      selected: 'true'
-    }],
-    thumbnail: [{
-        srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
-        type: 'image/jpeg',
-        media: '(min-width: 400px;)'
+        src: 'https://lh3.googleusercontent.com/SyVuM6RVQ1-xTMdPqe9SCtAlwUY8B-bB6jIiJQ-E_rsla-xAyZafe2el9JPZwD_M_j40c-RYRF_5hlT1NCZQx5yaiNLMJ8YGPnvi-55-tHy1TabOlWNiOZALwOXE07g_zKhVuEKfAPw=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    },
+    {
+    textTracks:[
+      {
+        src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden/%5Bdunia-anime%5D Naruto Shippuden - 500_Track03.vtt',
+        kind: 'captions',
+        srclang: 'id',
+        label: 'Indonesia',
+        'default': true
+      }],
+     judul: '* Naruto: Shippuuden',
+      episode: '* Episode 500',
+      name: 'Episode 500',
+      deskrip1 : '* Rating : 8.20',
+      sources: [  
+      {
+        src: 'https://lh3.googleusercontent.com/Fk86S8JbRo1oCe9ExJh-594iiUZFgi_G4_MYva5bLmTQhQaIsKLXVcpky60U50uWFQNP6AjXbYfcculOtgraT949FaXftYGqR2YHtVsFeChW3b2Mp3oy64xTR4rDpdmiac87e4trIUI=m22',
+        type: 'video/mp4',
+        label: '720p',
+        selected: 'false'
       },
       {
-        src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
-      }
-    ]
-  }
-]);
-// Initialize the playlist-ui plugin with no option (i.e. the defaults).
-player.playlistUi();
+        src: 'https://lh3.googleusercontent.com/Fk86S8JbRo1oCe9ExJh-594iiUZFgi_G4_MYva5bLmTQhQaIsKLXVcpky60U50uWFQNP6AjXbYfcculOtgraT949FaXftYGqR2YHtVsFeChW3b2Mp3oy64xTR4rDpdmiac87e4trIUI=m18',
+        type: 'video/mp4',
+        label: '480p',
+        selected: 'true'
+      }],
+    thumbnail: [
+            {
+              srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+              type: 'image/jpeg',
+              media: '(min-width: 400px;)'
+            },
+            {
+              src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+          ]
+    }]);
+    // Initialize the playlist-ui plugin with no option (i.e. the defaults).
+    player.playlistUi();
 
-videojs("video", {}, function () {
-  var player = this;
-  player.controlBar.addChild('QualitySelector');
+    videojs("video", {}, function() {
+         var player = this;
+         player.controlBar.addChild('QualitySelector');
   player.landscapeFullscreen();
-});
+      });
 
-videojs('video').ready(function () {
+videojs('video').ready(function() {
   this.hotkeys({
-
+    
   });
 });
