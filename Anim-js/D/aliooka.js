@@ -490,6 +490,47 @@ player.playlist([{
                 src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
             }
         ]
+    },
+    {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dantalian%20no%20Shoka/%5Bdunia-anime.com%5D Dantalian no Shoka - OVA.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
+        judul: '* Dantalian no Shoka',
+        episode: '* Episode OVA',
+        name: 'Episode OVA',
+        deskrip1: '* Rating : 7.30',
+        sources: [{
+                src: 'https://lh3.googleusercontent.com/FMwQTD3M1anJw1JEvqnUh7DvGSp4mBLp0OKQadCjthWylMgP2pAVvjAt2kREtTvNa2yiIXk_FG6ybbLogZguK_LjVb85lgX0tSphaOSlYgNq-4jAuarH5M_ENZKmtFGJzMmEjTb7sR4=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/FMwQTD3M1anJw1JEvqnUh7DvGSp4mBLp0OKQadCjthWylMgP2pAVvjAt2kREtTvNa2yiIXk_FG6ybbLogZguK_LjVb85lgX0tSphaOSlYgNq-4jAuarH5M_ENZKmtFGJzMmEjTb7sR4=m22',
+                type: 'video/mp4',
+                label: '720p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/FMwQTD3M1anJw1JEvqnUh7DvGSp4mBLp0OKQadCjthWylMgP2pAVvjAt2kREtTvNa2yiIXk_FG6ybbLogZguK_LjVb85lgX0tSphaOSlYgNq-4jAuarH5M_ENZKmtFGJzMmEjTb7sR4=m18',
+                type: 'video/mp4',
+                label: '480p',
+                selected: 'true'
+            }
+        ],
+        thumbnail: [{
+                srcset: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg',
+                type: 'image/jpeg',
+                media: '(min-width: 400px;)'
+            },
+            {
+                src: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+            }
+        ]
     }
 ]);
 // Initialize the playlist-ui plugin with no option (i.e. the defaults).
