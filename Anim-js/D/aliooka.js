@@ -504,12 +504,6 @@ player.playlist([{
         name: 'Episode OVA',
         deskrip1: '* Rating : 7.30',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/FMwQTD3M1anJw1JEvqnUh7DvGSp4mBLp0OKQadCjthWylMgP2pAVvjAt2kREtTvNa2yiIXk_FG6ybbLogZguK_LjVb85lgX0tSphaOSlYgNq-4jAuarH5M_ENZKmtFGJzMmEjTb7sR4=m37',
-                type: 'video/mp4',
-                label: '1080p',
-                selected: 'false'
-            },
-            {
                 src: 'https://lh3.googleusercontent.com/FMwQTD3M1anJw1JEvqnUh7DvGSp4mBLp0OKQadCjthWylMgP2pAVvjAt2kREtTvNa2yiIXk_FG6ybbLogZguK_LjVb85lgX0tSphaOSlYgNq-4jAuarH5M_ENZKmtFGJzMmEjTb7sR4=m22',
                 type: 'video/mp4',
                 label: '720p',
