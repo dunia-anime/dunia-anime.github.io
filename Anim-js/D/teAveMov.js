@@ -5,13 +5,18 @@ player.playlist([{
     name: 'Episode 01',
     deskrip1: '* Rating : 7.46',
     sources: [{
-            src: 'https://lh3.googleusercontent.com/imk_nvtkiSZ_16FykSi9HMAf1KihFZqBNw48wvAls6EbcIVsU-jP62GatdZvRqqe-j2Asw6TkWbDi_1O0YuvYyOnSWo_geU3UjOCEuUBCW77prF966LXdWyVgQdVC_foVR-aERi0ou8=m22',
+            src: 'https://lh3.googleusercontent.com/znnhxaI8MDhh1NNIFeX9lGDoPu4trBFaZ2Ae2z99ogFZzE-dla2KWnq2deShrMq8PylmJGUEpMm7CL2m37Zmumuh4PFXW82_iJIPGWKPQcghu32Ajc6DOIrcEsFIkBVftER6eaK36LU=m37',
+            type: 'video/mp4',
+            label: '1080p',
+            selected: 'false'
+        }, {
+            src: 'https://lh3.googleusercontent.com/znnhxaI8MDhh1NNIFeX9lGDoPu4trBFaZ2Ae2z99ogFZzE-dla2KWnq2deShrMq8PylmJGUEpMm7CL2m37Zmumuh4PFXW82_iJIPGWKPQcghu32Ajc6DOIrcEsFIkBVftER6eaK36LU=m22',
             type: 'video/mp4',
             label: '720p',
             selected: 'false'
         },
         {
-            src: 'https://lh3.googleusercontent.com/imk_nvtkiSZ_16FykSi9HMAf1KihFZqBNw48wvAls6EbcIVsU-jP62GatdZvRqqe-j2Asw6TkWbDi_1O0YuvYyOnSWo_geU3UjOCEuUBCW77prF966LXdWyVgQdVC_foVR-aERi0ou8=m18',
+            src: 'https://lh3.googleusercontent.com/znnhxaI8MDhh1NNIFeX9lGDoPu4trBFaZ2Ae2z99ogFZzE-dla2KWnq2deShrMq8PylmJGUEpMm7CL2m37Zmumuh4PFXW82_iJIPGWKPQcghu32Ajc6DOIrcEsFIkBVftER6eaK36LU=m18',
             type: 'video/mp4',
             label: '480p',
             selected: 'true'
