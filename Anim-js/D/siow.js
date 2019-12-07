@@ -257,13 +257,13 @@ player.playlist([{
         name: 'Episode 10',
         deskrip1: '* Rating : 7.28',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/3txwGuo7zF1FnmMmgTMW4-emTZnTMTqcEkNB-SOTFAMmd15RSr6z_eBx0KaSu_0i30KX4SBmWNUOKmWArnBJAj8Di9vKbcGfCoogXkcW-OlLSZ_nWEHWKjtkb4DXdTYu6Jtev_qLGbc=m22',
+                src: 'https://lh3.googleusercontent.com/1p-x3eXWAXxm6Md1KBzS4jM88_jL91LDypkEleCAli85QzxLtJiovsDGyHzPHsZcwYI9LwVBGVMGFXPTo39qZR2d5nSw-Q2eiyr4tN-IYnRp_p2A3-LXCeYFaVrmKl5pFa_efATui4c=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/3txwGuo7zF1FnmMmgTMW4-emTZnTMTqcEkNB-SOTFAMmd15RSr6z_eBx0KaSu_0i30KX4SBmWNUOKmWArnBJAj8Di9vKbcGfCoogXkcW-OlLSZ_nWEHWKjtkb4DXdTYu6Jtev_qLGbc=m18',
+                src: 'https://lh3.googleusercontent.com/1p-x3eXWAXxm6Md1KBzS4jM88_jL91LDypkEleCAli85QzxLtJiovsDGyHzPHsZcwYI9LwVBGVMGFXPTo39qZR2d5nSw-Q2eiyr4tN-IYnRp_p2A3-LXCeYFaVrmKl5pFa_efATui4c=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -337,8 +337,8 @@ player.playlist([{
     },
     {
         judul: '* Dimension W',
-        episode: '* Episode 13',
-        name: 'Episode 13',
+        episode: '* Episode Special',
+        name: 'Episode Special',
         deskrip1: '* Rating : 7.28',
         sources: [{
                 src: 'https://lh3.googleusercontent.com/VNr683cYW4NtmjOxxr7FntIrhsfLMifqz2AOaYRaJHhh8O08wEDj4pUO346ST2mObvsTDT07VafK36goOq4KZXN26Yg5G4moGiWZjliw0BYUDT37XctOSAuV8cCYPWNhFyGWjr4zBAI=m22',
