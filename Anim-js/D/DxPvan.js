@@ -29,7 +29,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 02.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 02.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -64,7 +64,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 03.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 03.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -99,7 +99,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 04.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 04.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -134,7 +134,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 05.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 05.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -169,7 +169,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 06.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 06.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -204,7 +204,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 07.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 07.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -239,7 +239,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 08.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 08.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -274,7 +274,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 09.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 09.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
@@ -309,7 +309,7 @@ player.playlist([{
     },
     {
         textTracks: [{
-            src: '%5Bdunia-annime%5D Dame x Prince Anime Caravan - 10.vtt',
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/D/Dame%20x%20Prince%20Anime%20Caravan/%5Bdunia-annime%5D Dame x Prince Anime Caravan - 10.vtt',
             kind: 'captions',
             srclang: 'id',
             label: 'Indonesia',
