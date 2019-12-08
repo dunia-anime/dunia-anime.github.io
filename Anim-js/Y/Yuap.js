@@ -500,8 +500,8 @@ player.playlist([{
       'default': true
     }],
     judul: '* Yuru Camp△',
-    episode: '* Episode 13',
-    name: 'Episode 13',
+    episode: '* Special 01',
+    name: 'Special 01',
     deskrip1: '* Rating : 8.32',
     sources: [{
         src: 'https://lh3.googleusercontent.com/9AugA985jGGqfe7ukaDk3IZnL8X8HiwhT5xT-_Jpuev8G_5Cpds_zQV8rypcDaXyh2Aabr0eGbTDa_z6aT2n2HNi6F-dwXjUoz9jTFEdPPNEarbhWQ0A_1PU1V71ThNS0i7CHDDZ6PA=m37',
@@ -541,8 +541,8 @@ player.playlist([{
       'default': true
     }],
     judul: '* Yuru Camp△',
-    episode: '* Episode 14',
-    name: 'Episode 14',
+    episode: '* Special 02',
+    name: 'Special 02',
     deskrip1: '* Rating : 8.32',
     sources: [{
         src: 'https://lh3.googleusercontent.com/TsVhVt9iDAbYKIQGaR3H3CUUidZ_uJGORGD1NJQ8LrScEMN5XzLgTGAU9UH5Kkejzf-NzOPCtFOecRSvP4qC_FQlGENB9MIpMYM_pritsTO-cVjMvxu93gdaPEbfjKwGCDZq13yYeKw=m37',
@@ -582,8 +582,8 @@ player.playlist([{
       'default': true
     }],
     judul: '* Yuru Camp△',
-    episode: '* Episode 15',
-    name: 'Episode 15',
+    episode: '* Special 03',
+    name: 'Special 03',
     deskrip1: '* Rating : 8.32',
     sources: [{
         src: 'https://lh3.googleusercontent.com/oKCEWO-Mdl9AmGsHz0hNYWF5OahEyLJQu5j0yAr1uArGG3joA-2fIqEcNWb79mnbeWLZW3WNeaPZD4ad-FExbpQ2cO3Ir5Bx4LWQ8gYUT0qtYyK6JYIGGM7ZJ4FK9A1DwxXsKG-JkdE=m37',
