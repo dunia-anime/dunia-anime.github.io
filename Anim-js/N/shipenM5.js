@@ -1,23 +1,23 @@
 var player = videojs('player1')
 player.playlist([{
-    judul: '* Naruto: Shippuuden Movie 2',
+    judul: '* Naruto: Shippuuden Movie 5',
     episode: '* Episode 01',
     name: 'Episode 01',
     deskrip1: '* Rating : 7.39',
     sources: [{
-            src: 'https://lh3.googleusercontent.com/IL4Sz8_PStWKx5qDivr_z37JysgZ7RvowqkTkznJR6ws3YA6qNVHtxuZuBtqRtK-YRdceRa4TTW4y46ilz8fc5kWfR287Y_cTVvE9oUTeBnID72L9anfH3_2hgSwVDgBpNK08prCr88=m37',
+            src: 'https://lh3.googleusercontent.com/SO4EBkMERSh538nY96K9d2nq0dMLTkVIg4wBP6tpmaYxPBIFWaDqux9wQ_ahI8sys_E0leYBQpzvI8_h1beqLm3XYNOta70fqCSQC0iNELOhUqfL-0HhANWuAzYZbPoDaEXrRVefPh0=m37',
             type: 'video/mp4',
             label: '1080p',
             selected: 'false'
         },
         {
-            src: 'https://lh3.googleusercontent.com/IL4Sz8_PStWKx5qDivr_z37JysgZ7RvowqkTkznJR6ws3YA6qNVHtxuZuBtqRtK-YRdceRa4TTW4y46ilz8fc5kWfR287Y_cTVvE9oUTeBnID72L9anfH3_2hgSwVDgBpNK08prCr88=m22',
+            src: 'https://lh3.googleusercontent.com/SO4EBkMERSh538nY96K9d2nq0dMLTkVIg4wBP6tpmaYxPBIFWaDqux9wQ_ahI8sys_E0leYBQpzvI8_h1beqLm3XYNOta70fqCSQC0iNELOhUqfL-0HhANWuAzYZbPoDaEXrRVefPh0=m22',
             type: 'video/mp4',
             label: '720p',
             selected: 'false'
         },
         {
-            src: 'https://lh3.googleusercontent.com/IL4Sz8_PStWKx5qDivr_z37JysgZ7RvowqkTkznJR6ws3YA6qNVHtxuZuBtqRtK-YRdceRa4TTW4y46ilz8fc5kWfR287Y_cTVvE9oUTeBnID72L9anfH3_2hgSwVDgBpNK08prCr88=m18',
+            src: 'https://lh3.googleusercontent.com/SO4EBkMERSh538nY96K9d2nq0dMLTkVIg4wBP6tpmaYxPBIFWaDqux9wQ_ahI8sys_E0leYBQpzvI8_h1beqLm3XYNOta70fqCSQC0iNELOhUqfL-0HhANWuAzYZbPoDaEXrRVefPh0=m18',
             type: 'video/mp4',
             label: '480p',
             selected: 'true'
@@ -33,8 +33,6 @@ player.playlist([{
         }
     ]
 }]);
-// Initialize the playlist-ui plugin with no option (i.e. the defaults).
-player.playlistUi();
 
 videojs("player1", {}, function () {
     var player = this;
@@ -52,7 +50,7 @@ var player = videojs('player1');
 player.landscapeFullscreen();
 var vjs = videojs('player1');
 var vjs_ass = vjs.ass({
-    'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden%20Movie/%5Bdunia-anime%5D%20Naruto%20Shippuuden%20-%2002.ass"],
+    'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden%20Movie/%5Bdunia-anime%5D%20Naruto%20Shippuuden%20-%2005.ass"],
     label: "indo",
     videoWidth: 640,
     videoHeight: 360,

@@ -1,6 +1,6 @@
 var player = videojs('player1')
 player.playlist([{
-    judul: '* Naruto: Shippuuden Movie 1',
+    judul: '* Naruto: Shippuuden Movie 3',
     episode: '* Episode 01',
     name: 'Episode 01',
     deskrip1: '* Rating : 7.39',
