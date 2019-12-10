@@ -53,7 +53,7 @@ player.landscapeFullscreen();
 var vjs = videojs('player1');
 var vjs_ass = vjs.ass({
     'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden%20Movie/%5Bdunia-anime%5D%20Naruto%20Shippuuden%20-%2002.ass"],
-    label: "engsub",
+    label: "indo",
     videoWidth: 640,
     videoHeight: 360,
     enableSvg: false

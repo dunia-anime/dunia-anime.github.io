@@ -5,19 +5,19 @@ player.playlist([{
     name: 'Episode 01',
     deskrip1: '* Rating : 7.39',
     sources: [{
-            src: 'https://lh3.googleusercontent.com/hClKwg0oYofI3uR6rjV-8Abkov14E6vwOpsvzAJ-xauRfla5gxv3IDMeAX23U4EIrk-mdP2ecnW2CP2LOviTtYPqteuUGdzr3JiB-ik-Ph6a3qcOGfQeyCrGtQ2F31wWVsMi76yAwD8=m37',
+            src: 'https://lh3.googleusercontent.com/w_Dwm6kgf1j2pDsCtx-5xwCB6KfuGzR0-fgoWLcRYZ6WoP8gDbaj1N7aBUasRmvfWbKnmxR4WTcPmsJNm6wfCXerVM0TiE_4Wr9z92w8bSCvDP5BOAeNmbLnmsTRMyCeSPl8qpPn4sk=m37',
             type: 'video/mp4',
             label: '1080p',
             selected: 'false'
         },
         {
-            src: 'https://lh3.googleusercontent.com/hClKwg0oYofI3uR6rjV-8Abkov14E6vwOpsvzAJ-xauRfla5gxv3IDMeAX23U4EIrk-mdP2ecnW2CP2LOviTtYPqteuUGdzr3JiB-ik-Ph6a3qcOGfQeyCrGtQ2F31wWVsMi76yAwD8=m22',
+            src: 'https://lh3.googleusercontent.com/w_Dwm6kgf1j2pDsCtx-5xwCB6KfuGzR0-fgoWLcRYZ6WoP8gDbaj1N7aBUasRmvfWbKnmxR4WTcPmsJNm6wfCXerVM0TiE_4Wr9z92w8bSCvDP5BOAeNmbLnmsTRMyCeSPl8qpPn4sk=m22',
             type: 'video/mp4',
             label: '720p',
             selected: 'false'
         },
         {
-            src: 'https://lh3.googleusercontent.com/hClKwg0oYofI3uR6rjV-8Abkov14E6vwOpsvzAJ-xauRfla5gxv3IDMeAX23U4EIrk-mdP2ecnW2CP2LOviTtYPqteuUGdzr3JiB-ik-Ph6a3qcOGfQeyCrGtQ2F31wWVsMi76yAwD8=m18',
+            src: 'https://lh3.googleusercontent.com/w_Dwm6kgf1j2pDsCtx-5xwCB6KfuGzR0-fgoWLcRYZ6WoP8gDbaj1N7aBUasRmvfWbKnmxR4WTcPmsJNm6wfCXerVM0TiE_4Wr9z92w8bSCvDP5BOAeNmbLnmsTRMyCeSPl8qpPn4sk=m18',
             type: 'video/mp4',
             label: '480p',
             selected: 'true'
@@ -33,8 +33,6 @@ player.playlist([{
         }
     ]
 }]);
-// Initialize the playlist-ui plugin with no option (i.e. the defaults).
-player.playlistUi();
 
 videojs("player1", {}, function () {
     var player = this;
@@ -52,7 +50,7 @@ var player = videojs('player1');
 player.landscapeFullscreen();
 var vjs = videojs('player1');
 var vjs_ass = vjs.ass({
-    'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden%20Movie/%5Bdunia-anime%5D%20Naruto%20Shippuuden%20-%2001.ass"],
+    'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/N/Naruto%20Shippuuden%20Movie/%5Bdunia-anime%5D%20Naruto%20Shippuuden%20-%2004.ass"],
     label: "indo",
     videoWidth: 640,
     videoHeight: 360,
