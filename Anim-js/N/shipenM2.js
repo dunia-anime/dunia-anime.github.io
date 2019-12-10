@@ -17,7 +17,7 @@ player.playlist([{
             selected: 'false'
         },
         {
-            src: 'https://lh3.googleusercontent.com/IL4Sz8_PStWKx5qDivr_z37JysgZ7RvowqkTkznJR6ws3YA6qNVHtxuZuBtqRtK-YRdceRa4TTW4y46ilz8fc5kWfR287Y_cTVvE9oUTeBnID72L9anfH3_2hgSwVDgBpNK08prCr88=m22',
+            src: 'https://lh3.googleusercontent.com/IL4Sz8_PStWKx5qDivr_z37JysgZ7RvowqkTkznJR6ws3YA6qNVHtxuZuBtqRtK-YRdceRa4TTW4y46ilz8fc5kWfR287Y_cTVvE9oUTeBnID72L9anfH3_2hgSwVDgBpNK08prCr88=m18',
             type: 'video/mp4',
             label: '480p',
             selected: 'true'
