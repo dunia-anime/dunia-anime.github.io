@@ -39,14 +39,3 @@ videojs('player1').ready(function () {
 
     });
 });
-
-var player = videojs('player1');
-player.landscapeFullscreen();
-var vjs = videojs('player1');
-var vjs_ass = vjs.ass({
-    'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Trinity%20Seven%20Movie%201%20Eternity%20Library%20to%20Alchemic%20Girl/[dunia-anime.id]%20Trinity%20Seven%20Movie%201%20Eternity%20Library%20to%20Alchemic%20Girl.ass"],
-    label: "indo",
-    videoWidth: 640,
-    videoHeight: 360,
-    enableSvg: false
-});
