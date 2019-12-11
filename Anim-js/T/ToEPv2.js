@@ -1,5 +1,12 @@
 var player = videojs('video')
 player.playlist([{
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2001.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 01',
         name: 'Episode 01',
@@ -28,6 +35,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2002.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 02',
         name: 'Episode 02',
@@ -56,6 +70,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2003.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 03',
         name: 'Episode 03',
@@ -84,6 +105,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2004.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 04',
         name: 'Episode 04',
@@ -112,6 +140,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2005.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 05',
         name: 'Episode 05',
@@ -140,6 +175,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2006.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 06',
         name: 'Episode 06',
@@ -168,6 +210,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2007.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 07',
         name: 'Episode 07',
@@ -196,6 +245,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2008.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 08',
         name: 'Episode 08',
@@ -224,6 +280,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2009.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 09',
         name: 'Episode 09',
@@ -252,6 +315,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2010.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 10',
         name: 'Episode 10',
@@ -280,6 +350,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2011.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 11',
         name: 'Episode 11',
@@ -308,6 +385,13 @@ player.playlist([{
         ]
     },
     {
+        textTracks: [{
+            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/T/Tokyo%20ESP/%5Bdunia-anime.id%5D%20Tokyo%20ESP%20-%2012.vtt',
+            kind: 'captions',
+            srclang: 'id',
+            label: 'Indonesia',
+            'default': true
+        }],
         judul: '* Tokyo ESP',
         episode: '* Episode 12',
         name: 'Episode 12',
