@@ -50,7 +50,7 @@ var player = videojs('player1');
 player.landscapeFullscreen();
 var vjs = videojs('player1');
 var vjs_ass = vjs.ass({
-    'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/U/Uchiage%20Hanabi,%20Shita%20kara%20Miru%20ka%20Yoko%20kara%20Miru%20ka/[dunia-anime.id]%20Uchiage%20Hanabi,%20Shita%20kara%20Miru%20ka%20Yoko%20kara%20Miru%20ka.ass"],
+    'src': ["https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/U/Uchiage%20Hanabi,%20Shita%20kara%20Miru%20ka%20Yoko%20kara%20Miru%20ka/[dunia-anime.id]%20Uchiage%20Hanabi,%20Shita%20kara%20Miru%20ka%20Yoko%20kara%20Miru%20kav2.ass"],
     label: "indo",
     videoWidth: 640,
     videoHeight: 360,
