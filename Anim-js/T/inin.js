@@ -337,8 +337,8 @@ player.playlist([{
     },
     {
         judul: '* Trinity Seven',
-        episode: '* Episode 13',
-        name: 'Episode 13',
+        episode: '* Episode OVA',
+        name: 'Episode OVA',
         deskrip1: '* Rating : 7.34',
         sources: [{
                 src: 'https://lh3.googleusercontent.com/AItsILoL2TxBk_DHbE0ual6E0aKO0TbAmstCvoKLvpfJf14g2-ecR683Ak7EhlHgwNRfkMhtGhHypzlvgRyEzmvFUOEXqFj-ACW4KHT8GXtTmA7djFc6bYrMmB2UhcztxWtMjUhNMRg=m22',
