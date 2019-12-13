@@ -1,24 +1,23 @@
 var player = videojs('video')
 player.playlist([{
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 01.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 01',
         name: 'Episode 01',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/bCQywJDXC6KBmHZpkr_kBIf0juP4-mgq1DXbhFuA0PpoboJafyD4d7_251Sozb45RsVXw20YIBUbK3Zapa8NdF2CHaqzka0JKIvacLvUC987y2T0u6hPXtMdsxT9Pkx-UyGfvfow9Sc=m22',
+                src: 'https://lh3.googleusercontent.com/uVc3ZX52OAtHaYENoUZNzstiMPN0WJmolZfUF1j-AkEXTFJsAjk3ozChCIPa0BljonljjOgAgWABRoUWS-ncHso28LCLhDqEc6nAKp3pvKQlkUgPUdu0DshLG0MAkNMfUU0VoUS6C1I=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/uVc3ZX52OAtHaYENoUZNzstiMPN0WJmolZfUF1j-AkEXTFJsAjk3ozChCIPa0BljonljjOgAgWABRoUWS-ncHso28LCLhDqEc6nAKp3pvKQlkUgPUdu0DshLG0MAkNMfUU0VoUS6C1I=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/bCQywJDXC6KBmHZpkr_kBIf0juP4-mgq1DXbhFuA0PpoboJafyD4d7_251Sozb45RsVXw20YIBUbK3Zapa8NdF2CHaqzka0JKIvacLvUC987y2T0u6hPXtMdsxT9Pkx-UyGfvfow9Sc=m18',
+                src: 'https://lh3.googleusercontent.com/uVc3ZX52OAtHaYENoUZNzstiMPN0WJmolZfUF1j-AkEXTFJsAjk3ozChCIPa0BljonljjOgAgWABRoUWS-ncHso28LCLhDqEc6nAKp3pvKQlkUgPUdu0DshLG0MAkNMfUU0VoUS6C1I=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -35,25 +34,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 02.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 02',
         name: 'Episode 02',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/9uO_8uemwdq2us2oO-hHUHJKwrn2pQsKQ1Z5tPAQ1FSDYAWcjVJ6Kp33FHn2F78FjsZHspUpHlGMiWrfMxCUybc9cX5TLORVqNsxD1VqN77YhBQK4TLVlkqCAfh_X3IyV_0olKM9pco=m22',
+                src: 'https://lh3.googleusercontent.com/tcqtYNjm9hWlqGw2I_5LzUu0ACpLNRknnpYO2WWnhgptrHIS54etBZ6UUOkKkoC46j5aYCEvkpL51IRF0MTFWSKY7nW0Kmre5ojmm-gcv7jZ9ZBHCMBWbFgQJM_tapVOO7n1zwNOOqU=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/tcqtYNjm9hWlqGw2I_5LzUu0ACpLNRknnpYO2WWnhgptrHIS54etBZ6UUOkKkoC46j5aYCEvkpL51IRF0MTFWSKY7nW0Kmre5ojmm-gcv7jZ9ZBHCMBWbFgQJM_tapVOO7n1zwNOOqU=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/9uO_8uemwdq2us2oO-hHUHJKwrn2pQsKQ1Z5tPAQ1FSDYAWcjVJ6Kp33FHn2F78FjsZHspUpHlGMiWrfMxCUybc9cX5TLORVqNsxD1VqN77YhBQK4TLVlkqCAfh_X3IyV_0olKM9pco=m18',
+                src: 'https://lh3.googleusercontent.com/tcqtYNjm9hWlqGw2I_5LzUu0ACpLNRknnpYO2WWnhgptrHIS54etBZ6UUOkKkoC46j5aYCEvkpL51IRF0MTFWSKY7nW0Kmre5ojmm-gcv7jZ9ZBHCMBWbFgQJM_tapVOO7n1zwNOOqU=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -70,25 +68,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 03.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 03',
         name: 'Episode 03',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/4nvCSvesRamBt1geTeegP1efI7BFHghC4vPnCeMfsFf-AGL9i8OUHCzzAMQl7qM9QQCR9niD4XaXq7Jd1unBiVbhAX_3hdF4Ham5XY9LbNdV3VkyQgOCNWXdRiXCu9IJywC4Du30yFU=m22',
+                src: 'https://lh3.googleusercontent.com/YE4VLV-EMFvmcuJgs9uY1uIIQ5o6b4-Mb6tkw42Tt8AvBNfNJEwyYZDbMcy7yixxLrxyqrjI-ozSCWmDIdYGEaf_oevG57tXnQu7pW9oTNAdv7j47rGGXAFrUQj3Hr5Mycgg5PV1_TU=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/YE4VLV-EMFvmcuJgs9uY1uIIQ5o6b4-Mb6tkw42Tt8AvBNfNJEwyYZDbMcy7yixxLrxyqrjI-ozSCWmDIdYGEaf_oevG57tXnQu7pW9oTNAdv7j47rGGXAFrUQj3Hr5Mycgg5PV1_TU=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/4nvCSvesRamBt1geTeegP1efI7BFHghC4vPnCeMfsFf-AGL9i8OUHCzzAMQl7qM9QQCR9niD4XaXq7Jd1unBiVbhAX_3hdF4Ham5XY9LbNdV3VkyQgOCNWXdRiXCu9IJywC4Du30yFU=m18',
+                src: 'https://lh3.googleusercontent.com/YE4VLV-EMFvmcuJgs9uY1uIIQ5o6b4-Mb6tkw42Tt8AvBNfNJEwyYZDbMcy7yixxLrxyqrjI-ozSCWmDIdYGEaf_oevG57tXnQu7pW9oTNAdv7j47rGGXAFrUQj3Hr5Mycgg5PV1_TU=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -105,25 +102,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 04.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 04',
         name: 'Episode 04',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/3hlsQn-Wx94TjlOA7VdIGCwtQSdM7heNNkPXtIMPBLwyGtdxMzDvyckTpBzSFMex1uvwoHEuUU9jSuouAzdv1z4zpF35uePO8oQvQGqgL1k3ad_CtqJ6XVYYavQZVjFAUSU_xMurSnQ=m22',
+                src: 'https://lh3.googleusercontent.com/9LI0sq3e8sZYm-1cVNfO0mmZXhIERA_fthhpI3mvEGKEzrWfvbPhNqBxOHTvqI2KResz_qrVkUGlXCfNARILqwrcAv8nO09KO4b6cfginrsOGoxrakSynvgfPvDVxxaDUBnSs34V8gs=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/9LI0sq3e8sZYm-1cVNfO0mmZXhIERA_fthhpI3mvEGKEzrWfvbPhNqBxOHTvqI2KResz_qrVkUGlXCfNARILqwrcAv8nO09KO4b6cfginrsOGoxrakSynvgfPvDVxxaDUBnSs34V8gs=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/3hlsQn-Wx94TjlOA7VdIGCwtQSdM7heNNkPXtIMPBLwyGtdxMzDvyckTpBzSFMex1uvwoHEuUU9jSuouAzdv1z4zpF35uePO8oQvQGqgL1k3ad_CtqJ6XVYYavQZVjFAUSU_xMurSnQ=m18',
+                src: 'https://lh3.googleusercontent.com/9LI0sq3e8sZYm-1cVNfO0mmZXhIERA_fthhpI3mvEGKEzrWfvbPhNqBxOHTvqI2KResz_qrVkUGlXCfNARILqwrcAv8nO09KO4b6cfginrsOGoxrakSynvgfPvDVxxaDUBnSs34V8gs=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -140,25 +136,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 05.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 05',
         name: 'Episode 05',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/r6sKhBVz6trfVscUDzk-9p9lBOLX7eU-ewoptDMMs8pIrCPQ-in2xPmfLoDaoetrJwXAyzi7OhhbpG_lm7TAocvYLaghuOa2r-Y_tyWmbBwJqWOwLHcseeYIYSuUvYivjrjqPYR-wUI=m22',
+                src: 'https://lh3.googleusercontent.com/73_9_oasy-ufbe3qJdWH7WlQCmQuZ2O4rrwACyHNJhlHp7H1Tduym_Aao-bas_lF2KXZW2pY52CUzOSPpDGCnSD5DKabFBcLNx3DG6eHmkkhcDpmabn63oqvqMQUkSnzgbm6-6BQAhA=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/73_9_oasy-ufbe3qJdWH7WlQCmQuZ2O4rrwACyHNJhlHp7H1Tduym_Aao-bas_lF2KXZW2pY52CUzOSPpDGCnSD5DKabFBcLNx3DG6eHmkkhcDpmabn63oqvqMQUkSnzgbm6-6BQAhA=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/r6sKhBVz6trfVscUDzk-9p9lBOLX7eU-ewoptDMMs8pIrCPQ-in2xPmfLoDaoetrJwXAyzi7OhhbpG_lm7TAocvYLaghuOa2r-Y_tyWmbBwJqWOwLHcseeYIYSuUvYivjrjqPYR-wUI=m18',
+                src: 'https://lh3.googleusercontent.com/73_9_oasy-ufbe3qJdWH7WlQCmQuZ2O4rrwACyHNJhlHp7H1Tduym_Aao-bas_lF2KXZW2pY52CUzOSPpDGCnSD5DKabFBcLNx3DG6eHmkkhcDpmabn63oqvqMQUkSnzgbm6-6BQAhA=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -175,25 +170,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 06.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 06',
         name: 'Episode 06',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/PdvxJnE_PB0snIP6yHb9xsUxyPIbVb9dDf6lbJbuHpM2QEDGPOjb2WMyGDafOwHZxCxUQGYmfc0bIENkIB4aspR8-uvhyZi9sWwJ_DlKwwbsCOlNGtPjXSk0iI0IJgRG5LYwWuFwEns=m22',
+                src: 'https://lh3.googleusercontent.com/fe3YfNs_dSlmypuUcUvEnPQLYX59rO6JTh__a-rrUq7LRnlE1_y_8OwHLbbj6RAfjKqsokwjX2LNyOdcwlp9zpYgqSedUMbnBCPCSNjmvWciiVPA33Fd-QhL_LDf2KPqROi_NG3olQM=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/fe3YfNs_dSlmypuUcUvEnPQLYX59rO6JTh__a-rrUq7LRnlE1_y_8OwHLbbj6RAfjKqsokwjX2LNyOdcwlp9zpYgqSedUMbnBCPCSNjmvWciiVPA33Fd-QhL_LDf2KPqROi_NG3olQM=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/PdvxJnE_PB0snIP6yHb9xsUxyPIbVb9dDf6lbJbuHpM2QEDGPOjb2WMyGDafOwHZxCxUQGYmfc0bIENkIB4aspR8-uvhyZi9sWwJ_DlKwwbsCOlNGtPjXSk0iI0IJgRG5LYwWuFwEns=m18',
+                src: 'https://lh3.googleusercontent.com/fe3YfNs_dSlmypuUcUvEnPQLYX59rO6JTh__a-rrUq7LRnlE1_y_8OwHLbbj6RAfjKqsokwjX2LNyOdcwlp9zpYgqSedUMbnBCPCSNjmvWciiVPA33Fd-QhL_LDf2KPqROi_NG3olQM=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -210,25 +204,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 07.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 07',
         name: 'Episode 07',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/8s6v4JF71xh65LHKS91Jq9_xybTPEgqTsb_fHoU5TddGiwXUgRz0q9m0xj0earR60kvFge-6SnGPh3Puz3MpShS-TikqZO7yoQMImkuhHLV2NMs2qkLGW1PsUT5nME_4Bp_6ez8uQsw=m22',
+                src: 'https://lh3.googleusercontent.com/UDFBeQToMFgrs0EpbQZ407xQ8yb3Mcek6sNVeWcIAPjYWYm0gdwtpCQIM8wBAftm6n1ayvDQ8sJ6qdFghChQ64WXnu41wkO1KIfZ1KoXcRGpW-RHdX7QrdF2P9cP20JISZZavMnT-d4=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/UDFBeQToMFgrs0EpbQZ407xQ8yb3Mcek6sNVeWcIAPjYWYm0gdwtpCQIM8wBAftm6n1ayvDQ8sJ6qdFghChQ64WXnu41wkO1KIfZ1KoXcRGpW-RHdX7QrdF2P9cP20JISZZavMnT-d4=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/8s6v4JF71xh65LHKS91Jq9_xybTPEgqTsb_fHoU5TddGiwXUgRz0q9m0xj0earR60kvFge-6SnGPh3Puz3MpShS-TikqZO7yoQMImkuhHLV2NMs2qkLGW1PsUT5nME_4Bp_6ez8uQsw=m18',
+                src: 'https://lh3.googleusercontent.com/UDFBeQToMFgrs0EpbQZ407xQ8yb3Mcek6sNVeWcIAPjYWYm0gdwtpCQIM8wBAftm6n1ayvDQ8sJ6qdFghChQ64WXnu41wkO1KIfZ1KoXcRGpW-RHdX7QrdF2P9cP20JISZZavMnT-d4=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -245,25 +238,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 08.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 08',
         name: 'Episode 08',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/L0wRI8E-yCqwhp95cjWrvSxkDqDUNtVBjVfVNHdIbmRB6608P0iDlnT18RBxaUVyeDLNzABfuKXqCREK2uBEuG9KC69YObrRT4jLu-K7p6oMmIR7wzC5ndRUv4I466zISSPoLR6SI6o=m22',
+                src: 'https://lh3.googleusercontent.com/420w6PW0pSfBnz_Iy51_W05y1hk5kwcK76b1STvPC-cRgS5r-1BBqTUaOOiBWxGbhelg132RhxFQoOrLPbacMfPI7Sa0ofeuyRtboXkOSfcRDJRRTWShf1OPGOuamq90p_xXNdiukpY=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/420w6PW0pSfBnz_Iy51_W05y1hk5kwcK76b1STvPC-cRgS5r-1BBqTUaOOiBWxGbhelg132RhxFQoOrLPbacMfPI7Sa0ofeuyRtboXkOSfcRDJRRTWShf1OPGOuamq90p_xXNdiukpY=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/L0wRI8E-yCqwhp95cjWrvSxkDqDUNtVBjVfVNHdIbmRB6608P0iDlnT18RBxaUVyeDLNzABfuKXqCREK2uBEuG9KC69YObrRT4jLu-K7p6oMmIR7wzC5ndRUv4I466zISSPoLR6SI6o=m18',
+                src: 'https://lh3.googleusercontent.com/420w6PW0pSfBnz_Iy51_W05y1hk5kwcK76b1STvPC-cRgS5r-1BBqTUaOOiBWxGbhelg132RhxFQoOrLPbacMfPI7Sa0ofeuyRtboXkOSfcRDJRRTWShf1OPGOuamq90p_xXNdiukpY=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -280,25 +272,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 09.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 09',
         name: 'Episode 09',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/ZvMs5I1_P9s6n2_jW1t2z2Txw3NHKEAoR56QUjzK1nqYjhaZvpC-uaZI82OLrjlcibE-BLV-xCZX5plUw7Qrji7U5jvcUTChA61Bn8qFIu18oHVJv2uZUojBgO4q2laO0aKprJQk1bY=m22',
+                src: 'https://lh3.googleusercontent.com/6vOFpkaNu2JONPsHyr75JqkB3NoZju0F9Idmr08ppxJou8l4339nKkpvyUSAkaOCvWWFUDUltXzfE8gzS_HIg_6uov_-CO-OyyGfKjjciZh1Q1ZonMEJH-TyBA_VcUaGAMypQj_Oj-Y=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/6vOFpkaNu2JONPsHyr75JqkB3NoZju0F9Idmr08ppxJou8l4339nKkpvyUSAkaOCvWWFUDUltXzfE8gzS_HIg_6uov_-CO-OyyGfKjjciZh1Q1ZonMEJH-TyBA_VcUaGAMypQj_Oj-Y=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/ZvMs5I1_P9s6n2_jW1t2z2Txw3NHKEAoR56QUjzK1nqYjhaZvpC-uaZI82OLrjlcibE-BLV-xCZX5plUw7Qrji7U5jvcUTChA61Bn8qFIu18oHVJv2uZUojBgO4q2laO0aKprJQk1bY=m18',
+                src: 'https://lh3.googleusercontent.com/6vOFpkaNu2JONPsHyr75JqkB3NoZju0F9Idmr08ppxJou8l4339nKkpvyUSAkaOCvWWFUDUltXzfE8gzS_HIg_6uov_-CO-OyyGfKjjciZh1Q1ZonMEJH-TyBA_VcUaGAMypQj_Oj-Y=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -315,25 +306,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 10.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 10',
         name: 'Episode 10',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/GvF7pBPv_2IydsR85n7cyjWDU4BHvgeKcQPzNJM6yvSQH1NVTafwBVJQcleJrVQysqmSqZ-_VQkyH8RhkwO1jfBlfyyLTGUOGuXjgHnZhwfoLNPDy5o-bJIWa-ztS5pvquQwE-wD7Nk=m22',
+                src: 'https://lh3.googleusercontent.com/bg3aI5owK55bXo1NfQZyqIHYuBaFCDxyUG3GMGxK9ZounViBfQl9pN1ZD4JdUxpapizM6DsxnOKsYMcVxc4eB7_TDciH8Wf2rzjA22ruH1IyQ0xU0Lf2uEXaw4GFzH1pDakk2sElfWo=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/bg3aI5owK55bXo1NfQZyqIHYuBaFCDxyUG3GMGxK9ZounViBfQl9pN1ZD4JdUxpapizM6DsxnOKsYMcVxc4eB7_TDciH8Wf2rzjA22ruH1IyQ0xU0Lf2uEXaw4GFzH1pDakk2sElfWo=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/GvF7pBPv_2IydsR85n7cyjWDU4BHvgeKcQPzNJM6yvSQH1NVTafwBVJQcleJrVQysqmSqZ-_VQkyH8RhkwO1jfBlfyyLTGUOGuXjgHnZhwfoLNPDy5o-bJIWa-ztS5pvquQwE-wD7Nk=m18',
+                src: 'https://lh3.googleusercontent.com/bg3aI5owK55bXo1NfQZyqIHYuBaFCDxyUG3GMGxK9ZounViBfQl9pN1ZD4JdUxpapizM6DsxnOKsYMcVxc4eB7_TDciH8Wf2rzjA22ruH1IyQ0xU0Lf2uEXaw4GFzH1pDakk2sElfWo=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -350,25 +340,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 11.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 11',
         name: 'Episode 11',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/vYnDRdF9lBbEGp5in2e7Z7gmN6X9utZZFl3lYNAl1wBIPSepZePVe_0JikPrPnL_K-m6E-RHJxeKM1y4ExERqnLIgckrLSzW8ljdfR7A4QCqQBlVaHdywVuJBdBRskQOynuB32kk3e4=m22',
+                src: 'https://lh3.googleusercontent.com/MBMD41oG-A3EnL9JP2vX5zOCs2V9fUKbXWfLCvKjoLSaEsNA7MWWcSQfLsPTZq6HsDq3Di_gnsY0kEp3K0lfds-gGHp1fNWg0z6IIaADoeKaCUWzEidF69iJrjcAe8RNWVrmN-e6eQc=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/MBMD41oG-A3EnL9JP2vX5zOCs2V9fUKbXWfLCvKjoLSaEsNA7MWWcSQfLsPTZq6HsDq3Di_gnsY0kEp3K0lfds-gGHp1fNWg0z6IIaADoeKaCUWzEidF69iJrjcAe8RNWVrmN-e6eQc=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/vYnDRdF9lBbEGp5in2e7Z7gmN6X9utZZFl3lYNAl1wBIPSepZePVe_0JikPrPnL_K-m6E-RHJxeKM1y4ExERqnLIgckrLSzW8ljdfR7A4QCqQBlVaHdywVuJBdBRskQOynuB32kk3e4=m18',
+                src: 'https://lh3.googleusercontent.com/MBMD41oG-A3EnL9JP2vX5zOCs2V9fUKbXWfLCvKjoLSaEsNA7MWWcSQfLsPTZq6HsDq3Di_gnsY0kEp3K0lfds-gGHp1fNWg0z6IIaADoeKaCUWzEidF69iJrjcAe8RNWVrmN-e6eQc=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
@@ -385,25 +374,24 @@ player.playlist([{
         ]
     },
     {
-        textTracks: [{
-            src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Youkoso%20Jitsuryoku%20Shijou%20Shugi%20no%20Kyoushitsu%20e/%5Bdunia-anime.id%5D Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - 12.vtt',
-            kind: 'captions',
-            srclang: 'id',
-            label: 'Indonesia',
-            'default': true
-        }],
         judul: '* Youkoso Jitsuryoku Shijou SnKe',
         episode: '* Episode 12',
         name: 'Episode 12',
         deskrip1: '* Rating : 7.92',
         sources: [{
-                src: 'https://lh3.googleusercontent.com/myoZRqzPGU0mGzIA-Zw89UO9vRifgs_OGA0IdGqrkRwpKs5r04vDo_8_jZXUSgQ2CTnl-HMUITj7dLGGY-_K9WGLIQkEcEPpdiDOr0s6SzGplWF_oZPYkAm0gKv_87nBplFrgbNBKSE=m22',
+                src: 'https://lh3.googleusercontent.com/0QL14iHThJg4QGPhvMJmzsfct4LIsU-KOFFqMZHUscyomnBuVGWFETmvxJsQQFWUxbg5UQVLohIvOya9SoMSIVYk6XRoK3EE_ePPo7WwPd3loSALEWbjzK_vONpQMRtqjit7AZAsBZ0=m37',
+                type: 'video/mp4',
+                label: '1080p',
+                selected: 'false'
+            },
+            {
+                src: 'https://lh3.googleusercontent.com/0QL14iHThJg4QGPhvMJmzsfct4LIsU-KOFFqMZHUscyomnBuVGWFETmvxJsQQFWUxbg5UQVLohIvOya9SoMSIVYk6XRoK3EE_ePPo7WwPd3loSALEWbjzK_vONpQMRtqjit7AZAsBZ0=m22',
                 type: 'video/mp4',
                 label: '720p',
                 selected: 'false'
             },
             {
-                src: 'https://lh3.googleusercontent.com/myoZRqzPGU0mGzIA-Zw89UO9vRifgs_OGA0IdGqrkRwpKs5r04vDo_8_jZXUSgQ2CTnl-HMUITj7dLGGY-_K9WGLIQkEcEPpdiDOr0s6SzGplWF_oZPYkAm0gKv_87nBplFrgbNBKSE=m18',
+                src: 'https://lh3.googleusercontent.com/0QL14iHThJg4QGPhvMJmzsfct4LIsU-KOFFqMZHUscyomnBuVGWFETmvxJsQQFWUxbg5UQVLohIvOya9SoMSIVYk6XRoK3EE_ePPo7WwPd3loSALEWbjzK_vONpQMRtqjit7AZAsBZ0=m18',
                 type: 'video/mp4',
                 label: '480p',
                 selected: 'true'
