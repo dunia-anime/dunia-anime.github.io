@@ -5,19 +5,19 @@ player.playlist([{
     name: 'Episode 01',
     deskrip1: '* Rating : 7.39',
     sources: [{
-            src: 'https://lh3.googleusercontent.com/DiX1bOTcTmThe94nAVZ7TCL1vJSzTdTYGSk5GdFXxrUpsHd3rgkdxbAf_YQ5aMnR-nccwyciGvHnIFxA_4Soy6x_zPODytS24OIo0Bni3_NIuuFKwLPvdV1GbdEmIGGvZiCWe5Y5Bik=m37',
+            src: 'https://anodana.com/play/blog.php?url=AD6v5dwdT9qEQm6s5PZ0giLmIPhP-unNYIqcZ__rN1a1KEYuUJTfafhoaG9vxDWo0Hqvwe-oXQKZxu6lfnbiNdHXYKLul1DjPv6RnJmePvtnYZQA6UAyQFIbZybTa07WSUhgnDv6fSA',
             type: 'video/mp4',
             label: '1080p',
             selected: 'false'
         },
         {
-            src: 'https://lh3.googleusercontent.com/DiX1bOTcTmThe94nAVZ7TCL1vJSzTdTYGSk5GdFXxrUpsHd3rgkdxbAf_YQ5aMnR-nccwyciGvHnIFxA_4Soy6x_zPODytS24OIo0Bni3_NIuuFKwLPvdV1GbdEmIGGvZiCWe5Y5Bik=m22',
+            src: 'https://anodana.com/play/blog.php?url=AD6v5dwdT9qEQm6s5PZ0giLmIPhP-unNYIqcZ__rN1a1KEYuUJTfafhoaG9vxDWo0Hqvwe-oXQKZxu6lfnbiNdHXYKLul1DjPv6RnJmePvtnYZQA6UAyQFIbZybTa07WSUhgnDv6fSA',
             type: 'video/mp4',
             label: '720p',
             selected: 'false'
         },
         {
-            src: 'https://lh3.googleusercontent.com/DiX1bOTcTmThe94nAVZ7TCL1vJSzTdTYGSk5GdFXxrUpsHd3rgkdxbAf_YQ5aMnR-nccwyciGvHnIFxA_4Soy6x_zPODytS24OIo0Bni3_NIuuFKwLPvdV1GbdEmIGGvZiCWe5Y5Bik=m18',
+            src: 'https://anodana.com/play/blog.php?url=AD6v5dwdT9qEQm6s5PZ0giLmIPhP-unNYIqcZ__rN1a1KEYuUJTfafhoaG9vxDWo0Hqvwe-oXQKZxu6lfnbiNdHXYKLul1DjPv6RnJmePvtnYZQA6UAyQFIbZybTa07WSUhgnDv6fSA',
             type: 'video/mp4',
             label: '480p',
             selected: 'true'
