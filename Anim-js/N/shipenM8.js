@@ -5,19 +5,19 @@ player.playlist([{
     name: 'Episode 01',
     deskrip1: '* Rating : 7.39',
     sources: [{
-            src: 'https://anodana.com/play/blog.php?url=AD6v5dwdT9qEQm6s5PZ0giLmIPhP-unNYIqcZ__rN1a1KEYuUJTfafhoaG9vxDWo0Hqvwe-oXQKZxu6lfnbiNdHXYKLul1DjPv6RnJmePvtnYZQA6UAyQFIbZybTa07WSUhgnDv6fSA',
+            src: 'https://undangan-menikah.online/wp-content/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%202Danimation101%20-%20Speed%20Rigging%20Mastery%20in%20Cartoon%20Animator%205%202023-9%20-%20%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D8%B1%D9%85%20%D8%A7%D9%81%D8%B2%D8%A7%D8%B1.mp4',
             type: 'video/mp4',
             label: '1080p',
             selected: 'false'
         },
         {
-            src: 'https://anodana.com/play/blog.php?url=AD6v5dwdT9qEQm6s5PZ0giLmIPhP-unNYIqcZ__rN1a1KEYuUJTfafhoaG9vxDWo0Hqvwe-oXQKZxu6lfnbiNdHXYKLul1DjPv6RnJmePvtnYZQA6UAyQFIbZybTa07WSUhgnDv6fSA',
+            src: 'https://undangan-menikah.online/wp-content/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%202Danimation101%20-%20Speed%20Rigging%20Mastery%20in%20Cartoon%20Animator%205%202023-9%20-%20%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D8%B1%D9%85%20%D8%A7%D9%81%D8%B2%D8%A7%D8%B1.mp4',
             type: 'video/mp4',
             label: '720p',
             selected: 'false'
         },
         {
-            src: 'https://anodana.com/play/blog.php?url=AD6v5dwdT9qEQm6s5PZ0giLmIPhP-unNYIqcZ__rN1a1KEYuUJTfafhoaG9vxDWo0Hqvwe-oXQKZxu6lfnbiNdHXYKLul1DjPv6RnJmePvtnYZQA6UAyQFIbZybTa07WSUhgnDv6fSA',
+            src: 'https://undangan-menikah.online/wp-content/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%202Danimation101%20-%20Speed%20Rigging%20Mastery%20in%20Cartoon%20Animator%205%202023-9%20-%20%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D8%B1%D9%85%20%D8%A7%D9%81%D8%B2%D8%A7%D8%B1.mp4',
             type: 'video/mp4',
             label: '480p',
             selected: 'true'
