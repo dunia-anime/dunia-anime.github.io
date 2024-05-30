@@ -5,7 +5,7 @@ player.playlist([{
     name: 'Episode 01',
     deskrip1: '* Rating : 7.39',
     sources: [{
-            src: 'https://undangan-menikah.online/wp-content/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%202Danimation101%20-%20Speed%20Rigging%20Mastery%20in%20Cartoon%20Animator%205%202023-9%20-%20%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D8%B1%D9%85%20%D8%A7%D9%81%D8%B2%D8%A7%D8%B1.mp4',
+            src: 'https://archive.org/download/A-1080p/%5Bdunia-anime%5D%20AW%20BD%20%28Movie%29%20-%201080p.mp4',
             type: 'video/mp4',
             label: '1080p',
             selected: 'false'
