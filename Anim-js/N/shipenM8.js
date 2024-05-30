@@ -5,7 +5,7 @@ player.playlist([{
     name: 'Episode 01',
     deskrip1: '* Rating : 7.39',
     sources: [{
-            src: 'https://archive.org/download/A-1080p/%5Bdunia-anime%5D%20AW%20BD%20%28Movie%29%20-%201080p.mp4',
+            src: 'https://drive.google.com/uc?export=download&id=13WLurfWKcWQ90zvhSf7lwIZWBJLPnovJ',
             type: 'video/mp4',
             label: '1080p',
             selected: 'false'
