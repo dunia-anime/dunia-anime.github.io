@@ -20,7 +20,7 @@ body {
     height: 100%;
     border: none;
 }
-.overlay {
+.overlayku {
     position: absolute;
     width: 705; /* Sesuaikan lebar sesuai kebutuhan */
     height: 60px; /* Sesuaikan tinggi sesuai kebutuhan */
