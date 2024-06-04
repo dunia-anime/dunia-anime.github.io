@@ -24,8 +24,8 @@ const playlistData = [
       'default': true
     }],
     judul: '* Yuri!!! on Ice',
-    episode: '* Episode 01',
-    name: 'Episode 01',
+    episode: '* Episode 02',
+    name: 'Episode 02',
     deskrip1: '* Rating : 8.08',
     iframeSrc: 'https://drive.google.com/file/d/13WLurfWKcWQ90zvhSf7lwIZWBJLPnovJ/preview', // URL iframe Google Drive
     thumbnail: 'https://images.immediate.co.uk/production/volatile/sites/3/2023/04/naruto-762b09d.jpg?quality=90&webp=true&resize=1167,778'
@@ -39,8 +39,8 @@ const playlistData = [
       'default': true
     }],
     judul: '* Yuri!!! on Ice',
-    episode: '* Episode 01',
-    name: 'Episode 01',
+    episode: '* Episode 03',
+    name: 'Episode 03',
     deskrip1: '* Rating : 8.08',
     iframeSrc: 'https://drive.google.com/file/d/13WLurfWKcWQ90zvhSf7lwIZWBJLPnovJ/preview', // URL iframe Google Drive
     thumbnail: 'https://images.immediate.co.uk/production/volatile/sites/3/2023/04/naruto-762b09d.jpg?quality=90&webp=true&resize=1167,778'
@@ -54,8 +54,8 @@ const playlistData = [
       'default': true
     }],
     judul: '* Yuri!!! on Ice',
-    episode: '* Episode 01',
-    name: 'Episode 01',
+    episode: '* Episode 04',
+    name: 'Episode 04',
     deskrip1: '* Rating : 8.08',
     iframeSrc: 'https://drive.google.com/file/d/13WLurfWKcWQ90zvhSf7lwIZWBJLPnovJ/preview', // URL iframe Google Drive
     thumbnail: 'https://images.immediate.co.uk/production/volatile/sites/3/2023/04/naruto-762b09d.jpg?quality=90&webp=true&resize=1167,778'
