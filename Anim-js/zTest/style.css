@@ -1,18 +1,19 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .video-container {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
-    margin: 20px;
+    margin: 0; /* Remove margin from container */
 }
 
 .main-video {
     flex: 3;
-    height: 500px;
-    margin-right: 20px;
+    height: 500px; /* Atur tinggi sesuai kebutuhan */
 }
 
 .main-video iframe {
@@ -20,31 +21,60 @@ body {
     height: 100%;
     border: none;
 }
-.overlayku {
-    position: absolute;
-    width: 705; /* Sesuaikan lebar sesuai kebutuhan */
-    height: 60px; /* Sesuaikan tinggi sesuai kebutuhan */
-    background-color: rgba(255, 255, 255, 0);
-    z-index: 10;
-}
+
 .playlist {
     flex: 1;
     max-height: 500px; /* Sama tinggi dengan main-video */
-    overflow-y: auto; /* add scrollbar */
+    overflow-y: auto; /* Enable scroll bar when content exceeds height */
+    overflow-x: hidden; /* Hide horizontal scroll bar */
+    padding: 0; /* Remove padding from playlist */
 }
 
 .thumbnail {
-    margin-bottom: 10px;
+    position: relative;
     cursor: pointer;
-    transition: transform 0.3s;
+    overflow: hidden;
+    margin: 0; /* Remove margin to ensure no spacing */
+    padding: 0; /* Remove padding to ensure no spacing */
+      margin-bottom: -5px;
 }
 
 .thumbnail img {
     width: 100%;
     height: auto;
+    border-radius: 0; /* Remove border radius if applied */
 }
 
-.thumbnail:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+.thumbnail::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); /* Color overlay */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 9;
+}
+
+.thumbnail:hover::before {
+    opacity: 1;
+}
+
+.thumbnail-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7); /* Background semi-transparent hitam */
+    padding: 5px 0;
+    z-index: 10;
+}
+
+.thumbnail.playing::before {
+    background: rgba(0, 0, 0, 0.7); /* Overlay hitam */
+    opacity: 1; /* Pastikan overlay terlihat sepenuhnya */
 }
