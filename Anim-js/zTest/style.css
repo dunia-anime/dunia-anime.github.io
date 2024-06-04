@@ -30,9 +30,15 @@ body {
 .thumbnail {
     margin-bottom: 10px;
     cursor: pointer;
+    transition: transform 0.3s;
 }
 
 .thumbnail img {
     width: 100%;
     height: auto;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
