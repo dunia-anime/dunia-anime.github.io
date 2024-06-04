@@ -12,8 +12,53 @@ const playlistData = [
     episode: '* Episode 01',
     name: 'Episode 01',
     deskrip1: '* Rating : 8.08',
-    iframeSrc: 'https://drive.google.com/file/d/1eHMqTVd3cbfrN28PXL-FBoSv/preview', // URL iframe Google Drive
-    thumbnail: 'https://1.bp.blogspot.com/-gxrecw-tn5k/XdEKFIfdc7I/AAAAAAAABk4/yZd7T6-5QDodFismcHENHOfUAlDrfpo_gCLcBGAsYHQ/s10/Background.jpg'
+    iframeSrc: 'https://drive.google.com/file/d/13WLurfWKcWQ90zvhSf7lwIZWBJLPnovJ/preview', // URL iframe Google Drive
+    thumbnail: 'https://images.immediate.co.uk/production/volatile/sites/3/2023/04/naruto-762b09d.jpg?quality=90&webp=true&resize=1167,778'
+  },
+  {
+    textTracks: [{
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Yuri!!!%20on%20Ice/%5Bdunia-anime.id%5D Yuri!!! on Ice - 01.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+    judul: '* Yuri!!! on Ice',
+    episode: '* Episode 01',
+    name: 'Episode 01',
+    deskrip1: '* Rating : 8.08',
+    iframeSrc: 'https://drive.google.com/file/d/13WLurfWKcWQ90zvhSf7lwIZWBJLPnovJ/preview', // URL iframe Google Drive
+    thumbnail: 'https://images.immediate.co.uk/production/volatile/sites/3/2023/04/naruto-762b09d.jpg?quality=90&webp=true&resize=1167,778'
+  },
+  {
+    textTracks: [{
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Yuri!!!%20on%20Ice/%5Bdunia-anime.id%5D Yuri!!! on Ice - 01.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+    judul: '* Yuri!!! on Ice',
+    episode: '* Episode 01',
+    name: 'Episode 01',
+    deskrip1: '* Rating : 8.08',
+    iframeSrc: 'https://drive.google.com/file/d/13WLurfWKcWQ90zvhSf7lwIZWBJLPnovJ/preview', // URL iframe Google Drive
+    thumbnail: 'https://images.immediate.co.uk/production/volatile/sites/3/2023/04/naruto-762b09d.jpg?quality=90&webp=true&resize=1167,778'
+  },
+  {
+    textTracks: [{
+      src: 'https://raw.githubusercontent.com/dunia-anime/Sub-Anim/master/Y/Yuri!!!%20on%20Ice/%5Bdunia-anime.id%5D Yuri!!! on Ice - 01.vtt',
+      kind: 'captions',
+      srclang: 'id',
+      label: 'Indonesia',
+      'default': true
+    }],
+    judul: '* Yuri!!! on Ice',
+    episode: '* Episode 01',
+    name: 'Episode 01',
+    deskrip1: '* Rating : 8.08',
+    iframeSrc: 'https://drive.google.com/file/d/13WLurfWKcWQ90zvhSf7lwIZWBJLPnovJ/preview', // URL iframe Google Drive
+    thumbnail: 'https://images.immediate.co.uk/production/volatile/sites/3/2023/04/naruto-762b09d.jpg?quality=90&webp=true&resize=1167,778'
   },
   // Tambahkan objek data video lainnya dengan format yang sama
 ];
